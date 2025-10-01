@@ -1,0 +1,4 @@
+1 - Proposta de como organizar componentes para mfe conta corrente (o que fica na biblioteca de componentes, o que fica no mfe específico e a parte de sharedfunctions);
+2 - Proposta de como organizar componentes para mfe recebíveis (o que fica na biblioteca de componentes, o que fica no mfe específico e a parte de sharedfunctions);
+3 - Testar controle de estado no root (removendo do monolito);
+4 - Testar compabilidade de versões do react (root no 16, MFEs específicos no 19 e o monolito no 14), monolito e root já funcionam assim então não deveria ter impacto.vidas
