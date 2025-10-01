@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkCard component should render highlighted class when isCallToAction is truthy 1`] = `
+<styled.li>
+  <Icon
+    color={null}
+    cursor={false}
+    fixCrossAxisAlign={null}
+    height={null}
+    type="FiLoader"
+    width={null}
+  />
+  <styled.section>
+    <styled.div />
+    <Link
+      actionSecondary={false}
+      anchor={true}
+      dataTest="LinkTo"
+      disabled={false}
+      href={null}
+      isCallToAction={null}
+      loading={false}
+      onClick={[Function]}
+      small={null}
+      target={null}
+      to="/"
+      width={null}
+    >
+      Click to go!
+    </Link>
+  </styled.section>
+</styled.li>
+`;

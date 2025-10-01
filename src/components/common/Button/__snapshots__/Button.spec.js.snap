@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should match snapshot 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render an "button" tag 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render different types 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="submit"
+  width={null}
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render different widths 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width="100"
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render disabled class when disabled is truthy 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={true}
+  height={null}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render highlighted class when isCallToAction is truthy 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={true}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;
+
+exports[`Button component should render modal type 1`] = `
+<styled.button
+  actionSecondary={null}
+  className={null}
+  data-test="Button"
+  disabled={false}
+  height={null}
+  isCallToAction={null}
+  isModalType={true}
+  isWarning={null}
+  onClick={null}
+  paddingSize={null}
+  small={false}
+  type="button"
+  width="162"
+>
+  <styled.div>
+    <styled.div>
+      Text
+    </styled.div>
+  </styled.div>
+</styled.button>
+`;

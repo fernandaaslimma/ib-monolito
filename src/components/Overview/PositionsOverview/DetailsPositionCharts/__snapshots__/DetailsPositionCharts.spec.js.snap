@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsPositionCharts component should match snapshot with name 1`] = `
+Array [
+  <div
+    class="sc-bdVaJa NPQDb"
+    data-test="undefined_loading_0"
+  >
+    <section
+      class="sc-cSHVUG eykXTw"
+    >
+      <div
+        class="sc-htpNat fcElnf"
+      >
+        <div
+          class="sc-chPdSV eRYcUi"
+          height="48"
+          width="48"
+        />
+        <div
+          class="sc-bxivhb izbgQu"
+        >
+          <div
+            class="sc-ifAKCX dMjNLD"
+          >
+            <div
+              class="sc-kAzzGY dNfLKP"
+              height="14"
+              width="80"
+            />
+          </div>
+          <div
+            class="sc-kAzzGY bnhxSk"
+            height="12"
+            width="80"
+          />
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    class="sc-bdVaJa NPQDb"
+    data-test="undefined_loading_1"
+  >
+    <section
+      class="sc-cSHVUG eykXTw"
+    >
+      <div
+        class="sc-htpNat fcElnf"
+      >
+        <div
+          class="sc-chPdSV eRYcUi"
+          height="48"
+          width="48"
+        />
+        <div
+          class="sc-bxivhb izbgQu"
+        >
+          <div
+            class="sc-ifAKCX dMjNLD"
+          >
+            <div
+              class="sc-kAzzGY dNfLKP"
+              height="14"
+              width="80"
+            />
+          </div>
+          <div
+            class="sc-kAzzGY bnhxSk"
+            height="12"
+            width="80"
+          />
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    class="sc-bdVaJa NPQDb"
+    data-test="undefined_loading_2"
+  >
+    <section
+      class="sc-cSHVUG eykXTw"
+    >
+      <div
+        class="sc-htpNat fcElnf"
+      >
+        <div
+          class="sc-chPdSV eRYcUi"
+          height="48"
+          width="48"
+        />
+        <div
+          class="sc-bxivhb izbgQu"
+        >
+          <div
+            class="sc-ifAKCX dMjNLD"
+          >
+            <div
+              class="sc-kAzzGY dNfLKP"
+              height="14"
+              width="80"
+            />
+          </div>
+          <div
+            class="sc-kAzzGY bnhxSk"
+            height="12"
+            width="80"
+          />
+        </div>
+      </div>
+    </section>
+  </div>,
+]
+`;
+
+exports[`DetailsPositionCharts component should match snapshot with name 2`] = `
+Array [
+  <div
+    class="sc-bdVaJa NPQDb"
+    data-test="undefined_0"
+  >
+    <section
+      class="sc-cSHVUG eykXTw"
+    >
+      <div
+        class="sc-htpNat fcElnf"
+      >
+        <div
+          class="sc-iwsKbI jarkgW"
+          color="#5b4a8a"
+          data-test="chart_0"
+          width="48"
+        >
+          <div
+            class="sc-gZMcBi cPrKYz"
+            width="48"
+          >
+            <p
+              class="sc-gqjmRU dLFYij"
+            >
+              26.75%
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bxivhb izbgQu"
+        >
+          <div
+            class="sc-ifAKCX dMjNLD"
+            data-test="productName"
+          >
+            Conta Corrente
+          </div>
+          <div
+            class="sc-kgoBCf flxnWk"
+            data-test="HideableValue"
+          >
+            <span
+              class="sc-dxgOiQ dNoZWu"
+              value="631409.01"
+            >
+              R$
+            </span>
+            <span
+              class="sc-kpOJdX czKNiG"
+              data-test="value"
+              value="631409.01"
+            >
+              631.409,01
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    class="sc-bdVaJa NPQDb"
+    data-test="undefined_1"
+  >
+    <section
+      class="sc-cSHVUG eykXTw"
+    >
+      <div
+        class="sc-htpNat fcElnf"
+      >
+        <div
+          class="sc-iwsKbI ksRqAj"
+          color="#af5761"
+          data-test="chart_1"
+          width="48"
+        >
+          <div
+            class="sc-gZMcBi cPrKYz"
+            width="48"
+          >
+            <p
+              class="sc-gqjmRU dLFYij"
+            >
+              --
+            </p>
+          </div>
+        </div>
+        <div
+          class="sc-bxivhb izbgQu"
+        >
+          <div
+            class="sc-ifAKCX dMjNLD"
+            data-test="productName"
+          >
+            Conta Corrente
+          </div>
+          <div
+            class="sc-kgoBCf flxnWk"
+            data-test="HideableValue"
+          >
+            <span
+              class="sc-dxgOiQ dNoZWu"
+              value="631409.01"
+            >
+              R$
+            </span>
+            <span
+              class="sc-kpOJdX czKNiG"
+              data-test="value"
+              value="631409.01"
+            >
+              631.409,01
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+]
+`;

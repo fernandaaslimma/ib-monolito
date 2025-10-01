@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component should match snapshot with disabled 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={true}
+  href={null}
+  isCallToAction={null}
+  loading={false}
+  onClick={null}
+  small={null}
+  target={null}
+  width={null}
+>
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;
+
+exports[`Link component should match snapshot with disabled and loading 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={true}
+  href={null}
+  isCallToAction={null}
+  loading={true}
+  onClick={null}
+  small={null}
+  target={null}
+  width={null}
+>
+  <LocalLoading />
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;
+
+exports[`Link component should match snapshot with loading 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={false}
+  href={null}
+  isCallToAction={null}
+  loading={true}
+  onClick={null}
+  small={null}
+  target={null}
+  width={null}
+>
+  <LocalLoading />
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;
+
+exports[`Link component should match snapshot with small flag 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={false}
+  href={null}
+  isCallToAction={null}
+  loading={false}
+  onClick={null}
+  small={true}
+  target={null}
+  width={null}
+>
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;
+
+exports[`Link component should render an "a" tag 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={false}
+  href="/"
+  isCallToAction={null}
+  loading={false}
+  onClick={null}
+  small={null}
+  target={null}
+  width={null}
+>
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;
+
+exports[`Link component should render an "a" tag with a to prop 1`] = `
+<Styled(Component)
+  actionSecondary={false}
+  data-test="Link"
+  disabled={false}
+  isCallToAction={null}
+  loading={false}
+  onClick={null}
+  small={null}
+  to="/"
+  width={null}
+>
+  <styled.span>
+    Text
+  </styled.span>
+</Styled(Component)>
+`;
+
+exports[`Link component should render highlighted class when isCallToAction is truthy 1`] = `
+<styled.a
+  actionSecondary={false}
+  data-test="Link"
+  disabled={false}
+  href={null}
+  isCallToAction={true}
+  loading={false}
+  onClick={null}
+  small={null}
+  target={null}
+  width={null}
+>
+  <styled.span>
+    Text
+  </styled.span>
+</styled.a>
+`;

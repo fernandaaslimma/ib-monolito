@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentBySteps component should match snapshot with props 1`] = `
+<Fragment>
+  <NavigationBySteps
+    active={1}
+    goToStep={[Function]}
+    length={2}
+  />
+  <styled.div
+    active={1}
+    widthMultiplier={2}
+  >
+    <styled.div
+      active={1}
+      key="content_0"
+    >
+      <styled.div>
+        <Button
+          actionSecondary={null}
+          className={null}
+          disabled={false}
+          height={null}
+          isCallToAction={null}
+          isWarning={null}
+          onClick={[Function]}
+          paddingSize={null}
+          small={false}
+          type="button"
+          width={null}
+        >
+          NEXT
+        </Button>
+      </styled.div>
+    </styled.div>
+    <styled.div
+      active={1}
+      key="content_1"
+    >
+      <styled.div>
+        <Button
+          actionSecondary={null}
+          className={null}
+          disabled={false}
+          height={null}
+          isCallToAction={null}
+          isWarning={null}
+          onClick={[Function]}
+          paddingSize={null}
+          small={false}
+          type="button"
+          width={null}
+        >
+          NEXT
+        </Button>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

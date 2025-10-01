@@ -1,0 +1,1043 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsStep component Should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span
+        id="DetailsStep"
+      />
+      <styled.div>
+        <styled.div>
+          <styled.h3 />
+          <Tag
+            color="#E3F1D4"
+            title="Moderado"
+          />
+        </styled.div>
+        <styled.h3>
+          BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+        </styled.h3>
+        <styled.div>
+          <styled.h3 />
+          <styled.span
+            onClick={[Function]}
+          >
+            <Icon
+              color="#003b77"
+              height={16}
+              spacing={
+                Object {
+                  "bottom": "none",
+                  "left": "none",
+                  "right": "none",
+                  "top": "none",
+                }
+              }
+              type="Interrogation"
+              width={16}
+            />
+          </styled.span>
+        </styled.div>
+        <styled.h3 />
+      </styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <Styled(styled.span)>
+          01:01 AM
+          10:01 PM
+        </Styled(styled.span)>
+      </AlertMessage>
+      <DetailsCard
+        clickInfo={[Function]}
+        dataTest="profitabilityDetailsCard"
+        grossResultBalance={null}
+        list={
+          Object {
+            "fortyEightMonths": null,
+            "thirtySixMonths": null,
+            "twelveMonths": null,
+            "twentyFourMonths": undefined,
+            "yearFunds": null,
+          }
+        }
+        netIncome={null}
+        periodActive={12}
+        profitabilitySoFar={null}
+        title={null}
+      />
+      <DetailsCard
+        dataTest="generalInfoCard"
+        list={
+          Object {
+            "initialInvestment": 20000,
+            "minimumBalance": 20000,
+            "minimumTransaction": 10000,
+            "redempConversionDays": 30,
+            "redempSettlementDays": 1,
+            "subsConversionDays": 0,
+          }
+        }
+      />
+      <DetailsCard
+        dataTest="detailsCard"
+        list={
+          Object {
+            "administrationFeeFunds": null,
+            "administratorFunds": null,
+            "benchmarkFunds": "CDI",
+            "custodianFunds": undefined,
+            "inceptionDateFunds": null,
+            "managerFunds": "Bahia Asset Management",
+            "performanceFeeFunds": null,
+          }
+        }
+      />
+      <styled.div>
+        <styled.span
+          data-test="notAllowedSubscriptionsMessage"
+        >
+          *Fundo só permite aplicações por investidor qualificado.
+        </styled.span>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[MockFunction]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+          type="outline"
+        />
+        <Button
+          dataTest="investFund"
+          disabled={true}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            }
+          />
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span>
+            <Styled(styled.span)>
+              05/31/2010
+              .
+            </Styled(styled.span)>
+          </styled.span>
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            data-test="typeOfFundPendencie"
+          >
+            <Styled(styled.span) />
+          </styled.span>
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+            <styled.div>
+              <Button
+                dataTest="yesButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div />
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`DetailsStep component Should match snapshot with monthActivity less than 12 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span
+        id="DetailsStep"
+      />
+      <styled.div>
+        <styled.div>
+          <styled.h3 />
+          <Tag
+            color="#E3F1D4"
+            title="Moderado"
+          />
+        </styled.div>
+        <styled.h3>
+          BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+        </styled.h3>
+        <styled.div>
+          <styled.h3 />
+          <styled.span
+            onClick={[Function]}
+          >
+            <Icon
+              color="#003b77"
+              height={16}
+              spacing={
+                Object {
+                  "bottom": "none",
+                  "left": "none",
+                  "right": "none",
+                  "top": "none",
+                }
+              }
+              type="Interrogation"
+              width={16}
+            />
+          </styled.span>
+        </styled.div>
+        <styled.h3 />
+      </styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <Styled(styled.span)>
+          07:01 PM
+          04:01 PM
+        </Styled(styled.span)>
+      </AlertMessage>
+      <DetailsCard
+        clickInfo={[Function]}
+        dataTest="profitabilityDetailsCard"
+        grossResultBalance={null}
+        list={
+          Object {
+            "fortyEightMonths": null,
+            "thirtySixMonths": null,
+            "twelveMonths": null,
+            "twentyFourMonths": undefined,
+            "yearFunds": null,
+          }
+        }
+        netIncome={null}
+        periodActive={11}
+        title={null}
+      />
+      <DetailsCard
+        dataTest="generalInfoCard"
+        list={
+          Object {
+            "initialInvestment": 20000,
+            "minimumBalance": 20000,
+            "minimumTransaction": 10000,
+            "redempConversionDays": 30,
+            "redempSettlementDays": 1,
+            "subsConversionDays": 0,
+          }
+        }
+      />
+      <DetailsCard
+        dataTest="detailsCard"
+        list={
+          Object {
+            "administrationFeeFunds": null,
+            "administratorFunds": null,
+            "benchmarkFunds": "CDI",
+            "custodianFunds": undefined,
+            "inceptionDateFunds": null,
+            "managerFunds": "Bahia Asset Management",
+            "performanceFeeFunds": null,
+          }
+        }
+      />
+      <styled.div>
+        <styled.span
+          data-test="notAllowedSubscriptionsMessage"
+        >
+          *Fundo só permite aplicações por investidor qualificado.
+        </styled.span>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[MockFunction]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+          type="outline"
+        />
+        <Button
+          dataTest="investFund"
+          disabled={true}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            }
+          />
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span>
+            <Styled(styled.span)>
+              05/31/2010
+              .
+            </Styled(styled.span)>
+          </styled.span>
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            data-test="typeOfFundPendencie"
+          >
+            <Styled(styled.span) />
+          </styled.span>
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+            <styled.div>
+              <Button
+                dataTest="yesButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div />
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`DetailsStep component Should match snapshot without authFactor to invest 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.span
+        id="DetailsStep"
+      />
+      <styled.div>
+        <styled.div>
+          <styled.h3 />
+          <Tag
+            color="#E3F1D4"
+            title="Moderado"
+          />
+        </styled.div>
+        <styled.h3>
+          BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+        </styled.h3>
+        <styled.div>
+          <styled.h3 />
+          <styled.span
+            onClick={[Function]}
+          >
+            <Icon
+              color="#003b77"
+              height={16}
+              spacing={
+                Object {
+                  "bottom": "none",
+                  "left": "none",
+                  "right": "none",
+                  "top": "none",
+                }
+              }
+              type="Interrogation"
+              width={16}
+            />
+          </styled.span>
+        </styled.div>
+        <styled.h3 />
+      </styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <Styled(styled.span)>
+          01:01 PM
+          10:01 AM
+        </Styled(styled.span)>
+      </AlertMessage>
+      <DetailsCard
+        clickInfo={[Function]}
+        dataTest="profitabilityDetailsCard"
+        grossResultBalance={null}
+        list={
+          Object {
+            "fortyEightMonths": null,
+            "thirtySixMonths": null,
+            "twelveMonths": null,
+            "twentyFourMonths": undefined,
+            "yearFunds": null,
+          }
+        }
+        netIncome={null}
+        periodActive={12}
+        profitabilitySoFar={null}
+        title={null}
+      />
+      <DetailsCard
+        dataTest="generalInfoCard"
+        list={
+          Object {
+            "initialInvestment": 20000,
+            "minimumBalance": 20000,
+            "minimumTransaction": 10000,
+            "redempConversionDays": 30,
+            "redempSettlementDays": 1,
+            "subsConversionDays": 0,
+          }
+        }
+      />
+      <DetailsCard
+        dataTest="detailsCard"
+        list={
+          Object {
+            "administrationFeeFunds": null,
+            "administratorFunds": null,
+            "benchmarkFunds": "CDI",
+            "custodianFunds": undefined,
+            "inceptionDateFunds": null,
+            "managerFunds": "Bahia Asset Management",
+            "performanceFeeFunds": null,
+          }
+        }
+      />
+      <styled.div>
+        <styled.span
+          data-test="notAllowedSubscriptionsMessage"
+        >
+          *Fundo só permite aplicações por investidor qualificado.
+        </styled.span>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[MockFunction]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+          type="outline"
+        />
+        <Button
+          dataTest="investFund"
+          disabled={true}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": undefined,
+              }
+            }
+          />
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span>
+            <Styled(styled.span)>
+              05/31/2010
+              .
+            </Styled(styled.span)>
+          </styled.span>
+          <styled.div>
+            <Button
+              dataTest="Button"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.span
+            data-test="typeOfFundPendencie"
+          >
+            <Styled(styled.span) />
+          </styled.span>
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+            <styled.div>
+              <Button
+                dataTest="yesButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div>
+            <styled.span>
+              <Styled(styled.span) />
+            </styled.span>
+          </styled.div>
+          <styled.div />
+          <Styled(styled.div)>
+            <styled.div>
+              <Button
+                dataTest="noButton"
+                disabled={false}
+                onClick={[Function]}
+                spacing={
+                  Object {
+                    "bottom": "xxs",
+                    "left": "xxs",
+                    "right": "xxs",
+                    "top": "xxs",
+                  }
+                }
+                type="outline"
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`DetailsStep component Should match snapshot without selectedFund 1`] = `""`;

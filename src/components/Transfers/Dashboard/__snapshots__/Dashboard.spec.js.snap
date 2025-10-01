@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Container>
+        <Tabs
+          backgroundColor="#f7f8f9"
+          selectedTab={0}
+          setSelectedTab={[Function]}
+          widthTabs={360}
+        >
+          <section
+            title="TED_MY_TRANSFERS"
+          >
+            <styled.h1
+              BigTitle={true}
+              capitalize={true}
+              isNewTransfer={true}
+              titleColor="#27445f"
+            >
+              PENDENCIES
+              <ConnectWrapper
+                anyRole={true}
+                roles={
+                  Array [
+                    "CreateEFT",
+                    "CreateApproveEFT",
+                  ]
+                }
+              >
+                <ConnectWrapper>
+                  <Styled(Button)
+                    dataTest="btnNewTrans"
+                    disabled={false}
+                    isNewTransfer={true}
+                    onClick={[Function]}
+                  >
+                    NEW_TRANSFER
+                  </Styled(Button)>
+                </ConnectWrapper>
+              </ConnectWrapper>
+            </styled.h1>
+            <DashboardFilters
+              defaultFilter={
+                Object {
+                  "range": 15,
+                  "type": "pendencies",
+                }
+              }
+              onFilter={[Function]}
+            />
+            <ConnectWrapper
+              accounts={
+                Array [
+                  Object {
+                    "account": 1,
+                    "accountNumber": "123456789",
+                    "availableBalance": 6,
+                    "blockedBalance": 7,
+                    "date": "12/12",
+                    "document": "",
+                    "name": "",
+                    "totalBalance": 5,
+                  },
+                ]
+              }
+              availableDateRanges={
+                Array [
+                  Object {},
+                ]
+              }
+              createAuthCode={[MockFunction]}
+              createEFT={[MockFunction]}
+              favoredAccounts={Array []}
+              favoredData={
+                Object {
+                  "CNPJ": "",
+                  "account": "",
+                  "agency": "",
+                  "bank": "",
+                  "favored": "",
+                }
+              }
+              getAccounts={[MockFunction]}
+              getApprovers={[MockFunction]}
+              getAuthFactors={[MockFunction]}
+              getAvailableDateRanges={[MockFunction]}
+              getTransfers={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      Object {
+                        "range": 15,
+                        "type": "pendencies",
+                      },
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+              handleUserInputOriginAccount={[MockFunction]}
+              handleUserInputTranferDataDate={[MockFunction]}
+              isEmpty={true}
+              loadTransfers={[Function]}
+              openModal={[MockFunction]}
+              openToastr={[MockFunction]}
+              originAccount={
+                Object {
+                  "availableBalance": "",
+                  "number": "123456789",
+                }
+              }
+              pendencies={
+                Object {
+                  "content": Array [],
+                }
+              }
+              resetFields={[MockFunction]}
+              resetSignLoading={
+                [MockFunction] {
+                  "calls": Array [
+                    Array [],
+                  ],
+                  "results": Array [
+                    Object {
+                      "type": "return",
+                      "value": undefined,
+                    },
+                  ],
+                }
+              }
+              saveAccount={false}
+              sendAuthFactors={[MockFunction]}
+              transferData={
+                Object {
+                  "date": "",
+                  "value": "",
+                }
+              }
+              userInfo={
+                Object {
+                  "roles": Array [
+                    "role",
+                  ],
+                }
+              }
+            />
+          </section>
+          <section
+            title="TED_FAVORED_LIST"
+          >
+            <styled.div>
+              <Card
+                icon={null}
+                iconColor={null}
+                title={null}
+                titleColor={null}
+              >
+                <styled.div>
+                  TED_SELECT_ORIGIN_ACCOUNT
+                </styled.div>
+                <styled.div>
+                  <Dropdown
+                    accountNumber={true}
+                    dataTest="originAccount"
+                    height={48}
+                    label="NUMBER"
+                    list={
+                      Array [
+                        Object {
+                          "account": 1,
+                          "accountNumber": "123456789",
+                          "availableBalance": 6,
+                          "blockedBalance": 7,
+                          "date": "12/12",
+                          "document": "",
+                          "name": "",
+                          "totalBalance": 5,
+                        },
+                      ]
+                    }
+                    name="number"
+                    onChange={[Function]}
+                    tinyLabels={true}
+                    valid={[Function]}
+                    value="123456789"
+                  />
+                </styled.div>
+                <styled.table />
+              </Card>
+              <AlertMessage
+                dataTest="alertMessage"
+                icon="Attention"
+                spacing={
+                  Object {
+                    "bottom": "l",
+                    "left": "none",
+                    "right": "none",
+                    "top": "l",
+                  }
+                }
+                type="neutral"
+              >
+                TED_FAVORED_LIST_ALERT_MSG
+              </AlertMessage>
+            </styled.div>
+          </section>
+        </Tabs>
+      </Container>
+    </Hide>
+    <Hide
+      above="md"
+      below={null}
+    >
+      <NotSupportMobile />
+    </Hide>
+  </styled.div>
+</ErrorBoundary>
+`;

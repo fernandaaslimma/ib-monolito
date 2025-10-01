@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registrato component should render Registrato with props 1`] = `
+<div
+  className="sc-EHOje jusxtD"
+  data-test="RegistratoPage"
+>
+  <div
+    className="sc-gipzik iPhmoG sc-bdVaJa iHZvIS"
+    is={null}
+  >
+    <h1
+      className="sc-bdVaJa bqdXOK"
+    />
+    <section
+      className="sc-fjdhpX hJIZBd"
+    >
+      <div
+        className="sc-bZQynM fNkNEi"
+      >
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        >
+          undefined http://www.bcb.gov.br/?REGISTRATO
+        </p>
+        <div
+          className="sc-gzVnrw kZOLkA"
+        >
+          <form
+            className="sc-dnqmqq gZXnwY"
+            onSubmit={[Function]}
+          >
+            <div
+              className="sc-iwsKbI iGIEgm"
+            >
+              <div
+                className="sc-eNQAEJ krcMDD"
+              >
+                <input
+                  autoComplete="new-password"
+                  className="sc-ckVGcZ fyHHoW"
+                  data-test="Input"
+                  disabled={false}
+                  icon={null}
+                  label={null}
+                  maxLength="50"
+                  name="securityCode"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder=""
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <button
+                className="sc-hMqMXs hEswDL"
+                data-test="Button"
+                disabled={true}
+                height={null}
+                onClick={null}
+                type="submit"
+                width={null}
+              >
+                <div
+                  className="sc-kEYyzF bMAbQJ"
+                >
+                  <div
+                    className="sc-kkGfuU gnKCMi"
+                  />
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Registrato component should set error state to trye on submit invalid security code 1`] = `
+<div
+  className="sc-EHOje jusxtD"
+  data-test="RegistratoPage"
+>
+  <div
+    className="sc-gipzik iPhmoG sc-bdVaJa iHZvIS"
+    is={null}
+  >
+    <h1
+      className="sc-bdVaJa bqdXOK"
+    />
+    <section
+      className="sc-fjdhpX hJIZBd"
+    >
+      <div
+        className="sc-bZQynM fNkNEi"
+      >
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        >
+          undefined http://www.bcb.gov.br/?REGISTRATO
+        </p>
+        <div
+          className="sc-gzVnrw kZOLkA"
+        >
+          <form
+            className="sc-dnqmqq gZXnwY"
+            onSubmit={[Function]}
+          >
+            <div
+              className="sc-iwsKbI iGIEgm"
+            >
+              <div
+                className="sc-eNQAEJ krcMDD"
+              >
+                <input
+                  autoComplete="new-password"
+                  className="sc-ckVGcZ fyHHoW"
+                  data-test="Input"
+                  disabled={false}
+                  icon={null}
+                  label={null}
+                  maxLength="50"
+                  name="securityCode"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder=""
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <button
+                className="sc-hMqMXs hEswDL"
+                data-test="Button"
+                disabled={true}
+                height={null}
+                onClick={null}
+                type="submit"
+                width={null}
+              >
+                <div
+                  className="sc-kEYyzF bMAbQJ"
+                >
+                  <div
+                    className="sc-kkGfuU gnKCMi"
+                  />
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Registrato component should set success state to true on submit valid security code 1`] = `
+<div
+  className="sc-EHOje jusxtD"
+  data-test="RegistratoPage"
+>
+  <div
+    className="sc-gipzik iPhmoG sc-bdVaJa iHZvIS"
+    is={null}
+  >
+    <h1
+      className="sc-bdVaJa bqdXOK"
+    />
+    <section
+      className="sc-fjdhpX hJIZBd"
+    >
+      <div
+        className="sc-bZQynM fNkNEi"
+      >
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        />
+        <p
+          className="sc-bwzfXH jWxHYF"
+        >
+          undefined http://www.bcb.gov.br/?REGISTRATO
+        </p>
+        <div
+          className="sc-gzVnrw kZOLkA"
+        >
+          <form
+            className="sc-dnqmqq gZXnwY"
+            onSubmit={[Function]}
+          >
+            <div
+              className="sc-iwsKbI iGIEgm"
+            >
+              <div
+                className="sc-eNQAEJ krcMDD"
+              >
+                <input
+                  autoComplete="new-password"
+                  className="sc-ckVGcZ fyHHoW"
+                  data-test="Input"
+                  disabled={false}
+                  icon={null}
+                  label={null}
+                  maxLength="50"
+                  name="securityCode"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  placeholder=""
+                  required={true}
+                  type="text"
+                  value=""
+                />
+              </div>
+              <button
+                className="sc-hMqMXs hEswDL"
+                data-test="Button"
+                disabled={true}
+                height={null}
+                onClick={null}
+                type="submit"
+                width={null}
+              >
+                <div
+                  className="sc-kEYyzF bMAbQJ"
+                >
+                  <div
+                    className="sc-kkGfuU gnKCMi"
+                  />
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

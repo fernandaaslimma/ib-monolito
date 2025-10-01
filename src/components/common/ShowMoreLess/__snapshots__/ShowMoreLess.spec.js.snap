@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShowMoreLess component should match snapshot props 1`] = `
+<Fragment
+  data-test="showMoreLessdataTest"
+>
+  <styled.div
+    dataTest="showLessTextdataTest"
+    onClick={[Function]}
+  >
+    <styled.div />
+    <styled.div
+      showMoreLess={false}
+    >
+      <Icon
+        color="#3976cf"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={12}
+        type="Arrow"
+        width={12}
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ShowMoreLess component should match snapshot with empty content 1`] = `
+<Fragment
+  data-test="showMoreLessdatatest"
+  key="null"
+>
+  <styled.div
+    dataTest="showLessTextdatatest"
+    onClick={[Function]}
+  >
+    <styled.div />
+    <styled.div
+      showMoreLess={false}
+    >
+      <Icon
+        color="#3976cf"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={12}
+        type="Arrow"
+        width={12}
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

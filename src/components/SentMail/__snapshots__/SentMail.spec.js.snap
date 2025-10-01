@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecoverPassword component should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      data-test="SentMail"
+    >
+      <styled.div>
+        <styled.div>
+          <Icon
+            color={null}
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height={null}
+            type="BrandLogo"
+            width={null}
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.h2 />
+        <styled.h3
+          data-test="EmailSentFeedbackMsg"
+        >
+          undefined
+           
+          <styled.span />
+           
+        </styled.h3>
+        <styled.div
+          spacing={40}
+        >
+          <Icon
+            color={null}
+            cursor={false}
+            data-test="ImgEmailSent"
+            fixCrossAxisAlign={null}
+            height={null}
+            type="SentMail"
+            width={null}
+          />
+        </styled.div>
+        <styled.div>
+          <Link
+            actionSecondary={false}
+            anchor={true}
+            disabled={false}
+            href={null}
+            isCallToAction={null}
+            loading={false}
+            noSpan={true}
+            onClick={null}
+            opacity={1}
+            small={null}
+            target={null}
+            to="/"
+            width={null}
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

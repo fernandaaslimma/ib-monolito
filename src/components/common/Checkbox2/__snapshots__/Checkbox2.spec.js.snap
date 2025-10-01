@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component should match snapshot 1`] = `
+<styled.div>
+  <styled.input
+    data-test="switchSaveAccount_undefined"
+    id={5000}
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <styled.label
+    htmlFor={5000}
+  />
+  <styled.span>
+    label 1
+  </styled.span>
+</styled.div>
+`;

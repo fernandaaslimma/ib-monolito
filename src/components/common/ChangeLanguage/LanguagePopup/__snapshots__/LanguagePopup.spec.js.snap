@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguagePopup component should match snapshot 1`] = `
+<styled.ul
+  data-test="LanguagePopup"
+/>
+`;
+
+exports[`LanguagePopup component should match snapshot with a list of languages based on languages array 1`] = `
+<styled.ul
+  data-test="LanguagePopup"
+>
+  <styled.li
+    active={false}
+    data-test="LanguagePopup_ccc"
+    key="ccc"
+  >
+    <Styled(Icon)
+      type="aaa"
+    />
+    <styled.span>
+      bbb
+    </styled.span>
+    <Styled(styled.span) />
+    <Styled(Icon)
+      type="Check"
+    />
+  </styled.li>
+  <styled.li
+    active={false}
+    data-test="LanguagePopup_zzz"
+    key="zzz"
+  >
+    <Styled(Icon)
+      type="xxx"
+    />
+    <styled.span>
+      yyy
+    </styled.span>
+    <Styled(styled.span) />
+    <Styled(Icon)
+      type="Check"
+    />
+  </styled.li>
+</styled.ul>
+`;
+
+exports[`LanguagePopup component should match snapshot with an active item that has the same code of currentLanguage 1`] = `
+<styled.ul
+  data-test="LanguagePopup"
+>
+  <styled.li
+    active={false}
+    data-test="LanguagePopup_ccc"
+    key="ccc"
+  >
+    <Styled(Icon)
+      type="aaa"
+    />
+    <styled.span>
+      bbb
+    </styled.span>
+    <Styled(styled.span) />
+    <Styled(Icon)
+      type="Check"
+    />
+  </styled.li>
+  <styled.li
+    active={true}
+    data-test="LanguagePopup_zzz"
+    key="zzz"
+  >
+    <Styled(Icon)
+      type="xxx"
+    />
+    <styled.span>
+      yyy
+    </styled.span>
+    <Styled(styled.span) />
+    <Styled(Icon)
+      type="Check"
+    />
+  </styled.li>
+</styled.ul>
+`;

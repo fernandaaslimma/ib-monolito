@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default component should match snapshot with a closed modal 1`] = `""`;
+
+exports[`Default component should match snapshot with an open modal 1`] = `
+<styled.div>
+  <styled.a
+    onClick={[Function]}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="14"
+      type="Close"
+      width="14"
+    />
+    <styled.span>
+      Close
+    </styled.span>
+  </styled.a>
+</styled.div>
+`;
+
+exports[`Default component should match snapshot with an open modal with description array 1`] = `
+<styled.div>
+  <styled.p
+    key="description1"
+  >
+    description1
+  </styled.p>
+  <styled.p
+    key="description2"
+  >
+    description2
+  </styled.p>
+  <styled.a
+    onClick={[Function]}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="14"
+      type="Close"
+      width="14"
+    />
+    <styled.span>
+      Close
+    </styled.span>
+  </styled.a>
+</styled.div>
+`;
+
+exports[`Default component should match snapshot with an open modal with description string 1`] = `
+<styled.div>
+  <styled.p>
+    description
+  </styled.p>
+  <styled.a
+    onClick={[Function]}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="14"
+      type="Close"
+      width="14"
+    />
+    <styled.span>
+      Close
+    </styled.span>
+  </styled.a>
+</styled.div>
+`;
+
+exports[`Default component should match snapshot with an open modal with icon 1`] = `
+<styled.div>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="50"
+      type="Close"
+      width="50"
+    />
+  </styled.div>
+  <styled.a
+    onClick={[Function]}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="14"
+      type="Close"
+      width="14"
+    />
+    <styled.span>
+      Close
+    </styled.span>
+  </styled.a>
+</styled.div>
+`;
+
+exports[`Default component should match snapshot with an open modal with title 1`] = `
+<styled.div>
+  <styled.h1>
+    title
+  </styled.h1>
+  <styled.a
+    onClick={[Function]}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="14"
+      type="Close"
+      width="14"
+    />
+    <styled.span>
+      Close
+    </styled.span>
+  </styled.a>
+</styled.div>
+`;
+
+exports[`renderDescription should return a single description 1`] = `
+<styled.p>
+  test
+</styled.p>
+`;
+
+exports[`renderDescription should return multiple descriptions 1`] = `
+Array [
+  <styled.p>
+    test1
+  </styled.p>,
+  <styled.p>
+    test2
+  </styled.p>,
+]
+`;
+
+exports[`renderDescription should return no descriptions 1`] = `null`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssetsChart mobile component should match snapshot 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <DefaultShimmerLoading
+      innerRepeat={1}
+      repeat={2}
+    />
+  </styled.div>
+</div>
+`;
+
+exports[`AssetsChart mobile component should match snapshot without assets 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <DefaultShimmerLoading
+      innerRepeat={1}
+      repeat={2}
+    />
+  </styled.div>
+</div>
+`;

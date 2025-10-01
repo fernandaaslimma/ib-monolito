@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EFTConfirmation component should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferDate"
+        >
+          01/01/2019
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferAmount"
+        >
+          undefined 2321312
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientName"
+          >
+            Yuri
+          </styled.h1>
+        </styled.div>
+        <styled.div />
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientTaxId"
+          >
+            59.272.491/0001-72
+          </styled.h1>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div
+          width="46%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBank"
+          >
+             
+            Itaú Unibanco
+          </styled.h1>
+        </styled.div>
+        <styled.div
+          width="20%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewBankBranch"
+          >
+            8230-2
+          </styled.h1>
+        </styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBankAccount"
+          >
+            19323-2
+            -0
+          </styled.h1>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewOriginAccount"
+        >
+          106 2 300431-1
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1>
+          Yuri Ramos, 
+          André Leitão.
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <Tag
+        color="#D5E3F8"
+      />
+    </styled.div>
+    <styled.div>
+      <Checkbox
+        checked={false}
+        dataTest="switchSaveAccount"
+        name="switchBox"
+        onChange={[Function]}
+        type="switch"
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <Button
+      dataTest="Cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <Button
+      dataTest="Confirm"
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="conclusive"
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`EFTConfirmation component should render an "EFTConfirmation" tag 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferDate"
+        >
+          01/01/2019
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferAmount"
+        >
+          undefined 2321312
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientName"
+          >
+            Yuri
+          </styled.h1>
+        </styled.div>
+        <styled.div />
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientTaxId"
+          >
+            59.272.491/0001-72
+          </styled.h1>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div
+          width="46%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBank"
+          >
+             
+            Itaú Unibanco
+          </styled.h1>
+        </styled.div>
+        <styled.div
+          width="20%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewBankBranch"
+          >
+            8230-2
+          </styled.h1>
+        </styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBankAccount"
+          >
+            19323-2
+            -0
+          </styled.h1>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewOriginAccount"
+        >
+          106 2 300431-1
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1>
+          Yuri Ramos, 
+          André Leitão.
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <Tag
+        color="#D5E3F8"
+      />
+    </styled.div>
+    <styled.div>
+      <Checkbox
+        checked={false}
+        dataTest="switchSaveAccount"
+        name="switchBox"
+        onChange={[Function]}
+        type="switch"
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <Button
+      dataTest="Cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <Button
+      dataTest="Confirm"
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="conclusive"
+    />
+  </styled.div>
+</styled.div>
+`;

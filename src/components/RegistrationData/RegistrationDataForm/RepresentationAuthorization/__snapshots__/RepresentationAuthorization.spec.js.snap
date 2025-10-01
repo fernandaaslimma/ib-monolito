@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepresentationAuthorization component should display AlertMessage 1`] = `
+<RepresentationAuthorization
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`RepresentationAuthorization component should match snapshot with false representation 1`] = `
+<RepresentationAuthorization
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`RepresentationAuthorization component should match snapshot with props 1`] = `
+<RepresentationAuthorization
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedirectCard component should match snapshot with BBM an ITAU 1`] = `
+<Fragment>
+  <styled.section
+    data-test="redirect"
+  >
+    <styled.div>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Bbm"
+        width={null}
+      />
+      <styled.span>
+        BOCOM BBM
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <Icon
+        color="#003B78"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height="32"
+        type="RedirectArrow"
+        width="16"
+      />
+      <styled.span />
+    </styled.div>
+    <styled.div>
+      <PersonImage
+        profileImageUrl="Itau"
+      />
+      <styled.span>
+        Banco Ïtau SA
+      </styled.span>
+    </styled.div>
+  </styled.section>
+</Fragment>
+`;
+
+exports[`RedirectCard component should match snapshot with empty content 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type={null}
+        width={null}
+      />
+      <styled.span />
+    </styled.div>
+    <styled.div>
+      <Icon
+        color="#003B78"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height="32"
+        type="RedirectArrow"
+        width="16"
+      />
+      <styled.span />
+    </styled.div>
+    <styled.div>
+      <styled.span />
+    </styled.div>
+  </styled.section>
+</Fragment>
+`;

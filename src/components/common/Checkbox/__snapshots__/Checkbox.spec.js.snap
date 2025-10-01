@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component should match snapshot 1`] = `
+<styled.label
+  disabled={false}
+  htmlFor={5000}
+  type="common"
+>
+  <input
+    disabled={false}
+    id={5000}
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <styled.div />
+  <styled.span>
+    label 1
+  </styled.span>
+</styled.label>
+`;

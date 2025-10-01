@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration Data Form Result component should match snapshot 1`] = `
+<Fragment>
+  <ConnectWrapper
+    onClickClose={[Function]}
+  />
+  <styled.div>
+    <Icon
+      color={null}
+      data-test="ImgDocumentWaiting"
+      height="193"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="DocumentChecked"
+      width="192"
+    />
+    <styled.h2>
+      ATUCAD_DATA_SUCCESSFULLY_SENT
+    </styled.h2>
+    <styled.p>
+      ATUCAD_DATA_SUCCESSFULLY_SENT_MESSAGE
+    </styled.p>
+    <Button
+      dataTest="registration-data-form-close-modal"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "m",
+          "left": "none",
+          "right": "none",
+          "top": "l",
+        }
+      }
+      type="conclusive"
+    >
+      ATUCAD_BACK_TO_NAVIGATION
+    </Button>
+  </styled.div>
+</Fragment>
+`;

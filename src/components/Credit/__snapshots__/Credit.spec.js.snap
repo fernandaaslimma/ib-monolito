@@ -1,0 +1,493 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Credit component should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div
+    data-test="CreditPage"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <NotSupportMobile />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <styled.div
+        position={0}
+      >
+        <styled.div>
+          <DataTable
+            columns={
+              Array [
+                Object {
+                  "field": "number",
+                  "title": "CREDIT_CONTRACT",
+                },
+                Object {
+                  "field": "product",
+                  "nestedField": "name",
+                  "title": "PRODUCT",
+                },
+                Object {
+                  "field": "paymentMethod",
+                  "title": "PAYMENT_METHOD",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "annual",
+                  "title": "ANNUAL_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "nominal",
+                  "title": "NOMINAL_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "effective",
+                  "title": "EFFECTIVE_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "startDate",
+                  "title": "CREDIT_START_DATE",
+                },
+                Object {
+                  "align": "right",
+                  "field": "tenure",
+                  "nestedField": "total",
+                  "title": "TOTAL_TERM",
+                },
+                Object {
+                  "align": "right",
+                  "field": "tenure",
+                  "nestedField": "remaining",
+                  "title": "REMAINING_TERM",
+                },
+              ]
+            }
+            config={
+              Object {
+                "rowClick": [Function],
+                "title": "CREDIT_PORTABILITY",
+              }
+            }
+            data={
+              Array [
+                Object {
+                  "date": "2019-11-16T12:33:54.271Z",
+                  "id": "24016",
+                  "number": "1234567890",
+                  "paymentMethod": "TED",
+                  "product": "CCB",
+                  "rates": Object {
+                    "annual": 10.5,
+                    "effective": 30,
+                    "nominal": 20.5,
+                  },
+                  "tenure": Object {
+                    "remaining": 10,
+                    "total": 200,
+                  },
+                },
+              ]
+            }
+            dataTest="DataTable"
+            loading={true}
+          />
+        </styled.div>
+        <styled.div>
+          <DataTable
+            columns={
+              Array [
+                Object {
+                  "cellRender": [Function],
+                  "field": null,
+                  "title": null,
+                  "width": 40,
+                },
+                Object {
+                  "cellRender": [Function],
+                  "field": "maturityDate",
+                  "title": "MATURITY_DATE",
+                  "width": 140,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "principalValue",
+                  "title": "PRINCIPAL (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "monetaryAdjustmentValue",
+                  "title": "MONETARY_ADJUSTMENT (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 180,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "interestValue",
+                  "title": "INTEREST (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "latePaymentCommissionValue",
+                  "title": "LATE_PAYMENT_COMMISION (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "iofValue",
+                  "title": "CREDIT_IOF (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "defaultInterestValue",
+                  "title": "DEFAULT_INTEREST (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 120,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "fineValue",
+                  "title": "FINE (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "totalValue",
+                  "title": "AMOUNT_CHARGED (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 140,
+                },
+              ]
+            }
+            config={
+              Object {
+                "title": <styled.p>
+                  <styled.span
+                    data-test="IntallmentsBack"
+                    onClick={[Function]}
+                  >
+                    <Icon
+                      color={null}
+                      height={null}
+                      spacing={
+                        Object {
+                          "bottom": "none",
+                          "left": "none",
+                          "right": "none",
+                          "top": "none",
+                        }
+                      }
+                      type="IconBack"
+                      width={null}
+                    />
+                  </styled.span>
+                  <styled.span
+                    data-test="ContractNumber"
+                  />
+                  <styled.span>
+                    .
+                  </styled.span>
+                  <styled.span
+                    data-test="ContractDate"
+                  />
+                </styled.p>,
+                "totalPosition": "down",
+              }
+            }
+            data={Array []}
+            dataTest="DataTable"
+            loading={true}
+          />
+          <styled.div>
+            <AlertMessage
+              dataTest="alertMessage"
+              icon="Attention"
+              spacing={
+                Object {
+                  "bottom": "l",
+                  "left": "none",
+                  "right": "none",
+                  "top": "l",
+                }
+              }
+              type="neutral"
+            >
+              CREDIT_DISCLAIMER
+            </AlertMessage>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Hide>
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`Credit component should match snapshot with empty state 1`] = `
+<ErrorBoundary>
+  <styled.div
+    data-test="CreditPage"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <NotSupportMobile />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <styled.div
+        position={0}
+      >
+        <styled.div>
+          <DataTable
+            columns={
+              Array [
+                Object {
+                  "field": "number",
+                  "title": "CREDIT_CONTRACT",
+                },
+                Object {
+                  "field": "product",
+                  "nestedField": "name",
+                  "title": "PRODUCT",
+                },
+                Object {
+                  "field": "paymentMethod",
+                  "title": "PAYMENT_METHOD",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "annual",
+                  "title": "ANNUAL_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "nominal",
+                  "title": "NOMINAL_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "rates",
+                  "nestedField": "effective",
+                  "title": "EFFECTIVE_RATE (%)",
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "startDate",
+                  "title": "CREDIT_START_DATE",
+                },
+                Object {
+                  "align": "right",
+                  "field": "tenure",
+                  "nestedField": "total",
+                  "title": "TOTAL_TERM",
+                },
+                Object {
+                  "align": "right",
+                  "field": "tenure",
+                  "nestedField": "remaining",
+                  "title": "REMAINING_TERM",
+                },
+              ]
+            }
+            config={
+              Object {
+                "rowClick": [Function],
+                "title": "CREDIT_PORTABILITY",
+              }
+            }
+            data={Array []}
+            dataTest="DataTable"
+            loading={true}
+          />
+        </styled.div>
+        <styled.div>
+          <DataTable
+            columns={
+              Array [
+                Object {
+                  "cellRender": [Function],
+                  "field": null,
+                  "title": null,
+                  "width": 40,
+                },
+                Object {
+                  "cellRender": [Function],
+                  "field": "maturityDate",
+                  "title": "MATURITY_DATE",
+                  "width": 140,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "principalValue",
+                  "title": "PRINCIPAL (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "monetaryAdjustmentValue",
+                  "title": "MONETARY_ADJUSTMENT (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 180,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "interestValue",
+                  "title": "INTEREST (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "latePaymentCommissionValue",
+                  "title": "LATE_PAYMENT_COMMISION (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "iofValue",
+                  "title": "CREDIT_IOF (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "defaultInterestValue",
+                  "title": "DEFAULT_INTEREST (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 120,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "fineValue",
+                  "title": "FINE (BRL_CURRENCY)",
+                  "total": true,
+                },
+                Object {
+                  "align": "right",
+                  "cellRender": [Function],
+                  "field": "totalValue",
+                  "title": "AMOUNT_CHARGED (BRL_CURRENCY)",
+                  "total": true,
+                  "width": 140,
+                },
+              ]
+            }
+            config={
+              Object {
+                "title": <styled.p>
+                  <styled.span
+                    data-test="IntallmentsBack"
+                    onClick={[Function]}
+                  >
+                    <Icon
+                      color={null}
+                      height={null}
+                      spacing={
+                        Object {
+                          "bottom": "none",
+                          "left": "none",
+                          "right": "none",
+                          "top": "none",
+                        }
+                      }
+                      type="IconBack"
+                      width={null}
+                    />
+                  </styled.span>
+                  <styled.span
+                    data-test="ContractNumber"
+                  />
+                  <styled.span>
+                    .
+                  </styled.span>
+                  <styled.span
+                    data-test="ContractDate"
+                  />
+                </styled.p>,
+                "totalPosition": "down",
+              }
+            }
+            data={Array []}
+            dataTest="DataTable"
+            loading={true}
+          />
+          <styled.div>
+            <AlertMessage
+              dataTest="alertMessage"
+              icon="Attention"
+              spacing={
+                Object {
+                  "bottom": "l",
+                  "left": "none",
+                  "right": "none",
+                  "top": "l",
+                }
+              }
+              type="neutral"
+            >
+              CREDIT_DISCLAIMER
+            </AlertMessage>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Hide>
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`Credit component should pass through empty state default icon 1`] = `
+<ErrorBoundary>
+  <styled.div
+    data-test="CreditPage"
+  >
+    <DefaultContent
+      Icon={[Function]}
+      data-test="EmptyCredits"
+      primaryText="NO_RECORDS"
+      secondaryTexts={
+        Array [
+          "NO_RECORD_WAS_FOUND",
+        ]
+      }
+    />
+  </styled.div>
+</ErrorBoundary>
+`;

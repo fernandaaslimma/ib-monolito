@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButtonRounded component should match snapshot 1`] = `
+<styled.label
+  for="radioTest0"
+>
+  <input
+    checked={false}
+    data-test="radioTest_0"
+    disabled={false}
+    id="radioTest0"
+    key="0"
+    name="radioTest"
+    onChange={[Function]}
+    type="radio"
+    value="Option"
+  />
+  <styled.div
+    htmlFor="radioTest0"
+  >
+    Option
+  </styled.div>
+</styled.label>
+`;

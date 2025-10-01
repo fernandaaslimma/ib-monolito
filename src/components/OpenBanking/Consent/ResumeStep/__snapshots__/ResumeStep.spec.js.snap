@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeStep should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-hwcHae hlwfDh"
+      >
+        <span
+          class="sc-krvtoX bEoUEE"
+          id="ResumeStep"
+        />
+        <div
+          class="sc-lnmtFM dMPabO"
+          data-test="screenRedirect"
+        >
+          <h2
+            class="sc-FQuPU hZpPyV"
+          />
+          <div
+            class="sc-ciodno jjQEiZ"
+          >
+            <img
+              class="sc-gGCbJM dKqejJ"
+              src="Mock url"
+            />
+            <span
+              class="sc-lcpuFF jygsEx"
+            >
+              Mock Name
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-jzgbtB iiRAlx"
+        >
+          <h2
+            class="sc-gJWqzi jYawra"
+          />
+          <h2
+            class="sc-rBLzX najlo"
+            data-test="cpfOrCnpjLabel"
+          >
+            110.215.502-05
+          </h2>
+          <h2
+            class="sc-rBLzX najlo"
+            data-test="destinationInstitutionLabel"
+          >
+            Mock Name
+          </h2>
+          <h2
+            class="sc-rBLzX najlo"
+            data-test="creationDate"
+          >
+            06/01/2010 - 01:01 AM
+          </h2>
+          <h2
+            class="sc-rBLzX najlo"
+            data-test="expirationDateTime"
+          >
+            0 undefined | 06/01/2010
+          </h2>
+        </div>
+        <div
+          class="sc-fOKMvo jHKlFR"
+        >
+          <span
+            class="sc-cbkKFq CsuLf"
+          />
+          <div
+            class="sc-fYiAbW hclkAV"
+          >
+            <div
+              class="sc-htpNat gvObcG"
+              data-test="backButton"
+              spacing="[object Object]"
+              type="outline"
+            />
+            <div
+              class="sc-htpNat cxpQMp"
+              data-test="consentConfirmButton"
+              spacing="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-hwcHae hlwfDh"
+    >
+      <span
+        class="sc-krvtoX bEoUEE"
+        id="ResumeStep"
+      />
+      <div
+        class="sc-lnmtFM dMPabO"
+        data-test="screenRedirect"
+      >
+        <h2
+          class="sc-FQuPU hZpPyV"
+        />
+        <div
+          class="sc-ciodno jjQEiZ"
+        >
+          <img
+            class="sc-gGCbJM dKqejJ"
+            src="Mock url"
+          />
+          <span
+            class="sc-lcpuFF jygsEx"
+          >
+            Mock Name
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-jzgbtB iiRAlx"
+      >
+        <h2
+          class="sc-gJWqzi jYawra"
+        />
+        <h2
+          class="sc-rBLzX najlo"
+          data-test="cpfOrCnpjLabel"
+        >
+          110.215.502-05
+        </h2>
+        <h2
+          class="sc-rBLzX najlo"
+          data-test="destinationInstitutionLabel"
+        >
+          Mock Name
+        </h2>
+        <h2
+          class="sc-rBLzX najlo"
+          data-test="creationDate"
+        >
+          06/01/2010 - 01:01 AM
+        </h2>
+        <h2
+          class="sc-rBLzX najlo"
+          data-test="expirationDateTime"
+        >
+          0 undefined | 06/01/2010
+        </h2>
+      </div>
+      <div
+        class="sc-fOKMvo jHKlFR"
+      >
+        <span
+          class="sc-cbkKFq CsuLf"
+        />
+        <div
+          class="sc-fYiAbW hclkAV"
+        >
+          <div
+            class="sc-htpNat gvObcG"
+            data-test="backButton"
+            spacing="[object Object]"
+            type="outline"
+          />
+          <div
+            class="sc-htpNat cxpQMp"
+            data-test="consentConfirmButton"
+            spacing="[object Object]"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

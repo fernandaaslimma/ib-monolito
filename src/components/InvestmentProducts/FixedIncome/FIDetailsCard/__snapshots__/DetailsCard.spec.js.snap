@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsCard component Should match snapshot 1`] = `
+<Fragment>
+  <styled.div
+    bottomSpace="20"
+    className="DetailsCard"
+    data-test="undefined"
+  >
+    <styled.p>
+      mock
+    </styled.p>
+    <styled.div>
+      <styled.li
+        key="0"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_0"
+            key="0"
+          >
+            1
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="1"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_1"
+            key="1"
+          >
+            R$ 1.000,00
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="2"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_2"
+            key="2"
+          >
+            R$ 500.000,00
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="3"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={true}
+            data-test="value_3"
+            key="3"
+          >
+            102% DI
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="4"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_4"
+            key="4"
+          >
+            12
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="5"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_5"
+            key="5"
+          >
+            Diária após 90 dias
+          </styled.span>
+        </styled.span>
+      </styled.li>
+      <styled.li
+        key="6"
+      >
+        <styled.span>
+          <styled.span />
+          <styled.span
+            conclusive={false}
+            data-test="value_6"
+            key="6"
+          >
+            Isento de IR
+          </styled.span>
+        </styled.span>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

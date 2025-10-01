@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmmountInput component Match Snapshot with blockAddValues as true 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.span>
+      R$
+    </styled.span>
+    <styled.input
+      data-test="Ammount"
+      defaultValue="NaN"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      inputMode="numeric"
+      maxLength="16"
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </styled.div>
+  <styled.span
+    pristine={true}
+    valid={false}
+  />
+  <styled.ul>
+    <styled.li
+      key="0"
+    >
+      <Button
+        dataTest="Increment_1000"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +1.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="1"
+    >
+      <Button
+        dataTest="Increment_5000"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +5.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="2"
+    >
+      <Button
+        dataTest="Increment_10000"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +10.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="3"
+    >
+      <Button
+        dataTest="Increment_30000"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +30.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="4"
+    >
+      <Button
+        dataTest="Increment_50000"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +50.000
+      </Button>
+    </styled.li>
+    <styled.li>
+      <Button
+        dataTest="IncrementTotal"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        <center>
+          disponível
+        </center>
+      </Button>
+    </styled.li>
+  </styled.ul>
+</styled.div>
+`;
+
+exports[`AmmountInput component Should match snapshpt 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.span>
+      R$
+    </styled.span>
+    <styled.input
+      data-test="Ammount"
+      defaultValue="NaN"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      inputMode="numeric"
+      maxLength="16"
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="text"
+    />
+  </styled.div>
+  <styled.span
+    pristine={true}
+    valid={false}
+  />
+  <styled.ul>
+    <styled.li
+      key="0"
+    >
+      <Button
+        dataTest="Increment_1000"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +1.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="1"
+    >
+      <Button
+        dataTest="Increment_5000"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +5.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="2"
+    >
+      <Button
+        dataTest="Increment_10000"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +10.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="3"
+    >
+      <Button
+        dataTest="Increment_30000"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +30.000
+      </Button>
+    </styled.li>
+    <styled.li
+      key="4"
+    >
+      <Button
+        dataTest="Increment_50000"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        +50.000
+      </Button>
+    </styled.li>
+    <styled.li>
+      <Button
+        dataTest="IncrementTotal"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="outline"
+      >
+        <center>
+          disponível
+        </center>
+      </Button>
+    </styled.li>
+  </styled.ul>
+</styled.div>
+`;

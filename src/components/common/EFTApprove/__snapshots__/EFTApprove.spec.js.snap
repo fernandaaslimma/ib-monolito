@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EFTApprove component should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferDate"
+        >
+          05/31/2010
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewTransferAmount"
+        >
+          undefined
+           
+          NaN
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientName"
+          >
+            Joao
+          </styled.h1>
+        </styled.div>
+        <styled.div />
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientTaxId"
+          >
+            1
+          </styled.h1>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div
+          width="46%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBank"
+          >
+             
+          </styled.h1>
+        </styled.div>
+        <styled.div
+          width="20%"
+        >
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewBankBranch"
+          />
+        </styled.div>
+        <styled.div>
+          <styled.h1 />
+          <styled.h1
+            data-test="reviewRecipientBankAccount"
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="reviewOriginAccount"
+        />
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1>
+          Paulo.
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div />
+    <styled.div>
+      <Tag
+        color="#D5E3F8"
+      />
+    </styled.div>
+    <Tooltip
+      dataTest="tooltipETFApprove"
+      disabled={true}
+      position="up"
+      texts={
+        Array [
+          false,
+        ]
+      }
+      width={238}
+    >
+      <styled.div>
+        <Checkbox
+          dataTest="switchSaveAccount"
+          disabled={false}
+          name="switchBox"
+          onChange={[Function]}
+          type="switch"
+        />
+      </styled.div>
+    </Tooltip>
+  </styled.div>
+  <styled.div>
+    <Button
+      dataTest="Cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <Button
+      dataTest="Approve"
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="conclusive"
+    />
+  </styled.div>
+</styled.div>
+`;

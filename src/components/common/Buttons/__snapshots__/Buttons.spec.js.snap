@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Buttons component should match snapshot with one or more buttons 1`] = `
+<styled.div>
+  <Button
+    actionSecondary={null}
+    background="blue"
+    border="solid 1px blue"
+    borderRadius={
+      Object {
+        "rightBottom": "0",
+        "rightTop": "0",
+      }
+    }
+    className={null}
+    color="white"
+    dataTest="ButtonNewAccountAm"
+    disabled={false}
+    fontSize="14"
+    height={null}
+    isCallToAction={null}
+    isWarning={null}
+    key="0"
+    noHoverBackground={true}
+    onClick={[MockFunction]}
+    padding={
+      Object {
+        "l": "20",
+        "r": "20",
+      }
+    }
+    paddingSize={null}
+    small={false}
+    type="button"
+    width={null}
+  >
+    Sou eu
+  </Button>
+  <Button
+    actionSecondary={null}
+    background="none"
+    border="olid 1px blue"
+    borderRadius={
+      Object {
+        "leftBottom": "0",
+        "leftTop": "0",
+      }
+    }
+    className={null}
+    color="blue"
+    dataTest="ButtonNewAccountOtherRecipient"
+    disabled={false}
+    fontSize="14"
+    height={null}
+    isCallToAction={null}
+    isWarning={null}
+    key="1"
+    noHoverBackground={true}
+    onClick={[MockFunction]}
+    padding={
+      Object {
+        "l": "20",
+        "r": "20",
+      }
+    }
+    paddingSize={null}
+    small={false}
+    type="button"
+    width={null}
+  >
+    Outros
+  </Button>
+</styled.div>
+`;

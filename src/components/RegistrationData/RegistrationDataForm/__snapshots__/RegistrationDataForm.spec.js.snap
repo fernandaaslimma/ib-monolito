@@ -1,0 +1,2902 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationDataForm Component render MFA screen 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": null,
+      "closeAll": null,
+      "formModel": null,
+      "isAuthenticating": true,
+      "isExiting": false,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": false,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <ConnectWrapper
+        createAuthCodeParams={
+          Object {
+            "actionType": "personRegistration.confirmInformation",
+            "payload": Object {
+              "id": null,
+              "informationChanged": false,
+            },
+          }
+        }
+        onMFAConfirmation={[Function]}
+        onMFAError={[Function]}
+        resendFunc={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm Component render exit screen 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": null,
+      "closeAll": null,
+      "formModel": null,
+      "isAuthenticating": false,
+      "isExiting": true,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": false,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <ExitConfirmation
+      onClickCancel={[Function]}
+      onClickExit={[Function]}
+    />
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm Component render registration DataForm 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": null,
+      "closeAll": null,
+      "formModel": Object {
+        "content": Object {
+          "contacts": "",
+        },
+      },
+      "isAuthenticating": false,
+      "isExiting": false,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": false,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <styled.h1>
+        ATUCAD_HELLO
+        , 
+        João da Silva
+      </styled.h1>
+      <styled.h2>
+        ATUCAD_READ_BELOW
+      </styled.h2>
+      <styled.p>
+        <b>
+          João da Silva
+        </b>
+        , ATUCAD_ID_NUMBER 
+        <b>
+          111111111
+        </b>
+        , ATUCAD_ISSUED_BY 
+        <b>
+          DETRAN RJ
+        </b>
+        , ATUCAD_ON 
+        <b>
+          6/1/2010
+        </b>
+        , ATUCAD_AND_CPF_NUMBER 
+        <b>
+          121.144.741-35
+          .
+        </b>
+      </styled.p>
+    </styled.div>
+    <styled.div />
+    <styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <styled.p>
+          <styled.span>
+            ATUCAD_ALERT_MESSAGE
+          </styled.span>
+          <span>
+            ATUCAD_ALERT_MESSAGE_2
+          </span>
+        </styled.p>
+      </AlertMessage>
+    </styled.div>
+    <styled.div>
+      <FormAgreement
+        agree={true}
+        loading={false}
+        onAgree={[Function]}
+        onSubmit={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm Component with no props 1`] = `""`;
+
+exports[`RegistrationDataForm Should call openAuth 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": true,
+      "closeAll": null,
+      "formModel": Object {
+        "content": Object {
+          "attorneysInFact": Array [
+            Object {
+              "cpf": "11122233344",
+              "endDate": "06/25/2020",
+              "name": "Procurador 1",
+              "startDate": "06/25/2020",
+            },
+            Object {
+              "cpf": "55566677788",
+              "endDate": "06/25/2020",
+              "name": "Procurador 2",
+              "startDate": "06/25/2020",
+            },
+          ],
+          "bankReferences": Array [
+            Object {
+              "bankCode": "341",
+              "bankName": "Itaú",
+            },
+            Object {
+              "bankCode": "237",
+              "bankName": "Bradesco",
+            },
+          ],
+          "contacts": Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": "joaosilva@gmail.com",
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          },
+          "documents": Object {},
+          "fatcaInformation": Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 15,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 148,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority in Brazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "id": 123,
+          "investmentDetails": Object {
+            "estimatedAnnualIncome": Object {
+              "bonusesAndCommissions": Object {
+                "exactValue": null,
+                "rangeId": 1,
+              },
+              "others": Object {
+                "exactValue": null,
+                "rangeId": 3,
+              },
+              "salary": Object {
+                "exactValue": null,
+                "rangeId": 5,
+              },
+            },
+            "estimatedEquity": Object {
+              "exactValue": null,
+              "rangeId": 3,
+            },
+            "fixedAssets": Object {
+              "personalProperty": Object {
+                "rangeId": 6,
+              },
+              "realProperty": Object {
+                "rangeId": 5,
+              },
+            },
+            "liquidAssets": Object {
+              "bonds": Object {
+                "rangeId": 3,
+              },
+              "funds": Object {
+                "rangeId": 2,
+              },
+              "savings": Object {
+                "rangeId": 4,
+              },
+              "stocks": Object {
+                "rangeId": 1,
+              },
+            },
+            "rangeOptions": Array [
+              Object {
+                "id": 1,
+                "max": 0,
+                "min": 0,
+                "name": "I do not have",
+                "value": 1,
+              },
+              Object {
+                "id": 2,
+                "max": 3455,
+                "min": 1,
+                "name": "1.00 - 3,455.00",
+                "value": 2,
+              },
+              Object {
+                "id": 5,
+                "max": 30000.02,
+                "min": 3000.01,
+                "name": "3,000.01 - 30,000.02",
+                "value": 5,
+              },
+              Object {
+                "id": 4,
+                "max": 3000000.01,
+                "min": 10000.01,
+                "name": "10,000.01 - 3,000,000.01",
+                "value": 4,
+              },
+              Object {
+                "id": 6,
+                "max": 100000,
+                "min": 50000.01,
+                "name": "50,000.01 - 100,000.00",
+                "value": 6,
+              },
+              Object {
+                "id": 7,
+                "max": 100000,
+                "min": 100000.01,
+                "name": "Bigger than 100,000.01",
+                "value": 7,
+              },
+              Object {
+                "id": 3,
+                "max": 10000000000,
+                "min": 10000000.01,
+                "name": "10,000,000.01 - 10,000,000,000.00",
+                "value": 3,
+              },
+            ],
+            "sourceOfFunds": Array [
+              Object {
+                "name": "work",
+                "text": "Trabalho",
+                "value": true,
+              },
+              Object {
+                "name": "inheritance",
+                "text": "Herança",
+                "value": false,
+              },
+              Object {
+                "name": "donation",
+                "text": "Doação",
+                "value": false,
+              },
+              Object {
+                "additionalValue": "outra origem",
+                "name": "others",
+                "text": "Outros, especificar",
+                "value": true,
+              },
+            ],
+          },
+          "nonResidentInvestorInformation": Object {
+            "cvmOperationCode": "123456",
+            "legalRepresentative": Object {
+              "cnpj": "22222222222222",
+              "name": "representante legal",
+            },
+            "rdeNumber": "12345",
+            "taxRepresentative": "João das Neves",
+          },
+          "personInCharge": Object {
+            "contacts": Object {
+              "addresses": Array [
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "home",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "commercial",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "correspondence",
+                },
+              ],
+              "emails": Array [
+                Object {
+                  "address": "joao.da.silva@gmail.com",
+                  "type": "personal",
+                },
+                Object {
+                  "address": "joaosilva@bocombbm.com.br",
+                  "type": "commercial",
+                },
+              ],
+              "telephones": Array [
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "home",
+                },
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "commercial",
+                },
+                Object {
+                  "number": "11-99982-0911",
+                  "type": "cellphone",
+                },
+              ],
+            },
+            "cpf": "12345678910",
+            "name": "Nome do responsável",
+          },
+          "personalReferences": Array [
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29820911",
+              },
+            },
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza 2",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29825500",
+              },
+            },
+          ],
+          "personalRegistrationDetails": Object {
+            "birthCity": "Rio de Janeiro",
+            "birthCountry": "Brasil",
+            "birthState": "RJ",
+            "cpf": "12114474135",
+            "dateOfBirth": "1990-05-20",
+            "documentDateOfIssue": "2010-05-20",
+            "documentIssuingBody": "DETRAN RJ",
+            "documentNumber": "111111111",
+            "documentType": "RG",
+            "gender": "M",
+            "maritalStatus": "single",
+            "name": "João da Silva",
+            "parentsNames": Object {
+              "fathersName": "José da Silva",
+              "mothersName": "Maria da Silva",
+            },
+            "spouse": Object {
+              "spouseCpf": "12345678910",
+              "spouseName": "Paula dos Santos",
+            },
+          },
+          "politicallyExposedPerson": Object {
+            "institution": "petrobras",
+            "isPEP": false,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "reason": "eleição em 2019",
+            "relationship": "bla",
+          },
+          "professionalInformation": Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "purposeWithTheInstitution": Array [
+            Object {
+              "name": "invest",
+              "text": "Invest",
+              "value": true,
+            },
+            Object {
+              "name": "acquire_finance",
+              "text": "Acquire Finance",
+              "value": true,
+            },
+            Object {
+              "additionalValue": null,
+              "aditionalValue": "string",
+              "name": "other",
+              "text": "Other",
+              "value": false,
+            },
+          ],
+          "relatedPerson": true,
+          "relatedPersonInformation": Object {
+            "institution": "petrobras",
+            "isRelated": true,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "relationship": "bla",
+          },
+          "representationAuthorization": true,
+          "taxResidences": Array [
+            Object {
+              "country": "brazil",
+              "taxIdentificationNumber": "654321",
+            },
+          ],
+        },
+      },
+      "isAuthenticating": true,
+      "isExiting": false,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": true,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <ConnectWrapper
+        createAuthCodeParams={
+          Object {
+            "actionType": "personRegistration.confirmInformation",
+            "payload": Object {
+              "id": null,
+              "informationChanged": false,
+            },
+          }
+        }
+        onMFAConfirmation={[Function]}
+        onMFAError={[Function]}
+        resendFunc={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm Should call openAuth with updated form 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": true,
+      "closeAll": null,
+      "formModel": Object {
+        "content": Object {
+          "attorneysInFact": Array [
+            Object {
+              "cpf": "11122233344",
+              "endDate": "06/25/2020",
+              "name": "Procurador 1",
+              "startDate": "06/25/2020",
+            },
+            Object {
+              "cpf": "55566677788",
+              "endDate": "06/25/2020",
+              "name": "Procurador 2",
+              "startDate": "06/25/2020",
+            },
+          ],
+          "bankReferences": Array [
+            Object {
+              "bankCode": "341",
+              "bankName": "Itaú",
+            },
+            Object {
+              "bankCode": "237",
+              "bankName": "Bradesco",
+            },
+          ],
+          "contacts": Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": "joaosilva@gmail.com",
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          },
+          "documents": Object {},
+          "fatcaInformation": Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 15,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 148,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority in Brazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "id": 123,
+          "investmentDetails": Object {
+            "estimatedAnnualIncome": Object {
+              "bonusesAndCommissions": Object {
+                "exactValue": null,
+                "rangeId": 1,
+              },
+              "others": Object {
+                "exactValue": null,
+                "rangeId": 3,
+              },
+              "salary": Object {
+                "exactValue": null,
+                "rangeId": 5,
+              },
+            },
+            "estimatedEquity": Object {
+              "exactValue": null,
+              "rangeId": 3,
+            },
+            "fixedAssets": Object {
+              "personalProperty": Object {
+                "rangeId": 6,
+              },
+              "realProperty": Object {
+                "rangeId": 5,
+              },
+            },
+            "liquidAssets": Object {
+              "bonds": Object {
+                "rangeId": 3,
+              },
+              "funds": Object {
+                "rangeId": 2,
+              },
+              "savings": Object {
+                "rangeId": 4,
+              },
+              "stocks": Object {
+                "rangeId": 1,
+              },
+            },
+            "rangeOptions": Array [
+              Object {
+                "id": 1,
+                "max": 0,
+                "min": 0,
+                "name": "I do not have",
+                "value": 1,
+              },
+              Object {
+                "id": 2,
+                "max": 3455,
+                "min": 1,
+                "name": "1.00 - 3,455.00",
+                "value": 2,
+              },
+              Object {
+                "id": 5,
+                "max": 30000.02,
+                "min": 3000.01,
+                "name": "3,000.01 - 30,000.02",
+                "value": 5,
+              },
+              Object {
+                "id": 4,
+                "max": 3000000.01,
+                "min": 10000.01,
+                "name": "10,000.01 - 3,000,000.01",
+                "value": 4,
+              },
+              Object {
+                "id": 6,
+                "max": 100000,
+                "min": 50000.01,
+                "name": "50,000.01 - 100,000.00",
+                "value": 6,
+              },
+              Object {
+                "id": 7,
+                "max": 100000,
+                "min": 100000.01,
+                "name": "Bigger than 100,000.01",
+                "value": 7,
+              },
+              Object {
+                "id": 3,
+                "max": 10000000000,
+                "min": 10000000.01,
+                "name": "10,000,000.01 - 10,000,000,000.00",
+                "value": 3,
+              },
+            ],
+            "sourceOfFunds": Array [
+              Object {
+                "name": "work",
+                "text": "Trabalho",
+                "value": true,
+              },
+              Object {
+                "name": "inheritance",
+                "text": "Herança",
+                "value": false,
+              },
+              Object {
+                "name": "donation",
+                "text": "Doação",
+                "value": false,
+              },
+              Object {
+                "additionalValue": "outra origem",
+                "name": "others",
+                "text": "Outros, especificar",
+                "value": true,
+              },
+            ],
+          },
+          "nonResidentInvestorInformation": Object {
+            "cvmOperationCode": "123456",
+            "legalRepresentative": Object {
+              "cnpj": "22222222222222",
+              "name": "representante legal",
+            },
+            "rdeNumber": "12345",
+            "taxRepresentative": "João das Neves",
+          },
+          "personInCharge": Object {
+            "contacts": Object {
+              "addresses": Array [
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "home",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "commercial",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "correspondence",
+                },
+              ],
+              "emails": Array [
+                Object {
+                  "address": "joao.da.silva@gmail.com",
+                  "type": "personal",
+                },
+                Object {
+                  "address": "joaosilva@bocombbm.com.br",
+                  "type": "commercial",
+                },
+              ],
+              "telephones": Array [
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "home",
+                },
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "commercial",
+                },
+                Object {
+                  "number": "11-99982-0911",
+                  "type": "cellphone",
+                },
+              ],
+            },
+            "cpf": "12345678910",
+            "name": "Nome do responsável",
+          },
+          "personalReferences": Array [
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29820911",
+              },
+            },
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza 2",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29825500",
+              },
+            },
+          ],
+          "personalRegistrationDetails": Object {
+            "birthCity": "Rio de Janeiro",
+            "birthCountry": "Brasil",
+            "birthState": "RJ",
+            "cpf": "12114474135",
+            "dateOfBirth": "1990-05-20",
+            "documentDateOfIssue": "2010-05-20",
+            "documentIssuingBody": "DETRAN RJ",
+            "documentNumber": "111111111",
+            "documentType": "RG",
+            "gender": "M",
+            "maritalStatus": "single",
+            "name": "João da Silva",
+            "parentsNames": Object {
+              "fathersName": "José da Silva",
+              "mothersName": "Maria da Silva",
+            },
+            "spouse": Object {
+              "spouseCpf": "12345678910",
+              "spouseName": "Paula dos Santos",
+            },
+          },
+          "politicallyExposedPerson": Object {
+            "institution": "petrobras",
+            "isPEP": false,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "reason": "eleição em 2019",
+            "relationship": "bla",
+          },
+          "professionalInformation": Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "purposeWithTheInstitution": Array [
+            Object {
+              "name": "invest",
+              "text": "Invest",
+              "value": true,
+            },
+            Object {
+              "name": "acquire_finance",
+              "text": "Acquire Finance",
+              "value": true,
+            },
+            Object {
+              "additionalValue": null,
+              "aditionalValue": "string",
+              "name": "other",
+              "text": "Other",
+              "value": false,
+            },
+          ],
+          "relatedPerson": true,
+          "relatedPersonInformation": Object {
+            "institution": "petrobras",
+            "isRelated": true,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "relationship": "bla",
+          },
+          "representationAuthorization": true,
+          "taxResidences": Array [
+            Object {
+              "country": "brazil",
+              "taxIdentificationNumber": "654321",
+            },
+          ],
+        },
+      },
+      "isAuthenticating": false,
+      "isExiting": false,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": true,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <styled.h1>
+        ATUCAD_HELLO
+        , 
+        João da Silva
+      </styled.h1>
+      <styled.h2>
+        ATUCAD_READ_BELOW
+      </styled.h2>
+      <styled.p>
+        <b>
+          João da Silva
+        </b>
+        , ATUCAD_ID_NUMBER 
+        <b>
+          111111111
+        </b>
+        , ATUCAD_ISSUED_BY 
+        <b>
+          DETRAN RJ
+        </b>
+        , ATUCAD_ON 
+        <b>
+          6/1/2010
+        </b>
+        , ATUCAD_AND_CPF_NUMBER 
+        <b>
+          121.144.741-35
+          .
+        </b>
+      </styled.p>
+    </styled.div>
+    <styled.div>
+      <PersonalDetails
+        disabled={false}
+        onChange={[Function]}
+        validateSection={[Function]}
+      />
+      <CorrespondenceAndContacts
+        disabled={false}
+        onChange={[Function]}
+        originalData={
+          Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": "joaosilva@gmail.com",
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          }
+        }
+        validateSection={[Function]}
+      />
+      <FinancialInformation
+        disabled={false}
+        onChange={[Function]}
+        validateSection={[Function]}
+      />
+    </styled.div>
+    <styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <styled.p>
+          <styled.span>
+            ATUCAD_ALERT_MESSAGE
+          </styled.span>
+          <span>
+            ATUCAD_ALERT_MESSAGE_2
+          </span>
+        </styled.p>
+      </AlertMessage>
+    </styled.div>
+    <styled.div>
+      <Button
+        dataTest="registration-data-form-confirm"
+        disabled={false}
+        loading={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "top": "l",
+          }
+        }
+        type="conclusive"
+      >
+        ATUCAD_UPDATE_INFORMATION
+      </Button>
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm Should call openToastr 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": true,
+      "closeAll": true,
+      "formModel": Object {
+        "content": Object {
+          "attorneysInFact": Array [
+            Object {
+              "cpf": "11122233344",
+              "endDate": "06/25/2020",
+              "name": "Procurador 1",
+              "startDate": "06/25/2020",
+            },
+            Object {
+              "cpf": "55566677788",
+              "endDate": "06/25/2020",
+              "name": "Procurador 2",
+              "startDate": "06/25/2020",
+            },
+          ],
+          "bankReferences": Array [
+            Object {
+              "bankCode": "341",
+              "bankName": "Itaú",
+            },
+            Object {
+              "bankCode": "237",
+              "bankName": "Bradesco",
+            },
+          ],
+          "contacts": Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": undefined,
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          },
+          "documents": Object {},
+          "fatcaInformation": Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 15,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 148,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority in Brazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "id": 123,
+          "investmentDetails": Object {
+            "estimatedAnnualIncome": Object {
+              "bonusesAndCommissions": Object {
+                "exactValue": null,
+                "rangeId": 1,
+              },
+              "others": Object {
+                "exactValue": null,
+                "rangeId": 3,
+              },
+              "salary": Object {
+                "exactValue": null,
+                "rangeId": 5,
+              },
+            },
+            "estimatedEquity": Object {
+              "exactValue": null,
+              "rangeId": 3,
+            },
+            "fixedAssets": Object {
+              "personalProperty": Object {
+                "rangeId": 6,
+              },
+              "realProperty": Object {
+                "rangeId": 5,
+              },
+            },
+            "liquidAssets": Object {
+              "bonds": Object {
+                "rangeId": 3,
+              },
+              "funds": Object {
+                "rangeId": 2,
+              },
+              "savings": Object {
+                "rangeId": 4,
+              },
+              "stocks": Object {
+                "rangeId": 1,
+              },
+            },
+            "rangeOptions": Array [
+              Object {
+                "id": 1,
+                "max": 0,
+                "min": 0,
+                "name": "I do not have",
+                "value": 1,
+              },
+              Object {
+                "id": 2,
+                "max": 3455,
+                "min": 1,
+                "name": "1.00 - 3,455.00",
+                "value": 2,
+              },
+              Object {
+                "id": 5,
+                "max": 30000.02,
+                "min": 3000.01,
+                "name": "3,000.01 - 30,000.02",
+                "value": 5,
+              },
+              Object {
+                "id": 4,
+                "max": 3000000.01,
+                "min": 10000.01,
+                "name": "10,000.01 - 3,000,000.01",
+                "value": 4,
+              },
+              Object {
+                "id": 6,
+                "max": 100000,
+                "min": 50000.01,
+                "name": "50,000.01 - 100,000.00",
+                "value": 6,
+              },
+              Object {
+                "id": 7,
+                "max": 100000,
+                "min": 100000.01,
+                "name": "Bigger than 100,000.01",
+                "value": 7,
+              },
+              Object {
+                "id": 3,
+                "max": 10000000000,
+                "min": 10000000.01,
+                "name": "10,000,000.01 - 10,000,000,000.00",
+                "value": 3,
+              },
+            ],
+            "sourceOfFunds": Array [
+              Object {
+                "name": "work",
+                "text": "Trabalho",
+                "value": true,
+              },
+              Object {
+                "name": "inheritance",
+                "text": "Herança",
+                "value": false,
+              },
+              Object {
+                "name": "donation",
+                "text": "Doação",
+                "value": false,
+              },
+              Object {
+                "additionalValue": "outra origem",
+                "name": "others",
+                "text": "Outros, especificar",
+                "value": true,
+              },
+            ],
+          },
+          "nonResidentInvestorInformation": Object {
+            "cvmOperationCode": "123456",
+            "legalRepresentative": Object {
+              "cnpj": "22222222222222",
+              "name": "representante legal",
+            },
+            "rdeNumber": "12345",
+            "taxRepresentative": "João das Neves",
+          },
+          "personInCharge": Object {
+            "contacts": Object {
+              "addresses": Array [
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "home",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "commercial",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "correspondence",
+                },
+              ],
+              "emails": Array [
+                Object {
+                  "address": "joao.da.silva@gmail.com",
+                  "type": "personal",
+                },
+                Object {
+                  "address": "joaosilva@bocombbm.com.br",
+                  "type": "commercial",
+                },
+              ],
+              "telephones": Array [
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "home",
+                },
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "commercial",
+                },
+                Object {
+                  "number": "11-99982-0911",
+                  "type": "cellphone",
+                },
+              ],
+            },
+            "cpf": "12345678910",
+            "name": "Nome do responsável",
+          },
+          "personalReferences": Array [
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29820911",
+              },
+            },
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza 2",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29825500",
+              },
+            },
+          ],
+          "personalRegistrationDetails": Object {
+            "birthCity": "Rio de Janeiro",
+            "birthCountry": "Brasil",
+            "birthState": "RJ",
+            "cpf": "12114474135",
+            "dateOfBirth": "1990-05-20",
+            "documentDateOfIssue": "2010-05-20",
+            "documentIssuingBody": "DETRAN RJ",
+            "documentNumber": "111111111",
+            "documentType": "RG",
+            "gender": "M",
+            "maritalStatus": "single",
+            "name": "João da Silva",
+            "parentsNames": Object {
+              "fathersName": "José da Silva",
+              "mothersName": "Maria da Silva",
+            },
+            "spouse": Object {
+              "spouseCpf": "12345678910",
+              "spouseName": "Paula dos Santos",
+            },
+          },
+          "politicallyExposedPerson": Object {
+            "institution": "petrobras",
+            "isPEP": false,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "reason": "eleição em 2019",
+            "relationship": "bla",
+          },
+          "professionalInformation": Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "purposeWithTheInstitution": Array [
+            Object {
+              "name": "invest",
+              "text": "Invest",
+              "value": true,
+            },
+            Object {
+              "name": "acquire_finance",
+              "text": "Acquire Finance",
+              "value": true,
+            },
+            Object {
+              "additionalValue": null,
+              "aditionalValue": "string",
+              "name": "other",
+              "text": "Other",
+              "value": false,
+            },
+          ],
+          "relatedPerson": true,
+          "relatedPersonInformation": Object {
+            "institution": "petrobras",
+            "isRelated": true,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "relationship": "bla",
+          },
+          "representationAuthorization": true,
+          "taxResidences": Array [
+            Object {
+              "country": "brazil",
+              "taxIdentificationNumber": "654321",
+            },
+          ],
+        },
+      },
+      "isAuthenticating": false,
+      "isExiting": false,
+      "isFilled": Object {},
+      "isImpersonating": null,
+      "loading": true,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <styled.h1>
+        ATUCAD_HELLO
+        , 
+        João da Silva
+      </styled.h1>
+      <styled.h2>
+        ATUCAD_READ_BELOW
+      </styled.h2>
+      <styled.p>
+        <b>
+          João da Silva
+        </b>
+        , ATUCAD_ID_NUMBER 
+        <b>
+          111111111
+        </b>
+        , ATUCAD_ISSUED_BY 
+        <b>
+          DETRAN RJ
+        </b>
+        , ATUCAD_ON 
+        <b>
+          6/1/2010
+        </b>
+        , ATUCAD_AND_CPF_NUMBER 
+        <b>
+          121.144.741-35
+          .
+        </b>
+      </styled.p>
+    </styled.div>
+    <styled.div>
+      <PersonalDetails
+        disabled={false}
+        onChange={[Function]}
+        validateSection={[Function]}
+      />
+      <CorrespondenceAndContacts
+        disabled={false}
+        onChange={[Function]}
+        originalData={
+          Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": undefined,
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          }
+        }
+        validateSection={[Function]}
+      />
+      <FinancialInformation
+        disabled={false}
+        onChange={[Function]}
+        validateSection={[Function]}
+      />
+    </styled.div>
+    <styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="neutral"
+      >
+        <styled.p>
+          <styled.span>
+            ATUCAD_ALERT_MESSAGE
+          </styled.span>
+          <span>
+            ATUCAD_ALERT_MESSAGE_2
+          </span>
+        </styled.p>
+      </AlertMessage>
+    </styled.div>
+    <styled.div>
+      <Button
+        dataTest="registration-data-form-confirm"
+        disabled={false}
+        loading={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "top": "l",
+          }
+        }
+        type="conclusive"
+      >
+        ATUCAD_UPDATE_INFORMATION
+      </Button>
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm should call validateSection with canUpdate as false 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": false,
+      "closeAll": null,
+      "formModel": Object {
+        "content": Object {
+          "attorneysInFact": Array [
+            Object {
+              "cpf": "11122233344",
+              "endDate": "06/25/2020",
+              "name": "Procurador 1",
+              "startDate": "06/25/2020",
+            },
+            Object {
+              "cpf": "55566677788",
+              "endDate": "06/25/2020",
+              "name": "Procurador 2",
+              "startDate": "06/25/2020",
+            },
+          ],
+          "bankReferences": Array [
+            Object {
+              "bankCode": "341",
+              "bankName": "Itaú",
+            },
+            Object {
+              "bankCode": "237",
+              "bankName": "Bradesco",
+            },
+          ],
+          "contacts": Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": "joaosilva@gmail.com",
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          },
+          "documents": Object {},
+          "fatcaInformation": Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 15,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 148,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority in Brazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "id": 123,
+          "investmentDetails": Object {
+            "estimatedAnnualIncome": Object {
+              "bonusesAndCommissions": Object {
+                "exactValue": null,
+                "rangeId": 1,
+              },
+              "others": Object {
+                "exactValue": null,
+                "rangeId": 3,
+              },
+              "salary": Object {
+                "exactValue": null,
+                "rangeId": 5,
+              },
+            },
+            "estimatedEquity": Object {
+              "exactValue": null,
+              "rangeId": 3,
+            },
+            "fixedAssets": Object {
+              "personalProperty": Object {
+                "rangeId": 6,
+              },
+              "realProperty": Object {
+                "rangeId": 5,
+              },
+            },
+            "liquidAssets": Object {
+              "bonds": Object {
+                "rangeId": 3,
+              },
+              "funds": Object {
+                "rangeId": 2,
+              },
+              "savings": Object {
+                "rangeId": 4,
+              },
+              "stocks": Object {
+                "rangeId": 1,
+              },
+            },
+            "rangeOptions": Array [
+              Object {
+                "id": 1,
+                "max": 0,
+                "min": 0,
+                "name": "I do not have",
+                "value": 1,
+              },
+              Object {
+                "id": 2,
+                "max": 3455,
+                "min": 1,
+                "name": "1.00 - 3,455.00",
+                "value": 2,
+              },
+              Object {
+                "id": 5,
+                "max": 30000.02,
+                "min": 3000.01,
+                "name": "3,000.01 - 30,000.02",
+                "value": 5,
+              },
+              Object {
+                "id": 4,
+                "max": 3000000.01,
+                "min": 10000.01,
+                "name": "10,000.01 - 3,000,000.01",
+                "value": 4,
+              },
+              Object {
+                "id": 6,
+                "max": 100000,
+                "min": 50000.01,
+                "name": "50,000.01 - 100,000.00",
+                "value": 6,
+              },
+              Object {
+                "id": 7,
+                "max": 100000,
+                "min": 100000.01,
+                "name": "Bigger than 100,000.01",
+                "value": 7,
+              },
+              Object {
+                "id": 3,
+                "max": 10000000000,
+                "min": 10000000.01,
+                "name": "10,000,000.01 - 10,000,000,000.00",
+                "value": 3,
+              },
+            ],
+            "sourceOfFunds": Array [
+              Object {
+                "name": "work",
+                "text": "Trabalho",
+                "value": true,
+              },
+              Object {
+                "name": "inheritance",
+                "text": "Herança",
+                "value": false,
+              },
+              Object {
+                "name": "donation",
+                "text": "Doação",
+                "value": false,
+              },
+              Object {
+                "additionalValue": "outra origem",
+                "name": "others",
+                "text": "Outros, especificar",
+                "value": true,
+              },
+            ],
+          },
+          "nonResidentInvestorInformation": Object {
+            "cvmOperationCode": "123456",
+            "legalRepresentative": Object {
+              "cnpj": "22222222222222",
+              "name": "representante legal",
+            },
+            "rdeNumber": "12345",
+            "taxRepresentative": "João das Neves",
+          },
+          "personInCharge": Object {
+            "contacts": Object {
+              "addresses": Array [
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "home",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "commercial",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "correspondence",
+                },
+              ],
+              "emails": Array [
+                Object {
+                  "address": "joao.da.silva@gmail.com",
+                  "type": "personal",
+                },
+                Object {
+                  "address": "joaosilva@bocombbm.com.br",
+                  "type": "commercial",
+                },
+              ],
+              "telephones": Array [
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "home",
+                },
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "commercial",
+                },
+                Object {
+                  "number": "11-99982-0911",
+                  "type": "cellphone",
+                },
+              ],
+            },
+            "cpf": "12345678910",
+            "name": "Nome do responsável",
+          },
+          "personalReferences": Array [
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29820911",
+              },
+            },
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza 2",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29825500",
+              },
+            },
+          ],
+          "personalRegistrationDetails": Object {
+            "birthCity": "Rio de Janeiro",
+            "birthCountry": "Brasil",
+            "birthState": "RJ",
+            "cpf": "12114474135",
+            "dateOfBirth": "1990-05-20",
+            "documentDateOfIssue": "2010-05-20",
+            "documentIssuingBody": "DETRAN RJ",
+            "documentNumber": "111111111",
+            "documentType": "RG",
+            "gender": "M",
+            "maritalStatus": "single",
+            "name": "João da Silva",
+            "parentsNames": Object {
+              "fathersName": "José da Silva",
+              "mothersName": "Maria da Silva",
+            },
+            "spouse": Object {
+              "spouseCpf": "12345678910",
+              "spouseName": "Paula dos Santos",
+            },
+          },
+          "politicallyExposedPerson": Object {
+            "institution": "petrobras",
+            "isPEP": false,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "reason": "eleição em 2019",
+            "relationship": "bla",
+          },
+          "professionalInformation": Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "purposeWithTheInstitution": Array [
+            Object {
+              "name": "invest",
+              "text": "Invest",
+              "value": true,
+            },
+            Object {
+              "name": "acquire_finance",
+              "text": "Acquire Finance",
+              "value": true,
+            },
+            Object {
+              "additionalValue": null,
+              "aditionalValue": "string",
+              "name": "other",
+              "text": "Other",
+              "value": false,
+            },
+          ],
+          "relatedPerson": true,
+          "relatedPersonInformation": Object {
+            "institution": "petrobras",
+            "isRelated": true,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "relationship": "bla",
+          },
+          "representationAuthorization": true,
+          "taxResidences": Array [
+            Object {
+              "country": "brazil",
+              "taxIdentificationNumber": "654321",
+            },
+          ],
+        },
+      },
+      "isAuthenticating": true,
+      "isExiting": false,
+      "isFilled": Object {
+        "documents": true,
+      },
+      "isImpersonating": null,
+      "loading": false,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <ConnectWrapper
+        createAuthCodeParams={
+          Object {
+            "actionType": "personRegistration.confirmInformation",
+            "payload": Object {
+              "id": null,
+              "informationChanged": false,
+            },
+          }
+        }
+        onMFAConfirmation={[Function]}
+        onMFAError={[Function]}
+        resendFunc={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;
+
+exports[`RegistrationDataForm should call validateSection with canUpdate as true 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "agree": true,
+      "canUpdate": true,
+      "closeAll": null,
+      "formModel": Object {
+        "content": Object {
+          "attorneysInFact": Array [
+            Object {
+              "cpf": "11122233344",
+              "endDate": "06/25/2020",
+              "name": "Procurador 1",
+              "startDate": "06/25/2020",
+            },
+            Object {
+              "cpf": "55566677788",
+              "endDate": "06/25/2020",
+              "name": "Procurador 2",
+              "startDate": "06/25/2020",
+            },
+          ],
+          "bankReferences": Array [
+            Object {
+              "bankCode": "341",
+              "bankName": "Itaú",
+            },
+            Object {
+              "bankCode": "237",
+              "bankName": "Bradesco",
+            },
+          ],
+          "contacts": Object {
+            "addresses": Array [
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "home",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "commercial",
+              },
+              Object {
+                "address": "Rua brigadeiro Faria Limas",
+                "cep": "22631-902",
+                "city": "São Paulo",
+                "complement": "casa 2",
+                "country": "Brazil",
+                "district": "Bairro",
+                "number": "124",
+                "state": "SP",
+                "type": "correspondence",
+              },
+            ],
+            "emails": Array [
+              Object {
+                "address": "joaosilva@gmail.com",
+                "type": "personal",
+              },
+              Object {
+                "address": "joao.da.silva@bancombbm.com.br",
+                "type": "commercial",
+              },
+            ],
+            "telephones": Array [
+              Object {
+                "ddd": 11,
+                "number": "33330911",
+                "type": "home",
+              },
+              Object {
+                "ddd": 11,
+                "number": "29820911",
+                "type": "commercial",
+              },
+              Object {
+                "ddd": 11,
+                "number": "999820911",
+                "type": "cellphone",
+              },
+            ],
+          },
+          "documents": Object {},
+          "fatcaInformation": Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 15,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 148,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority in Brazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "id": 123,
+          "investmentDetails": Object {
+            "estimatedAnnualIncome": Object {
+              "bonusesAndCommissions": Object {
+                "exactValue": null,
+                "rangeId": 1,
+              },
+              "others": Object {
+                "exactValue": null,
+                "rangeId": 3,
+              },
+              "salary": Object {
+                "exactValue": null,
+                "rangeId": 5,
+              },
+            },
+            "estimatedEquity": Object {
+              "exactValue": null,
+              "rangeId": 3,
+            },
+            "fixedAssets": Object {
+              "personalProperty": Object {
+                "rangeId": 6,
+              },
+              "realProperty": Object {
+                "rangeId": 5,
+              },
+            },
+            "liquidAssets": Object {
+              "bonds": Object {
+                "rangeId": 3,
+              },
+              "funds": Object {
+                "rangeId": 2,
+              },
+              "savings": Object {
+                "rangeId": 4,
+              },
+              "stocks": Object {
+                "rangeId": 1,
+              },
+            },
+            "rangeOptions": Array [
+              Object {
+                "id": 1,
+                "max": 0,
+                "min": 0,
+                "name": "I do not have",
+                "value": 1,
+              },
+              Object {
+                "id": 2,
+                "max": 3455,
+                "min": 1,
+                "name": "1.00 - 3,455.00",
+                "value": 2,
+              },
+              Object {
+                "id": 5,
+                "max": 30000.02,
+                "min": 3000.01,
+                "name": "3,000.01 - 30,000.02",
+                "value": 5,
+              },
+              Object {
+                "id": 4,
+                "max": 3000000.01,
+                "min": 10000.01,
+                "name": "10,000.01 - 3,000,000.01",
+                "value": 4,
+              },
+              Object {
+                "id": 6,
+                "max": 100000,
+                "min": 50000.01,
+                "name": "50,000.01 - 100,000.00",
+                "value": 6,
+              },
+              Object {
+                "id": 7,
+                "max": 100000,
+                "min": 100000.01,
+                "name": "Bigger than 100,000.01",
+                "value": 7,
+              },
+              Object {
+                "id": 3,
+                "max": 10000000000,
+                "min": 10000000.01,
+                "name": "10,000,000.01 - 10,000,000,000.00",
+                "value": 3,
+              },
+            ],
+            "sourceOfFunds": Array [
+              Object {
+                "name": "work",
+                "text": "Trabalho",
+                "value": true,
+              },
+              Object {
+                "name": "inheritance",
+                "text": "Herança",
+                "value": false,
+              },
+              Object {
+                "name": "donation",
+                "text": "Doação",
+                "value": false,
+              },
+              Object {
+                "additionalValue": "outra origem",
+                "name": "others",
+                "text": "Outros, especificar",
+                "value": true,
+              },
+            ],
+          },
+          "nonResidentInvestorInformation": Object {
+            "cvmOperationCode": "123456",
+            "legalRepresentative": Object {
+              "cnpj": "22222222222222",
+              "name": "representante legal",
+            },
+            "rdeNumber": "12345",
+            "taxRepresentative": "João das Neves",
+          },
+          "personInCharge": Object {
+            "contacts": Object {
+              "addresses": Array [
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "home",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "commercial",
+                },
+                Object {
+                  "address": "Rua brigadeiro Faria Limas",
+                  "cep": "22631-902",
+                  "city": "São Paulo",
+                  "complement": "casa 2",
+                  "country": "Brazil",
+                  "district": "Bairro",
+                  "number": "124",
+                  "state": "SP",
+                  "type": "correspondence",
+                },
+              ],
+              "emails": Array [
+                Object {
+                  "address": "joao.da.silva@gmail.com",
+                  "type": "personal",
+                },
+                Object {
+                  "address": "joaosilva@bocombbm.com.br",
+                  "type": "commercial",
+                },
+              ],
+              "telephones": Array [
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "home",
+                },
+                Object {
+                  "number": "11-2982-0911",
+                  "type": "commercial",
+                },
+                Object {
+                  "number": "11-99982-0911",
+                  "type": "cellphone",
+                },
+              ],
+            },
+            "cpf": "12345678910",
+            "name": "Nome do responsável",
+          },
+          "personalReferences": Array [
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29820911",
+              },
+            },
+            Object {
+              "kinship": "Cousin",
+              "name": "Paula Fernandez de Souza 2",
+              "telephone": Object {
+                "ddd": 11,
+                "number": "29825500",
+              },
+            },
+          ],
+          "personalRegistrationDetails": Object {
+            "birthCity": "Rio de Janeiro",
+            "birthCountry": "Brasil",
+            "birthState": "RJ",
+            "cpf": "12114474135",
+            "dateOfBirth": "1990-05-20",
+            "documentDateOfIssue": "2010-05-20",
+            "documentIssuingBody": "DETRAN RJ",
+            "documentNumber": "111111111",
+            "documentType": "RG",
+            "gender": "M",
+            "maritalStatus": "single",
+            "name": "João da Silva",
+            "parentsNames": Object {
+              "fathersName": "José da Silva",
+              "mothersName": "Maria da Silva",
+            },
+            "spouse": Object {
+              "spouseCpf": "12345678910",
+              "spouseName": "Paula dos Santos",
+            },
+          },
+          "politicallyExposedPerson": Object {
+            "institution": "petrobras",
+            "isPEP": false,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "reason": "eleição em 2019",
+            "relationship": "bla",
+          },
+          "professionalInformation": Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "purposeWithTheInstitution": Array [
+            Object {
+              "name": "invest",
+              "text": "Invest",
+              "value": true,
+            },
+            Object {
+              "name": "acquire_finance",
+              "text": "Acquire Finance",
+              "value": true,
+            },
+            Object {
+              "additionalValue": null,
+              "aditionalValue": "string",
+              "name": "other",
+              "text": "Other",
+              "value": false,
+            },
+          ],
+          "relatedPerson": true,
+          "relatedPersonInformation": Object {
+            "institution": "petrobras",
+            "isRelated": true,
+            "jobTitle": "diretor",
+            "name": "nome",
+            "relationship": "bla",
+          },
+          "representationAuthorization": true,
+          "taxResidences": Array [
+            Object {
+              "country": "brazil",
+              "taxIdentificationNumber": "654321",
+            },
+          ],
+        },
+      },
+      "isAuthenticating": true,
+      "isExiting": false,
+      "isFilled": Object {
+        "documents": Object {},
+      },
+      "isImpersonating": null,
+      "loading": false,
+      "personalDataToken": null,
+      "shimmerLoding": true,
+      "submitUpdatedForm": false,
+      "temporaryInvalidFields": Object {},
+    }
+  }
+>
+  <styled.div>
+    <ConnectWrapper
+      dataTest="registration-data-close"
+      onClickBack={null}
+      onClickClose={[Function]}
+      title="ATUCAD_KEEP_YOUR_REGISTRATION_UP_TO_DATE"
+    />
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <styled.div>
+      <ConnectWrapper
+        createAuthCodeParams={
+          Object {
+            "actionType": "personRegistration.confirmInformation",
+            "payload": Object {
+              "id": null,
+              "informationChanged": false,
+            },
+          }
+        }
+        onMFAConfirmation={[Function]}
+        onMFAError={[Function]}
+        resendFunc={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ContextProvider>
+`;

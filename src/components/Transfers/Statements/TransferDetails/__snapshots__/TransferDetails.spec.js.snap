@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferDetails component should match snapshot 1`] = `
+<styled.div>
+  <Avatar
+    avatarSize={64}
+    background="#eef1f3"
+    borderColor={null}
+    color="#2d4758"
+    fontSize={18}
+    iconName={null}
+    iconSize={20}
+    name={null}
+  />
+  <styled.div />
+  <styled.div>
+    Jun 1st 2010
+  </styled.div>
+  <styled.div
+    dataTest="TransferDetailedAmount"
+    value={-800.5}
+  />
+  <styled.div>
+    <Button
+      dataTest="closeVoucherButton"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+  </styled.div>
+</styled.div>
+`;

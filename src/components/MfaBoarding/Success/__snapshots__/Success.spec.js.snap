@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success component should match snapshot with props 1`] = `
+<styled.div>
+  <styled.img
+    data-test="MfaSuccessImage"
+    src="test-file-stub"
+  />
+  <styled.p />
+  <styled.p />
+  <ConnectWrapper>
+    <Styled(Button)
+      dataTest="MfaSuccessButton"
+      onClick={[Function]}
+    />
+  </ConnectWrapper>
+</styled.div>
+`;

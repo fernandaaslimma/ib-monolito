@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds Tab should match snapshot  1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <RadioButtonRounded
+        buttonValue="undefined"
+        disabled={false}
+        itemKey={0}
+        key="0"
+        radioName="activeRadio"
+        setValue={[Function]}
+      />
+      <RadioButtonRounded
+        buttonValue="undefined"
+        disabled={false}
+        itemKey={1}
+        key="1"
+        radioName="activeRadio"
+        setValue={[Function]}
+      />
+      <RadioButtonRounded
+        buttonValue="undefined"
+        disabled={false}
+        itemKey={2}
+        key="2"
+        radioName="activeRadio"
+        setValue={[Function]}
+      />
+    </styled.div>
+    <styled.div>
+      <Button
+        dataTest="filterButton"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="outline"
+        withIcon={
+          Object {
+            "name": "CalendarEmpty",
+            "position": "left",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <TransactionsCard
+      dataTest="card_0"
+      dataX="card"
+      formatTitle={[Function]}
+      item={
+        Object {
+          "assetName": "IBIUNA HEDGE ST FEEDER I FIC MULTIMERCADO",
+          "assetType": "Funds",
+          "assetTypeLabel": "Fundos",
+          "date": "2021-05-14",
+          "grossValue": 47072.59,
+          "incomeTax": 0,
+          "iof": 0,
+          "netValue": 47072.59,
+          "type": "APLICAÇÃO",
+        }
+      }
+      key="0"
+    />
+    <styled.span
+      data-test="viewMore"
+      onClick={[Function]}
+    />
+    <LinkCard
+      fontSize={14}
+      iconType="FiLoader"
+      noSpan={true}
+      to="/investments/transactions/funds"
+      withUnderline={true}
+    />
+  </styled.div>
+  <ConnectWrapper
+    roles={
+      Array [
+        "GetInvestmentFunds",
+      ]
+    }
+    userInfo={
+      Object {
+        "tenants": Array [
+          "Individual",
+        ],
+      }
+    }
+  >
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </ConnectWrapper>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <RadioButtonRounded
+          buttonValue="7 undefined"
+          itemKey={0}
+          key="0"
+          radioName="periodRadio"
+          setValue={[Function]}
+        />
+        <RadioButtonRounded
+          buttonValue="15 undefined"
+          itemKey={1}
+          key="1"
+          radioName="periodRadio"
+          setValue={[Function]}
+        />
+        <RadioButtonRounded
+          buttonValue="30 undefined"
+          itemKey={2}
+          key="2"
+          radioName="periodRadio"
+          setValue={[Function]}
+        />
+        <RadioButtonRounded
+          buttonValue="60 undefined"
+          itemKey={3}
+          key="3"
+          radioName="periodRadio"
+          setValue={[Function]}
+        />
+      </styled.div>
+      <styled.div />
+      <styled.div>
+        <Input
+          dataTest="filterDateFrom"
+          disableKeys={Array []}
+          disabled={false}
+          icon={null}
+          inputMode="numeric"
+          label={null}
+          maskType="datetime"
+          name="date"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          required={[Function]}
+          tinyLabels={null}
+          type="text"
+          valid={false}
+          value=""
+        />
+        <Input
+          dataTest="filterDateTo"
+          disableKeys={Array []}
+          disabled={false}
+          icon={null}
+          inputMode="numeric"
+          label={null}
+          maskType="datetime"
+          name="date"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          required={[Function]}
+          tinyLabels={null}
+          type="text"
+          valid={false}
+          value=""
+        />
+      </styled.div>
+      <styled.div>
+        <Button
+          dataTest="clearFilterButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="outline"
+        />
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;

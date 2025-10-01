@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractOverview component should match snapshot with empty values 1`] = `
+<styled.div
+  isBuy={false}
+>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="TYPE_OF_TRANSACTION"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="0.00"
+      icon={null}
+      title="VALUE_OF_FOREIGN_CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="0.00"
+      icon={null}
+      title="VALUE_OF_NATIONAL_CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="NATURE_OF_EXCHANGE"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="0"
+      icon={null}
+      title="EXCHANGE_RATE"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="TRADE_DATE"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+  <Styled(styled.span) />
+</styled.div>
+`;
+
+exports[`ContractOverview component should match snapshot with values 1`] = `
+<styled.div
+  isBuy={true}
+>
+  <styled.div>
+    <DataItem
+      data="buy"
+      icon={null}
+      title="TYPE_OF_TRANSACTION"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="BRL"
+      icon={null}
+      title="CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="R$12,321,321,321.00"
+      icon={null}
+      title="VALUE_OF_FOREIGN_CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="$23,123,312,213.00"
+      icon={null}
+      title="VALUE_OF_NATIONAL_CURRENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="some nature"
+      icon={null}
+      title="NATURE_OF_EXCHANGE"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="3.213"
+      icon={null}
+      title="EXCHANGE_RATE"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="01/01/2018"
+      icon={null}
+      title="TRADE_DATE"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+  <Styled(styled.span) />
+</styled.div>
+`;

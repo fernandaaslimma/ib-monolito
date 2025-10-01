@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmStep should match snapshot 1`] = `
+<styled.div>
+  <styled.span
+    id="ConfirmStep"
+  />
+  <ResumeCard
+    alertMsg={null}
+    cardMessage={null}
+    cardTitle={null}
+    dataTest="ResumeCardConfirmStep"
+    destiny="Mock Name"
+    destinyLogoUri="http://localhost/logo.svg"
+    destinyName="Mock Name"
+    document="11021550205"
+    expiration="2010-12-01T03:01:01.000Z"
+    name={null}
+    purpose="MOTIVO DE CREDITO"
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="changeRenewBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="changeRenewConfirmButton"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

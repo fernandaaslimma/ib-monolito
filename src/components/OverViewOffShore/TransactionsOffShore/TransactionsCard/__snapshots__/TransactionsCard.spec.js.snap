@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statements Statements Cards should match snapshot cwith title fixed income 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements Statements Cards should match snapshot some day 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements Statements Cards should match snapshot today 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements Statements Cards should match snapshot with last year 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements Statements Cards should match snapshot with title equity income 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements Statements Cards should match snapshot yesterday 1`] = `
+<styled.div>
+  <styled.p
+    data-test="dateCard"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.span>
+        <styled.p
+          data-test="Time Deposit"
+        >
+          Time Deposit
+        </styled.p>
+        <styled.span />
+      </styled.span>
+    </styled.div>
+    <br />
+    <styled.div>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          undefined NaN
+        </styled.span>
+      </styled.span>
+      <styled.span>
+        <styled.p />
+        <styled.span>
+          APLICAÇÃO
+        </styled.span>
+      </styled.span>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

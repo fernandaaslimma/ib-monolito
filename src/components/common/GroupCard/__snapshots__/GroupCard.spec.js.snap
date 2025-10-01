@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should match snapshot with children 1`] = `
+<styled.section
+  blockedBox={false}
+  hasChildren={true}
+  pendingBox={false}
+  recipientsSize={null}
+  status={null}
+  waitingBox={false}
+>
+  <styled.header>
+    <styled.span>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Cash"
+        width={null}
+      />
+    </styled.span>
+    <styled.h1
+      titleColor={null}
+    >
+      ok
+    </styled.h1>
+  </styled.header>
+  bla
+</styled.section>
+`;
+
+exports[`Card component should match snapshot with empty content 1`] = `
+<styled.section
+  blockedBox={false}
+  hasChildren={false}
+  pendingBox={false}
+  recipientsSize={null}
+  status={null}
+  waitingBox={false}
+/>
+`;
+
+exports[`Card component should match snapshot with icon 1`] = `
+<styled.section
+  blockedBox={false}
+  hasChildren={false}
+  pendingBox={false}
+  recipientsSize={null}
+  status={null}
+  waitingBox={false}
+>
+  <styled.header>
+    <styled.span>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Cash"
+        width={null}
+      />
+    </styled.span>
+  </styled.header>
+</styled.section>
+`;
+
+exports[`Card component should match snapshot with title 1`] = `
+<styled.section
+  blockedBox={false}
+  hasChildren={false}
+  pendingBox={false}
+  recipientsSize={null}
+  status={null}
+  waitingBox={false}
+>
+  <styled.header>
+    <styled.span>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Cash"
+        width={null}
+      />
+    </styled.span>
+    <styled.h1
+      titleColor={null}
+    >
+      ok
+    </styled.h1>
+  </styled.header>
+</styled.section>
+`;
+
+exports[`Card component should match snapshot with title and icon 1`] = `
+<styled.section
+  blockedBox={false}
+  hasChildren={false}
+  pendingBox={false}
+  recipientsSize={null}
+  status={null}
+  waitingBox={false}
+>
+  <styled.header>
+    <styled.span>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Cash"
+        width={null}
+      />
+    </styled.span>
+    <styled.h1
+      titleColor={null}
+    >
+      ok
+    </styled.h1>
+  </styled.header>
+</styled.section>
+`;

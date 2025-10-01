@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Voucher component Should render component to match snapshot 1`] = `
+<div>
+  <section
+    className="sc-EHOje iCPPJD"
+  >
+    <section
+      className="sc-dnqmqq hLzrxO"
+    >
+      <div
+        className="sc-htoDjs ilsOVI"
+      >
+        <span
+          className="sc-bdVaJa kLvdrh"
+        />
+        <span
+          className="sc-bwzfXH jwMvKm"
+        >
+          2021-02-16
+        </span>
+      </div>
+      <div
+        className="sc-htoDjs ilsOVI"
+      >
+        <span
+          className="sc-htpNat dPRQJy"
+        />
+        <span
+          className="sc-bxivhb hplFIb"
+          data-test="VoucherAmount"
+        >
+          USD 1.913,13
+        </span>
+      </div>
+    </section>
+    <section
+      className="sc-gZMcBi crAViM"
+    >
+      <span
+        className="receiverAccount sc-gqjmRU kTDDzv"
+      />
+      <section
+        className="sc-chPdSV kXRBnR"
+      >
+        <span
+          className="sc-iwsKbI fqLTYp"
+          color={null}
+          height="40"
+          width="40"
+        >
+          <svg
+            fill="none"
+            height="36"
+            viewBox="0 0 36 36"
+            width="36"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="18"
+              cy="18"
+              fill="white"
+              r="17.5"
+              stroke="#D9E0E4"
+            />
+            <path
+              clipRule="evenodd"
+              d="M17.238 8.07258C17.3987 7.97581 17.6013 7.97581 17.762 8.07258L25.762 12.8898C25.9099 12.9788 26 13.1366 26 13.3065V14.5108C26 14.781 25.7761 15 25.5 15H9.5C9.22386 15 9 14.781 9 14.5108V13.3065C9 13.1366 9.09008 12.9788 9.23795 12.8898L17.238 8.07258ZM10 13.5798V14.0215H25V13.5798L17.5 9.06371L10 13.5798Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M9 22.4333C9 22.194 9.22386 22 9.5 22H25.5C25.7761 22 26 22.194 26 22.4333V24.5667C26 24.806 25.7761 25 25.5 25H9.5C9.22386 25 9 24.806 9 24.5667V22.4333ZM10 22.8667V24.1333H25V22.8667H10Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M11.5 15C11.7761 15 12 15.219 12 15.4892V21.5108C12 21.781 11.7761 22 11.5 22C11.2239 22 11 21.781 11 21.5108V15.4892C11 15.219 11.2239 15 11.5 15Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M14.5 15C14.7761 15 15 15.219 15 15.4892V21.5108C15 21.781 14.7761 22 14.5 22C14.2239 22 14 21.781 14 21.5108V15.4892C14 15.219 14.2239 15 14.5 15Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M20.5 15C20.7761 15 21 15.219 21 15.4892V21.5108C21 21.781 20.7761 22 20.5 22C20.2239 22 20 21.781 20 21.5108V15.4892C20 15.219 20.2239 15 20.5 15Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M23.5 15C23.7761 15 24 15.219 24 15.4892V21.5108C24 21.781 23.7761 22 23.5 22C23.2239 22 23 21.781 23 21.5108V15.4892C23 15.219 23.2239 15 23.5 15Z"
+              fill="#2D4758"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <section
+          className="sc-VigVT bZgaVc"
+          data-test="BankInfo_Destination"
+        >
+          <span
+            className="sc-jTzLTM iTBAvM"
+          >
+             -
+             
+            <span
+              className="sc-fjdhpX kGClWn sc-jTzLTM iTBAvM"
+            />
+          </span>
+        </section>
+      </section>
+      <section
+        className="sc-kgoBCf cOQDZM"
+      >
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+          >
+            Jane Lucia
+          </span>
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          >
+            CPF
+          </span>
+          <span
+            className="sc-cSHVUG gPcjSF"
+          >
+            string
+          </span>
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+            data-test="VoucherAgency_Destination"
+          />
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+            data-test="VoucherCashAccount_Destination"
+          >
+            string-X
+          </span>
+        </div>
+      </section>
+    </section>
+    <hr
+      className="sc-ifAKCX ifwbGO"
+    />
+    <section
+      className="sc-gZMcBi crAViM"
+    >
+      <span
+        className="receiverAccount sc-gqjmRU kTDDzv"
+      />
+      <section
+        className="sc-chPdSV kXRBnR"
+      >
+        <span
+          className="sc-iwsKbI fqLTYp"
+          color={null}
+          height="40"
+          width="40"
+        >
+          <svg
+            fill="none"
+            height="36"
+            viewBox="0 0 36 36"
+            width="36"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              fill="white"
+              height="35"
+              rx="5.5"
+              stroke="#D9E0E4"
+              width="35"
+              x="0.5"
+              y="0.5"
+            />
+            <circle
+              cx="18"
+              cy="18"
+              fill="white"
+              r="17"
+            />
+            <path
+              clipRule="evenodd"
+              d="M21.9699 14.4962H22.4032C22.9004 14.4962 23.3817 14.5428 23.3817 15.0359C23.3817 15.4924 22.8761 15.6077 22.3874 15.6077H21.9699V14.4962ZM21.9699 16.5797H22.4269C22.9405 16.5797 23.5256 16.6337 23.5256 17.2221C23.5256 17.7685 22.957 17.8462 22.4111 17.8462H21.9699V16.5797ZM20.4795 18.8645H22.8356C23.8382 18.8645 25.0166 18.5946 25.0166 17.3052C25.0166 16.6484 24.6317 16.2641 23.8867 16.1174C24.5114 15.9004 24.8723 15.5227 24.8723 14.8432C24.8723 13.9168 24.0949 13.4766 23.0529 13.4766H20.4795V18.8645ZM21.9699 20.3912H22.4032C22.9004 20.3912 23.3817 20.4375 23.3817 20.9316C23.3817 21.3864 22.8761 21.503 22.3874 21.503H21.9699V20.3912ZM21.9699 22.4753H22.4269C22.9405 22.4753 23.5256 22.529 23.5256 23.1157C23.5256 23.6648 22.957 23.7416 22.4111 23.7416H21.9699V22.4753ZM20.4795 24.7602H22.8356C23.8382 24.7602 25.0166 24.4911 25.0166 23.2007C25.0166 22.5448 24.6317 22.1591 23.8867 22.0117C24.5114 21.796 24.8723 21.4173 24.8723 20.7387C24.8723 19.8115 24.0949 19.3715 23.0529 19.3715H20.4795V24.7602ZM25.5162 24.7602H26.8571L26.8272 20.6224L28.0951 24.7602H29.3556L30.6666 20.6224L30.6584 24.7602H32.0002V19.3715H29.9224L28.7799 22.9541L27.6748 19.3715H25.5162V24.7602Z"
+              fill="#9E1B32"
+              fillRule="evenodd"
+            />
+            <path
+              clipRule="evenodd"
+              d="M12.5643 13.9302C11.7165 13.9302 10.9245 14.1772 10.2582 14.6027L7.99303 16.0625V11L4 14.3582V20.7123C4 22.5971 5.23298 24.1992 6.94314 24.7638L7.70549 25C6.14281 24.2238 5.07354 22.6549 5.07354 20.838C5.07354 18.2594 7.24027 16.1655 9.91164 16.1655C12.4045 16.1655 14.4549 17.9918 14.7176 20.3338L11.9613 20.3301C11.7217 19.414 10.8833 18.7359 9.88922 18.7359C8.70648 18.7359 7.7468 19.6919 7.7468 20.8697C7.7468 22.0498 8.70648 23.0051 9.88922 23.0051C10.981 23.0051 11.8838 22.1923 12.0129 21.1369L14.7379 21.134C14.6769 22.0795 14.3253 22.9461 13.7714 23.6559C13.7714 23.6559 15.4595 21.6862 16.0382 20.7943C16.56 19.9846 16.8477 19.1502 16.8477 18.1996C16.8477 15.8401 14.9309 13.9302 12.5643 13.9302Z"
+              fill="#003B77"
+              fillRule="evenodd"
+            />
+          </svg>
+        </span>
+        <section
+          className="sc-VigVT bZgaVc"
+          data-test="BankInfo_Origin"
+        >
+          <span
+            className="sc-jTzLTM iTBAvM"
+          >
+            107
+             -
+             
+            <span
+              className="sc-fjdhpX kGClWn sc-jTzLTM iTBAvM"
+            >
+              BANCO BOCOM BBM
+            </span>
+          </span>
+        </section>
+      </section>
+      <section
+        className="sc-kgoBCf cOQDZM"
+      >
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+          >
+            cliente2740
+          </span>
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          >
+            CPF
+          </span>
+          <span
+            className="sc-cSHVUG gPcjSF"
+          >
+            533.285.061-10
+          </span>
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+            data-test="VoucherAgency_Origin"
+          >
+            0002
+          </span>
+        </div>
+        <div
+          className="sc-kAzzGY eMLWIy"
+        >
+          <span
+            className="sc-jzJRlG cVKqPR"
+          />
+          <span
+            className="sc-cSHVUG gPcjSF"
+            data-test="VoucherCashAccount_Origin"
+          >
+            304020-3
+          </span>
+        </div>
+      </section>
+    </section>
+    <hr
+      className="sc-ifAKCX ifwbGO"
+    />
+    <span
+      className="sc-gqjmRU kTDDzv"
+    />
+    <span
+      className="sc-bZQynM jiNpic"
+      data-test="AuthCode"
+    />
+  </section>
+</div>
+`;

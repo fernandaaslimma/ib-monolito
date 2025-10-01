@@ -1,0 +1,18 @@
+resources:
+  repositories:
+    - repository: front_template
+      type: git
+      ref: refs/heads/master
+      name: BBM Corporate Templates/Pipeline-Templates
+extends:
+  template: Pipeline-Templates/front.yml@front_template
+  parameters:
+    HTTPS: false
+    restricted: false
+    nodeVersion: 14.15.5
+    runSonarQube: false
+    deployToAks: true
+    disableTestCoverage: false
+    noBuild: true
+    PoolName: 'On-Premises RHEL Linux'
+    FixIngress: false    

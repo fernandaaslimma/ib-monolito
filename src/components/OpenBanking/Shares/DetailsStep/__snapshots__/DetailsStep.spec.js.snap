@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsStep should match snapshot 1`] = `
+<styled.div>
+  <styled.span
+    id="ResumeStep"
+  />
+  <InfoCard>
+    <styled.div>
+      <Tag
+        color="#CCE9E1"
+        title="Ativo"
+        titleColor="#004933"
+      />
+    </styled.div>
+    <styled.section>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={36}
+        type="Bank"
+        width={36}
+      />
+      <styled.div>
+        <styled.span>
+          BCO BOCOM BBM S.A.
+        </styled.span>
+        <styled.span>
+          06/01/2010 - 01:01 AM
+        </styled.span>
+      </styled.div>
+    </styled.section>
+  </InfoCard>
+  <ResumeCard
+    alertMsg={null}
+    cardMessage={null}
+    cardTitle={null}
+    creationDate="06/01/2010 - 01:01 AM"
+    dataTest="SharesResumeCard"
+    destiny="BCO BOCOM BBM S.A."
+    destinyLogoUri={null}
+    destinyName={null}
+    document="11021550205"
+    expiration="2022-11-26T02:26:05Z"
+    name={null}
+    purpose={null}
+  />
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <ActionCard
+      actionClick={[MockFunction]}
+      dataTest="list_consent"
+      text="undefined BCO BOCOM BBM S.A."
+    />
+    <ActionCard
+      actionClick={[Function]}
+      dataTest="card_end_sharing"
+      text="undefined BCO BOCOM BBM S.A."
+    />
+  </InfoCard>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <Icon
+          color="#D2444A"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={63.33}
+          type="Attention"
+          width={63.33}
+        />
+        <styled.div />
+        <styled.div>
+          <Styled(styled.div) />
+          <Styled(styled.div) />
+          <Styled(styled.div)
+            color="#D2444A"
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Button
+          dataTest="openBankingConfirmCancel"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+            }
+          }
+          type="negative"
+        />
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        />
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.p>
+      <styled.span />
+    </styled.p>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.p>
+      <styled.span />
+    </styled.p>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;
+
+exports[`DetailsStep should match snapshot with status pending 1`] = `
+<styled.div>
+  <styled.span
+    id="ResumeStep"
+  />
+  <InfoCard>
+    <styled.div>
+      <Tag
+        color="#FFD46A"
+        title="Pendente"
+        titleColor="#80521B"
+      />
+    </styled.div>
+    <styled.section>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={36}
+        type="Bank"
+        width={36}
+      />
+      <styled.div>
+        <styled.span>
+          BCO BOCOM BBM S.A.
+        </styled.span>
+        <styled.span>
+          06/01/2010 - 01:01 AM
+        </styled.span>
+      </styled.div>
+    </styled.section>
+  </InfoCard>
+  <ResumeCard
+    alertMsg={null}
+    cardMessage={null}
+    cardTitle={null}
+    creationDate="06/01/2010 - 01:01 AM"
+    dataTest="SharesResumeCard"
+    destiny="BCO BOCOM BBM S.A."
+    destinyLogoUri={null}
+    destinyName={null}
+    document="11021550205"
+    expiration="2022-11-26T02:26:05Z"
+    name={null}
+    purpose={null}
+  />
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <ActionCard
+      actionClick={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              [MockFunction] {
+                "calls": [Circular],
+              },
+            ],
+          ],
+        }
+      }
+      dataTest="list_consent"
+      text="undefined BCO BOCOM BBM S.A."
+    />
+    <ActionCard
+      actionClick={[Function]}
+      dataTest="approve_pending_consent"
+    />
+  </InfoCard>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <Icon
+          color="#D2444A"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={63.33}
+          type="Attention"
+          width={63.33}
+        />
+        <styled.div />
+        <styled.div>
+          <Styled(styled.div) />
+          <Styled(styled.div) />
+          <Styled(styled.div)
+            color="#D2444A"
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <Button
+          dataTest="openBankingConfirmCancel"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+            }
+          }
+          type="negative"
+        />
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        />
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.p>
+      <styled.span />
+    </styled.p>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.p>
+      <styled.span />
+    </styled.p>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;

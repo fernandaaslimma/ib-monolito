@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsolidatedPositionTable component should match snapshot 1`] = `
+<div
+  data-test="Consolidated_Position"
+>
+  <CustomTable
+    collapse={
+      Object {
+        "data": Array [],
+        "index": -1,
+        "onCollapse": [Function],
+        "render": <styled.div />,
+        "shimmerLoading": Object {
+          "inverse": true,
+          "loading": undefined,
+          "rows": 3,
+        },
+      }
+    }
+    data={
+      Array [
+        Object {
+          "grossBalance": <span>
+            12,30
+          </span>,
+          "name": <span>
+            Fixed Income
+          </span>,
+          "netBalance": <span>
+            123.213,20
+          </span>,
+          "portfolioShare": <span>
+            23
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "name",
+          "title": undefined,
+          "width": "30%",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "grossBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "netBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "field": "portfolioShare",
+          "percent": true,
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "5%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={null}
+    style={null}
+    title="undefined "
+    total={
+      Object {
+        "grossBalance": 12.3,
+        "netBalance": 123213.2,
+        "portfolioShare": "100",
+      }
+    }
+    totalPosition="down"
+    withBackground={false}
+    zebra={false}
+  />
+</div>
+`;
+
+exports[`ConsolidatedPositionTable component should match snapshot with assets 1`] = `
+<div
+  data-test="Consolidated_Position"
+>
+  <CustomTable
+    collapse={
+      Object {
+        "data": Array [
+          Object {
+            "grossBalance": <span>
+              12,30
+            </span>,
+            "name": <span>
+              Fixed Income
+            </span>,
+            "netBalance": <span>
+              123.213,20
+            </span>,
+            "portfolioShare": <span>
+              23
+            </span>,
+          },
+        ],
+        "index": -1,
+        "onCollapse": [Function],
+        "render": <styled.div />,
+        "shimmerLoading": Object {
+          "inverse": true,
+          "loading": undefined,
+          "rows": 3,
+        },
+      }
+    }
+    data={
+      Array [
+        Object {
+          "grossBalance": <span>
+            12,30
+          </span>,
+          "name": <span>
+            Fixed Income
+          </span>,
+          "netBalance": <span>
+            123.213,20
+          </span>,
+          "portfolioShare": <span>
+            23
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "name",
+          "title": undefined,
+          "width": "30%",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "grossBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "netBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "field": "portfolioShare",
+          "percent": true,
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "5%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={null}
+    style={null}
+    title="undefined "
+    total={
+      Object {
+        "grossBalance": 12.3,
+        "netBalance": 123213.2,
+        "portfolioShare": "100",
+      }
+    }
+    totalPosition="down"
+    withBackground={false}
+    zebra={false}
+  />
+</div>
+`;
+
+exports[`ConsolidatedPositionTable component should match snapshot with currentIndex 1`] = `
+<div
+  data-test="Consolidated_Position"
+>
+  <CustomTable
+    collapse={
+      Object {
+        "data": Array [],
+        "index": 1,
+        "onCollapse": [Function],
+        "render": <styled.div />,
+        "shimmerLoading": Object {
+          "inverse": true,
+          "loading": undefined,
+          "rows": 3,
+        },
+      }
+    }
+    data={
+      Array [
+        Object {
+          "grossBalance": <span>
+            12,30
+          </span>,
+          "name": <span>
+            Fixed Income
+          </span>,
+          "netBalance": <span>
+            123.213,20
+          </span>,
+          "portfolioShare": <span>
+            23
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "name",
+          "title": undefined,
+          "width": "30%",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "grossBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "netBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "field": "portfolioShare",
+          "percent": true,
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "5%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={null}
+    style={null}
+    title="undefined "
+    total={
+      Object {
+        "grossBalance": 12.3,
+        "netBalance": 123213.2,
+        "portfolioShare": "100",
+      }
+    }
+    totalPosition="down"
+    withBackground={false}
+    zebra={false}
+  />
+</div>
+`;

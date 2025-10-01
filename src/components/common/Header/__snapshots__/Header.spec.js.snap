@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot with props 1`] = `
+<Header
+  closeModal={[MockFunction]}
+  doLogout={[MockFunction]}
+  history={
+    Object {
+      "location": Object {
+        "pathname": "",
+      },
+      "push": [MockFunction],
+    }
+  }
+  isNavigationMenuShown={[MockFunction]}
+  openModal={[MockFunction]}
+  userInfo={
+    Object {
+      "givenName": "Name",
+      "roles": Array [
+        "GET_DOCUMENTS",
+      ],
+    }
+  }
+/>
+`;

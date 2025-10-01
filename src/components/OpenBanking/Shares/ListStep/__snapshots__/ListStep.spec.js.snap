@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStep should match snapshot 1`] = `
+<ListStep
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep should match snapshot with received shares 1`] = `
+<ListStep
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep should match snapshot with received shares 2`] = `
+<ListStep
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep should match snapshot without list 1`] = `
+<ListStep
+  stepForward={[MockFunction]}
+/>
+`;

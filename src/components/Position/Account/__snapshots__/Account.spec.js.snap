@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account component should match snapshot with accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Cash_Account"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "123 123-1",
+              "availableBalance": 123123,
+              "blockedBalance": 123123,
+              "date": "12/12",
+              "id": 123,
+              "totalBalance": 123123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "123 123-1",
+              "availableBalance": 123123,
+              "blockedBalance": 123123,
+              "date": "12/12",
+              "id": 123,
+              "totalBalance": 123123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Account component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Cash_Account"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        accounts={Array []}
+        isEmpty={false}
+        loading={true}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        accounts={Array []}
+        isEmpty={false}
+        loading={true}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Account component should match snapshot without accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Cash_Account"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        accounts={Array []}
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        accounts={Array []}
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;

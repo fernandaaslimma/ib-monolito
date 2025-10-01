@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Documents component should call DefaultContent 1`] = `
+<ErrorBoundary>
+  <Container
+    data-test="DocumentsPage"
+  >
+    <DefaultShimmerLoading
+      innerRepeat={2}
+      repeat={3}
+    />
+  </Container>
+</ErrorBoundary>
+`;
+
+exports[`Documents component should call not populate folder because of empty folder files 1`] = `
+<ErrorBoundary>
+  <Container
+    data-test="DocumentsPage"
+  >
+    <styled.h1>
+      DOCUMENTS
+    </styled.h1>
+    <ListFiles
+      clickAction={[Function]}
+      folders={
+        Array [
+          Object {
+            "files": Array [],
+            "name": "mock",
+            "typeId": "1",
+          },
+        ]
+      }
+      state={
+        Object {
+          "isShown": Array [],
+        }
+      }
+    />
+  </Container>
+</ErrorBoundary>
+`;
+
+exports[`Documents component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <Container
+    data-test="DocumentsPage"
+  >
+    <DefaultShimmerLoading
+      innerRepeat={2}
+      repeat={3}
+    />
+  </Container>
+</ErrorBoundary>
+`;

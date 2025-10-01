@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexesCard component should match snapshot 1`] = `
+<Fragment>
+  <styled.section
+    key="mobileIndexes_0"
+  >
+    <Card
+      data-test="CardIndex-0"
+      icon={null}
+      iconColor={null}
+      key="CardIndex-0"
+      title={null}
+      titleColor={null}
+    >
+      <styled.div>
+        <styled.div>
+          CDI
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            jun./2010 (%)
+          </styled.div>
+          <styled.div>
+            0,3
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined/2010 (%)
+          </styled.div>
+          <styled.div>
+            12,7
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.section>
+  <styled.section
+    key="mobileIndexes_1"
+  >
+    <Card
+      data-test="CardIndex-1"
+      icon={null}
+      iconColor={null}
+      key="CardIndex-1"
+      title={null}
+      titleColor={null}
+    >
+      <styled.div>
+        <styled.div>
+          Dolar
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            jun./2010 (%)
+          </styled.div>
+          <styled.div>
+            0,7
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined/2010 (%)
+          </styled.div>
+          <styled.div>
+            10,7
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.section>
+</Fragment>
+`;

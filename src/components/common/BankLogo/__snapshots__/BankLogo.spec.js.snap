@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankLogo component should match snapshot 1`] = `
+<styled.div
+  color={null}
+  primaryColor="#9e1b32"
+  secondaryColor="#06366f"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="Logo"
+      width={null}
+    />
+  </styled.div>
+  <styled.p />
+</styled.div>
+`;
+
+exports[`BankLogo component should match snapshot with primaryColor 1`] = `
+<styled.div
+  color={null}
+  primaryColor="orange"
+  secondaryColor="#06366f"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="Logo"
+      width={null}
+    />
+  </styled.div>
+  <styled.p />
+</styled.div>
+`;
+
+exports[`BankLogo component should match snapshot with secondaryColor 1`] = `
+<styled.div
+  color={null}
+  primaryColor="#9e1b32"
+  secondaryColor="orange"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="Logo"
+      width={null}
+    />
+  </styled.div>
+  <styled.p />
+</styled.div>
+`;

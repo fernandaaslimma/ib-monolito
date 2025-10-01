@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CorporationContracts component should match snapshot with default props 1`] = `
+<Fragment>
+  <Hide
+    above={null}
+    below="md"
+  >
+    <styled.div>
+      <styled.div
+        left={true}
+      >
+        <styled.div>
+          <DataItem
+            data="settlement"
+            icon={null}
+            title="TRADE_DATE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="exchange"
+            icon={null}
+            title="EXCHANGE_RATE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="local"
+            icon={null}
+            title="VALUE_OF_NATIONAL_CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="USD"
+            icon={null}
+            title="CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="foreign"
+            icon={null}
+            title="VALUE_OF_FOREIGN_CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="nature"
+            icon={null}
+            title="NATURE_OF_EXCHANGE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="buy"
+            icon={null}
+            title="TYPE_OF_TRANSACTION"
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div
+        flexBasis="auto"
+        right={true}
+      >
+        <styled.div
+          paddingRight="20"
+        >
+          <DataItem
+            data={
+              Array [
+                <styled.span>
+                  Name
+                   
+                  <styled.span>
+                    (
+                    06/01/2010 AT 
+                    )
+                  </styled.span>
+                </styled.span>,
+              ]
+            }
+            icon={null}
+            title="Signatures"
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div
+        id="SignedContractOverviewDownloadLink"
+        isCorporation={true}
+      >
+        <a
+          data-test="SignedContractOverview_Download"
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          <styled.div>
+            <Icon
+              color="#ffffff"
+              cursor={false}
+              fixCrossAxisAlign={null}
+              height="20"
+              type="Download"
+              width="22"
+            />
+          </styled.div>
+        </a>
+      </styled.div>
+    </styled.div>
+  </Hide>
+  <Hide
+    above="md"
+    below={null}
+  >
+    <styled.div>
+      <styled.div
+        isCorporation={true}
+      >
+        <styled.div>
+          <DataItem
+            data="buy"
+            icon={null}
+            title="TYPE_OF_TRANSACTION"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="settlement"
+            icon={null}
+            title="TRADE_DATE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="foreign"
+            icon={null}
+            title="VALUE_OF_FOREIGN_CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="local"
+            icon={null}
+            title="VALUE_OF_NATIONAL_CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="exchange"
+            icon={null}
+            title="EXCHANGE_RATE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="USD"
+            icon={null}
+            title="CURRENCY"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data="nature"
+            icon={null}
+            title="NATURE_OF_EXCHANGE"
+          />
+        </styled.div>
+        <styled.div>
+          <DataItem
+            data={
+              Array [
+                <styled.span>
+                  Name
+                   
+                  <styled.span>
+                    (
+                    06/01/2010 AT 
+                    )
+                  </styled.span>
+                </styled.span>,
+              ]
+            }
+            icon={null}
+            title="Signatures"
+          />
+        </styled.div>
+        <Styled(styled.span)
+          order={4}
+        />
+        <Styled(styled.span)
+          order={6}
+        />
+        <Styled(styled.span)
+          order={7}
+        />
+        <Styled(styled.span)
+          order={8}
+        />
+      </styled.div>
+      <styled.div
+        id="SignedContractOverviewDownloadLink"
+        isCorporation={false}
+      >
+        <a
+          data-test="SignedContractOverview_Download"
+          href="javascript:void(0)"
+          onClick={[Function]}
+        >
+          <styled.div>
+            <Icon
+              color="#ffffff"
+              cursor={false}
+              fixCrossAxisAlign={null}
+              height="20"
+              type="Download"
+              width="22"
+            />
+          </styled.div>
+        </a>
+      </styled.div>
+    </styled.div>
+  </Hide>
+</Fragment>
+`;
+
+exports[`parseSignatures should match snapshot with one signature 1`] = `
+Array [
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+  </span>,
+]
+`;
+
+exports[`parseSignatures should match snapshot with three signatures 1`] = `
+Array [
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+    , 
+  </span>,
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+     AND 
+  </span>,
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+  </span>,
+]
+`;
+
+exports[`parseSignatures should match snapshot with two signatures 1`] = `
+Array [
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+     AND 
+  </span>,
+  <span
+    className="sc-kAzzGY fKJDOB"
+  >
+    name
+     
+    <styled.span>
+      (
+      06/01/2010 AT 23:36
+      )
+    </styled.span>
+  </span>,
+]
+`;
+
+exports[`renderSignature with signaturesLength = 1 should match snapshot 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+</span>
+`;
+
+exports[`renderSignature with signaturesLength = 2 should match snapshot with index = 0 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+   AND 
+</span>
+`;
+
+exports[`renderSignature with signaturesLength = 2 should match snapshot with index = 1 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+</span>
+`;
+
+exports[`renderSignature with signaturesLength = 3 should match snapshot with index = 0 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+  , 
+</span>
+`;
+
+exports[`renderSignature with signaturesLength = 3 should match snapshot with index = 1 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+   AND 
+</span>
+`;
+
+exports[`renderSignature with signaturesLength = 3 should match snapshot with index = 2 1`] = `
+<span
+  className="sc-kAzzGY fKJDOB"
+>
+   
+  <styled.span>
+    (
+    06/01/2010 AT 
+    )
+  </styled.span>
+</span>
+`;
+
+exports[`renderTime should match snapshot 1`] = `
+<span
+  className="sc-chPdSV gOMsMu"
+>
+  (
+  06/01/2010 AT 
+  )
+</span>
+`;

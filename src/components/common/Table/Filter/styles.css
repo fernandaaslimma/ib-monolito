@@ -1,0 +1,24 @@
+.DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #a1c3e7 !important;
+  color: #fff !important;
+}
+
+.DatePickerRange
+  .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside):not(.DayPicker-Day--start):not(.DayPicker-Day--end) {
+  background-color: #e1edf6 !important;
+  color: #6babdf !important;
+}
+
+.DatePickerRange .DayPicker-Day {
+  border-radius: 0 !important;
+}
+
+.DatePickerRange .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+
+.DatePickerRange .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}

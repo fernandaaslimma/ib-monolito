@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success component should match snapshot with props 1`] = `
+<ConnectWrapper>
+  <ContextProvider
+    value={
+      NewConsent {
+        "changeState": [Function],
+        "context": Object {},
+        "createShare": [Function],
+        "getInstituion": [Function],
+        "props": Object {
+          "changeState": [MockFunction],
+          "createShare": [MockFunction],
+          "getInstituion": [MockFunction],
+          "state": Object {
+            "loading": false,
+            "loadingNewConsentStep": false,
+            "selectAccountCNPJBottomSheet": false,
+            "selectAccountOriginBottomSheet": false,
+            "selectBottonSheetForbidden": false,
+            "selectCNPJ": "",
+            "selectDataBottomSheet": false,
+            "selectDeadLineBottomSheet": false,
+            "selectFinalCNPJ": "",
+            "selectFinalDeadLine": Object {
+              "total": null,
+            },
+            "selectedDeadLine": Object {
+              "total": null,
+            },
+            "selectedInstitutionBottonSheet": false,
+          },
+        },
+        "refs": Object {},
+        "setState": [Function],
+        "state": Object {
+          "loading": false,
+          "loadingNewConsentStep": false,
+          "selectAccountCNPJBottomSheet": false,
+          "selectAccountOriginBottomSheet": false,
+          "selectBottonSheetForbidden": false,
+          "selectCNPJ": "",
+          "selectDataBottomSheet": false,
+          "selectDeadLineBottomSheet": false,
+          "selectFinalCNPJ": "",
+          "selectFinalDeadLine": Object {
+            "total": null,
+          },
+          "selectedDeadLine": Object {
+            "total": null,
+          },
+          "selectedInstitutionBottonSheet": false,
+        },
+        "steps": Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_currentlyRenderingComponent": null,
+            "_didScheduleRenderPhaseUpdate": false,
+            "_dispatcher": Object {
+              "readContext": [Function],
+              "useCallback": [Function],
+              "useContext": [Function],
+              "useDebugValue": [Function],
+              "useEffect": [Function],
+              "useImperativeHandle": [Function],
+              "useLayoutEffect": [Function],
+              "useMemo": [Function],
+              "useReducer": [Function],
+              "useRef": [Function],
+              "useState": [Function],
+            },
+            "_element": <NewConsent
+              changeState={[MockFunction]}
+              createShare={[MockFunction]}
+              getInstituion={[MockFunction]}
+              state={
+                Object {
+                  "loading": false,
+                  "loadingNewConsentStep": false,
+                  "selectAccountCNPJBottomSheet": false,
+                  "selectAccountOriginBottomSheet": false,
+                  "selectBottonSheetForbidden": false,
+                  "selectCNPJ": "",
+                  "selectDataBottomSheet": false,
+                  "selectDeadLineBottomSheet": false,
+                  "selectFinalCNPJ": "",
+                  "selectFinalDeadLine": Object {
+                    "total": null,
+                  },
+                  "selectedDeadLine": Object {
+                    "total": null,
+                  },
+                  "selectedInstitutionBottonSheet": false,
+                }
+              }
+            />,
+            "_firstWorkInProgressHook": null,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_isReRender": false,
+            "_newState": null,
+            "_numberOfReRenders": 0,
+            "_previousComponentIdentity": null,
+            "_renderPhaseUpdates": null,
+            "_rendered": <ConnectWrapper>
+              <React.Fragment>
+                <Context.Provider
+                  value={[Circular]}
+                >
+                  <StepSlider
+                    dataTest="StepSlider"
+                    spacing={
+                      Object {
+                        "bottom": "none",
+                        "left": "none",
+                        "right": "none",
+                        "top": "none",
+                      }
+                    }
+                    steps={
+                      Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ]
+                    }
+                  />
+                </Context.Provider>
+              </React.Fragment>
+            </ConnectWrapper>,
+            "_rendering": false,
+            "_updater": [Circular],
+            "_workInProgressHook": null,
+          },
+        },
+      }
+    }
+  >
+    <StepSlider
+      dataTest="StepSlider"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      steps={
+        Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ]
+      }
+    />
+  </ContextProvider>
+</ConnectWrapper>
+`;

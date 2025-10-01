@@ -1,0 +1,168 @@
+import contacts from "./index";
+jest.mock("../../services/contacts");
+
+const avatar =
+  "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";
+
+const getAccountManagersAPIMock = require("../../services/contacts")
+  .getAccountManagersAPI;
+
+const errorMock = { message: "mock error" };
+
+const postEmailMock = require("../../services/contacts").postEmailAPI;
+const getAccountPhotoAPIMock = require("../../services/contacts")
+  .getAccountManagersPhotosAPI;
+
+const getButtonsMessagesAPIMock = require("../../services/contacts")
+  .getButtonsMessagesAPI;
+
+const postEmailAPIMock = require("../../services/contacts").postEmailAPI;
+
+const accountManagers = [
+  {
+    name: "Wilson Calado",
+    mail: "wilson@bocombbm.com.br",
+    telephone: [
+      {
+        idd: 55,
+        ddd: 21,
+        number: "25215215"
+      }
+    ],
+    avatar: avatar.substring(1, avatar.length - 1)
+  }
+];
+
+const message = [
+  {
+    message: "Por favor, me ligue",
+    to: "pj_josephkaltenecker@bocombbm.com.br"
+  }
+];
+
+describe("postEmail", () => {
+  it("Should postEmail", async () => {
+    postEmailMock.mockImplementation(() =>
+      Promise.resolve({
+        json: () => Promise.resolve(message)
+      })
+    );
+
+    const { postEmail } = contacts();
+    const postEmailResponse = await postEmail(message);
+
+    expect(postEmailResponse).toEqual({
+      responsePostEmail: [
+        {
+          message: "Por favor, me ligue",
+          to: "pj_josephkaltenecker@bocombbm.com.br"
+        }
+      ]
+    });
+  });
+  it("Should postEmail with error", async () => {
+    postEmailMock.mockImplementation(() => Promise.reject(errorMock));
+    const { postEmail } = contacts();
+    expect(postEmail()).rejects.toThrow(errorMock);
+  });
+});
+
+describe("getAccounts", () => {
+  it("Should return accounts", async () => {
+    getAccountManagersAPIMock.mockImplementation(() =>
+      Promise.resolve({
+        json: () => Promise.resolve(accountManagers)
+      })
+    );
+    getAccountPhotoAPIMock.mockImplementation(() =>
+      Promise.resolve({
+        text: () => Promise.resolve(avatar)
+      })
+    );
+
+    const { getAccountManagers } = contacts();
+
+    const respAccountManagers = await getAccountManagers();
+    expect(respAccountManagers).toEqual({
+      responseAccountManagers: accountManagers
+    });
+  });
+
+  it("Should accounts with no photo when getAccountManagerPhoto service not work", async () => {
+    getAccountManagersAPIMock.mockImplementation(() =>
+      Promise.resolve({
+        json: () => Promise.resolve(accountManagers)
+      })
+    );
+    getAccountPhotoAPIMock.mockImplementation(() => Promise.reject());
+
+    const { getAccountManagers } = contacts();
+
+    const respAccountManagers = await getAccountManagers();
+    expect(respAccountManagers).toEqual({
+      responseAccountManagers: accountManagers
+    });
+  });
+
+  it("Should throw error in store when not get accounts", async () => {
+    getAccountManagersAPIMock.mockImplementation(() => Promise.reject("error"));
+
+    const { getAccountManagers } = contacts();
+
+    const respAccountManagers = await getAccountManagers();
+    expect(respAccountManagers).toEqual({
+      error: "error"
+    });
+  });
+});
+
+describe("getButtonsMessages", () => {
+  it("Should return button messages", async () => {
+    getButtonsMessagesAPIMock.mockImplementation(() =>
+      Promise.resolve({
+        json: () => Promise.resolve(["xpto 1", "xpto 2"])
+      })
+    );
+
+    const { getButtonsMessages } = contacts();
+    const respButtonMessages = await getButtonsMessages();
+    expect(respButtonMessages).toEqual({
+      responseButtonMessage: ["xpto 1", "xpto 2"]
+    });
+  });
+
+  it("Should get an error when get button messages", async () => {
+    getButtonsMessagesAPIMock.mockImplementation(() => Promise.reject("error"));
+
+    const { getButtonsMessages } = contacts();
+    const respButtonMessages = await getButtonsMessages();
+    expect(respButtonMessages).toEqual({ error: "error" });
+  });
+});
+
+describe("postEmail", () => {
+  it("Should successfull post email", async () => {
+    postEmailAPIMock.mockImplementation(() =>
+      Promise.resolve({
+        json: () => Promise.resolve("success")
+      })
+    );
+
+    const { postEmail } = contacts();
+    const respEmail = await postEmail();
+    expect(respEmail).toEqual({
+      responsePostEmail: "success"
+    });
+  });
+
+  it("Should get an error when post email", async () => {
+    async function throwEmbed() {
+      postEmailAPIMock.mockImplementation(() => Promise.reject());
+
+      const { postEmail } = contacts();
+      const respEmail = await postEmail();
+      expect(respEmail).toThrowError();
+    }
+    throwEmbed();
+  });
+});

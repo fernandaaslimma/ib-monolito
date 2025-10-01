@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CashAccountTable component should match snapshot with fixed income 1`] = `
+<Fragment>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "amount": <styled.span
+            red={false}
+          >
+            6.903,20
+          </styled.span>,
+          "date": <span>
+            OPEN_BALANCE_ON 06/01/2010
+          </span>,
+          "type": <span>
+             - 
+          </span>,
+        },
+        Object {
+          "amount": <styled.div
+            red={false}
+          >
+            78.351,22
+          </styled.div>,
+          "date": <styled.span>
+            06/01/2010
+          </styled.span>,
+          "type": <span>
+            CRÉDITO
+          </span>,
+        },
+        Object {
+          "amount": <styled.div
+            red={false}
+          >
+            4.923,16
+          </styled.div>,
+          "date": <styled.span>
+            06/01/2010
+          </styled.span>,
+          "type": <span>
+            CRÉDITO
+          </span>,
+        },
+        Object {
+          "amount": <styled.div
+            red={true}
+          >
+            -87.879,50
+          </styled.div>,
+          "date": <styled.span>
+            06/01/2010
+          </styled.span>,
+          "type": <span>
+            DÉBITO
+          </span>,
+        },
+        Object {
+          "amount": <styled.div
+            red={false}
+          >
+            88.038,51
+          </styled.div>,
+          "date": <styled.span>
+            06/01/2010
+          </styled.span>,
+          "type": <span>
+            CRÉDITO
+          </span>,
+        },
+        Object {
+          "amount": <styled.div
+            red={true}
+          >
+            -91.651,78
+          </styled.div>,
+          "date": <styled.span>
+            06/01/2010
+          </styled.span>,
+          "type": <span>
+            DÉBITO
+          </span>,
+        },
+        Object {
+          "amount": <styled.span
+            red={false}
+          >
+            52,60
+          </styled.span>,
+          "date": <span>
+            CLOSE_BALANCE_ON 06/01/2010
+          </span>,
+          "type": <span>
+             - 
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "date",
+          "title": "DATE",
+          "width": "35%",
+        },
+        Object {
+          "align": "center",
+          "field": "type",
+          "title": "TYPE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "amount",
+          "title": "VALUE",
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "5%",
+        },
+      ]
+    }
+    key="0"
+    render={null}
+    shimmerLoading={null}
+    style={null}
+    title="CHECKING_ACCOUNT 308642-4"
+    total={null}
+    totalPosition={null}
+    withBackground={false}
+    zebra={false}
+  />
+</Fragment>
+`;
+
+exports[`CashAccountTable component should match snapshot with shimmerload 1`] = `
+<Fragment>
+  <CustomTable
+    data={Array []}
+    headers={
+      Array [
+        Object {
+          "field": "date",
+          "title": "DATE",
+          "width": "35%",
+        },
+        Object {
+          "align": "center",
+          "field": "type",
+          "title": "TYPE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "amount",
+          "title": "VALUE",
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "5%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={
+      Object {
+        "loading": true,
+        "rows": 4,
+      }
+    }
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={false}
+    zebra={false}
+  />
+</Fragment>
+`;

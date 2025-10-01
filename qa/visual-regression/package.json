@@ -1,0 +1,30 @@
+{
+  "name": "visual-regression-bbmib",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write \"backstop_data/engine_scripts/**/*.js\"",
+    "lint:fix": "eslint ./backstop_data/engine_scripts/ --fix",
+    "precommit": "npm run lint:fix && npm run format",
+    "test:lang": "node ./node_modules/backstopjs/cli/index.js test --config=backstop-lang.json --docker",
+    "test:desktop": "node ./node_modules/backstopjs/cli/index.js test --config=backstop-desktop.json",
+    "test:desktop:approve": "node ./node_modules/backstopjs/cli/index.js approve --config=backstop-desktop.json",
+    "test:desktop:reference": "node ./node_modules/backstopjs/cli/index.js reference --config=backstop-desktop.json",
+    "test:mobile": "node ./node_modules/backstopjs/cli/index.js test --config=backstop-mobile.json",
+    "test:mobile:approve": "node ./node_modules/backstopjs/cli/index.js approve --config=backstop-mobile.json",
+    "test:mobile:reference": "node ./node_modules/backstopjs/cli/index.js reference --config=backstop-mobile.json",
+    "test:smoke": "node ./node_modules/backstopjs/cli/index.js test --config=backstop-smoke.json",
+    "test:smoke:approve": "node ./node_modules/backstopjs/cli/index.js approve --config=backstop-smoke.json",
+    "test:smoke:reference": "node ./node_modules/backstopjs/cli/index.js reference --config=backstop-smoke.json"
+  },
+  "author": "Concrete Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "5.12.0",
+    "husky": "0.14.3",
+    "node-persist": "^2.1.0",
+    "prettier": "1.15.3"
+  },
+  "dependencies": {
+    "backstopjs": "5.0.1"
+  }
+}

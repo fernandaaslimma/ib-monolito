@@ -1,0 +1,245 @@
+{
+  "id": "Internet-Banking",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "onBeforeScript": "puppet/utils/session-storage.js",
+  "scenarios": [
+    {
+      "label": "Error 500",
+      "url": "http://40.121.58.75/error",
+      "referenceUrl": "http://104.45.130.177/error",
+      "selectors": [
+        "[data-test=PageError500]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Sign Confirmation",
+      "url": "http://40.121.58.75/exchanges/sign-confirmation",
+      "referenceUrl": "http://104.45.130.177/exchanges/sign-confirmation",
+      "delay": 2000,
+      "selectors": [
+        "[data-test=SignConfirmation]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Corporate Foreign Exchange - History",
+      "url": "http://40.121.58.75/exchanges/signed",
+      "referenceUrl": "http://104.45.130.177/exchanges/signed",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=SignedExchange]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Password Tooltip",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "onReadyScript": "puppet/custom/create-password-tooltip.js",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Create Password",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "delay": 500,
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Create Password pt-BR",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTM2MTYyNzQ0LA0KICAiaWF0IjogMTUzNjA3NjM0NCwNCiAgIm90cCI6IDgxMTk5MDM3DQp9.dVTPkHrWqcqxJfhs6jAtfEzTZKvLZ8d78k9K1e4qTLcN9jfibfQWbBsZI5Q7ZfsqkJA2qTTqmuys9UYw8LjGX-mWflfw8oKfhXMctrPmUcjuuSo4Wmtj_cdIou-d9rM7oeZ4xVO_ji_NNkvSHIrLZiPk57zg2Wmch0IO-56nU6NHfR8qpSrOulsatmTPXQp8xELzzWB9T2c_-EedH23dyKz4KlJSQLwZ8-uy4SE4DRLsNnzcb-uR48ciZYECSGG-jox1BCgbEm2m1jAez6NUlNu_duIU92d07JuBsfCEXIECcYTEGtreI8ymkTIzDZ_v16TXcKvCzEmMeaHKQEiJ0w&name=Vader&email=darthvader@bancobbm.com.br&Culture=pt-BR",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTM2MTYyNzQ0LA0KICAiaWF0IjogMTUzNjA3NjM0NCwNCiAgIm90cCI6IDgxMTk5MDM3DQp9.dVTPkHrWqcqxJfhs6jAtfEzTZKvLZ8d78k9K1e4qTLcN9jfibfQWbBsZI5Q7ZfsqkJA2qTTqmuys9UYw8LjGX-mWflfw8oKfhXMctrPmUcjuuSo4Wmtj_cdIou-d9rM7oeZ4xVO_ji_NNkvSHIrLZiPk57zg2Wmch0IO-56nU6NHfR8qpSrOulsatmTPXQp8xELzzWB9T2c_-EedH23dyKz4KlJSQLwZ8-uy4SE4DRLsNnzcb-uR48ciZYECSGG-jox1BCgbEm2m1jAez6NUlNu_duIU92d07JuBsfCEXIECcYTEGtreI8ymkTIzDZ_v16TXcKvCzEmMeaHKQEiJ0w&name=Vader&email=darthvader@bancobbm.com.br&Culture=pt-BR",
+      "delay": 500,
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Create Password Feedback",
+      "url": "https://ib.dev.bocombbm.com.br/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "https://ib.hom.bocombbm.com.br/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "onReadyScript": "puppet/custom/password-url-used.js",
+      "delay": 2000,
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Page Not Found",
+      "url": "http://40.121.58.75/notfound",
+      "referenceUrl": "http://104.45.130.177/notfound",
+      "delay": 500,
+      "selectors": [
+        "[data-test=NotFound]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Home Page",
+      "url": "http://40.121.58.75/",
+      "referenceUrl": "http://104.45.130.177/",
+      "delay": 2000,
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Summary Screen",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 15000,
+      "onReadyScript": "puppet/custom/summary.js",
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Fixed Income",
+      "url": "http://40.121.58.75/position/fixed-income",
+      "referenceUrl": "http://104.45.130.177/position/fixed-income",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Equities",
+      "url": "http://40.121.58.75/position/equities",
+      "referenceUrl": "http://104.45.130.177/position/equities",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Funds",
+      "url": "http://40.121.58.75/position/funds",
+      "referenceUrl": "http://104.45.130.177/position/funds",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Cash Accounts",
+      "url": "http://40.121.58.75/position/account",
+      "referenceUrl": "http://104.45.130.177/position/account",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Fixed Income",
+      "url": "http://40.121.58.75/transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/transactions/fixed-income",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Filtering per period",
+      "url": "http://40.121.58.75/Transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/Transactions/fixed-income",
+      "delay": 5000,
+      "onReadyScript": "puppet/custom/date-picker.js",
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Filtering since",
+      "url": "http://40.121.58.75/Transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/Transactions/fixed-income",
+      "delay": 5000,
+      "onReadyScript": "puppet/custom/date-picker.js",
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Equities",
+      "url": "http://40.121.58.75/transactions/equities",
+      "referenceUrl": "http://104.45.130.177/transactions/equities",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Funds",
+      "url": "http://40.121.58.75/transactions/funds",
+      "referenceUrl": "http://104.45.130.177/transactions/funds",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Cash Accounts",
+      "url": "http://40.121.58.75/transactions/account",
+      "referenceUrl": "http://104.45.130.177/transactions/account",
+      "delay": 5000,
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Documents - Expanded",
+      "url": "http://40.121.58.75/documents",
+      "onReadyScript": "puppet/custom/documents.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=DocumentsPage]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Documents - Collapsed",
+      "url": "http://40.121.58.75/documents",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=DocumentsPage]"
+      ],
+      "misMatchThreshold": 0.0,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/lang-test/bitmaps_reference",
+    "bitmaps_test": "backstop_data/lang-test/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/lang-test/html_report",
+    "ci_report": "backstop_data/lang-test/ci_report"
+  },
+  "report": [
+    "browser",
+    "CI"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 5,
+  "debug": false,
+  "debugWindow": false
+}

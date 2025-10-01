@@ -1,0 +1,140 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountInfo component should render correctly the destination account info 1`] = `
+<styled.section>
+  <styled.span
+    className="receiverAccount"
+  >
+    VOUCHER_DESTINATION_ACCOUNT
+  </styled.span>
+  <styled.section>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="40"
+      type="BankDefault"
+      width="40"
+    />
+    <styled.section
+      data-test="BankInfo_undefined"
+    >
+      <styled.span>
+         -
+         
+        <Styled(styled.span)>
+          QUALITYWARE 1106
+        </Styled(styled.span)>
+      </styled.span>
+    </styled.section>
+  </styled.section>
+  <styled.section>
+    <styled.div>
+      <styled.span>
+        VOUCHER_FULL_NAME
+      </styled.span>
+      <styled.span>
+        VITOR PICAZO
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        CPF
+      </styled.span>
+      <styled.span>
+        070.662.370-03
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        VOUCHER_AGENCY
+      </styled.span>
+      <styled.span
+        data-test="VoucherAgency_undefined"
+      >
+        1231
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        VOUCHER_CASH_ACCOUNT
+      </styled.span>
+      <styled.span
+        data-test="VoucherCashAccount_undefined"
+      >
+        12312-8
+      </styled.span>
+    </styled.div>
+  </styled.section>
+</styled.section>
+`;
+
+exports[`AccountInfo component should render correctly the sender account info 1`] = `
+<styled.section>
+  <styled.span
+    className="receiverAccount"
+  >
+    VOUCHER_ORIGIN_ACCOUNT
+  </styled.span>
+  <styled.section>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="40"
+      type="Bbm"
+      width="40"
+    />
+    <styled.section
+      data-test="BankInfo_undefined"
+    >
+      <styled.span>
+        107
+         -
+         
+        <Styled(styled.span)>
+          BANCO BOCOM BBM
+        </Styled(styled.span)>
+      </styled.span>
+    </styled.section>
+  </styled.section>
+  <styled.section>
+    <styled.div>
+      <styled.span>
+        VOUCHER_FULL_NAME
+      </styled.span>
+      <styled.span>
+        VITOR PICAZO
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        CNPJ
+      </styled.span>
+      <styled.span>
+        07.066.237/0033-00
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        VOUCHER_AGENCY
+      </styled.span>
+      <styled.span
+        data-test="VoucherAgency_undefined"
+      >
+        0002
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        VOUCHER_CASH_ACCOUNT
+      </styled.span>
+      <styled.span
+        data-test="VoucherCashAccount_undefined"
+      >
+        304974
+      </styled.span>
+    </styled.div>
+  </styled.section>
+</styled.section>
+`;

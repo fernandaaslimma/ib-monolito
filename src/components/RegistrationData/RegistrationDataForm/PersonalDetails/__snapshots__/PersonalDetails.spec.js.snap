@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalDetails component should match snapshot with props 1`] = `
+<PersonalDetails
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`PersonalDetails component should render AlertMessage 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gPWkxV feRTrR"
+      >
+        <div
+          class="sc-kUaPvJ evPVFY"
+          data-test="SectionedPersonalDetails"
+        >
+          <div
+            class="sc-giadOv iTwkRU"
+          >
+            ATUCAD_PERSONAL_REGISTRATION_DETAILS
+          </div>
+          <span
+            class="sc-fONwsr etgUql sc-cMljjf gtEzse"
+            height="14"
+            spacing="[object Object]"
+            width="14"
+          >
+            <svg
+              viewBox="0 0 14 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M 3.0325556 9.478114 l 3.947 -4.211 L 10.925555 9.478114 c 0.239 0.255 0.628 0.255 0.88 0.0 c 0.239 -0.255 0.239 -0.684 0.0 -0.939 L 7.419556 3.8721104 c -0.24 -0.255 -0.629 -0.255 -0.88 0.0 L 2.1645555 8.5521145 c -0.239 0.256 -0.239 0.685 0.0 0.94 c 0.239 0.254 0.629 0.254 0.868 -0.014 z"
+                fill="currentColor"
+                fill-rule="nonzero"
+                transform="matrix(-0.9996729 0.025575541 -0.025575541 -0.9996729 14.138712 13.182392)"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="sc-jVODtj bOgZBQ"
+        >
+          <div>
+            <div
+              class="sc-gZMcBi jOAkqV"
+            >
+              <div
+                class="sc-VigVT ftgMyb"
+              >
+                <div
+                  class="sc-krDsej fejGNu"
+                  data-test="alertMessage"
+                  spacing="[object Object]"
+                  type="error"
+                >
+                  <span
+                    class="sc-cMljjf gJcOFX"
+                    height="24"
+                    spacing="[object Object]"
+                    width="24"
+                  >
+                    <svg
+                      height="24"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g
+                        fill="none"
+                        fill-rule="evenodd"
+                      >
+                        <path
+                          d="M0 0H24V24H0z"
+                        />
+                        <path
+                          d="M12 2.5c2.623 0 4.998 1.063 6.718 2.782C20.437 7.002 21.5 9.377 21.5 12s-1.063 4.998-2.782 6.718C16.998 20.437 14.623 21.5 12 21.5s-4.998-1.063-6.718-2.782C3.563 16.998 2.5 14.623 2.5 12s1.063-4.998 2.782-6.718C7.002 3.563 9.377 2.5 12 2.5zM12 4c-2.21 0-4.21.895-5.657 2.343C4.895 7.791 4 9.791 4 12c0 2.21.895 4.21 2.343 5.657C7.791 19.105 9.791 20 12 20c2.21 0 4.21-.895 5.657-2.343C19.105 16.209 20 14.209 20 12c0-2.21-.895-4.21-2.343-5.657C16.209 4.895 14.209 4 12 4zm0 10.5c.69 0 1.25.56 1.25 1.25S12.69 17 12 17s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm.305-7.375c.552.01.992.466.982 1.018l-.074 4.25c-.01.551-.465.991-1.018.981-.552-.01-.992-.465-.982-1.017l.074-4.25c.01-.551.465-.991 1.018-.982z"
+                          fill="currentColor"
+                        />
+                      </g>
+                    </svg>
+                  </span>
+                  <p
+                    class="sc-dTdPqK fkNpMl"
+                  >
+                    ATUCAD_REQUIRED_FIELDS_OMMITED
+                    :
+                    <br />
+                    <span
+                      class="sc-dxgOiQ crPYND"
+                      data-last="ATUCAD_AND"
+                    >
+                      ATUCAD_SPOUSENAME
+                    </span>
+                    <span
+                      class="sc-dxgOiQ crPYND"
+                      data-last="ATUCAD_AND"
+                    >
+                      ATUCAD_SPOUSECPF
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="sc-VigVT cGeNKy"
+              >
+                <div
+                  class="sc-gqjmRU eVDPdp sc-gZMcBi jOAkqV"
+                >
+                  <div
+                    class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                  >
+                    <h3
+                      class="sc-gzVnrw fzMhYs"
+                    >
+                      ATUCAD_MARITAL_STATUS
+                    </h3>
+                  </div>
+                  <div
+                    class="sc-jTzLTM hnots sc-VigVT jQtPgY"
+                  >
+                    <div
+                      class="sc-kIPQKe cDCwyY"
+                      data-test="DropdownMaritalStatus"
+                      width="100"
+                    >
+                      <div
+                        class="css-dh651v-container"
+                      >
+                        <div
+                          class="css-108crrh-control DropdownMaritalStatus__control"
+                        >
+                          <div
+                            class="css-1eyg9mm DropdownMaritalStatus__value-container DropdownMaritalStatus__value-container--has-value"
+                          >
+                            <div
+                              class="css-dvua67-singleValue DropdownMaritalStatus__single-value"
+                            >
+                              ATUCAD_MARRIED
+                            </div>
+                            <div
+                              class="css-6hs1gt"
+                            >
+                              <div
+                                class="DropdownMaritalStatus__input"
+                                style="display: inline-block;"
+                              >
+                                <input
+                                  aria-autocomplete="list"
+                                  autocapitalize="none"
+                                  autocomplete="off"
+                                  autocorrect="off"
+                                  id="react-select-5-input"
+                                  spellcheck="false"
+                                  style="box-sizing: content-box; width: 2px; border: 0px; opacity: 1; outline: 0; padding: 0px;"
+                                  tabindex="0"
+                                  type="text"
+                                  value=""
+                                />
+                                <div
+                                  style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="css-k008qs DropdownMaritalStatus__indicators"
+                          >
+                            <span
+                              class="css-1hyfx7x DropdownMaritalStatus__indicator-separator"
+                            />
+                            <div
+                              aria-hidden="true"
+                              class="css-pr5ul8-indicatorContainer DropdownMaritalStatus__indicator DropdownMaritalStatus__dropdown-indicator"
+                            >
+                              <span
+                                class="sc-cMljjf jUWHkm"
+                                height="10"
+                                spacing="[object Object]"
+                                width="10"
+                              >
+                                <svg
+                                  viewBox="0 0 14 14"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M 3.0325556 9.478114 l 3.947 -4.211 L 10.925555 9.478114 c 0.239 0.255 0.628 0.255 0.88 0.0 c 0.239 -0.255 0.239 -0.684 0.0 -0.939 L 7.419556 3.8721104 c -0.24 -0.255 -0.629 -0.255 -0.88 0.0 L 2.1645555 8.5521145 c -0.239 0.256 -0.239 0.685 0.0 0.94 c 0.239 0.254 0.629 0.254 0.868 -0.014 z"
+                                    fill="currentColor"
+                                    fill-rule="nonzero"
+                                    transform="matrix(-0.9996729 0.025575541 -0.025575541 -0.9996729 14.138712 13.182392)"
+                                  />
+                                </svg>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <input
+                          name="maritalStatus"
+                          type="hidden"
+                          value="married"
+                        />
+                      </div>
+                      <label
+                        class="sc-esjQYD kBJpsb"
+                      >
+                        ATUCAD_STATUS
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="sc-VigVT elfmMa"
+              >
+                <div
+                  class="sc-gqjmRU kVtujU sc-gZMcBi jOAkqV"
+                >
+                  <div
+                    class="sc-jTzLTM hnots sc-VigVT dwcKXw"
+                  >
+                    <h3
+                      class="sc-gzVnrw fzMhYs"
+                    >
+                      ATUCAD_SPOUSE_DATA
+                    </h3>
+                  </div>
+                  <div
+                    class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                  >
+                    <div
+                      class="sc-caSCKo bFECNw"
+                    >
+                      <input
+                        class="sc-fAjcbJ jnHLZu"
+                        data-test="SpouseName"
+                        label="ATUCAD_NAME_INPUT_LABEL"
+                        name=""
+                        required=""
+                        type="text"
+                        value="married"
+                      />
+                      <label
+                        class="sc-eqIVtm hYcQtW"
+                      >
+                        ATUCAD_NAME_INPUT_LABEL
+                      </label>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                  >
+                    <div
+                      class="sc-caSCKo bFECNw"
+                    >
+                      <input
+                        class="sc-fAjcbJ jnHLZu"
+                        data-test="SpouseCPF"
+                        label="ATUCAD_CPF"
+                        name=""
+                        placeholder=""
+                        required=""
+                        type="text"
+                        value="12345678910"
+                      />
+                      <label
+                        class="sc-eqIVtm hYcQtW"
+                      >
+                        ATUCAD_CPF
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gPWkxV feRTrR"
+    >
+      <div
+        class="sc-kUaPvJ evPVFY"
+        data-test="SectionedPersonalDetails"
+      >
+        <div
+          class="sc-giadOv iTwkRU"
+        >
+          ATUCAD_PERSONAL_REGISTRATION_DETAILS
+        </div>
+        <span
+          class="sc-fONwsr etgUql sc-cMljjf gtEzse"
+          height="14"
+          spacing="[object Object]"
+          width="14"
+        >
+          <svg
+            viewBox="0 0 14 14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M 3.0325556 9.478114 l 3.947 -4.211 L 10.925555 9.478114 c 0.239 0.255 0.628 0.255 0.88 0.0 c 0.239 -0.255 0.239 -0.684 0.0 -0.939 L 7.419556 3.8721104 c -0.24 -0.255 -0.629 -0.255 -0.88 0.0 L 2.1645555 8.5521145 c -0.239 0.256 -0.239 0.685 0.0 0.94 c 0.239 0.254 0.629 0.254 0.868 -0.014 z"
+              fill="currentColor"
+              fill-rule="nonzero"
+              transform="matrix(-0.9996729 0.025575541 -0.025575541 -0.9996729 14.138712 13.182392)"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="sc-jVODtj bOgZBQ"
+      >
+        <div>
+          <div
+            class="sc-gZMcBi jOAkqV"
+          >
+            <div
+              class="sc-VigVT ftgMyb"
+            >
+              <div
+                class="sc-krDsej fejGNu"
+                data-test="alertMessage"
+                spacing="[object Object]"
+                type="error"
+              >
+                <span
+                  class="sc-cMljjf gJcOFX"
+                  height="24"
+                  spacing="[object Object]"
+                  width="24"
+                >
+                  <svg
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="none"
+                      fill-rule="evenodd"
+                    >
+                      <path
+                        d="M0 0H24V24H0z"
+                      />
+                      <path
+                        d="M12 2.5c2.623 0 4.998 1.063 6.718 2.782C20.437 7.002 21.5 9.377 21.5 12s-1.063 4.998-2.782 6.718C16.998 20.437 14.623 21.5 12 21.5s-4.998-1.063-6.718-2.782C3.563 16.998 2.5 14.623 2.5 12s1.063-4.998 2.782-6.718C7.002 3.563 9.377 2.5 12 2.5zM12 4c-2.21 0-4.21.895-5.657 2.343C4.895 7.791 4 9.791 4 12c0 2.21.895 4.21 2.343 5.657C7.791 19.105 9.791 20 12 20c2.21 0 4.21-.895 5.657-2.343C19.105 16.209 20 14.209 20 12c0-2.21-.895-4.21-2.343-5.657C16.209 4.895 14.209 4 12 4zm0 10.5c.69 0 1.25.56 1.25 1.25S12.69 17 12 17s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm.305-7.375c.552.01.992.466.982 1.018l-.074 4.25c-.01.551-.465.991-1.018.981-.552-.01-.992-.465-.982-1.017l.074-4.25c.01-.551.465-.991 1.018-.982z"
+                        fill="currentColor"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <p
+                  class="sc-dTdPqK fkNpMl"
+                >
+                  ATUCAD_REQUIRED_FIELDS_OMMITED
+                  :
+                  <br />
+                  <span
+                    class="sc-dxgOiQ crPYND"
+                    data-last="ATUCAD_AND"
+                  >
+                    ATUCAD_SPOUSENAME
+                  </span>
+                  <span
+                    class="sc-dxgOiQ crPYND"
+                    data-last="ATUCAD_AND"
+                  >
+                    ATUCAD_SPOUSECPF
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              class="sc-VigVT cGeNKy"
+            >
+              <div
+                class="sc-gqjmRU eVDPdp sc-gZMcBi jOAkqV"
+              >
+                <div
+                  class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                >
+                  <h3
+                    class="sc-gzVnrw fzMhYs"
+                  >
+                    ATUCAD_MARITAL_STATUS
+                  </h3>
+                </div>
+                <div
+                  class="sc-jTzLTM hnots sc-VigVT jQtPgY"
+                >
+                  <div
+                    class="sc-kIPQKe cDCwyY"
+                    data-test="DropdownMaritalStatus"
+                    width="100"
+                  >
+                    <div
+                      class="css-dh651v-container"
+                    >
+                      <div
+                        class="css-108crrh-control DropdownMaritalStatus__control"
+                      >
+                        <div
+                          class="css-1eyg9mm DropdownMaritalStatus__value-container DropdownMaritalStatus__value-container--has-value"
+                        >
+                          <div
+                            class="css-dvua67-singleValue DropdownMaritalStatus__single-value"
+                          >
+                            ATUCAD_MARRIED
+                          </div>
+                          <div
+                            class="css-6hs1gt"
+                          >
+                            <div
+                              class="DropdownMaritalStatus__input"
+                              style="display: inline-block;"
+                            >
+                              <input
+                                aria-autocomplete="list"
+                                autocapitalize="none"
+                                autocomplete="off"
+                                autocorrect="off"
+                                id="react-select-5-input"
+                                spellcheck="false"
+                                style="box-sizing: content-box; width: 2px; border: 0px; opacity: 1; outline: 0; padding: 0px;"
+                                tabindex="0"
+                                type="text"
+                                value=""
+                              />
+                              <div
+                                style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="css-k008qs DropdownMaritalStatus__indicators"
+                        >
+                          <span
+                            class="css-1hyfx7x DropdownMaritalStatus__indicator-separator"
+                          />
+                          <div
+                            aria-hidden="true"
+                            class="css-pr5ul8-indicatorContainer DropdownMaritalStatus__indicator DropdownMaritalStatus__dropdown-indicator"
+                          >
+                            <span
+                              class="sc-cMljjf jUWHkm"
+                              height="10"
+                              spacing="[object Object]"
+                              width="10"
+                            >
+                              <svg
+                                viewBox="0 0 14 14"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M 3.0325556 9.478114 l 3.947 -4.211 L 10.925555 9.478114 c 0.239 0.255 0.628 0.255 0.88 0.0 c 0.239 -0.255 0.239 -0.684 0.0 -0.939 L 7.419556 3.8721104 c -0.24 -0.255 -0.629 -0.255 -0.88 0.0 L 2.1645555 8.5521145 c -0.239 0.256 -0.239 0.685 0.0 0.94 c 0.239 0.254 0.629 0.254 0.868 -0.014 z"
+                                  fill="currentColor"
+                                  fill-rule="nonzero"
+                                  transform="matrix(-0.9996729 0.025575541 -0.025575541 -0.9996729 14.138712 13.182392)"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <input
+                        name="maritalStatus"
+                        type="hidden"
+                        value="married"
+                      />
+                    </div>
+                    <label
+                      class="sc-esjQYD kBJpsb"
+                    >
+                      ATUCAD_STATUS
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sc-VigVT elfmMa"
+            >
+              <div
+                class="sc-gqjmRU kVtujU sc-gZMcBi jOAkqV"
+              >
+                <div
+                  class="sc-jTzLTM hnots sc-VigVT dwcKXw"
+                >
+                  <h3
+                    class="sc-gzVnrw fzMhYs"
+                  >
+                    ATUCAD_SPOUSE_DATA
+                  </h3>
+                </div>
+                <div
+                  class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                >
+                  <div
+                    class="sc-caSCKo bFECNw"
+                  >
+                    <input
+                      class="sc-fAjcbJ jnHLZu"
+                      data-test="SpouseName"
+                      label="ATUCAD_NAME_INPUT_LABEL"
+                      name=""
+                      required=""
+                      type="text"
+                      value="married"
+                    />
+                    <label
+                      class="sc-eqIVtm hYcQtW"
+                    >
+                      ATUCAD_NAME_INPUT_LABEL
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="sc-jTzLTM hnots sc-VigVT cGeNKy"
+                >
+                  <div
+                    class="sc-caSCKo bFECNw"
+                  >
+                    <input
+                      class="sc-fAjcbJ jnHLZu"
+                      data-test="SpouseCPF"
+                      label="ATUCAD_CPF"
+                      name=""
+                      placeholder=""
+                      required=""
+                      type="text"
+                      value="12345678910"
+                    />
+                    <label
+                      class="sc-eqIVtm hYcQtW"
+                    >
+                      ATUCAD_CPF
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

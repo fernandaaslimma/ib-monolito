@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Welcome component should render welcome with props 1`] = `
+<Fragment>
+  <styled.form>
+    <ConnectWrapper />
+    <styled.h2>
+      Mock, 
+    </styled.h2>
+    <styled.div>
+      <styled.h1 />
+    </styled.div>
+    <ShowAndHideDescription
+      spacing={
+        Object {
+          "bottom": "l",
+          "left": "l",
+          "right": "l",
+          "top": "s",
+        }
+      }
+      texts={
+        Object {
+          "button": undefined,
+          "description": undefined,
+        }
+      }
+    />
+    <styled.div>
+      <Button
+        actionSecondary={null}
+        className={null}
+        dataTest="answerLater"
+        disabled={false}
+        height={null}
+        isCallToAction={null}
+        isWarning={null}
+        onClick={[Function]}
+        paddingSize={null}
+        small={false}
+        type="button"
+        width={null}
+      />
+      <Link
+        actionSecondary={false}
+        anchor={null}
+        disabled={false}
+        href="javascript:void(0)"
+        id="Confirm"
+        isCallToAction={true}
+        loading={false}
+        onClick={[Function]}
+        small={null}
+        target={null}
+        to={null}
+        width={null}
+      />
+    </styled.div>
+  </styled.form>
+</Fragment>
+`;

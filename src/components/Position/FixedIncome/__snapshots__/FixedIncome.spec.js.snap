@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FixedIncome component should match snapshot with accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Fixed_Income"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        fixedIncome={
+          Array [
+            Object {
+              "date": "12/12",
+              "grossBalance": 123,
+              "grossResultBalance": 123,
+              "incomeTaxBalance": 1,
+              "indexer": "di",
+              "indexerRate": "12",
+              "iofBalance": 0,
+              "issuer": "issuer",
+              "maturityDate": "12/12",
+              "name": "name",
+              "netBalance": 123,
+              "portfolioShare": 123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        fixedIncome={
+          Array [
+            Object {
+              "date": "12/12",
+              "grossBalance": 123,
+              "grossResultBalance": 123,
+              "incomeTaxBalance": 1,
+              "indexer": "di",
+              "indexerRate": "12",
+              "iofBalance": 0,
+              "issuer": "issuer",
+              "maturityDate": "12/12",
+              "name": "name",
+              "netBalance": 123,
+              "portfolioShare": 123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+  </div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": "LCA_WITHDRAW",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="transactionInMovement"
+        >
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_1 R$ undefined. 
+        </styled.span>
+        <Styled(styled.span)>
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_2
+        </Styled(styled.span)>
+      </styled.div>
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <Button
+            dataTest="onGoingTransactionsUnderstood"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "s",
+                "right": "s",
+                "top": "s",
+              }
+            }
+          >
+            WITHDRAWAL_LCA_ON_GOING_REDEMPTION_UNDERSTOOD
+          </Button>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+</ErrorBoundary>
+`;
+
+exports[`FixedIncome component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Fixed_Income"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        fixedIncome={Array []}
+        isEmpty={false}
+        loading={true}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        fixedIncome={Array []}
+        isEmpty={false}
+        loading={true}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+  </div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": "LCA_WITHDRAW",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="transactionInMovement"
+        >
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_1 R$ undefined. 
+        </styled.span>
+        <Styled(styled.span)>
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_2
+        </Styled(styled.span)>
+      </styled.div>
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <Button
+            dataTest="onGoingTransactionsUnderstood"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "s",
+                "right": "s",
+                "top": "s",
+              }
+            }
+          >
+            WITHDRAWAL_LCA_ON_GOING_REDEMPTION_UNDERSTOOD
+          </Button>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+</ErrorBoundary>
+`;
+
+exports[`FixedIncome component should match snapshot without accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Fixed_Income"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        fixedIncome={Array []}
+        isEmpty={false}
+        loading={false}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        fixedIncome={Array []}
+        isEmpty={false}
+        loading={false}
+        verifyOnGoingTransactions={[Function]}
+      />
+    </Hide>
+  </div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": "LCA_WITHDRAW",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="transactionInMovement"
+        >
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_1 R$ undefined. 
+        </styled.span>
+        <Styled(styled.span)>
+          WITHDRAWAL_LCA_ON_GOING_REDEMPTION_TEXT_2
+        </Styled(styled.span)>
+      </styled.div>
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <Button
+            dataTest="onGoingTransactionsUnderstood"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "s",
+                "right": "s",
+                "top": "s",
+              }
+            }
+          >
+            WITHDRAWAL_LCA_ON_GOING_REDEMPTION_UNDERSTOOD
+          </Button>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+</ErrorBoundary>
+`;

@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Success Should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: visible;"
+  >
+    <div>
+      <div
+        class="sc-bdVaJa elTPbC"
+      >
+        <img
+          class="sc-htpNat gKwFWR"
+          data-test="SuccessImage"
+          src="test-file-stub"
+        />
+        <span
+          class="sc-bxivhb fYNYYx"
+          data-test="ExReqTitle"
+        />
+        <span
+          class="sc-ifAKCX bTEmpT"
+          data-test="ExReqDate"
+        >
+          06/01/2010 undefined 01:01
+        </span>
+        <span
+          class="sc-iwsKbI eVgjGI"
+          data-test="ExReqFavoredSpan"
+        />
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqFavoredName"
+        >
+          Matheus Favari
+        </span>
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqFavoredAccNr"
+        >
+          undefined 123456
+        </span>
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqFavoredBankName"
+        >
+          undefined Santander
+        </span>
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqFavoredBankSwift"
+        >
+          undefined BBINBRRJXXX
+        </span>
+        <span
+          class="sc-iwsKbI eVgjGI"
+          data-test="ExReqValueSpan"
+        />
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqValue"
+        >
+          USD 75.000,00
+        </span>
+        <span
+          class="sc-iwsKbI eVgjGI"
+          data-test="ExReqDebitDateSpan"
+        />
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqDebitDate"
+        >
+          06/01/2010
+        </span>
+        <span
+          class="sc-jTzLTM gzaqNt"
+        >
+          <span
+            class="sc-fjdhpX hRwuPO"
+            data-test="ExReqCreditDateSpan"
+            style="margin-right: 0.5rem;"
+          />
+          <span
+            class="sc-jzJRlG hAxlKv"
+            color="#3976cf"
+            data-test="ExReqCreditDateIcon"
+            height="24"
+            width="24"
+          >
+            <svg
+              height="140"
+              viewBox="0 0 140 140"
+              width="140"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="currentColor"
+                fill-rule="nonzero"
+              >
+                <g
+                  transform="translate(66.655 42.516)"
+                >
+                  <path
+                    d="M5.3 28.606a3.812 3.812 0 0 1-3.814-3.814V3.814A3.812 3.812 0 0 1 5.3 0a3.812 3.812 0 0 1 3.814 3.814v20.978A3.812 3.812 0 0 1 5.3 28.606z"
+                  />
+                  <circle
+                    cx="5.302"
+                    cy="41.273"
+                    r="4.495"
+                  />
+                </g>
+                <path
+                  d="M72.692 113.078c-25.238 0-45.769-20.53-45.769-45.77 0-25.238 20.53-45.768 45.77-45.768 25.238 0 45.769 20.53 45.769 45.769 0 25.238-20.531 45.77-45.77 45.77zm0-83.91c-21.03 0-38.14 17.111-38.14 38.14 0 21.03 17.11 38.142 38.14 38.142s38.141-17.111 38.141-38.141c0-21.03-17.111-38.141-38.14-38.141z"
+                />
+              </g>
+            </svg>
+          </span>
+        </span>
+        <span
+          class="sc-gZMcBi jqyLEp"
+          data-test="ExReqCreditDate"
+          style="margin-top: 0.5rem;"
+        >
+          06/01/2010
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa elTPbC"
+    >
+      <img
+        class="sc-htpNat gKwFWR"
+        data-test="SuccessImage"
+        src="test-file-stub"
+      />
+      <span
+        class="sc-bxivhb fYNYYx"
+        data-test="ExReqTitle"
+      />
+      <span
+        class="sc-ifAKCX bTEmpT"
+        data-test="ExReqDate"
+      >
+        06/01/2010 undefined 01:01
+      </span>
+      <span
+        class="sc-iwsKbI eVgjGI"
+        data-test="ExReqFavoredSpan"
+      />
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqFavoredName"
+      >
+        Matheus Favari
+      </span>
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqFavoredAccNr"
+      >
+        undefined 123456
+      </span>
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqFavoredBankName"
+      >
+        undefined Santander
+      </span>
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqFavoredBankSwift"
+      >
+        undefined BBINBRRJXXX
+      </span>
+      <span
+        class="sc-iwsKbI eVgjGI"
+        data-test="ExReqValueSpan"
+      />
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqValue"
+      >
+        USD 75.000,00
+      </span>
+      <span
+        class="sc-iwsKbI eVgjGI"
+        data-test="ExReqDebitDateSpan"
+      />
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqDebitDate"
+      >
+        06/01/2010
+      </span>
+      <span
+        class="sc-jTzLTM gzaqNt"
+      >
+        <span
+          class="sc-fjdhpX hRwuPO"
+          data-test="ExReqCreditDateSpan"
+          style="margin-right: 0.5rem;"
+        />
+        <span
+          class="sc-jzJRlG hAxlKv"
+          color="#3976cf"
+          data-test="ExReqCreditDateIcon"
+          height="24"
+          width="24"
+        >
+          <svg
+            height="140"
+            viewBox="0 0 140 140"
+            width="140"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="currentColor"
+              fill-rule="nonzero"
+            >
+              <g
+                transform="translate(66.655 42.516)"
+              >
+                <path
+                  d="M5.3 28.606a3.812 3.812 0 0 1-3.814-3.814V3.814A3.812 3.812 0 0 1 5.3 0a3.812 3.812 0 0 1 3.814 3.814v20.978A3.812 3.812 0 0 1 5.3 28.606z"
+                />
+                <circle
+                  cx="5.302"
+                  cy="41.273"
+                  r="4.495"
+                />
+              </g>
+              <path
+                d="M72.692 113.078c-25.238 0-45.769-20.53-45.769-45.77 0-25.238 20.53-45.768 45.77-45.768 25.238 0 45.769 20.53 45.769 45.769 0 25.238-20.531 45.77-45.77 45.77zm0-83.91c-21.03 0-38.14 17.111-38.14 38.14 0 21.03 17.11 38.142 38.14 38.142s38.141-17.111 38.141-38.141c0-21.03-17.111-38.141-38.14-38.141z"
+              />
+            </g>
+          </svg>
+        </span>
+      </span>
+      <span
+        class="sc-gZMcBi jqyLEp"
+        data-test="ExReqCreditDate"
+        style="margin-top: 0.5rem;"
+      >
+        06/01/2010
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

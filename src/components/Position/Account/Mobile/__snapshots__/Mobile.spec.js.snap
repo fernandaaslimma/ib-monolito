@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should call default icon component 1`] = `
+<styled.span
+  color="#374654"
+  cursorPointer={0}
+  fixCrossAxisAlign={null}
+  height={null}
+  width={null}
+>
+  <EmptyWallet />
+</styled.span>
+`;
+
+exports[`Mobile component should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.section
+      data-test="PositionAccountMobile0"
+      key="PositionAccountMobile0"
+    >
+      <styled.div>
+        <Card
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div
+            columns={2}
+          >
+            <styled.div>
+              <styled.div>
+                ACCOUNT_NUMBER
+              </styled.div>
+              <styled.div>
+                123 123-1
+              </styled.div>
+            </styled.div>
+            <styled.div
+              alignRight={true}
+            >
+              <styled.div>
+                REFERENCE_DATE
+              </styled.div>
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <br />
+          <styled.div>
+            <styled.div>
+              AVAILABLE_BALANCE
+            </styled.div>
+            <styled.div>
+              123.123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              BLOCKED_BALANCE
+            </styled.div>
+            <styled.div>
+              123.123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              TOTAL_BALANCE
+            </styled.div>
+            <styled.div>
+              123.123,00
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.section>
+      <styled.div>
+        <Card
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div
+            columns={2}
+          >
+            <styled.div>
+              <styled.div>
+                ACCOUNT_NUMBER
+              </styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+            <styled.div
+              alignRight={true}
+            >
+              <styled.div>
+                REFERENCE_DATE
+              </styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <br />
+          <styled.div>
+            <styled.div>
+              AVAILABLE_BALANCE
+            </styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              BLOCKED_BALANCE
+            </styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              TOTAL_BALANCE
+            </styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+</Fragment>
+`;

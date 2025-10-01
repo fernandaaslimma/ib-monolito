@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalLoading component should match snapshot 1`] = `null`;
+
+exports[`GlobalLoading component should match snapshot with an opened GlobalLoading 1`] = `
+<div
+  class="sc-bdVaJa dtTcyp"
+  data-test="Loading"
+>
+  <div
+    class="sc-bwzfXH gDVoy"
+  />
+  <div
+    class="sc-bwzfXH gDVoy"
+  />
+  <div
+    class="sc-bwzfXH gDVoy"
+  />
+</div>
+`;

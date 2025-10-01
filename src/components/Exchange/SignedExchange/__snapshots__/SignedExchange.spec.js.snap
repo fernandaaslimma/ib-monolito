@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignedExchange component should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Container
+      data-test="SignedExchange"
+    />
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`SignedExchange component should render contract list if signedContracts Object is fullfiled 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Container
+      data-test="SignedExchange"
+    >
+      <SignedContractSummary
+        contract={
+          Object {
+            "contractId": "otherthing",
+          }
+        }
+        contractId="otherthing"
+        data-test="exchangeContractotherthing"
+        key="otherthing"
+        loading={true}
+      />
+    </Container>
+  </styled.div>
+</ErrorBoundary>
+`;

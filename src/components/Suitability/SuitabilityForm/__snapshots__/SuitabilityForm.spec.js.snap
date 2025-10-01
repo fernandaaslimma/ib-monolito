@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuitabilityForm component should match snapshot with props 1`] = `
+<styled.form>
+  <ConnectWrapper
+    dataTest="suitability-data-close"
+    onClickClose={[Function]}
+    title="KEEP_YOUR_SUITABILITY_UP_TO_DATE"
+  />
+  <styled.div>
+    <DefaultShimmerLoading
+      innerRepeat={4}
+      repeat={3}
+    />
+    <ContentBySteps
+      currentStep={1}
+      data={
+        Array [
+          Object {
+            "data": Object {
+              "className": "SingleChoice",
+              "id": 1,
+              "options": Array [
+                Object {
+                  "id": 1,
+                  "step": 1,
+                  "value": "Um",
+                },
+                Object {
+                  "id": 2,
+                  "step": 2,
+                  "value": "Dois",
+                },
+              ],
+              "title": "Qual é o número de seus dependentes financeiros?",
+            },
+            "step": 1,
+          },
+          Object {
+            "data": Object {
+              "className": "PercentageComposition",
+              "components": Array [
+                Object {
+                  "id": 1,
+                  "step": 1,
+                  "title": "Fundos de Investimento de Renda Fixa e Referenciado DI, Poupança, Títulos Públicos e Conta Corrente",
+                },
+                Object {
+                  "id": 2,
+                  "step": 2,
+                  "title": "Fundos de Investimento de Renda Fixa Crédito Privado (incluindo FIDICs e Fundos de Crédito)",
+                },
+              ],
+              "id": 2,
+              "title": "Qual é a composição atual de seu Patrimônio em %?",
+            },
+            "step": 2,
+          },
+          Object {
+            "data": Object {
+              "className": "TableSingleChoice",
+              "columns": Array [
+                "Investimento de Risco Baixo",
+                "Investimento de Risco Intermediário",
+                "Investimento de Risco Elevado",
+              ],
+              "id": 3,
+              "options": Array [
+                Object {
+                  "id": 1,
+                  "step": 1,
+                  "value": Array [
+                    "100%",
+                    "0%",
+                    "0%",
+                  ],
+                },
+                Object {
+                  "id": 2,
+                  "step": 2,
+                  "value": Array [
+                    "70%",
+                    "20%",
+                    "10%",
+                  ],
+                },
+              ],
+              "title": "Qual das composições de carteira abaixo você optaria por colocar seu dinheiro?",
+            },
+            "step": 3,
+          },
+          Object {
+            "data": Object {
+              "className": "SingleChoiceList",
+              "id": 4,
+              "questions": Array [
+                Object {
+                  "question": Object {
+                    "className": "SingleChoice",
+                    "id": 1,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "step": 1,
+                        "value": "Não",
+                      },
+                      Object {
+                        "id": 2,
+                        "step": 2,
+                        "value": "Alguma",
+                      },
+                    ],
+                    "title": "Fundos de Investimento de Renda Fixa e Referenciado DI; Títulos Públicos, Poupança e Conta Corrente",
+                  },
+                  "step": 1,
+                },
+                Object {
+                  "question": Object {
+                    "className": "SingleChoice",
+                    "id": 2,
+                    "options": Array [
+                      Object {
+                        "id": 1,
+                        "step": 1,
+                        "value": "Não",
+                      },
+                      Object {
+                        "id": 2,
+                        "step": 2,
+                        "value": "Alguma",
+                      },
+                    ],
+                    "title": "Fundos de Investimento de Renda Fixa Crédito Privado (incluindo FIDICs e Fundos de Crédito)",
+                  },
+                  "step": 2,
+                },
+              ],
+              "title": "Você possui experiência de investimento em algum dos ativos abaixo?",
+            },
+            "step": 4,
+          },
+          Object {
+            "data": Object {
+              "className": "noChoice",
+              "id": 1,
+              "title": "Qual é o número de seus dependentes financeiros?",
+            },
+            "step": 5,
+          },
+        ]
+      }
+      disabledNextButtons={Array []}
+      finishForm={[Function]}
+      renderStepData={[Function]}
+      stepBy="step"
+      stepJumpSupportFunc={[Function]}
+    />
+  </styled.div>
+</styled.form>
+`;

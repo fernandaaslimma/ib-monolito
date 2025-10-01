@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete component should check if has to trigger change 1`] = `
+<div
+  className="sc-krvtoX eBMKgH"
+  data-test="Autocomplete"
+>
+  <input
+    className="sc-gHboQg druNUS"
+    data-test="undefined-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sc-fYiAbW fjjnAR"
+  >
+    mock label
+  </label>
+  <span
+    className="sc-eilVRo kDnHSK"
+  />
+  <Portal
+    containerInfo={
+      <body>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <em
+          class="sc-dUjcNx esuQIY"
+        >
+          no message error
+        </em>
+      </body>
+    }
+  />
+</div>
+`;
+
+exports[`Autocomplete component should close suggestion list when clickoutside 1`] = `
+<div
+  className="sc-krvtoX eBMKgH"
+  data-test="Autocomplete"
+>
+  <input
+    className="sc-gHboQg druNUS"
+    data-test="undefined-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sc-fYiAbW fjjnAR"
+  >
+    mock label
+  </label>
+  <Portal
+    containerInfo={
+      <body>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <em
+          class="sc-dUjcNx esuQIY"
+        >
+          no message error
+        </em>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+      </body>
+    }
+  >
+    <div
+      onClickOutside={[Function]}
+    >
+      <ul
+        className="sc-cbkKFq hUXMTJ"
+      >
+        <li
+          className="sc-fOKMvo icCue"
+          onMouseDown={[Function]}
+        >
+          mock1
+        </li>
+        <li
+          className="sc-fOKMvo icCue"
+          onMouseDown={[Function]}
+        >
+          mock2
+        </li>
+      </ul>
+    </div>
+  </Portal>
+</div>
+`;
+
+exports[`Autocomplete component should match snapshot 1`] = `
+<styled.div
+  data-test="Autocomplete"
+>
+  <styled.input
+    data-test="undefined-input"
+    error={false}
+    innerRef={
+      Object {
+        "current": null,
+      }
+    }
+    isEmpty={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <styled.label>
+    mock label
+  </styled.label>
+  <styled.span
+    error={false}
+  />
+  <Portal
+    containerInfo={<body />}
+  />
+</styled.div>
+`;
+
+exports[`Autocomplete component should match snapshot with datatest 1`] = `
+<styled.div
+  data-test="mock"
+>
+  <styled.input
+    data-test="mock-input"
+    error={false}
+    innerRef={
+      Object {
+        "current": null,
+      }
+    }
+    isEmpty={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <styled.label>
+    mock label
+  </styled.label>
+  <styled.span
+    error={false}
+  />
+  <Portal
+    containerInfo={<body />}
+  />
+</styled.div>
+`;
+
+exports[`Autocomplete component should match snapshot with empty message 1`] = `
+<div
+  className="sc-krvtoX eBMKgH"
+  data-test="Autocomplete"
+>
+  <input
+    className="sc-gHboQg druNUS"
+    data-test="undefined-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sc-fYiAbW fjjnAR"
+  >
+    mock label
+  </label>
+  <span
+    className="sc-eilVRo kDnHSK"
+  />
+  <Portal
+    containerInfo={
+      <body>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <em
+          class="sc-dUjcNx esuQIY"
+        >
+          no message error
+        </em>
+      </body>
+    }
+  />
+</div>
+`;
+
+exports[`Autocomplete component should match snapshot with with initial value 1`] = `
+<styled.div
+  data-test="Autocomplete"
+>
+  <styled.input
+    data-test="undefined-input"
+    error={false}
+    innerRef={
+      Object {
+        "current": null,
+      }
+    }
+    isEmpty={false}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value="mock2"
+  />
+  <styled.label>
+    mock label
+  </styled.label>
+  <styled.span
+    error={false}
+  >
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="13"
+      type="Check"
+      width="13"
+    />
+  </styled.span>
+  <Portal
+    containerInfo={<body />}
+  />
+</styled.div>
+`;
+
+exports[`Autocomplete component should trigger change function onMouseDown 1`] = `
+<div
+  className="sc-krvtoX eBMKgH"
+  data-test="Autocomplete"
+>
+  <input
+    className="sc-gHboQg druNUS"
+    data-test="undefined-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sc-fYiAbW fjjnAR"
+  >
+    mock label
+  </label>
+  <span
+    className="sc-eilVRo kDnHSK"
+  />
+  <Portal
+    containerInfo={
+      <body>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <em
+          class="sc-dUjcNx esuQIY"
+        >
+          no message error
+        </em>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+      </body>
+    }
+  />
+</div>
+`;
+
+exports[`Autocomplete component should trigger match snapshot with error input 1`] = `
+<div
+  className="sc-krvtoX eBMKgH"
+  data-test="Autocomplete"
+>
+  <input
+    className="sc-gHboQg druNUS"
+    data-test="undefined-input"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+    value=""
+  />
+  <label
+    className="sc-fYiAbW fjjnAR"
+  >
+    mock label
+  </label>
+  <span
+    className="sc-eilVRo kDnHSK"
+  />
+  <Portal
+    containerInfo={
+      <body>
+        <div>
+          <ul
+            class="sc-cbkKFq hUXMTJ"
+          >
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock1
+            </li>
+            <li
+              class="sc-fOKMvo icCue"
+            >
+              mock2
+            </li>
+          </ul>
+        </div>
+        <em
+          class="sc-dUjcNx esuQIY"
+        >
+          no message error
+        </em>
+      </body>
+    }
+  />
+</div>
+`;

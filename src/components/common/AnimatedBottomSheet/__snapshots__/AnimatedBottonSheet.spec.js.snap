@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animated Botton Sheet should match snapshot closed 1`] = `
+<Portal
+  containerInfo={
+    <body
+      style="overflow: visible;"
+    />
+  }
+/>
+`;
+
+exports[`Animated Botton Sheet should match snapshot opened 1`] = `
+<Portal
+  containerInfo={
+    <body
+      style="overflow: hidden;"
+    />
+  }
+>
+  <styled.div>
+    <styled.div
+      data-test="undefined-bottomSheetBack"
+      onClick={[Function]}
+    />
+    <styled.div>
+      <styled.section>
+        <styled.h3
+          data-test="title"
+          data-visible={true}
+          ellipsis={false}
+          widthTagEllipsis="100%"
+        />
+      </styled.section>
+      <div />
+    </styled.div>
+  </styled.div>
+</Portal>
+`;
+
+exports[`Animated Botton Sheet should match snapshot with full height 1`] = `
+<Portal
+  containerInfo={
+    <body
+      style="overflow: visible;"
+    />
+  }
+/>
+`;
+
+exports[`Animated Botton Sheet should match snapshot with head 1`] = `
+<Portal
+  containerInfo={
+    <body
+      style="overflow: visible;"
+    />
+  }
+/>
+`;

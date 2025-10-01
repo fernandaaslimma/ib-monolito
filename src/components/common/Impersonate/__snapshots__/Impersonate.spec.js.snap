@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Click button to be redirected should call function to be downloaded 1`] = `
+<styled.div>
+  <styled.span>
+    WELCOME
+    , 
+    <styled.span>
+      Teste Nome
+    </styled.span>
+    ! 
+    IMPERSONATE_DESCRIPTION
+    <styled.span />
+    .
+  </styled.span>
+  <styled.button
+    onClick={[Function]}
+  >
+    IMPERSONATE_SELECT_ANOTHER_USER
+  </styled.button>
+</styled.div>
+`;
+
+exports[`Impersonate component should match snapshot for impersonate case 1`] = `
+<styled.div>
+  <styled.span>
+    WELCOME
+    , 
+    <styled.span>
+      Teste Nome
+    </styled.span>
+    ! 
+    IMPERSONATE_DESCRIPTION
+    <styled.span />
+    .
+  </styled.span>
+  <styled.button
+    onClick={[Function]}
+  >
+    IMPERSONATE_SELECT_ANOTHER_USER
+  </styled.button>
+</styled.div>
+`;
+
+exports[`Impersonate component should match snapshot for no impersonate case 1`] = `""`;

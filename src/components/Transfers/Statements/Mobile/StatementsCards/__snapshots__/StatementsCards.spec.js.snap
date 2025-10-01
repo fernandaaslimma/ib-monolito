@@ -1,0 +1,2660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statements Statements Cards should match snapshot as future card 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={true}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-0.5}
+          >
+            TRANSFERÊNCIA AGENDADA
+          </styled.div>
+          <styled.div>
+            VITOR PICAZO
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-0.5}
+        >
+          - R$ 0.50
+        </styled.div>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "- R$ 0.50",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 0.50",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Statements Statements Cards should match snapshot some day 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Statements Statements Cards should match snapshot today 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Statements Statements Cards should match snapshot with bloqued amout 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.div>
+        <styled.div>
+          STATEMENTS_BLOCKED
+        </styled.div>
+         
+        <styled.div>
+          R$ 3,000.00
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Statements Statements Cards should match snapshot with last year 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Statements Statements Cards should match snapshot yesterday 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Testing buttons click should call renderVoucher callback 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.div>
+        <styled.div>
+          STATEMENTS_BLOCKED
+        </styled.div>
+         
+        <styled.div>
+          R$ 3,000.00
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "- R$ 0.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 0.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Testing buttons click should call renderVoucher callback 2`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.div>
+        <styled.div>
+          STATEMENTS_BLOCKED
+        </styled.div>
+         
+        <styled.div>
+          R$ 3,000.00
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "- R$ 0.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 0.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Testing buttons click should close renderVoucher 1`] = `
+<Fragment>
+  <styled.div
+    data-test="card"
+  >
+    <styled.p
+      data-test="cardDate"
+    >
+      TEXTO
+    </styled.p>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DAY_BALANCE
+        </styled.div>
+         
+        <styled.div>
+          R$ 2,000.00
+        </styled.div>
+      </styled.div>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="0"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.li
+        data-test="cardStatement"
+        isFuture={false}
+        key="1"
+        onClick={[Function]}
+      >
+        <styled.span
+          data-test="cardTransactionType"
+        >
+          <styled.div
+            value={-800.5}
+          >
+            TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE
+          </styled.div>
+          <styled.div>
+            mock
+          </styled.div>
+        </styled.span>
+        <styled.div
+          data-test="cardValue"
+          value={-800.5}
+        >
+          - R$ 800.50
+        </styled.div>
+      </styled.li>
+      <styled.div>
+        <styled.div>
+          STATEMENTS_BLOCKED
+        </styled.div>
+         
+        <styled.div>
+          R$ 3,000.00
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="BottomSheetTitle"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+    zIndex={3000}
+  >
+    <TransferDetails
+      closeVoucher={[Function]}
+      injectCurrency={[Function]}
+      maskValues={
+        [MockFunction] {
+          "calls": Array [
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "- R$ 0.50",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+            Array [
+              "2,000.00",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "- R$ 800.50",
+            ],
+            Array [
+              "3,000.00",
+            ],
+          ],
+          "results": Array [
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 0.50",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "2,000.00",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "- R$ 800.50",
+            },
+            Object {
+              "type": "return",
+              "value": "3,000.00",
+            },
+          ],
+        }
+      }
+      renderVoucher={[Function]}
+      transferContent={
+        Object {
+          "receiverInfo": Object {},
+          "senderInfo": Object {},
+          "transferInfo": Object {},
+          "transferType": "",
+        }
+      }
+    />
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    datTest="BottomSheetTitle"
+    fromLeft={true}
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": "VOUCHER",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+    <styled.section
+      dataTest="VoucherWrapper"
+    >
+      <div
+        dataTest="VoucherToShare"
+      >
+        <Voucher
+          defaultCurrency="R$"
+          downloadMode={false}
+          isOpenVoucherBottomSheet={false}
+          transferContent={
+            Object {
+              "receiverInfo": Object {},
+              "senderInfo": Object {},
+              "transferInfo": Object {},
+              "transferType": "",
+            }
+          }
+        />
+      </div>
+      <styled.section>
+        <styled.hr />
+        <styled.span>
+          VOUCHER_CONTACT_YOUR_BANKER
+        </styled.span>
+      </styled.section>
+      <styled.div />
+      <styled.section>
+        <Button
+          dataTest="shareVoucherButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "xxs",
+              "left": "xxs",
+              "right": "xxs",
+              "top": "xxs",
+            }
+          }
+          type="outline"
+        >
+          VOUCHER_SHARE
+        </Button>
+      </styled.section>
+    </styled.section>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

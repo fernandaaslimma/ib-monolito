@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractAccount component should match snapshot with empty values 1`] = `
+<styled.div
+  isIntermediaryAccount={true}
+>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="SWIFT"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="CHIPS"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="ABA"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="ACCOUNT"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+</styled.div>
+`;
+
+exports[`ContractAccount component should match snapshot with values 1`] = `
+<styled.div
+  isIntermediaryAccount={false}
+>
+  <styled.div>
+    <DataItem
+      data="BBM"
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="21839"
+      icon={null}
+      title="SWIFT"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="21839"
+      icon={null}
+      title="CHIPS"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="21839"
+      icon={null}
+      title="ABA"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="China"
+      icon={null}
+      title="COUNTRY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="Bruce Lee"
+      icon={null}
+      title="OWNER"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="12321"
+      icon={null}
+      title="ACCOUNT"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+</styled.div>
+`;

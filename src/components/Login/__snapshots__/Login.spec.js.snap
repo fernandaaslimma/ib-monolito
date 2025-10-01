@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component should match snapshot when loginSuccess 1`] = `""`;
+
+exports[`Login component should match snapshot with error message when login fails 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      data-test="Login"
+    >
+      <styled.p>
+        LOGIN
+      </styled.p>
+      <styled.div>
+        <styled.div>
+          <Icon
+            color={null}
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height={null}
+            type="BrandLogo"
+            width={null}
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.h2>
+          SIGN_IN_TO_YOUR_ACCOUNT_BELOW
+        </styled.h2>
+        <ConnectWrapper />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Login component should match snapshot with invalid props 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      data-test="Login"
+    >
+      <styled.p>
+        LOGIN
+      </styled.p>
+      <styled.div>
+        <styled.div>
+          <Icon
+            color={null}
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height={null}
+            type="BrandLogo"
+            width={null}
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.h2>
+          SIGN_IN_TO_YOUR_ACCOUNT_BELOW
+        </styled.h2>
+        <ConnectWrapper />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Login component should match snapshot with valid props 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div
+      data-test="Login"
+    >
+      <styled.p>
+        LOGIN
+      </styled.p>
+      <styled.div>
+        <styled.div>
+          <Icon
+            color={null}
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height={null}
+            type="BrandLogo"
+            width={null}
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.h2>
+          SIGN_IN_TO_YOUR_ACCOUNT_BELOW
+        </styled.h2>
+        <ConnectWrapper />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withMaintenanceMode component should match snapshot with default props 1`] = `<withMaintenanceMode />`;
+
+exports[`withMaintenanceMode component should match snapshot with maintenance Mode 1`] = `
+<withMaintenanceMode
+  isMaintenance={false}
+  resetMaintenance={[MockFunction]}
+/>
+`;

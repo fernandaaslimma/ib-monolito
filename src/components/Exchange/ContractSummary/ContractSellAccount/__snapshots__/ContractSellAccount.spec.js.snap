@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractSellAccount component should match snapshot with empty values 1`] = `
+<styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="AGENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="ACCOUNT"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="OWNER"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data={null}
+      icon={null}
+      title="SSN"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+</styled.div>
+`;
+
+exports[`ContractSellAccount component should match snapshot with values 1`] = `
+<styled.div>
+  <styled.div>
+    <DataItem
+      data="BBM"
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="2312HJ"
+      icon={null}
+      title="BANK"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="3213"
+      icon={null}
+      title="AGENCY"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="12321"
+      icon={null}
+      title="ACCOUNT"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="Bruce Lee"
+      icon={null}
+      title="OWNER"
+    />
+  </styled.div>
+  <styled.div>
+    <DataItem
+      data="102.392.238-22"
+      icon={null}
+      title="SSN"
+    />
+  </styled.div>
+  <Styled(styled.span) />
+</styled.div>
+`;

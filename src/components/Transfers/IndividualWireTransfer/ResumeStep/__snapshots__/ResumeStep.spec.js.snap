@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeStep component Should match snapshot without info 1`] = `
+<ResumeStep
+  currentStep={3}
+  goToStep={[MockFunction]}
+/>
+`;
+
+exports[`ResumeStep component Should match snapshpt 1`] = `
+<ResumeStep
+  currentStep={3}
+  goToStep={[MockFunction]}
+/>
+`;

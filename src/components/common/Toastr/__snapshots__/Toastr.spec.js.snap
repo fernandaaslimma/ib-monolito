@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toastr component should match snapshot with toastrSettings as an object with only text 1`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  >
+    text
+  </styled.p>
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Toastr component should match snapshot with toastrSettings as false 1`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  />
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Toastr component should match snapshot with toastrSettings with isBelow 1`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  >
+    text
+  </styled.p>
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Toastr component should match snapshot with toastrSettings with isScrolling 1`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  >
+    text
+  </styled.p>
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Toastr component should match snapshot with toastrSettings without isBelow 1`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  >
+    text
+  </styled.p>
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Toastr component should match snapshot with toastrSettings without isBelow 2`] = `
+<styled.div
+  opened={false}
+>
+  <styled.p
+    data-test="Toastr"
+  >
+    text
+  </styled.p>
+  <styled.div
+    data-test="ToastrClose"
+  >
+    <Icon
+      color="#ffffff"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="ToastrClose"
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;

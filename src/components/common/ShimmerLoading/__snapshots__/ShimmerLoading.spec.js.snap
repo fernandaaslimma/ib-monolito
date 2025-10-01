@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShimmerLoading component should match snapshot 1`] = `
+<div
+  class="sc-bdVaJa bndfcE"
+/>
+`;
+
+exports[`ShimmerLoading component should match snapshot with darker 1`] = `
+<div
+  class="sc-bdVaJa cveFSh"
+/>
+`;
+
+exports[`ShimmerLoading component should match snapshot with index 1`] = `
+<div
+  class="sc-bdVaJa bfqtGl"
+/>
+`;
+
+exports[`ShimmerLoading component should match snapshot with inverse 1`] = `
+<div
+  class="sc-bdVaJa kpOGnh"
+/>
+`;

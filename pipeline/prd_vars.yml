@@ -1,0 +1,30 @@
+variables:
+  namespace: producao
+  api_version_service: v1
+  api_version_deployment: apps/v1
+  endpoint: bbmprd.azurecr.io
+  collection: it
+  projeto: internetbankingmicrofrontend
+  buildnumber: $(Build.BuildNumber)
+  buildversion: monolito $(Build.SourceBranch)|$(Build.BuildNumber)
+  port: 80
+  LIVENESSPROBE_DELAY: 30
+  LIVENESSPROBE_PERIOD: 300
+  READINESSPROBE_DELAY: 30
+  READINESSPROBE_PERIOD: 300
+  NODE_ENV: production
+  API: https://api.bocombbm.com.br  
+  HOTJAR_ID: 935513
+  ANALYTICS_ID: UA-40655017-5
+  DYNATRACE_ID: 2cefb4455583ab0b
+  DYNATRACE_KEY: bf79940fux
+  DYNATRACE_URL: https://js-cdn.dynatrace.com/jstag/157944990f8
+  SHOW_WIRETRANSFER_CONTENT_MOBILE: false
+  SHOW_STATEMENTS_CONTENT_MOBILE: false
+  IMPERSONATE_REDIRECT_URL: http://ibusermanagementfront.bocombbm.com.br/search-person
+  ERROR_LOG_URL: https://bbmlog.azurewebsites.net/api/entry?code=SaxvwINEk71U1r7No8LF3JcileMAKuPqqZQ82ieGyzE9YChml6QV4w==
+  SHOW_SUITABILITY_CONTENT_MOBILE: true
+  SHOW_EDITABLE_REGISTRATION_CONTENT_MOBILE: true
+  ENV_URL: https://ib.bocombbm.com.br/
+  imagePullSecrets: bbm-acr-secret
+  REPLICA_NUMBER: 1

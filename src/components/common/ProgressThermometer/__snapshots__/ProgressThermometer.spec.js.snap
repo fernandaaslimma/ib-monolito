@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should match snapshot 1`] = `
+<styled.div
+  data-test="ProgressThermometer"
+>
+  <styled.div>
+    2 undefined 4
+  </styled.div>
+  <styled.div>
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="0"
+      position={0}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="1"
+      position={25}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="2"
+      position={50}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="3"
+      position={75}
+    />
+    <styled.span
+      delay={300}
+      width={50}
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Button component should match snapshot with dataTest 1`] = `
+<styled.div
+  data-test="thermometer"
+>
+  <styled.div>
+    2 undefined 4
+  </styled.div>
+  <styled.div>
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="0"
+      position={0}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="1"
+      position={25}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="2"
+      position={50}
+    />
+    <styled.span
+      delay={300}
+      fillment={50}
+      key="3"
+      position={75}
+    />
+    <styled.span
+      delay={300}
+      width={50}
+    />
+  </styled.div>
+</styled.div>
+`;

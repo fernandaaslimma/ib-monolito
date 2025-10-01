@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success component Should use notification array when notification doesnt exists 1`] = `<Container />`;
+
+exports[`Success component should match snapshot with props 1`] = `<Container />`;
+
+exports[`Success component should match snapshot with props without MFABoarding type 1`] = `<Container />`;

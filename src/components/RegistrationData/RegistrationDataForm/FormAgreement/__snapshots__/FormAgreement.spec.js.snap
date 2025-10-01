@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PersonalDetails component should match snapshot with props 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.p
+      emphasis={true}
+    >
+      ATUCAD_CONFIRM_THAT_ABOVE_DATA_REMAIN_UNCHANGED
+      <br />
+      <br />
+    </styled.p>
+    <Radio
+      checked={[MockFunction]}
+      dataTest="registration-data-form-agree"
+      dataTestLabel="label-registration-data-form-agree"
+      label="ATUCAD_I_AGREE"
+      name="authorizationRadio"
+      onChange={[Function]}
+    />
+    <Radio
+      checked={false}
+      dataTest="registration-data-form-dont-agree"
+      dataTestLabel="label-registration-data-form-dont-agree"
+      label="ATUCAD_I_DO_NOT_AGREE"
+      name="authorizationRadio"
+      onChange={[Function]}
+    />
+  </styled.div>
+  <Button
+    dataTest="registration-data-form-read-confirm"
+    disabled={false}
+    loading={false}
+    onClick={[MockFunction]}
+    spacing={
+      Object {
+        "top": "l",
+      }
+    }
+    type="conclusive"
+  >
+    ATUCAD_SUBMIT
+  </Button>
+</Fragment>
+`;

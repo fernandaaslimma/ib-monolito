@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionCard should match snapshot 1`] = `
+<styled.div
+  data-test="data-test"
+>
+  <Card
+    icon={null}
+    iconColor={null}
+    noBg={true}
+    styles={
+      Object {
+        "padding": "1.1875rem",
+      }
+    }
+    title={null}
+    titleColor={null}
+  >
+    <styled.div
+      actionClick={[MockFunction]}
+      data-test="data-test"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <styled.div>
+        <styled.div
+          data-test="card_title"
+          style={Object {}}
+        >
+          title
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <Icon
+            color="#3976cf"
+            cursor={false}
+            data-test="arrow_icon"
+            fixCrossAxisAlign={null}
+            height={16}
+            type="Arrow"
+            width={16}
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.div
+      data-test="card_text"
+      widthTagEllipsis="100%"
+    >
+      text
+    </styled.div>
+  </Card>
+</styled.div>
+`;

@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Selector Should change account 1`] = `
+<styled.div>
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_0"
+    disabled={false}
+    label={123}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={123}
+  />
+  <styled.span>
+    <styled.span />
+  </styled.span>
+  <styled.span />
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_1"
+    disabled={false}
+    label={456}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={456}
+  />
+</styled.div>
+`;
+
+exports[`Account Selector Should select account with button 1`] = `
+<styled.div>
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_0"
+    disabled={false}
+    label={123}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={123}
+  />
+  <styled.span>
+    <styled.span />
+  </styled.span>
+  <styled.span />
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_1"
+    disabled={false}
+    label={456}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={456}
+  />
+  <styled.div>
+    <Button
+      dataTest="saveAccount"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "s",
+          "left": "s",
+          "right": "s",
+          "top": "s",
+        }
+      }
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Account Selector Should select account with button 2`] = `
+<styled.div>
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_0"
+    disabled={false}
+    label={123}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={123}
+  />
+  <styled.span>
+    <styled.span />
+  </styled.span>
+  <styled.span />
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_1"
+    disabled={false}
+    label={456}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={456}
+  />
+  <styled.div>
+    <Button
+      dataTest="saveAccount"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "s",
+          "left": "s",
+          "right": "s",
+          "top": "s",
+        }
+      }
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Account Selector should match snapshot closed 1`] = `
+<styled.div>
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_0"
+    disabled={false}
+    label={123}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={123}
+  />
+  <styled.span>
+    <styled.span />
+  </styled.span>
+  <styled.span />
+  <Radio
+    checked={false}
+    dataTest="RadioInput"
+    dataTestLabel="Account_1"
+    disabled={false}
+    label={456}
+    name="number"
+    onChange={[Function]}
+    subLabels={
+      Array [
+        "undefined: R$200,00",
+      ]
+    }
+    value={456}
+  />
+</styled.div>
+`;

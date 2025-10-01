@@ -1,0 +1,40 @@
+{
+    "Type": "fx",
+    "Attributes": {
+      "DestinationAccount": {
+        "Bank": {
+          "Id": "1",
+          "Name": "Nubank"
+        },
+        "Branch": "62821",
+        "Account": "778966-98",
+        "TaxId": "123.456.789-01"
+      },
+      "ContractId": "contractId", 
+      "Type": "Buy",
+      "TradeDate": "2018-02-21T11:34:47.7636946-03:00",
+      "LocalSettleDate": "2018-02-21T11:34:47.7662763-03:00",
+      "ForeignSettleDate": "2018-02-21T09:34:47.7664081-03:00",
+      "Event": "new",
+      "LocalCurrency": "BRL",
+      "ForeignCurrency": "JOD",
+      "Rate": 3.7903,
+      "TotalEffectiveRate": 3.7903,
+      "LocalAmount": 15123227.72,
+      "ForeignAmount": 57321570.027116,
+      "FxNature": "1272-651578",
+      "RelationShipType": "24095"
+    },
+    "DocumentBase64": "base64",
+    "Recipients": [
+      {
+        "Type": "Individual",
+        "Name": "André Mendes",
+        "Email": "pj_andremendes@bancobbm.com.br",
+        "SignOrder": 1
+      }
+    ],
+    "Groups":[],
+    "tenant": "44527244264",
+    "portfolio": "44527244264"
+}

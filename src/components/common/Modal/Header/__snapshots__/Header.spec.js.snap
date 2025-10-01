@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot 1`] = `
+<styled.div>
+  <styled.h2>
+     
+  </styled.h2>
+</styled.div>
+`;

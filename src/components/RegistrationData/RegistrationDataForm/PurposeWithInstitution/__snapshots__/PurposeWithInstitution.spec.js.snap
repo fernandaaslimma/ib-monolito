@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PurposeWithInstitution component should match snapshot with legacy aditional field props 1`] = `
+<PurposeWithInstitution
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`PurposeWithInstitution component should match snapshot with props 1`] = `
+<PurposeWithInstitution
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`PurposeWithInstitution component should render AlertMessage 1`] = `
+<PurposeWithInstitution
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;

@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractCallToAction component should match snapshot with disabled 1`] = `
+<styled.div
+  data-test="signButton"
+>
+  <Link
+    actionSecondary={false}
+    anchor={null}
+    data-test="link"
+    disabled={false}
+    href="javascript:void(0)"
+    isCallToAction={true}
+    loading={false}
+    onClick={[Function]}
+    small={null}
+    target={null}
+    to={null}
+    width={null}
+  >
+    PROCEED_TO_SIGN
+  </Link>
+</styled.div>
+`;
+
+exports[`ContractCallToAction component should match snapshot with disabled and loading 1`] = `
+<styled.div
+  data-test="signButton"
+>
+  <Link
+    actionSecondary={false}
+    anchor={null}
+    data-test="link"
+    disabled={false}
+    href="javascript:void(0)"
+    isCallToAction={true}
+    loading={false}
+    onClick={[Function]}
+    small={null}
+    target={null}
+    to={null}
+    width={null}
+  >
+    PROCEED_TO_SIGN
+  </Link>
+</styled.div>
+`;
+
+exports[`ContractCallToAction component should match snapshot with loading 1`] = `
+<styled.div
+  data-test="signButton"
+>
+  <Link
+    actionSecondary={false}
+    anchor={null}
+    data-test="link"
+    disabled={false}
+    href="javascript:void(0)"
+    isCallToAction={true}
+    loading={false}
+    onClick={[Function]}
+    small={null}
+    target={null}
+    to={null}
+    width={null}
+  >
+    PROCEED_TO_SIGN
+  </Link>
+</styled.div>
+`;
+
+exports[`ContractCallToAction component should match snapshot with values 1`] = `
+<styled.div
+  data-test="signButton"
+>
+  <Link
+    actionSecondary={false}
+    anchor={null}
+    data-test="link"
+    disabled={false}
+    href="javascript:void(0)"
+    isCallToAction={true}
+    loading={false}
+    onClick={[Function]}
+    small={null}
+    target={null}
+    to={null}
+    width={null}
+  >
+    PROCEED_TO_SIGN
+  </Link>
+</styled.div>
+`;

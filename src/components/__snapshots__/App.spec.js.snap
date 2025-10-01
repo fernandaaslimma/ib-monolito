@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should match snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "getState": [Function],
+      "middleware": null,
+      "reset": [Function],
+      "setState": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "breakpoints": Array [
+          "20rem",
+          "28.125rem",
+          "47.9375rem",
+          "62rem",
+          "74.9375rem",
+        ],
+      }
+    }
+  >
+    <HelmetWrapper
+      defaultTitle="INTERNET_BANKING_TITLE"
+      defer={true}
+      encodeSpecialCharacters={true}
+    />
+    <ConnectWrapper />
+    <ConnectWrapper />
+    <ConnectWrapper />
+    <withRouter(ConnectWrapper) />
+  </ThemeProvider>
+</Provider>
+`;

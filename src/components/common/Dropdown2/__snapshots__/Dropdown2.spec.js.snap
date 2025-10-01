@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component should match snapshot with data-test attribute 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdVaJa yttBd"
+        width="100"
+      >
+        <select
+          class="sc-bwzfXH iAsbKe"
+          data-test="Dropdown"
+          height="46"
+          placeholder="Dropdown"
+        >
+          <option />
+          <option
+            value="teste 01"
+          >
+            teste 01
+          </option>
+          <option
+            value="teste 02"
+          >
+            teste 02
+          </option>
+        </select>
+        <label
+          class="sc-ifAKCX jAYiFd"
+        >
+          label
+        </label>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa yttBd"
+      width="100"
+    >
+      <select
+        class="sc-bwzfXH iAsbKe"
+        data-test="Dropdown"
+        height="46"
+        placeholder="Dropdown"
+      >
+        <option />
+        <option
+          value="teste 01"
+        >
+          teste 01
+        </option>
+        <option
+          value="teste 02"
+        >
+          teste 02
+        </option>
+      </select>
+      <label
+        class="sc-ifAKCX jAYiFd"
+      >
+        label
+      </label>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dropdown component should match snapshot with name 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdVaJa yttBd"
+        width="100"
+      >
+        <select
+          class="sc-bwzfXH iAsbKe"
+          height="46"
+          placeholder="Dropdown"
+        >
+          <option />
+          <option
+            value="teste 01"
+          >
+            teste 01
+          </option>
+          <option
+            value="teste 02"
+          >
+            teste 02
+          </option>
+        </select>
+        <label
+          class="sc-ifAKCX jAYiFd"
+        >
+          label
+        </label>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa yttBd"
+      width="100"
+    >
+      <select
+        class="sc-bwzfXH iAsbKe"
+        height="46"
+        placeholder="Dropdown"
+      >
+        <option />
+        <option
+          value="teste 01"
+        >
+          teste 01
+        </option>
+        <option
+          value="teste 02"
+        >
+          teste 02
+        </option>
+      </select>
+      <label
+        class="sc-ifAKCX jAYiFd"
+      >
+        label
+      </label>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

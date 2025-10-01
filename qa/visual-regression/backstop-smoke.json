@@ -1,0 +1,130 @@
+{
+  "id": "Internet-Banking",
+  "viewports": [
+    {
+      "label": "mobile",
+      "width": 360,
+      "height": 640
+    },
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "[Cadastro de Senha] - Tela cadastrar senha en-EN",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "readySelector": "[data-test=Input]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Cadastro de Senha] - Verificar tooltip no campo de senha",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "readySelector": "[data-test=Tooltip]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "onReadyScript": "puppet/custom/create_password/create-password-tooltip.js",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Tela de login com botão habilitado preenchendo dados de login",
+      "url": "http://40.121.58.75/",
+      "referenceUrl": "http://104.45.130.177/",
+      "readySelector": "[data-test=Input]",
+      "onReadyScript": "puppet/custom/login/fill-data.js",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Tela de resumo",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 3000,
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Corporate Foreign Exchange",
+      "url": "http://40.121.58.75/exchanges/unsigned",
+      "referenceUrl": "http://104.45.130.177/exchanges/unsigned",
+      "delay": 8000,
+      "selectors": [
+        "[data-test=ContractSummary-010",
+        "[data-test=ContractSummary-006]",
+        "[data-test=ContractSummary-005]",
+        "[data-test=ContractSummary-002]",
+        "[data-test=ContractSummary-001]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Main Menu",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Header]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Fixed Income",
+      "url": "http://40.121.58.75/transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/transactions/fixed-income",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Transactions_Fixed_Income]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Tela Suitability",
+      "url": "http://40.121.58.75",
+      "referenceUrl": "http://40.121.58.75",
+      "delay": 10000,
+      "onReadyScript": "puppet/custom/suitability.js",
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/smoke/bitmaps_reference",
+    "bitmaps_test": "backstop_data/smoke/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/smoke/html_report",
+    "ci_report": "backstop_data/smoke/ci_report"
+  },
+  "report": [
+    "browser",
+    "CI"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 5,
+  "debug": true,
+  "debugWindow": false
+}

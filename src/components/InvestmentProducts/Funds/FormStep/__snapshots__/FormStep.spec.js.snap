@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStep component Should match snapshpt 1`] = `
+<styled.div>
+  <styled.span
+    id="FormStep"
+  />
+  <styled.div>
+    <styled.p />
+    <styled.h2>
+      BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+    </styled.h2>
+    <styled.p />
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": undefined,
+          "available": 20000,
+          "invalidMessages": Object {
+            "aboveAvailable": undefined,
+            "belowMinimum": "undefinedR$ 20.000,00",
+          },
+          "minimum": 20000,
+          "operation": "invest",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+          ],
+          "totalLabel": undefined,
+        }
+      }
+    />
+  </styled.div>
+  <DetailsCard
+    bottomSpace="32px"
+    dataTest="investGeneralInfoCard"
+    list={Object {}}
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueInvestButton"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <AccountSelector
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "303894",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "verifyingDigit": "2",
+            },
+            Object {
+              "accountNumber": "305236",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "verifyingDigit": "8",
+            },
+            Object {
+              "accountNumber": "305445",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "verifyingDigit": "0",
+            },
+          ]
+        }
+        isOpen={false}
+        onChange={[Function]}
+        selectedAccountNumber="303894"
+        withButton={true}
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;

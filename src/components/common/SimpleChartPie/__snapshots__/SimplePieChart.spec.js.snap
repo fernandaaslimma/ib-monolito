@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimplePieChart component should match snapshot with name 1`] = `
+<Fragment>
+  <styled.div
+    background="#D9E0E4"
+    color="red"
+    data-test="Test"
+    percentage="0%"
+    width={48}
+  >
+    <styled.div
+      width={48}
+    >
+      <styled.p>
+        --
+      </styled.p>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

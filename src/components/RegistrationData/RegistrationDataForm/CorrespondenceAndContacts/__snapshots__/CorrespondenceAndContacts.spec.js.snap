@@ -1,0 +1,409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CorrespondenceAndContacts component should be empty addresses 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`CorrespondenceAndContacts component should fill holes from type comercial 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`CorrespondenceAndContacts component should fill holes from type home 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`CorrespondenceAndContacts component should match snapshot with props 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`CorrespondenceAndContacts component should match snapshot with some empty information 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`CorrespondenceAndContacts component should render AlertMessage 1`] = `
+<CorrespondenceAndContacts
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "addresses": Array [
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "home",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "commercial",
+        },
+        Object {
+          "address": "Rua brigadeiro Faria Limas",
+          "cep": "22631-902",
+          "city": "São Paulo",
+          "complement": "casa 2",
+          "country": "Brazil",
+          "district": "Bairro",
+          "number": "124",
+          "state": "SP",
+          "type": "correspondence",
+        },
+      ],
+      "emails": Array [
+        Object {
+          "address": "joao.da.silva@gmail.com",
+          "type": "personal",
+        },
+        Object {
+          "address": "joaosilva@bocombbm.com.br",
+          "type": "commercial",
+        },
+      ],
+      "telephones": Array [
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "home",
+        },
+        Object {
+          "ddd": 11,
+          "number": "29820911",
+          "type": "commercial",
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;

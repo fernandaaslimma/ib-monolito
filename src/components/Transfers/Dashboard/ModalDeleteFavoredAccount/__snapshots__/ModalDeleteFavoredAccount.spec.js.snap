@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalDeleteFavoredAccount component should match snapshot 1`] = `
+<Fragment>
+  <styled.hr />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListName"
+        />
+      </styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListDocument"
+        />
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div
+        width="46%"
+      >
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBank"
+        >
+           - 
+        </styled.h1>
+      </styled.div>
+      <styled.div
+        width="20%"
+      >
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBranch"
+        />
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBankAccount"
+        >
+           - 
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <Button
+      dataTest="Cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <Button
+      dataTest="delete"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="negative"
+    />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ModalDeleteFavoredAccount component should match snapshot with props 1`] = `
+<Fragment>
+  <styled.hr />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListName"
+        >
+          VITOR PICAZO
+        </styled.h1>
+      </styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListDocument"
+        >
+          07.066.237/0033-00
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      <styled.div
+        width="46%"
+      >
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBank"
+        >
+          231 - BANCO BOAVISTA INTERATLANTICO S.A.
+        </styled.h1>
+      </styled.div>
+      <styled.div
+        width="20%"
+      >
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBranch"
+        >
+          1111
+        </styled.h1>
+      </styled.div>
+      <styled.div>
+        <styled.h1 />
+        <styled.h1
+          data-test="favoredListBankAccount"
+        >
+          1111 - 1
+        </styled.h1>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <Button
+      dataTest="Cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <Button
+      dataTest="delete"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="negative"
+    />
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,1482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReturnShipments should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-jlyJG eVPkUq"
+      >
+        <div
+          class="sc-hSdWYo cmgJjs"
+        >
+          <div
+            class="sc-bbmXgH dsPwrj"
+          >
+            <div
+              class="sc-TOsTZ gRAQhU"
+            >
+              <div
+                class="sc-gGBfsJ eBrvpa"
+              >
+                <div
+                  class="sc-jnlKLf jFqEkC"
+                >
+                  <div
+                    class="sc-tilXH cRCyPa"
+                  >
+                    <div
+                      class="sc-hEsumM nPKpC"
+                    >
+                      <span
+                        class="sc-bdVaJa kYprsf"
+                        color="#3175BD"
+                        height="26px"
+                        width="26px"
+                      >
+                        <svg
+                          height="16"
+                          viewBox="0 0 13 16"
+                          width="13"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M11.153 8.547a2.201 2.201 0 0 1-4.204 0H1.291a.647.647 0 1 1 0-1.293h5.658a2.201 2.201 0 0 1 4.204 0h.485a.647.647 0 0 1 0 1.293h-.485zM9.05 6.995a.906.906 0 0 0 0 1.81.906.906 0 0 0 0-1.81zM5.462 3.503a2.201 2.201 0 0 1-4.204 0 .647.647 0 0 1 0-1.292 2.201 2.201 0 0 1 4.204 0l6.176-.001a.647.647 0 1 1 0 1.293H5.462zM3.36 1.951a.906.906 0 0 0 0 1.81.906.906 0 0 0 0-1.81zm3.913 11.64a2.201 2.201 0 0 1-4.204 0H1.291a.647.647 0 1 1 0-1.293h1.778a2.201 2.201 0 0 1 4.204 0h4.365a.647.647 0 1 1 0 1.293H7.273zM5.17 12.04a.906.906 0 0 0 0 1.811.906.906 0 0 0 0-1.81z"
+                            fill="currentColor"
+                            fill-rule="nonzero"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <h1
+                      class="sc-ktHwxA hxNDQP"
+                    />
+                  </div>
+                  <div
+                    class="sc-cIShpX hWvWNW"
+                  >
+                    <div
+                      class="sc-fYxtnH btgbUD"
+                      width="250px"
+                    >
+                      <div
+                        class="sc-btzYZH bhcqc"
+                        disabled=""
+                        height="48px"
+                      >
+                        <label
+                          class="sc-bYSBpT bvsnOA"
+                          disabled=""
+                        >
+                          Período
+                        </label>
+                        <select
+                          class="sc-lhVmIH dVIQMF"
+                          data-test="btn-filter-range"
+                          disabled=""
+                          name="period"
+                        >
+                          $
+                          <option
+                            class="sc-jwKygS izkbfK"
+                            value=""
+                          />
+                        </select>
+                        <span
+                          class="sc-bdVaJa fzfLKS"
+                          color="#27445f"
+                        >
+                          <svg
+                            fill="none"
+                            height="10"
+                            viewBox="0 0 14 10"
+                            width="14"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M12.2229 1.23459L7.00847 6.64326L1.79283 1.23335C1.60427 1.03776 1.3561 0.940155 1.10556 0.940155C0.856838 0.940155 0.605267 1.03651 0.408109 1.23079C0.219243 1.42662 0.125001 1.68575 0.125001 1.94542C0.125001 2.20509 0.219243 2.46422 0.405719 2.65764L6.31484 8.76931C6.50341 8.9649 6.75157 9.0625 7.00212 9.0625C7.25142 9.0625 7.5036 8.96569 7.70096 8.77048L13.5944 2.63993C13.7808 2.44666 13.875 2.18753 13.875 1.92786C13.875 1.66819 13.7808 1.40906 13.5944 1.21578C13.4043 1.01854 13.1535 0.92109 12.9035 0.924849C12.6571 0.928553 12.4106 1.03041 12.2229 1.23459Z"
+                              fill="#3976CF"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      class="sc-fYxtnH fJqzZW"
+                      width="214px"
+                    >
+                      <div
+                        class="sc-btzYZH bhcqc"
+                        disabled=""
+                        height="48px"
+                      >
+                        <label
+                          class="sc-bYSBpT bvsnOA"
+                          disabled=""
+                        />
+                        <select
+                          class="sc-lhVmIH dVIQMF"
+                          data-test="btn-filter-pageSize"
+                          disabled=""
+                          name="pageSize"
+                        >
+                          $
+                          <option
+                            class="sc-jwKygS izkbfK"
+                            value=""
+                          />
+                          <option
+                            class="sc-jwKygS izkbfK"
+                            value="10"
+                          >
+                            10
+                          </option>
+                          <option
+                            class="sc-jwKygS izkbfK"
+                            value="20"
+                          >
+                            20
+                          </option>
+                          <option
+                            class="sc-jwKygS izkbfK"
+                            value="30"
+                          >
+                            30
+                          </option>
+                        </select>
+                        <span
+                          class="sc-bdVaJa fzfLKS"
+                          color="#27445f"
+                        >
+                          <svg
+                            fill="none"
+                            height="10"
+                            viewBox="0 0 14 10"
+                            width="14"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              clip-rule="evenodd"
+                              d="M12.2229 1.23459L7.00847 6.64326L1.79283 1.23335C1.60427 1.03776 1.3561 0.940155 1.10556 0.940155C0.856838 0.940155 0.605267 1.03651 0.408109 1.23079C0.219243 1.42662 0.125001 1.68575 0.125001 1.94542C0.125001 2.20509 0.219243 2.46422 0.405719 2.65764L6.31484 8.76931C6.50341 8.9649 6.75157 9.0625 7.00212 9.0625C7.25142 9.0625 7.5036 8.96569 7.70096 8.77048L13.5944 2.63993C13.7808 2.44666 13.875 2.18753 13.875 1.92786C13.875 1.66819 13.7808 1.40906 13.5944 1.21578C13.4043 1.01854 13.1535 0.92109 12.9035 0.924849C12.6571 0.928553 12.4106 1.03041 12.2229 1.23459Z"
+                              fill="#3976CF"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-feJyhm ghUCOx"
+                  >
+                    <button
+                      class="sc-jhAzac cYmNFK"
+                      data-test="btn-filter-operation-list"
+                      disabled=""
+                      height="48"
+                      type="button"
+                      width="125"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-eNQAEJ cIoyKg"
+            data-test="pageTitle"
+          >
+            <h1
+              class="sc-jKJlTe iOVSiC"
+            />
+          </div>
+          <table
+            class="sc-fBuWsC gHsHBm"
+          >
+            <thead
+              class="sc-fAjcbJ hHsGjy"
+            >
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <th
+                  class="sc-eqIVtm eBZgvj"
+                />
+                <th
+                  class="sc-eqIVtm eBZgvj"
+                />
+                <th
+                  class="sc-eqIVtm eBZgvj"
+                />
+                <th
+                  class="sc-eqIVtm eBZgvj"
+                />
+                <th
+                  class="sc-eqIVtm eBZgvj"
+                />
+              </tr>
+            </thead>
+            <tbody
+              class="sc-caSCKo dtRlCz"
+            >
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="6%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="40%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                />
+              </tr>
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="6%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="40%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                />
+              </tr>
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="6%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="40%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                />
+              </tr>
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="6%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="40%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                />
+              </tr>
+              <tr
+                class="sc-fMiknA llVJPV"
+              >
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="6%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="40%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                  width="20%"
+                >
+                  <div
+                    class="sc-gisBJw bqBRAx"
+                    width="50%"
+                  >
+                    <div
+                      class="sc-kjoXOD evMipd"
+                    >
+                      <span
+                        class="sc-cHGsZl hUyQNW"
+                        height="12px"
+                      />
+                    </div>
+                  </div>
+                </td>
+                <td
+                  class="sc-dVhcbM ewiFHK"
+                />
+              </tr>
+            </tbody>
+          </table>
+          <div
+            class="sc-kTUwUJ gZJhyu"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-jlyJG eVPkUq"
+    >
+      <div
+        class="sc-hSdWYo cmgJjs"
+      >
+        <div
+          class="sc-bbmXgH dsPwrj"
+        >
+          <div
+            class="sc-TOsTZ gRAQhU"
+          >
+            <div
+              class="sc-gGBfsJ eBrvpa"
+            >
+              <div
+                class="sc-jnlKLf jFqEkC"
+              >
+                <div
+                  class="sc-tilXH cRCyPa"
+                >
+                  <div
+                    class="sc-hEsumM nPKpC"
+                  >
+                    <span
+                      class="sc-bdVaJa kYprsf"
+                      color="#3175BD"
+                      height="26px"
+                      width="26px"
+                    >
+                      <svg
+                        height="16"
+                        viewBox="0 0 13 16"
+                        width="13"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.153 8.547a2.201 2.201 0 0 1-4.204 0H1.291a.647.647 0 1 1 0-1.293h5.658a2.201 2.201 0 0 1 4.204 0h.485a.647.647 0 0 1 0 1.293h-.485zM9.05 6.995a.906.906 0 0 0 0 1.81.906.906 0 0 0 0-1.81zM5.462 3.503a2.201 2.201 0 0 1-4.204 0 .647.647 0 0 1 0-1.292 2.201 2.201 0 0 1 4.204 0l6.176-.001a.647.647 0 1 1 0 1.293H5.462zM3.36 1.951a.906.906 0 0 0 0 1.81.906.906 0 0 0 0-1.81zm3.913 11.64a2.201 2.201 0 0 1-4.204 0H1.291a.647.647 0 1 1 0-1.293h1.778a2.201 2.201 0 0 1 4.204 0h4.365a.647.647 0 1 1 0 1.293H7.273zM5.17 12.04a.906.906 0 0 0 0 1.811.906.906 0 0 0 0-1.81z"
+                          fill="currentColor"
+                          fill-rule="nonzero"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <h1
+                    class="sc-ktHwxA hxNDQP"
+                  />
+                </div>
+                <div
+                  class="sc-cIShpX hWvWNW"
+                >
+                  <div
+                    class="sc-fYxtnH btgbUD"
+                    width="250px"
+                  >
+                    <div
+                      class="sc-btzYZH bhcqc"
+                      disabled=""
+                      height="48px"
+                    >
+                      <label
+                        class="sc-bYSBpT bvsnOA"
+                        disabled=""
+                      >
+                        Período
+                      </label>
+                      <select
+                        class="sc-lhVmIH dVIQMF"
+                        data-test="btn-filter-range"
+                        disabled=""
+                        name="period"
+                      >
+                        $
+                        <option
+                          class="sc-jwKygS izkbfK"
+                          value=""
+                        />
+                      </select>
+                      <span
+                        class="sc-bdVaJa fzfLKS"
+                        color="#27445f"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="M12.2229 1.23459L7.00847 6.64326L1.79283 1.23335C1.60427 1.03776 1.3561 0.940155 1.10556 0.940155C0.856838 0.940155 0.605267 1.03651 0.408109 1.23079C0.219243 1.42662 0.125001 1.68575 0.125001 1.94542C0.125001 2.20509 0.219243 2.46422 0.405719 2.65764L6.31484 8.76931C6.50341 8.9649 6.75157 9.0625 7.00212 9.0625C7.25142 9.0625 7.5036 8.96569 7.70096 8.77048L13.5944 2.63993C13.7808 2.44666 13.875 2.18753 13.875 1.92786C13.875 1.66819 13.7808 1.40906 13.5944 1.21578C13.4043 1.01854 13.1535 0.92109 12.9035 0.924849C12.6571 0.928553 12.4106 1.03041 12.2229 1.23459Z"
+                            fill="#3976CF"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fYxtnH fJqzZW"
+                    width="214px"
+                  >
+                    <div
+                      class="sc-btzYZH bhcqc"
+                      disabled=""
+                      height="48px"
+                    >
+                      <label
+                        class="sc-bYSBpT bvsnOA"
+                        disabled=""
+                      />
+                      <select
+                        class="sc-lhVmIH dVIQMF"
+                        data-test="btn-filter-pageSize"
+                        disabled=""
+                        name="pageSize"
+                      >
+                        $
+                        <option
+                          class="sc-jwKygS izkbfK"
+                          value=""
+                        />
+                        <option
+                          class="sc-jwKygS izkbfK"
+                          value="10"
+                        >
+                          10
+                        </option>
+                        <option
+                          class="sc-jwKygS izkbfK"
+                          value="20"
+                        >
+                          20
+                        </option>
+                        <option
+                          class="sc-jwKygS izkbfK"
+                          value="30"
+                        >
+                          30
+                        </option>
+                      </select>
+                      <span
+                        class="sc-bdVaJa fzfLKS"
+                        color="#27445f"
+                      >
+                        <svg
+                          fill="none"
+                          height="10"
+                          viewBox="0 0 14 10"
+                          width="14"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            clip-rule="evenodd"
+                            d="M12.2229 1.23459L7.00847 6.64326L1.79283 1.23335C1.60427 1.03776 1.3561 0.940155 1.10556 0.940155C0.856838 0.940155 0.605267 1.03651 0.408109 1.23079C0.219243 1.42662 0.125001 1.68575 0.125001 1.94542C0.125001 2.20509 0.219243 2.46422 0.405719 2.65764L6.31484 8.76931C6.50341 8.9649 6.75157 9.0625 7.00212 9.0625C7.25142 9.0625 7.5036 8.96569 7.70096 8.77048L13.5944 2.63993C13.7808 2.44666 13.875 2.18753 13.875 1.92786C13.875 1.66819 13.7808 1.40906 13.5944 1.21578C13.4043 1.01854 13.1535 0.92109 12.9035 0.924849C12.6571 0.928553 12.4106 1.03041 12.2229 1.23459Z"
+                            fill="#3976CF"
+                            fill-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-feJyhm ghUCOx"
+                >
+                  <button
+                    class="sc-jhAzac cYmNFK"
+                    data-test="btn-filter-operation-list"
+                    disabled=""
+                    height="48"
+                    type="button"
+                    width="125"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-eNQAEJ cIoyKg"
+          data-test="pageTitle"
+        >
+          <h1
+            class="sc-jKJlTe iOVSiC"
+          />
+        </div>
+        <table
+          class="sc-fBuWsC gHsHBm"
+        >
+          <thead
+            class="sc-fAjcbJ hHsGjy"
+          >
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <th
+                class="sc-eqIVtm eBZgvj"
+              />
+              <th
+                class="sc-eqIVtm eBZgvj"
+              />
+              <th
+                class="sc-eqIVtm eBZgvj"
+              />
+              <th
+                class="sc-eqIVtm eBZgvj"
+              />
+              <th
+                class="sc-eqIVtm eBZgvj"
+              />
+            </tr>
+          </thead>
+          <tbody
+            class="sc-caSCKo dtRlCz"
+          >
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="6%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="40%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+              />
+            </tr>
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="6%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="40%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+              />
+            </tr>
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="6%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="40%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+              />
+            </tr>
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="6%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="40%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+              />
+            </tr>
+            <tr
+              class="sc-fMiknA llVJPV"
+            >
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="6%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="40%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+                width="20%"
+              >
+                <div
+                  class="sc-gisBJw bqBRAx"
+                  width="50%"
+                >
+                  <div
+                    class="sc-kjoXOD evMipd"
+                  >
+                    <span
+                      class="sc-cHGsZl hUyQNW"
+                      height="12px"
+                    />
+                  </div>
+                </div>
+              </td>
+              <td
+                class="sc-dVhcbM ewiFHK"
+              />
+            </tr>
+          </tbody>
+        </table>
+        <div
+          class="sc-kTUwUJ gZJhyu"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

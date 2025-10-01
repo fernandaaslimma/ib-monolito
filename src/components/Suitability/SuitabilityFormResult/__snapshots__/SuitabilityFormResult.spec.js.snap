@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuitabilityForm component should match snapshot 1`] = `
+<Fragment>
+  <ConnectWrapper
+    dataTest="suitability-data-close"
+    onClickBack={null}
+    onClickClose={[Function]}
+    title="KEEP_YOUR_SUITABILITY_UP_TO_DATE"
+  />
+  <styled.div>
+    <styled.h2>
+      YOUR_SUITABILITY_PROFILE_IS
+    </styled.h2>
+    <styled.h2
+      data-test="suitabilityProfile"
+    >
+      mock
+    </styled.h2>
+    <styled.h2
+      data-test="suitabilityProfileDescription"
+    >
+      mock mock mock
+    </styled.h2>
+    <styled.div>
+      <Button
+        actionSecondary={null}
+        className={null}
+        disabled={false}
+        height={null}
+        isCallToAction={null}
+        isWarning={null}
+        onClick={[Function]}
+        paddingSize={null}
+        small={false}
+        type="button"
+        width={null}
+      >
+        REDO
+      </Button>
+      <Link
+        actionSecondary={false}
+        anchor={null}
+        dataTest="ConfirmSuitability"
+        disabled={false}
+        href="javascript:void(0)"
+        id="Confirm"
+        isCallToAction={true}
+        loading={false}
+        onClick={[Function]}
+        small={null}
+        target={null}
+        to={null}
+        width={null}
+      >
+        I_AGREE_WITH_MY_PROFILE
+      </Link>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`SuitabilityForm component should render the ExitConfirmation component correctly 1`] = `
+<ExitConfirmation
+  onClickCancel={[Function]}
+  onClickExit={[Function]}
+/>
+`;

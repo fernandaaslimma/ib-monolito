@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Should match snapshot 1`] = `
+<Fragment>
+  <Header
+    data-test="TermsSelectionTypeExit"
+    onClickClose={[MockFunction]}
+    removeCloseIcon={false}
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <Icon
+          color={null}
+          height={null}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="DocumentAlert"
+          width={null}
+        />
+      </styled.div>
+      <styled.div>
+        Open Banking - Consentimento Pendente
+      </styled.div>
+      <styled.span>
+        Você tem um consentimento de compartilhamento de dados pendente de aprovação
+      </styled.span>
+      <styled.div>
+        <ClickWrapper>
+          <Button
+            dataTest="Button"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "xxs",
+                "left": "xxs",
+                "right": "xxs",
+                "top": "xxs",
+              }
+            }
+            type="conclusive"
+          >
+            Seguir para autorização
+          </Button>
+        </ClickWrapper>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

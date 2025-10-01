@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hide component should match snapshot changing class 1`] = `
+<div
+  class="sc-bdVaJa kxLTFn"
+>
+  Text
+</div>
+`;
+
+exports[`Hide component should match snapshot changing class 2`] = `
+<div
+  class="sc-bdVaJa keaLpg"
+>
+  Text
+</div>
+`;
+
+exports[`Hide component should match snapshot changing class 3`] = `
+<div
+  class="sc-bdVaJa cVegwE"
+>
+  Text
+</div>
+`;

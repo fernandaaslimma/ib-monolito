@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedirectStep should match snapshot and redirect after create consent 1`] = `
+<RedirectStep
+  currentStep={7}
+/>
+`;
+
+exports[`RedirectStep should match snapshot with generic informations 1`] = `
+<RedirectStep
+  currentStep={7}
+/>
+`;

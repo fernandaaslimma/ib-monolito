@@ -1,0 +1,1153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EFTToken component should call createAuthFactorCode defaultAuth false 1`] = `
+EFTToken {
+  "changeCurrentMethod": [Function],
+  "context": Object {},
+  "handleConfirmButton": [Function],
+  "props": Object {
+    "authFactors": Array [
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "totp",
+        "defaultAuth": false,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "totp",
+      },
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "test@bocom.com.br",
+        "defaultAuth": false,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ],
+    "boardingMfa": true,
+    "checkMFA": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Promise {},
+        },
+      ],
+    },
+    "clearMFAToken": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "clearMFATokenValidated": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "createAuthCodeParams": Object {
+      "actionType": "exe",
+      "payload": "exe",
+    },
+    "getAuthFactors": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Promise {},
+        },
+      ],
+    },
+    "getMFAContent": [MockFunction],
+    "handleMFAInputToken": [MockFunction],
+    "mfaToken": "",
+    "mfaTokenValidated": undefined,
+    "onMFAConfirmation": [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "onMFAError": [MockFunction] {
+      "calls": Array [
+        Array [
+          "err",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "openToastr": [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": undefined,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "registerLater": [MockFunction],
+  },
+  "ref": Object {
+    "current": null,
+  },
+  "refs": Object {},
+  "resetTimeOutStates": [Function],
+  "sendAnotherToken": [Function],
+  "setState": [Function],
+  "state": Object {
+    "authFactor": Array [],
+    "contentLoaded": false,
+    "isLoading": false,
+    "relativeFactors": Array [],
+    "showTimeOut": false,
+    "validInput": false,
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_currentlyRenderingComponent": null,
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <EFTToken
+        authFactors={
+          Array [
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "totp",
+              "defaultAuth": false,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "totp",
+            },
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "test@bocom.com.br",
+              "defaultAuth": false,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "mail",
+            },
+          ]
+        }
+        boardingMfa={true}
+        checkMFA={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": Promise {},
+              },
+            ],
+          }
+        }
+        clearMFAToken={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        clearMFATokenValidated={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        createAuthCodeParams={
+          Object {
+            "actionType": "exe",
+            "payload": "exe",
+          }
+        }
+        getAuthFactors={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": Promise {},
+              },
+            ],
+          }
+        }
+        getMFAContent={[MockFunction]}
+        handleMFAInputToken={[MockFunction]}
+        mfaToken=""
+        onMFAConfirmation={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        onMFAError={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "err",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        openToastr={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                Object {
+                  "isBelow": false,
+                  "isTop": true,
+                  "text": undefined,
+                },
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        registerLater={[MockFunction]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_previousComponentIdentity": null,
+      "_renderPhaseUpdates": null,
+      "_rendered": <styled.div>
+        <div>
+          <styled.h1 />
+          <styled.div />
+          <Styled(LocalLoading) />
+        </div>
+      </styled.div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`EFTToken component should call createAuthFactorCode defaultAuth true 1`] = `
+EFTToken {
+  "changeCurrentMethod": [Function],
+  "context": Object {},
+  "handleConfirmButton": [Function],
+  "props": Object {
+    "authFactors": Array [
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "totp",
+        "defaultAuth": true,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "totp",
+      },
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "test@bocom.com.br",
+        "defaultAuth": true,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ],
+    "boardingMfa": true,
+    "checkMFA": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Promise {},
+        },
+      ],
+    },
+    "clearMFAToken": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "clearMFATokenValidated": [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "createAuthCodeParams": Object {
+      "actionType": "exe",
+      "payload": "exe",
+    },
+    "getAuthFactors": [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": Promise {},
+        },
+        Object {
+          "type": "return",
+          "value": Promise {},
+        },
+      ],
+    },
+    "getMFAContent": [MockFunction],
+    "handleMFAInputToken": [MockFunction],
+    "mfaToken": "",
+    "mfaTokenValidated": undefined,
+    "onMFAConfirmation": [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "onMFAError": [MockFunction] {
+      "calls": Array [
+        Array [
+          "err",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "openToastr": [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": undefined,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    },
+    "registerLater": [MockFunction],
+  },
+  "ref": Object {
+    "current": null,
+  },
+  "refs": Object {},
+  "resetTimeOutStates": [Function],
+  "sendAnotherToken": [Function],
+  "setState": [Function],
+  "state": Object {
+    "authFactor": Array [],
+    "contentLoaded": false,
+    "isLoading": false,
+    "relativeFactors": Array [],
+    "showTimeOut": false,
+    "validInput": false,
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_currentlyRenderingComponent": null,
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <EFTToken
+        authFactors={
+          Array [
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "totp",
+              "defaultAuth": true,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "totp",
+            },
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "test@bocom.com.br",
+              "defaultAuth": true,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "mail",
+            },
+          ]
+        }
+        boardingMfa={true}
+        checkMFA={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": Promise {},
+              },
+            ],
+          }
+        }
+        clearMFAToken={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        clearMFATokenValidated={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        createAuthCodeParams={
+          Object {
+            "actionType": "exe",
+            "payload": "exe",
+          }
+        }
+        getAuthFactors={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": Promise {},
+              },
+              Object {
+                "type": "return",
+                "value": Promise {},
+              },
+            ],
+          }
+        }
+        getMFAContent={[MockFunction]}
+        handleMFAInputToken={[MockFunction]}
+        mfaToken=""
+        onMFAConfirmation={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                undefined,
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        onMFAError={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                "err",
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        openToastr={
+          [MockFunction] {
+            "calls": Array [
+              Array [
+                Object {
+                  "isBelow": false,
+                  "isTop": true,
+                  "text": undefined,
+                },
+              ],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        registerLater={[MockFunction]}
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_previousComponentIdentity": null,
+      "_renderPhaseUpdates": null,
+      "_rendered": <styled.div>
+        <div>
+          <styled.h1 />
+          <styled.div />
+          <Styled(LocalLoading) />
+        </div>
+      </styled.div>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`EFTToken component should change title with message 1`] = `
+<styled.div>
+  <div>
+    <styled.h1>
+      text
+    </styled.h1>
+    <styled.div>
+      message
+    </styled.div>
+    <Styled(LocalLoading) />
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should change title without message 1`] = `
+<styled.div>
+  <div>
+    <styled.h1>
+      text
+    </styled.h1>
+    <Styled(LocalLoading) />
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should match snapshot 1`] = `
+<div
+  className="sc-itybZL fqauLU"
+>
+  <div>
+    <h1
+      className="sc-gPWkxV ibiPJV"
+    />
+    <div
+      className="sc-jVODtj jstoGq"
+    />
+    <div
+      className="sc-eMigcr hxvpgH sc-bHwgHz iqARum"
+      data-test="LocalLoading"
+    >
+      <div
+        className="sc-krDsej bnxuun"
+      >
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EFTToken component should match snapshot in web 1`] = `
+<div
+  className="sc-itybZL fqauLU"
+>
+  <div>
+    <h1
+      className="sc-gPWkxV ibiPJV"
+    />
+    <div
+      className="sc-jVODtj jstoGq"
+    />
+    <div
+      className="sc-eMigcr hxvpgH sc-bHwgHz iqARum"
+      data-test="LocalLoading"
+    >
+      <div
+        className="sc-krDsej bnxuun"
+      >
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+        <div
+          className="sc-dTdPqK clDEdI"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EFTToken component should match snapshot with a undefined and invalid input token 1`] = `
+<styled.div>
+  <div>
+    <styled.h1 />
+    <styled.div />
+    <styled.div>
+      <styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="96"
+          type="MfaAuthenticator"
+          width="96"
+        />
+      </styled.div>
+      <styled.div>
+        <Styled(styled.div)
+          data-test="methodDisclaimer"
+        />
+      </styled.div>
+      <styled.div>
+        <Input
+          EnableFixedInput={null}
+          dataTest="TransactionTokenField"
+          disableKeys={
+            Array [
+              13,
+            ]
+          }
+          disabled={false}
+          fixedValue={null}
+          icon="Lock"
+          innerRef={
+            Object {
+              "current": null,
+            }
+          }
+          inputMode="text"
+          label={null}
+          msgError={null}
+          msgFocusInput={null}
+          name="token"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={null}
+          placeholder=""
+          tinyLabels={true}
+          type="password"
+          valid={[Function]}
+          value=""
+        />
+        <styled.h1
+          data-test="ModalFeedbackMsgfalse"
+          visible={false}
+        />
+        <ConnectWrapper>
+          <Button
+            block={true}
+            dataTest="Confirm"
+            disabled={true}
+            id="Confirm"
+            loading={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "top": "xs",
+              }
+            }
+            type="conclusive"
+          />
+        </ConnectWrapper>
+      </styled.div>
+      <styled.div>
+        <styled.div />
+      </styled.div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should match snapshot with a valid input token 1`] = `
+<styled.div>
+  <div>
+    <styled.h1 />
+    <styled.div />
+    <styled.div>
+      <styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="96"
+          type="MfaAuthenticator"
+          width="96"
+        />
+      </styled.div>
+      <styled.div>
+        <Styled(styled.div)
+          data-test="methodDisclaimer"
+        />
+      </styled.div>
+      <styled.div>
+        <Input
+          EnableFixedInput={null}
+          dataTest="TransactionTokenField"
+          disableKeys={
+            Array [
+              13,
+            ]
+          }
+          disabled={false}
+          fixedValue={null}
+          icon="Lock"
+          innerRef={
+            Object {
+              "current": null,
+            }
+          }
+          inputMode="text"
+          label={null}
+          msgError={null}
+          msgFocusInput={null}
+          name="token"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={null}
+          placeholder=""
+          tinyLabels={true}
+          type="password"
+          valid={[Function]}
+          value=""
+        />
+        <styled.h1
+          data-test="ModalFeedbackMsgfalse"
+          visible={false}
+        />
+        <ConnectWrapper>
+          <Button
+            block={true}
+            dataTest="Confirm"
+            disabled={true}
+            id="Confirm"
+            loading={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "top": "xs",
+              }
+            }
+            type="conclusive"
+          />
+        </ConnectWrapper>
+      </styled.div>
+      <styled.div>
+        <styled.div />
+      </styled.div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should render EFToken email component 1`] = `
+<styled.div>
+  <div>
+    <styled.h1 />
+    <styled.div />
+    <styled.div>
+      <styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="96"
+          type="Email"
+          width="96"
+        />
+      </styled.div>
+      <styled.div>
+        <Styled(styled.div)
+          data-test="methodDisclaimer"
+        >
+           undefined
+          <styled.span>
+            te**@bocom.com.br
+          </styled.span>
+          <span>
+             
+             undefined
+          </span>
+        </Styled(styled.div)>
+      </styled.div>
+      <styled.div>
+        <Input
+          EnableFixedInput={null}
+          dataTest="TransactionTokenField"
+          disableKeys={
+            Array [
+              13,
+            ]
+          }
+          disabled={false}
+          fixedValue={null}
+          icon="Lock"
+          innerRef={
+            Object {
+              "current": null,
+            }
+          }
+          inputMode="text"
+          label={null}
+          msgError={null}
+          msgFocusInput={null}
+          name="token"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={null}
+          placeholder=""
+          tinyLabels={true}
+          type="password"
+          valid={[Function]}
+          value=""
+        />
+        <styled.h1
+          data-test="ModalFeedbackMsgfalse"
+          visible={false}
+        />
+        <ConnectWrapper>
+          <Button
+            block={true}
+            dataTest="Confirm"
+            disabled={true}
+            id="Confirm"
+            loading={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "top": "xs",
+              }
+            }
+            type="conclusive"
+          />
+        </ConnectWrapper>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <ConnectWrapper>
+            <Button
+              dataTest="ResendToken"
+              disabled={false}
+              onClick={[Function]}
+              small={true}
+              spacing={
+                Object {
+                  "bottom": "none",
+                  "top": "xs",
+                }
+              }
+              type="text"
+            />
+          </ConnectWrapper>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should render EFToken totp component 1`] = `
+<styled.div>
+  <div>
+    <styled.h1 />
+    <styled.div />
+    <styled.div>
+      <styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="96"
+          type="MfaAuthenticator"
+          width="96"
+        />
+      </styled.div>
+      <styled.div>
+        <Styled(styled.div)
+          data-test="methodDisclaimer"
+        />
+      </styled.div>
+      <styled.div>
+        <Input
+          EnableFixedInput={null}
+          dataTest="TransactionTokenField"
+          disableKeys={
+            Array [
+              13,
+            ]
+          }
+          disabled={false}
+          fixedValue={null}
+          icon="Lock"
+          innerRef={
+            Object {
+              "current": null,
+            }
+          }
+          inputMode="text"
+          label={null}
+          msgError={null}
+          msgFocusInput={null}
+          name="token"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={null}
+          placeholder=""
+          tinyLabels={true}
+          type="password"
+          valid={[Function]}
+          value=""
+        />
+        <styled.h1
+          data-test="ModalFeedbackMsgfalse"
+          visible={false}
+        />
+        <ConnectWrapper>
+          <Button
+            block={true}
+            dataTest="Confirm"
+            disabled={true}
+            id="Confirm"
+            loading={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "top": "xs",
+              }
+            }
+            type="conclusive"
+          />
+        </ConnectWrapper>
+      </styled.div>
+      <styled.div>
+        <styled.div />
+      </styled.div>
+    </styled.div>
+  </div>
+</styled.div>
+`;
+
+exports[`EFTToken component should render only loading component 1`] = `
+<styled.div>
+  <div>
+    <styled.h1 />
+    <styled.div />
+    <Styled(LocalLoading) />
+  </div>
+</styled.div>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConclusionStep should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.section>
+        <Icon
+          color="#0a8765"
+          dataTest="successIcon"
+          height="80"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="RoundedCheck"
+          width="80"
+        />
+      </styled.section>
+      <styled.span />
+      <styled.span>
+        undefined Banco BBM undefined
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+        />
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ConclusionStep should match snapshot will null 1`] = `""`;

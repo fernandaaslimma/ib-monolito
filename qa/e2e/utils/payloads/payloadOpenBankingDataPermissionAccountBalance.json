@@ -1,0 +1,13 @@
+{
+  "dataPermissions": [
+    {
+      "permissionCode": "ACCOUNTS_BALANCES_READ",
+      "displayName": "Saldos"
+    }
+  ],
+  "deadLine": {
+    "total": 12,
+    "type": "MONTHS"
+  },
+  "redirectUri": "https://localhost:8080/home"
+}

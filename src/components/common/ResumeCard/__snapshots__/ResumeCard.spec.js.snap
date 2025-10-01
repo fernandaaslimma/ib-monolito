@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeCard component should match snapshot with BBM resume 1`] = `
+<Fragment>
+  <styled.div
+    data-test="resumeCard"
+  >
+    <styled.h2>
+      Titulo
+    </styled.h2>
+    Texto explicativo
+    <styled.div>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={36}
+        type="Bank"
+        width={36}
+      />
+      <styled.span>
+        BBM
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.h2 />
+    <styled.h2
+      data-test="nameLabel"
+    >
+      Fulano
+    </styled.h2>
+    <styled.h2
+      data-test="cpfOrCnpjLabel"
+    >
+      099.875.944-77
+    </styled.h2>
+    <styled.h2
+      data-test="destinationInstitutionLabel"
+    >
+      BBM
+    </styled.h2>
+    <styled.h2
+      data-test="consentPurpose"
+    >
+      Motivo do Consentimento
+    </styled.h2>
+    <styled.h2
+      data-test="expirationDateTime"
+    >
+      0 undefined | 06/01/2010
+    </styled.h2>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ResumeCard component should match snapshot with empty content 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.h2 />
+  </styled.div>
+</Fragment>
+`;

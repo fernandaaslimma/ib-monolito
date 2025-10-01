@@ -1,0 +1,618 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewConsentStep should match snapshot 1`] = `
+<styled.div>
+  <InfoCard
+    bigTitleMargin="0 0 0 0"
+    paddingCard="24px 16px 16px 16px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  />
+  <AlertMessage
+    dataTest="alertMessage"
+    icon="Attention"
+    spacing={
+      Object {
+        "bottom": "m",
+        "left": "s",
+        "right": "s",
+        "top": "xxs",
+      }
+    }
+    type="neutral"
+  />
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <styled.div>
+      undefined undefined
+    </styled.div>
+    <styled.div />
+    <styled.div
+      data-test="cpfOrCnpjLabel"
+    >
+      3657938596
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={false}
+      onClick={[Function]}
+    >
+      <styled.span />
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-test="openSelectCNPJ"
+      onClick={[Function]}
+    >
+      <styled.span />
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div />
+      <styled.div
+        checked={true}
+        key="0"
+      >
+        <Checkbox
+          checked={false}
+          dataTest="checkboxSelectCNPJ"
+          margin="0"
+          name="switchBox"
+          onChange={[Function]}
+          type="common"
+        />
+        <styled.div>
+          <styled.span>
+            algum cnpj
+          </styled.span>
+        </styled.div>
+      </styled.div>
+      <styled.div
+        checked={true}
+        key="1"
+      >
+        <Checkbox
+          checked={false}
+          dataTest="checkboxSelectCNPJ"
+          margin="0"
+          name="switchBox"
+          onChange={[Function]}
+          type="common"
+        />
+        <styled.div>
+          <styled.span>
+             outro
+          </styled.span>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <Button
+            dataTest="saveCNPJButton"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "xxs",
+                "right": "s",
+                "top": "s",
+              }
+            }
+            type="primary"
+          />
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-test="selectBank"
+      noSpacebetween={true}
+      onClick={[Function]}
+    >
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Search"
+          width="18"
+        />
+      </styled.div>
+      <styled.span />
+    </styled.div>
+    <AnimatedBottonSheet
+      fullHeight={true}
+      head={
+        Object {
+          "close": true,
+          "title": "undefined",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <SearchBar
+          dataTest="Favored"
+          keysNameToMach={
+            Array [
+              "CustomerFriendlyName",
+            ]
+          }
+          list={
+            Array [
+              Object {
+                "AuthorisationServerId": "8da36d54-f4ea-4814-ac9a-f08dd2e1f03e",
+                "CustomerFriendlyLogoUri": "https://investimentos.bb.com.br/recursos/images/Investimentos_logo.svg",
+                "CustomerFriendlyName": "Carteira BB - HM",
+                "OrganisationId": "f7817b3c-c319-575f-8896-727c1b12cfda",
+              },
+              Object {
+                "AuthorisationServerId": "8da36d54-f4ea-4814-ac9a-f08dd2e1f03e",
+                "CustomerFriendlyLogoUri": "https://investimentos.bb.com.br/recursos/images/Investimentos_logo.svg",
+                "CustomerFriendlyName": "Carteira BB - HM",
+                "OrganisationId": "9415f224-9f58-56b5-af4c-085b4438e4eb",
+              },
+            ]
+          }
+          maxLength={40}
+          placeholder=""
+          type="text"
+        >
+          <styled.div
+            key="0"
+          >
+            <styled.div
+              data-test="cardBank_Carteira BB - HM"
+              onClick={[Function]}
+            >
+              <styled.div>
+                <Icon
+                  color="#2D4758"
+                  cursor={false}
+                  fixCrossAxisAlign={null}
+                  height={20}
+                  type="Bank"
+                  width={20}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.p
+                onClick={[Function]}
+              >
+                <styled.span>
+                  Carteira BB - HM
+                </styled.span>
+              </styled.p>
+              <styled.div
+                height="28px"
+                onClick={[Function]}
+                width="100%"
+              />
+              <styled.div
+                onClick={[Function]}
+              >
+                <styled.span />
+              </styled.div>
+            </styled.div>
+            <styled.div
+              onClick={[Function]}
+              width="100%"
+            />
+          </styled.div>
+          <styled.div
+            key="1"
+          >
+            <styled.div
+              data-test="cardBank_Carteira BB - HM"
+              onClick={[Function]}
+            >
+              <styled.div>
+                <Icon
+                  color="#2D4758"
+                  cursor={false}
+                  fixCrossAxisAlign={null}
+                  height={20}
+                  type="Bank"
+                  width={20}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.p
+                onClick={[Function]}
+              >
+                <styled.span>
+                  Carteira BB - HM
+                </styled.span>
+              </styled.p>
+              <styled.div
+                height="28px"
+                onClick={[Function]}
+                width="100%"
+              />
+              <styled.div
+                onClick={[Function]}
+              >
+                <styled.span />
+              </styled.div>
+            </styled.div>
+            <styled.div
+              onClick={[Function]}
+              width="100%"
+            />
+          </styled.div>
+        </SearchBar>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <styled.div>
+    <styled.div>
+      <Button
+        dataTest="continueNewConsentButton"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`NewConsentStep should match snapshot institution info and back to chose intitutions 1`] = `
+<styled.div>
+  <InfoCard
+    bigTitleMargin="0 0 0 0"
+    paddingCard="24px 16px 16px 16px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  />
+  <AlertMessage
+    dataTest="alertMessage"
+    icon="Attention"
+    spacing={
+      Object {
+        "bottom": "m",
+        "left": "s",
+        "right": "s",
+        "top": "xxs",
+      }
+    }
+    type="neutral"
+  />
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <styled.div>
+      undefined undefined
+    </styled.div>
+    <styled.div />
+    <styled.div
+      data-test="cpfOrCnpjLabel"
+    >
+      3657938596
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={false}
+      onClick={[Function]}
+    >
+      <styled.span />
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-test="openSelectCNPJ"
+      onClick={[Function]}
+    >
+      <styled.span />
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div />
+      <styled.div
+        checked={true}
+        key="0"
+      >
+        <Checkbox
+          checked={false}
+          dataTest="checkboxSelectCNPJ"
+          margin="0"
+          name="switchBox"
+          onChange={[Function]}
+          type="common"
+        />
+        <styled.div>
+          <styled.span>
+            algum cnpj
+          </styled.span>
+        </styled.div>
+      </styled.div>
+      <styled.div
+        checked={true}
+        key="1"
+      >
+        <Checkbox
+          checked={false}
+          dataTest="checkboxSelectCNPJ"
+          margin="0"
+          name="switchBox"
+          onChange={[Function]}
+          type="common"
+        />
+        <styled.div>
+          <styled.span>
+             outro
+          </styled.span>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <Button
+            dataTest="saveCNPJButton"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "xxs",
+                "right": "s",
+                "top": "s",
+              }
+            }
+            type="primary"
+          />
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-test="selectBank"
+      noSpacebetween={true}
+      onClick={[Function]}
+    >
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Search"
+          width="18"
+        />
+      </styled.div>
+      <styled.span />
+    </styled.div>
+    <AnimatedBottonSheet
+      fullHeight={true}
+      head={
+        Object {
+          "close": false,
+          "title": "undefined",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+        <styled.div>
+          3 undefined Banco do Brasil.
+        </styled.div>
+        <styled.div>
+          <styled.p
+            key="0"
+          >
+            Banco do Brasil
+          </styled.p>
+          <styled.p
+            key="1"
+          >
+            Investimentos BB - HM
+          </styled.p>
+          <styled.p
+            key="2"
+          >
+            Carteira BB - HM
+          </styled.p>
+        </styled.div>
+        <styled.div
+          onClick={[Function]}
+        >
+          <styled.span />
+        </styled.div>
+      </styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <Button
+            dataTest="SaveAccountButton"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "xxs",
+                "right": "s",
+                "top": "s",
+              }
+            }
+            type="outline"
+          />
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <styled.div>
+    <styled.div>
+      <Button
+        dataTest="continueNewConsentButton"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

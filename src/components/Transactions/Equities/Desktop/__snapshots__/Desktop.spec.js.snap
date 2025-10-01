@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop component should call icon component 1`] = `
+<styled.span
+  color="#374654"
+  cursorPointer={0}
+  fixCrossAxisAlign={null}
+  height={null}
+  width={null}
+>
+  <EmptyWallet />
+</styled.span>
+`;
+
+exports[`Desktop component should match snapshot 1`] = `
+<styled.div
+  data-test="Transactions_Equities"
+>
+  <Container>
+    <LoadableComponent
+      search={[MockFunction]}
+    />
+    <Row>
+      <Column>
+        <AssetTable
+          isEquity={true}
+          shimmerLoading={
+            Object {
+              "loading": undefined,
+              "rows": 10,
+            }
+          }
+          styleName={false}
+          title=""
+          transactions={Array []}
+        />
+      </Column>
+    </Row>
+    <Pagination
+      activePage={1}
+      initialPage={1}
+      onChangePage={[MockFunction]}
+      pageRange={5}
+      pageSize={10}
+      pageTotal={0}
+    />
+    <LinkCard
+      dataTest="LinkToSimplified"
+      fontSize={14}
+      iconType="FiLoader"
+      noSpan={true}
+      to="/investments/overview?menu=movements&from=equities"
+      withUnderline={true}
+    />
+  </Container>
+</styled.div>
+`;
+
+exports[`Desktop component should match snapshot with empty page state 1`] = `
+<styled.div
+  data-test="Transactions_Equities"
+>
+  <Container>
+    <DefaultContent
+      Icon={[Function]}
+      data-test="Empty_Position"
+      secondaryTexts={
+        Array [
+          undefined,
+        ]
+      }
+    />
+  </Container>
+</styled.div>
+`;
+
+exports[`Desktop component should match snapshot with loading 1`] = `
+<styled.div
+  data-test="Transactions_Equities"
+>
+  <Container>
+    <LoadableComponent
+      search={[MockFunction]}
+    />
+    <Row>
+      <Column>
+        <AssetTable
+          isEquity={true}
+          shimmerLoading={
+            Object {
+              "loading": true,
+              "rows": 10,
+            }
+          }
+          styleName={false}
+          title=""
+          transactions={Array []}
+        />
+      </Column>
+    </Row>
+    <Pagination
+      activePage={1}
+      initialPage={1}
+      onChangePage={[MockFunction]}
+      pageRange={5}
+      pageSize={10}
+      pageTotal={0}
+    />
+  </Container>
+</styled.div>
+`;
+
+exports[`Desktop component should match snapshot without equity Transactions 1`] = `
+<styled.div
+  data-test="Transactions_Equities"
+>
+  <Container>
+    <LoadableComponent
+      search={[MockFunction]}
+    />
+    <Row>
+      <Column>
+        <AssetTable
+          isEquity={true}
+          shimmerLoading={
+            Object {
+              "loading": undefined,
+              "rows": 10,
+            }
+          }
+          styleName={false}
+          title=""
+          transactions={Array []}
+        />
+      </Column>
+    </Row>
+    <Pagination
+      activePage={1}
+      initialPage={1}
+      onChangePage={[MockFunction]}
+      pageRange={5}
+      pageSize={10}
+      pageTotal={0}
+    />
+    <LinkCard
+      dataTest="LinkToSimplified"
+      fontSize={14}
+      iconType="FiLoader"
+      noSpan={true}
+      to="/investments/overview?menu=movements&from=equities"
+      withUnderline={true}
+    />
+  </Container>
+</styled.div>
+`;

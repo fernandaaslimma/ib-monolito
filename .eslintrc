@@ -1,0 +1,65 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "import",
+    "react",
+    "jsx-a11y",
+    "react-hooks"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "globals": {
+    "document": true,
+    "test": true,
+    "expect": true,
+    "describe": true,
+    "it": true,
+    "fetch": true,
+    "Headers": true,
+    "window": true,
+    "jest": true,
+    "beforeEach": true,
+    "__SERVER__": true,
+    "__PROD__": true,
+    "__API__": true,
+    "__APISENSEDIA__": true,
+    "__FRONT_VERSION__": true,
+    "__SHOW_WIRETRANSFER_CONTENT_MOBILE__": false,
+    "__SHOW_STATEMENTS_CONTENT_MOBILE__": false,
+    "__IMPERSONATE_REDIRECT_URL__": true,
+    "__ERROR_LOG_URL__": true,
+    "__SHOW_SUITABILITY_CONTENT_MOBILE__": true,
+    "__SHOW_EDITABLE_REGISTRATION_CONTENT_MOBILE__": true,
+    "__EXCHANGE_TIMER_DURATION__": true,
+    "__DISABLE_DATE_END_OF_YEAR_UTC_MILISECOND__": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-debugger": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": "off"
+  }
+}

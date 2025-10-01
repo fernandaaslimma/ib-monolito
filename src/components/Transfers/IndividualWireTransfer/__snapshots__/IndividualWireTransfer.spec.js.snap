@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndividualWireTransfer component Should match snapshpt 1`] = `
+<styled.div>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+</styled.div>
+`;

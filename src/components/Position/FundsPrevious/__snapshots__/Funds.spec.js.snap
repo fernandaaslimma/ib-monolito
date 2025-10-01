@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds component should match snapshot with accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        funds={
+          Array [
+            Object {
+              "date": "12/12",
+              "grossBalance": 123,
+              "grossResultBalance": 123,
+              "incomeTaxBalance": 1,
+              "investmentDate": "12/12",
+              "iofBalance": 0,
+              "name": "name",
+              "portfolioShare": 123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        funds={
+          Array [
+            Object {
+              "date": "12/12",
+              "grossBalance": 123,
+              "grossResultBalance": 123,
+              "incomeTaxBalance": 1,
+              "investmentDate": "12/12",
+              "iofBalance": 0,
+              "name": "name",
+              "portfolioShare": 123,
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Funds component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        funds={Array []}
+        isEmpty={false}
+        loading={true}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        funds={Array []}
+        isEmpty={false}
+        loading={true}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Funds component should match snapshot without accounts 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Position_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        funds={Array []}
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        funds={Array []}
+        isEmpty={false}
+        loading={false}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;

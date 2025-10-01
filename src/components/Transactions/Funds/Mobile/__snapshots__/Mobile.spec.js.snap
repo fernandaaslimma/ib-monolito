@@ -1,0 +1,347 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<Fragment>
+  <LoadableComponent
+    search={[MockFunction]}
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        TOTAL
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            INCOME_TAX (R$
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            IOF (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            GROSS_VALUE (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            NET_VALUE (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.section
+      key="mobileFunds_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              <styled.div />
+            </styled.div>
+            <styled.div>
+              <styled.div
+                toRight={true}
+              >
+                DATE: 06/01/2010
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              GROSS_VALUE (R$)
+            </styled.div>
+            <styled.div>
+              NaN
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              NET_VALUE (R$)
+            </styled.div>
+            <styled.div>
+              NaN
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                TYPE
+              </styled.div>
+              <styled.div />
+            </styled.div>
+            <Styled(styled.div)>
+              <styled.div>
+                INCOME_TAX (R$)
+              </styled.div>
+              <styled.div>
+                NaN
+              </styled.div>
+            </Styled(styled.div)>
+            <Styled(styled.div)>
+              <styled.div>
+                IOF (R$)
+              </styled.div>
+              <styled.div>
+                NaN
+              </styled.div>
+            </Styled(styled.div)>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <Pagination
+    activePage={1}
+    initialPage={1}
+    onChangePage={[MockFunction]}
+    pageRange={5}
+    pageSize={10}
+    pageTotal={0}
+  />
+  <styled.div>
+    <LinkCard
+      anchorText="CLICK_TO_VIEW_FUNDS"
+      dataTest="LinkToSimplified"
+      fontSize={14}
+      iconType="FiLoader"
+      noSpan={true}
+      to="/investments/overview?menu=movements&from=funds"
+      versionText="WISH_TO_SEE_SIMPLIFIED_VERSION"
+      withUnderline={true}
+    />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with icon component 1`] = `
+<styled.span
+  color="#374654"
+  cursorPointer={0}
+  fixCrossAxisAlign={null}
+  height={null}
+  width={null}
+>
+  <EmptyWallet />
+</styled.span>
+`;
+
+exports[`Mobile component should match snapshot with isEmpty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    primaryText="NO_RECORDS"
+    secondaryTexts={
+      Array [
+        "NO_RECORD_WAS_FOUND",
+      ]
+    }
+  />
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading 1`] = `
+<Fragment>
+  <LoadableComponent
+    search={[MockFunction]}
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        TOTAL
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            INCOME_TAX (R$
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            IOF (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            GROSS_VALUE (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            NET_VALUE (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.section>
+      <styled.div>
+        <Card
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                DATE:
+              </styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                GROSS_VALUE: 
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              NET_VALUE
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                APPL_DATE
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <Styled(styled.div)>
+              <styled.div>
+                 
+                INCOME_TAX (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </Styled(styled.div)>
+            <Styled(styled.div)>
+              <styled.div>
+                 
+                IOF (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </Styled(styled.div)>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <Pagination
+    activePage={1}
+    initialPage={1}
+    onChangePage={[MockFunction]}
+    pageRange={5}
+    pageSize={10}
+    pageTotal={0}
+  />
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading and isEmpty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    primaryText="NO_RECORDS"
+    secondaryTexts={
+      Array [
+        "NO_RECORD_WAS_FOUND",
+      ]
+    }
+  />
+</Fragment>
+`;

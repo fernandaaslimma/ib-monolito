@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pending transactions  should match snapshot desktop 1`] = `
+<styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.42}
+            />
+          </styled.li>
+        </styled.ul>
+      </styled.div>
+    </Card>
+  </styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-1912.13}
+            />
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.38}
+            />
+          </styled.li>
+          <styled.li
+            key="2"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-120.41}
+            />
+          </styled.li>
+        </styled.ul>
+      </styled.div>
+    </Card>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Pending transactions  should match snapshot desktop without balance 1`] = `
+<styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.42}
+            />
+          </styled.li>
+        </styled.ul>
+        <styled.div>
+          <styled.span />
+          <styled.div
+            initial={true}
+          >
+            <Styled(styled.label)
+              expanded={true}
+            />
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={0}
+              />
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-1912.13}
+            />
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.38}
+            />
+          </styled.li>
+          <styled.li
+            key="2"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-120.41}
+            />
+          </styled.li>
+        </styled.ul>
+        <styled.div>
+          <styled.span />
+          <styled.div
+            initial={true}
+          >
+            <Styled(styled.label)
+              expanded={true}
+            />
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={1912.13}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={0}
+              />
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Pending transactions  should match snapshot mobile 1`] = `
+<styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.42}
+            />
+          </styled.li>
+        </styled.ul>
+        <styled.div>
+          <styled.span />
+          <styled.div
+            initial={true}
+          >
+            <Styled(styled.label)
+              expanded={true}
+            />
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={0}
+              />
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-1912.13}
+            />
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.38}
+            />
+          </styled.li>
+          <styled.li
+            key="2"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-120.41}
+            />
+          </styled.li>
+        </styled.ul>
+        <styled.div>
+          <styled.span />
+          <styled.div
+            initial={true}
+          >
+            <Styled(styled.label)
+              expanded={true}
+            />
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={1912.13}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div
+            total={true}
+          >
+            <styled.div>
+              <Styled(styled.label)>
+                undefined (R$)
+              </Styled(styled.label)>
+              <HideableValue
+                hide={false}
+                pattern="******"
+                styles="font-size: 0.875rem; font-family: Lato; color: #4e768f"
+                value={0}
+              />
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </Card>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Pending transactions  should match snapshot mobile without balance 1`] = `
+<styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.42}
+            />
+          </styled.li>
+        </styled.ul>
+      </styled.div>
+    </Card>
+  </styled.div>
+  <styled.div>
+    <Card
+      icon="Calendar"
+      iconColor={null}
+      styles="margin-bottom: 1rem"
+      title="06/01/2010"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <styled.span />
+            <styled.span />
+            <styled.span>
+              undefined (R$)
+            </styled.span>
+          </styled.li>
+          <styled.li
+            key="0"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-1912.13}
+            />
+          </styled.li>
+          <styled.li
+            key="1"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-12.38}
+            />
+          </styled.li>
+          <styled.li
+            key="2"
+          >
+            <styled.span />
+            <styled.div>
+              TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE
+            </styled.div>
+            <HideableValue
+              colorized={true}
+              hide={false}
+              pattern="******"
+              value={-120.41}
+            />
+          </styled.li>
+        </styled.ul>
+      </styled.div>
+    </Card>
+  </styled.div>
+</styled.div>
+`;

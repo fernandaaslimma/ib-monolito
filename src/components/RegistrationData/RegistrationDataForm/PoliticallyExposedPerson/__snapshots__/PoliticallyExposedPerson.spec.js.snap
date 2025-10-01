@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PoliticallyExposedPerson component should match snapshot when not PEP 1`] = `
+<PoliticallyExposedPerson
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`PoliticallyExposedPerson component should match snapshot with props 1`] = `
+<PoliticallyExposedPerson
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`PoliticallyExposedPerson component should validate section when toggle section container show/hide 1`] = `
+<PoliticallyExposedPerson
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;

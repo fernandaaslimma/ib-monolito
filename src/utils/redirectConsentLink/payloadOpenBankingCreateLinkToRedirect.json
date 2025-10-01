@@ -1,0 +1,129 @@
+{
+  "dataPermissions": [
+    {
+      "permissionCode": "CUSTOMERS_PERSONAL_IDENTIFICATIONS_READ",
+      "displayName": "Identificação da pessoa natural"
+    },
+    {
+      "permissionCode": "CUSTOMERS_PERSONAL_ADITTIONALINFO_READ",
+      "displayName": "Qualificação / Relações da pessoa natural"
+    },
+    {
+      "permissionCode": "CUSTOMERS_BUSINESS_IDENTIFICATIONS_READ",
+      "displayName": "Identificação da pessoa jurídica"
+    },
+    {
+      "permissionCode": "CUSTOMERS_BUSINESS_ADITTIONALINFO_READ",
+      "displayName": "Qualificação / Relações da pessoa jurídica"
+    },
+    {
+      "permissionCode": "CREDIT_CARDS_ACCOUNTS_READ",
+      "displayName": "Cartões de Crédito"
+    },
+    {
+      "permissionCode": "CREDIT_CARDS_ACCOUNTS_BILLS_READ",
+      "displayName": "Faturas"
+    },
+    {
+      "permissionCode": "CREDIT_CARDS_ACCOUNTS_BILLS_TRANSACTIONS_READ",
+      "displayName": "Transações por Fatura"
+    },
+    {
+      "permissionCode": "CREDIT_CARDS_ACCOUNTS_LIMITS_READ",
+      "displayName": "Limites"
+    },
+    {
+      "permissionCode": "CREDIT_CARDS_ACCOUNTS_TRANSACTIONS_READ",
+      "displayName": "Transações"
+    },
+    {
+      "permissionCode": "ACCOUNTS_READ",
+      "displayName": "Contas"
+    },
+    {
+      "permissionCode": "ACCOUNTS_BALANCES_READ",
+      "displayName": "Saldos"
+    },
+    {
+      "permissionCode": "ACCOUNTS_TRANSACTIONS_READ",
+      "displayName": "Transações"
+    },
+    {
+      "permissionCode": "ACCOUNTS_OVERDRAFT_LIMITS_READ",
+      "displayName": "Limites"
+    },
+    {
+      "permissionCode": "LOANS_READ",
+      "displayName": "Contratos"
+    },
+    {
+      "permissionCode": "LOANS_WARRANTIES_READ",
+      "displayName": "Garantias"
+    },
+    {
+      "permissionCode": "LOANS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações"
+    },
+    {
+      "permissionCode": "LOANS_PAYMENTS_READ",
+      "displayName": "Pagamentos"
+    },
+    {
+      "permissionCode": "FINANCINGS_READ",
+      "displayName": "Contratos"
+    },
+    {
+      "permissionCode": "FINANCINGS_WARRANTIES_READ",
+      "displayName": "Garantias"
+    },
+    {
+      "permissionCode": "FINANCINGS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações"
+    },
+    {
+      "permissionCode": "FINANCINGS_PAYMENTS_READ",
+      "displayName": "Pagamentos"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_READ",
+      "displayName": "Contratos"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_WARRANTIES_READ",
+      "displayName": "Garantias"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_PAYMENTS_READ",
+      "displayName": "Pagamentos"
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_READ",
+      "displayName": "Contratos"
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_WARRANTIES_READ",
+      "displayName": "Garantias"
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações"
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_PAYMENTS_READ",
+      "displayName": "Pagamentos"
+    },
+    {
+      "permissionCode": "RESOURCES_READ",
+      "displayName": "Leitura de recursos"
+    }
+  ],
+  "deadLine": {
+    "total": 12,
+    "type": "MONTHS"
+  },
+  "redirectUri": "https://www.bocombbm.com.br"
+}

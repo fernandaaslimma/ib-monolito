@@ -1,0 +1,732 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success component should match snapshot with props 1`] = `
+<ConnectWrapper>
+  <ContextProvider
+    value={
+      Shares {
+        "capitalized": [Function],
+        "changeState": [Function],
+        "context": Object {},
+        "corporationConsentStatus": [Function],
+        "createRenewPayload": [Function],
+        "createShare": [Function],
+        "formatDate": [Function],
+        "populateSelectedConsentResources": [Function],
+        "props": Object {
+          "state": Object {
+            "changeSharingBottomSheet": false,
+            "endSharingBottomSheet": false,
+            "getInstitutions": [Function],
+            "getReceivedCurrentShares": [Function],
+            "getTransmittedCurrentShares": [Function],
+            "loading": false,
+            "loadingChangeStep": false,
+            "loadingCurrentShares": true,
+            "newConsentCreated": null,
+            "organisationId": null,
+            "payloadToNewConsent": null,
+            "previusStep": null,
+            "renewSharingBottomSheet": false,
+            "resumeEndSharing": false,
+            "selectAccountOriginBottomSheet": false,
+            "selectDeadLineBottomSheet": false,
+            "selectShareOld": null,
+            "selectedBank": null,
+            "selectedConsentResources": null,
+            "selectedInstitutionBottonSheet": false,
+            "selectedTab": 0,
+          },
+        },
+        "refs": Object {},
+        "setSelectedBank": [Function],
+        "setSelectedTab": [Function],
+        "setState": [Function],
+        "startRenewConsent": [Function],
+        "state": Object {
+          "changeSharingBottomSheet": false,
+          "endSharingBottomSheet": false,
+          "loading": false,
+          "loadingChangeStep": false,
+          "loadingCurrentShares": true,
+          "newConsentCreated": null,
+          "organisationId": null,
+          "payloadToNewConsent": null,
+          "previusStep": null,
+          "renewSharingBottomSheet": false,
+          "resumeEndSharing": false,
+          "selectAccountOriginBottomSheet": false,
+          "selectDeadLineBottomSheet": false,
+          "selectShareOld": null,
+          "selectedBank": null,
+          "selectedConsentResources": null,
+          "selectedInstitutionBottonSheet": false,
+          "selectedTab": 0,
+        },
+        "steps": Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+        "tagConf": Object {
+          "active": Array [
+            "#CCE9E1",
+            "#004933",
+            undefined,
+          ],
+          "expired": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "inactive": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "overdue": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "pending": Array [
+            "#FFD46A",
+            "#80521B",
+            undefined,
+          ],
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_currentlyRenderingComponent": null,
+            "_didScheduleRenderPhaseUpdate": false,
+            "_dispatcher": Object {
+              "readContext": [Function],
+              "useCallback": [Function],
+              "useContext": [Function],
+              "useDebugValue": [Function],
+              "useEffect": [Function],
+              "useImperativeHandle": [Function],
+              "useLayoutEffect": [Function],
+              "useMemo": [Function],
+              "useReducer": [Function],
+              "useRef": [Function],
+              "useState": [Function],
+            },
+            "_element": <Shares
+              state={
+                Object {
+                  "changeSharingBottomSheet": false,
+                  "endSharingBottomSheet": false,
+                  "getInstitutions": [Function],
+                  "getReceivedCurrentShares": [Function],
+                  "getTransmittedCurrentShares": [Function],
+                  "loading": false,
+                  "loadingChangeStep": false,
+                  "loadingCurrentShares": true,
+                  "newConsentCreated": null,
+                  "organisationId": null,
+                  "payloadToNewConsent": null,
+                  "previusStep": null,
+                  "renewSharingBottomSheet": false,
+                  "resumeEndSharing": false,
+                  "selectAccountOriginBottomSheet": false,
+                  "selectDeadLineBottomSheet": false,
+                  "selectShareOld": null,
+                  "selectedBank": null,
+                  "selectedConsentResources": null,
+                  "selectedInstitutionBottonSheet": false,
+                  "selectedTab": 0,
+                }
+              }
+            />,
+            "_firstWorkInProgressHook": null,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_isReRender": false,
+            "_newState": null,
+            "_numberOfReRenders": 0,
+            "_previousComponentIdentity": null,
+            "_renderPhaseUpdates": null,
+            "_rendered": <ConnectWrapper>
+              <React.Fragment>
+                <Context.Provider
+                  value={[Circular]}
+                >
+                  <StepSlider
+                    dataTest="StepSlider"
+                    spacing={
+                      Object {
+                        "bottom": "none",
+                        "left": "none",
+                        "right": "none",
+                        "top": "none",
+                      }
+                    }
+                    steps={
+                      Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ]
+                    }
+                  />
+                </Context.Provider>
+              </React.Fragment>
+            </ConnectWrapper>,
+            "_rendering": false,
+            "_updater": [Circular],
+            "_workInProgressHook": null,
+          },
+        },
+      }
+    }
+  >
+    <StepSlider
+      dataTest="StepSlider"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      steps={
+        Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ]
+      }
+    />
+  </ContextProvider>
+</ConnectWrapper>
+`;
+
+exports[`Success component should match snapshot with steps 1`] = `
+<ConnectWrapper>
+  <ContextProvider
+    value={
+      Shares {
+        "capitalized": [Function],
+        "changeState": [Function],
+        "context": Object {},
+        "corporationConsentStatus": [Function],
+        "createRenewPayload": [Function],
+        "createShare": [Function],
+        "formatDate": [Function],
+        "populateSelectedConsentResources": [Function],
+        "props": Object {
+          "colorModal": [MockFunction],
+          "state": Object {
+            "changeSharingBottomSheet": false,
+            "endSharingBottomSheet": false,
+            "getInstitutions": [Function],
+            "getReceivedCurrentShares": [Function],
+            "getTransmittedCurrentShares": [Function],
+            "loading": false,
+            "loadingChangeStep": false,
+            "loadingCurrentShares": true,
+            "newConsentCreated": null,
+            "organisationId": null,
+            "payloadToNewConsent": null,
+            "previusStep": null,
+            "renewSharingBottomSheet": false,
+            "resumeEndSharing": false,
+            "selectAccountOriginBottomSheet": false,
+            "selectDeadLineBottomSheet": false,
+            "selectShareOld": null,
+            "selectedBank": null,
+            "selectedConsentResources": null,
+            "selectedInstitutionBottonSheet": false,
+            "selectedTab": 0,
+          },
+          "steps": Array [
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+        },
+        "refs": Object {},
+        "setSelectedBank": [Function],
+        "setSelectedTab": [Function],
+        "setState": [Function],
+        "startRenewConsent": [Function],
+        "state": Object {
+          "changeSharingBottomSheet": false,
+          "endSharingBottomSheet": false,
+          "loading": false,
+          "loadingChangeStep": false,
+          "loadingCurrentShares": true,
+          "newConsentCreated": null,
+          "organisationId": null,
+          "payloadToNewConsent": null,
+          "previusStep": null,
+          "renewSharingBottomSheet": false,
+          "resumeEndSharing": false,
+          "selectAccountOriginBottomSheet": false,
+          "selectDeadLineBottomSheet": false,
+          "selectShareOld": null,
+          "selectedBank": null,
+          "selectedConsentResources": null,
+          "selectedInstitutionBottonSheet": false,
+          "selectedTab": 0,
+        },
+        "steps": Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+        "tagConf": Object {
+          "active": Array [
+            "#CCE9E1",
+            "#004933",
+            undefined,
+          ],
+          "expired": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "inactive": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "overdue": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "pending": Array [
+            "#FFD46A",
+            "#80521B",
+            undefined,
+          ],
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_currentlyRenderingComponent": null,
+            "_didScheduleRenderPhaseUpdate": false,
+            "_dispatcher": Object {
+              "readContext": [Function],
+              "useCallback": [Function],
+              "useContext": [Function],
+              "useDebugValue": [Function],
+              "useEffect": [Function],
+              "useImperativeHandle": [Function],
+              "useLayoutEffect": [Function],
+              "useMemo": [Function],
+              "useReducer": [Function],
+              "useRef": [Function],
+              "useState": [Function],
+            },
+            "_element": <Shares
+              colorModal={[MockFunction]}
+              state={
+                Object {
+                  "changeSharingBottomSheet": false,
+                  "endSharingBottomSheet": false,
+                  "getInstitutions": [Function],
+                  "getReceivedCurrentShares": [Function],
+                  "getTransmittedCurrentShares": [Function],
+                  "loading": false,
+                  "loadingChangeStep": false,
+                  "loadingCurrentShares": true,
+                  "newConsentCreated": null,
+                  "organisationId": null,
+                  "payloadToNewConsent": null,
+                  "previusStep": null,
+                  "renewSharingBottomSheet": false,
+                  "resumeEndSharing": false,
+                  "selectAccountOriginBottomSheet": false,
+                  "selectDeadLineBottomSheet": false,
+                  "selectShareOld": null,
+                  "selectedBank": null,
+                  "selectedConsentResources": null,
+                  "selectedInstitutionBottonSheet": false,
+                  "selectedTab": 0,
+                }
+              }
+              steps={
+                Array [
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                  [Function],
+                ]
+              }
+            />,
+            "_firstWorkInProgressHook": null,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_isReRender": false,
+            "_newState": null,
+            "_numberOfReRenders": 0,
+            "_previousComponentIdentity": null,
+            "_renderPhaseUpdates": null,
+            "_rendered": <ConnectWrapper>
+              <React.Fragment>
+                <Context.Provider
+                  value={[Circular]}
+                >
+                  <StepSlider
+                    dataTest="StepSlider"
+                    spacing={
+                      Object {
+                        "bottom": "none",
+                        "left": "none",
+                        "right": "none",
+                        "top": "none",
+                      }
+                    }
+                    steps={
+                      Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ]
+                    }
+                  />
+                </Context.Provider>
+              </React.Fragment>
+            </ConnectWrapper>,
+            "_rendering": false,
+            "_updater": [Circular],
+            "_workInProgressHook": null,
+          },
+        },
+      }
+    }
+  >
+    <StepSlider
+      dataTest="StepSlider"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      steps={
+        Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ]
+      }
+    />
+  </ContextProvider>
+</ConnectWrapper>
+`;
+
+exports[`Success component should match snapshot with tagConf 1`] = `
+<ConnectWrapper>
+  <ContextProvider
+    value={
+      Shares {
+        "capitalized": [Function],
+        "changeState": [Function],
+        "context": Object {},
+        "corporationConsentStatus": [Function],
+        "createRenewPayload": [Function],
+        "createShare": [Function],
+        "formatDate": [Function],
+        "populateSelectedConsentResources": [Function],
+        "props": Object {
+          "colorModal": [MockFunction],
+          "state": Object {
+            "changeSharingBottomSheet": false,
+            "endSharingBottomSheet": false,
+            "getInstitutions": [Function],
+            "getReceivedCurrentShares": [Function],
+            "getTransmittedCurrentShares": [Function],
+            "loading": false,
+            "loadingChangeStep": false,
+            "loadingCurrentShares": true,
+            "newConsentCreated": null,
+            "organisationId": null,
+            "payloadToNewConsent": null,
+            "previusStep": null,
+            "renewSharingBottomSheet": false,
+            "resumeEndSharing": false,
+            "selectAccountOriginBottomSheet": false,
+            "selectDeadLineBottomSheet": false,
+            "selectShareOld": null,
+            "selectedBank": null,
+            "selectedConsentResources": null,
+            "selectedInstitutionBottonSheet": false,
+            "selectedTab": 0,
+          },
+          "tagConf": Object {
+            "active": Array [
+              "#CCE9E1",
+              "#004933",
+              undefined,
+            ],
+            "expired": Array [
+              "#D9E0E4",
+              "#244859",
+              undefined,
+            ],
+            "inactive": Array [
+              "#D9E0E4",
+              "#244859",
+              undefined,
+            ],
+            "overdue": Array [
+              "#D9E0E4",
+              "#244859",
+              undefined,
+            ],
+            "pending": Array [
+              "#FFD46A",
+              "#80521B",
+              undefined,
+            ],
+          },
+        },
+        "refs": Object {},
+        "setSelectedBank": [Function],
+        "setSelectedTab": [Function],
+        "setState": [Function],
+        "startRenewConsent": [Function],
+        "state": Object {
+          "changeSharingBottomSheet": false,
+          "endSharingBottomSheet": false,
+          "loading": false,
+          "loadingChangeStep": false,
+          "loadingCurrentShares": true,
+          "newConsentCreated": null,
+          "organisationId": null,
+          "payloadToNewConsent": null,
+          "previusStep": null,
+          "renewSharingBottomSheet": false,
+          "resumeEndSharing": false,
+          "selectAccountOriginBottomSheet": false,
+          "selectDeadLineBottomSheet": false,
+          "selectShareOld": null,
+          "selectedBank": null,
+          "selectedConsentResources": null,
+          "selectedInstitutionBottonSheet": false,
+          "selectedTab": 0,
+        },
+        "steps": Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ],
+        "tagConf": Object {
+          "active": Array [
+            "#CCE9E1",
+            "#004933",
+            undefined,
+          ],
+          "expired": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "inactive": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "overdue": Array [
+            "#D9E0E4",
+            "#244859",
+            undefined,
+          ],
+          "pending": Array [
+            "#FFD46A",
+            "#80521B",
+            undefined,
+          ],
+        },
+        "updater": Updater {
+          "_callbacks": Array [],
+          "_renderer": ReactShallowRenderer {
+            "_context": Object {},
+            "_currentlyRenderingComponent": null,
+            "_didScheduleRenderPhaseUpdate": false,
+            "_dispatcher": Object {
+              "readContext": [Function],
+              "useCallback": [Function],
+              "useContext": [Function],
+              "useDebugValue": [Function],
+              "useEffect": [Function],
+              "useImperativeHandle": [Function],
+              "useLayoutEffect": [Function],
+              "useMemo": [Function],
+              "useReducer": [Function],
+              "useRef": [Function],
+              "useState": [Function],
+            },
+            "_element": <Shares
+              colorModal={[MockFunction]}
+              state={
+                Object {
+                  "changeSharingBottomSheet": false,
+                  "endSharingBottomSheet": false,
+                  "getInstitutions": [Function],
+                  "getReceivedCurrentShares": [Function],
+                  "getTransmittedCurrentShares": [Function],
+                  "loading": false,
+                  "loadingChangeStep": false,
+                  "loadingCurrentShares": true,
+                  "newConsentCreated": null,
+                  "organisationId": null,
+                  "payloadToNewConsent": null,
+                  "previusStep": null,
+                  "renewSharingBottomSheet": false,
+                  "resumeEndSharing": false,
+                  "selectAccountOriginBottomSheet": false,
+                  "selectDeadLineBottomSheet": false,
+                  "selectShareOld": null,
+                  "selectedBank": null,
+                  "selectedConsentResources": null,
+                  "selectedInstitutionBottonSheet": false,
+                  "selectedTab": 0,
+                }
+              }
+              tagConf={
+                Object {
+                  "active": Array [
+                    "#CCE9E1",
+                    "#004933",
+                    undefined,
+                  ],
+                  "expired": Array [
+                    "#D9E0E4",
+                    "#244859",
+                    undefined,
+                  ],
+                  "inactive": Array [
+                    "#D9E0E4",
+                    "#244859",
+                    undefined,
+                  ],
+                  "overdue": Array [
+                    "#D9E0E4",
+                    "#244859",
+                    undefined,
+                  ],
+                  "pending": Array [
+                    "#FFD46A",
+                    "#80521B",
+                    undefined,
+                  ],
+                }
+              }
+            />,
+            "_firstWorkInProgressHook": null,
+            "_forcedUpdate": false,
+            "_instance": [Circular],
+            "_isReRender": false,
+            "_newState": null,
+            "_numberOfReRenders": 0,
+            "_previousComponentIdentity": null,
+            "_renderPhaseUpdates": null,
+            "_rendered": <ConnectWrapper>
+              <React.Fragment>
+                <Context.Provider
+                  value={[Circular]}
+                >
+                  <StepSlider
+                    dataTest="StepSlider"
+                    spacing={
+                      Object {
+                        "bottom": "none",
+                        "left": "none",
+                        "right": "none",
+                        "top": "none",
+                      }
+                    }
+                    steps={
+                      Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ]
+                    }
+                  />
+                </Context.Provider>
+              </React.Fragment>
+            </ConnectWrapper>,
+            "_rendering": false,
+            "_updater": [Circular],
+            "_workInProgressHook": null,
+          },
+        },
+      }
+    }
+  >
+    <StepSlider
+      dataTest="StepSlider"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      steps={
+        Array [
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+          [Function],
+        ]
+      }
+    />
+  </ContextProvider>
+</ConnectWrapper>
+`;

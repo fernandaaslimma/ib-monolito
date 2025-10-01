@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading component should match snapshot 1`] = `
+<div
+  class="sc-bdVaJa gQkUlT"
+>
+  <span
+    class="sc-bwzfXH ekEXYK"
+  />
+  <span
+    class="sc-bwzfXH ekEXYK"
+  />
+  <span
+    class="sc-bwzfXH ekEXYK"
+  />
+</div>
+`;

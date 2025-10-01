@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeStep component Should match snapshot 1`] = `
+<styled.div>
+  <styled.span
+    id="ResumeStep"
+  />
+  <styled.div>
+    <Icon
+      color="#0a8765"
+      dataTest="SuccessIcon"
+      height="58"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="RoundedCheck"
+      width="58"
+    />
+    <styled.div />
+    <styled.div>
+      06/01/2010, 01:01 AM
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="0"
+    >
+      <styled.span />
+      <styled.span>
+        LCA
+      </styled.span>
+    </styled.section>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="1"
+    >
+      <styled.span />
+      <styled.span>
+        Banco BOCOM BBM
+      </styled.span>
+    </styled.section>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="2"
+    >
+      <styled.span />
+      <styled.span>
+        102% DI
+      </styled.span>
+    </styled.section>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="3"
+    >
+      <styled.span />
+      <styled.span>
+        R$ 10000
+      </styled.span>
+    </styled.section>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="4"
+    >
+      <styled.span />
+      <styled.span>
+        Diária após 90 dias
+      </styled.span>
+    </styled.section>
+    <styled.section
+      className="ConfirmationInfoWrapper"
+      key="5"
+    >
+      <styled.span />
+      <styled.span>
+        05/31/2010
+      </styled.span>
+    </styled.section>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="concludeButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

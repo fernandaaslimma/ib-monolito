@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Equities Transactions component should match snapshot with equities Transactions 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Equities"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        equityIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "PORD11 CI",
+              "date": "2016-03-29",
+              "grossValue": 141504,
+              "netValue": 141504,
+              "type": "COMPRA",
+            },
+          ]
+        }
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        equityIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "PORD11 CI",
+              "date": "2016-03-29",
+              "grossValue": 141504,
+              "netValue": 141504,
+              "type": "COMPRA",
+            },
+          ]
+        }
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Equities Transactions component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Equities"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        equityIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "PORD11 CI",
+              "date": "2016-03-29",
+              "grossValue": 141504,
+              "netValue": 141504,
+              "type": "COMPRA",
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={true}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        equityIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "PORD11 CI",
+              "date": "2016-03-29",
+              "grossValue": 141504,
+              "netValue": 141504,
+              "type": "COMPRA",
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={true}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Equities Transactions component should match snapshot without equities Transactions 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Equities"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        equityIncomeTransactions={Array []}
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        equityIncomeTransactions={Array []}
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;

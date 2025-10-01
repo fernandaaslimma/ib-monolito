@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Transactions component should match snapshot 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Cash_Account"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        cashAccounts={
+          Array [
+            Object {
+              "accountCloseBalance": Object {
+                "closeBalance": 52.6,
+                "date": "2018-05-04",
+                "openBalance": 52.6,
+              },
+              "accountOpenBalance": Object {
+                "closeBalance": 6903.2,
+                "date": "2018-04-01",
+                "openBalance": 6903.2,
+              },
+              "cashAccountTransactions": Array [
+                Object {
+                  "amount": 78351.22,
+                  "date": "2018-01-03",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": 4923.16,
+                  "date": "2018-01-08",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -87879.5,
+                  "date": "2018-01-09",
+                  "type": "DÉBITO",
+                },
+                Object {
+                  "amount": 88038.51,
+                  "date": "2018-01-22",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -91651.78,
+                  "date": "2018-01-22",
+                  "type": "DÉBITO",
+                },
+              ],
+              "userCashAccount": "308642-4",
+            },
+          ]
+        }
+        loading={true}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        cashAccounts={
+          Array [
+            Object {
+              "accountCloseBalance": Object {
+                "closeBalance": 52.6,
+                "date": "2018-05-04",
+                "openBalance": 52.6,
+              },
+              "accountOpenBalance": Object {
+                "closeBalance": 6903.2,
+                "date": "2018-04-01",
+                "openBalance": 6903.2,
+              },
+              "cashAccountTransactions": Array [
+                Object {
+                  "amount": 78351.22,
+                  "date": "2018-01-03",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": 4923.16,
+                  "date": "2018-01-08",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -87879.5,
+                  "date": "2018-01-09",
+                  "type": "DÉBITO",
+                },
+                Object {
+                  "amount": 88038.51,
+                  "date": "2018-01-22",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -91651.78,
+                  "date": "2018-01-22",
+                  "type": "DÉBITO",
+                },
+              ],
+              "userCashAccount": "308642-4",
+            },
+          ]
+        }
+        loading={true}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Account Transactions component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Cash_Account"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        cashAccounts={
+          Array [
+            Object {
+              "accountCloseBalance": Object {
+                "closeBalance": 52.6,
+                "date": "2018-05-04",
+                "openBalance": 52.6,
+              },
+              "accountOpenBalance": Object {
+                "closeBalance": 6903.2,
+                "date": "2018-04-01",
+                "openBalance": 6903.2,
+              },
+              "cashAccountTransactions": Array [
+                Object {
+                  "amount": 78351.22,
+                  "date": "2018-01-03",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": 4923.16,
+                  "date": "2018-01-08",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -87879.5,
+                  "date": "2018-01-09",
+                  "type": "DÉBITO",
+                },
+                Object {
+                  "amount": 88038.51,
+                  "date": "2018-01-22",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -91651.78,
+                  "date": "2018-01-22",
+                  "type": "DÉBITO",
+                },
+              ],
+              "userCashAccount": "308642-4",
+            },
+          ]
+        }
+        loading={true}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        cashAccounts={
+          Array [
+            Object {
+              "accountCloseBalance": Object {
+                "closeBalance": 52.6,
+                "date": "2018-05-04",
+                "openBalance": 52.6,
+              },
+              "accountOpenBalance": Object {
+                "closeBalance": 6903.2,
+                "date": "2018-04-01",
+                "openBalance": 6903.2,
+              },
+              "cashAccountTransactions": Array [
+                Object {
+                  "amount": 78351.22,
+                  "date": "2018-01-03",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": 4923.16,
+                  "date": "2018-01-08",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -87879.5,
+                  "date": "2018-01-09",
+                  "type": "DÉBITO",
+                },
+                Object {
+                  "amount": 88038.51,
+                  "date": "2018-01-22",
+                  "type": "CRÉDITO",
+                },
+                Object {
+                  "amount": -91651.78,
+                  "date": "2018-01-22",
+                  "type": "DÉBITO",
+                },
+              ],
+              "userCashAccount": "308642-4",
+            },
+          ]
+        }
+        loading={true}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;

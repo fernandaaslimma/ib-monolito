@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonResponsive Unit Test should match snapShot 1`] = `<styled.button />`;

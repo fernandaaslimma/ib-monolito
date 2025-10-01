@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalLoading component should match snapshot 1`] = `
+<div
+  class="sc-gqjmRU kvvRrb"
+  data-test="LocalLoading"
+>
+  <div
+    class="sc-VigVT pLRu"
+  >
+    <div
+      class="sc-jTzLTM tCpVX"
+    />
+    <div
+      class="sc-jTzLTM tCpVX"
+    />
+    <div
+      class="sc-jTzLTM tCpVX"
+    />
+    <div
+      class="sc-jTzLTM tCpVX"
+    />
+  </div>
+</div>
+`;

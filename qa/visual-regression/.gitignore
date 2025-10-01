@@ -1,0 +1,13 @@
+node_modules
+backstop_data/desktop/html_report
+backstop_data/desktop/bitmaps_test
+backstop_data/desktop/ci_report
+backstop_data/mobile/html_report
+backstop_data/mobile/bitmaps_test
+backstop_data/mobile/ci_report
+backstop_data/lang-test/html_report
+backstop_data/lang-test/bitmaps_test
+backstop_data/lang-test/ci_report
+backstop_data/smoke/html_report
+backstop_data/smoke/bitmaps_test
+backstop_data/smoke/ci_report

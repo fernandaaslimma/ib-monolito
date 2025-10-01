@@ -1,0 +1,2328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test especific functons Should call tokenModal 1`] = `
+WithdrawLca {
+  "changeAccount": [Function],
+  "changeAmmount": [Function],
+  "changeState": [Function],
+  "checkAvailabilityHour": [Function],
+  "context": Object {},
+  "finalClickWithdrawal": [Function],
+  "getMaxAndMinValues": [Function],
+  "getWithdrawalDetails": [Function],
+  "inputRef": Object {
+    "current": null,
+  },
+  "mountMessageWithAvailabilityTime": [Function],
+  "props": Object {
+    "accounts": Array [
+      Object {
+        "account": 6455,
+        "accountNumber": "107 2 304020-3",
+        "availableBalance": 609.01,
+        "bankISPB": "15114366",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 609.01,
+        "verifyingDigit": "3",
+      },
+      Object {
+        "account": 6456,
+        "accountNumber": "108 2 304021-4",
+        "availableBalance": 456.01,
+        "bankISPB": "15114367",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506111",
+        "name": "cliente2741",
+        "totalBalance": 456.01,
+        "verifyingDigit": "4",
+      },
+      Object {
+        "account": 6457,
+        "accountNumber": "231 2 304020-3",
+        "availableBalance": 123.01,
+        "bankISPB": "33485541",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 123.01,
+        "verifyingDigit": "3",
+      },
+      Object {
+        "account": 6458,
+        "accountNumber": "237 2 304020-3",
+        "availableBalance": 123.01,
+        "bankISPB": "60746948",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 123.01,
+        "verifyingDigit": "3",
+      },
+    ],
+    "authFactors": Array [
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "totp",
+        "defaultAuth": false,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "totp",
+      },
+    ],
+    "availableDateRanges": Array [
+      Object {
+        "date": "2019-05-27",
+        "periods": Array [
+          Object {
+            "endTime": 20190203081517,
+            "startTime": 20190203081617,
+          },
+        ],
+        "service": "FixedIncome",
+      },
+    ],
+    "banksList": Array [],
+    "cancelToastrTimeout": [MockFunction],
+    "changeCurrentPage": [MockFunction],
+    "closeModal": [MockFunction],
+    "closeToastr": [MockFunction],
+    "createUuid": [Function],
+    "getAccounts": [Function],
+    "getAllLcaDetails": [MockFunction],
+    "getAuthFactors": [Function],
+    "getAvailableDateRanges": [Function],
+    "getBanks": [Function],
+    "getMaxAndMinValues": [Function],
+    "getPriorityTypes": [Function],
+    "getSuggestionValues": [Function],
+    "getTotalLca": [Function],
+    "loading": false,
+    "methodChanging": false,
+    "mfaTokenParams": Object {
+      "key": "mock",
+      "payload": "00000",
+    },
+    "openModal": [Function],
+    "openToastr": [MockFunction],
+    "postLcaDetails": [MockFunction],
+    "postToAproveWithdrawal": [Function],
+    "postToWithdrawal": [Function],
+    "priorities": Array [
+      Object {
+        "id": 1,
+        "name": "Priority by Earlier Maturity Date",
+      },
+      Object {
+        "id": 2,
+        "name": "Yield",
+      },
+    ],
+    "resetFields": [Function],
+    "responseAccounts": Array [
+      Object {
+        "bankCode": "107",
+        "bankISPB": "15114366",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6455,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+      Object {
+        "bankCode": "108",
+        "bankISPB": "15114367",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506111",
+            "id": 20156,
+            "name": "cliente2741",
+          },
+          Object {
+            "document": "53328506112",
+            "id": 20157,
+            "name": "cliente2742",
+          },
+        ],
+        "id": 6456,
+        "number": 304021,
+        "type": "CC",
+        "verifyingDigit": "4",
+      },
+      Object {
+        "bankCode": "231",
+        "bankISPB": "33485541",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6457,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+      Object {
+        "bankCode": "237",
+        "bankISPB": "60746948",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6458,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+    ],
+    "responseLcaDetails": Array [
+      Object {
+        "grossValue": 600,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 600,
+        "positionId": "541758",
+        "product": "LCA",
+        "quantity": 3,
+        "unitPrice": 200,
+      },
+      Object {
+        "grossValue": 4900,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 4900,
+        "positionId": "541761",
+        "product": "LCA",
+        "quantity": 7,
+        "unitPrice": 700,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541764",
+        "product": "LCA",
+        "quantity": 4,
+        "unitPrice": 800,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541765",
+        "product": "LCA",
+        "quantity": 5,
+        "unitPrice": 800,
+      },
+      Object {
+        "grossValue": 4900,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 4900,
+        "positionId": "541761",
+        "product": "LCA",
+        "quantity": 7,
+        "unitPrice": 700,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541764",
+        "product": "LCA",
+        "quantity": 4,
+        "unitPrice": 800,
+      },
+    ],
+    "responseToWithdrawal": Object {
+      "message": "successful withdrawal",
+      "payload": Object {
+        "account": Object {
+          "bankCode": "107",
+          "branch": "2",
+          "id": 6017,
+          "number": "300202",
+          "verifyingDigit": "6",
+        },
+        "date": "2020-03-27",
+        "investmentDetails": Array [
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1007324.83,
+            "investmentId": 3170,
+            "issueDate": "2019-09-06",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1007324.83,
+            "positionId": "541470",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1007.32483,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 990196.29,
+            "investmentId": 3171,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 990196.29,
+            "positionId": "541473",
+            "product": "LCA",
+            "quantity": 990,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3172,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541474",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1000198.28,
+            "investmentId": 3173,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1000198.28,
+            "positionId": "541481",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 980194.31,
+            "investmentId": 3174,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 980194.31,
+            "positionId": "541504",
+            "product": "LCA",
+            "quantity": 980,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3175,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541505",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3176,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541507",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1000198.28,
+            "investmentId": 3177,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1000198.28,
+            "positionId": "541509",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 667132.25,
+            "investmentId": 3178,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 667132.25,
+            "positionId": "541705",
+            "product": "LCA",
+            "quantity": 667,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+        ],
+        "totalGrossValue": 5646608.13,
+        "totalNetValue": 5646608.13,
+        "type": "Resgate",
+      },
+      "statusCode": 201,
+    },
+    "serverTime": 1558966870000,
+    "totalLca": "35.000,00",
+    "totalLcaRaw": 35000,
+    "totalMax": Object {
+      "maxPositions": Array [
+        Object {
+          "positionId": "541758",
+          "quantity": 3,
+        },
+        Object {
+          "positionId": "541761",
+          "quantity": 7,
+        },
+        Object {
+          "positionId": "541764",
+          "quantity": 19,
+        },
+      ],
+      "totalMaxValue": 30700,
+    },
+    "totalMin": Object {
+      "minPositions": Array [
+        Object {
+          "positionId": "541758",
+          "quantity": 3,
+        },
+        Object {
+          "positionId": "541761",
+          "quantity": 7,
+        },
+        Object {
+          "positionId": "541764",
+          "quantity": 18,
+        },
+      ],
+      "totalMinValue": 29900,
+    },
+  },
+  "refs": Object {},
+  "resetStates": [Function],
+  "selectExactValue": [Function],
+  "setState": [Function],
+  "state": Object {
+    "accountsToBeListed": Array [],
+    "currentAccount": null,
+    "currentPriority": null,
+    "disabledButton": true,
+    "filledValue": "0,00",
+    "isAuthenticating": false,
+    "isExiting": false,
+    "limitReached": false,
+    "loading": true,
+    "loadingCreateWithdrawal": false,
+    "loadingLcaDetails": false,
+    "loadingPriorities": false,
+    "openAccountSelectionBottomSheet": false,
+    "openPriorityBottomSheet": false,
+    "personalDataToken": null,
+    "query": Object {},
+    "responseLcaDetails": Array [],
+    "valueToBeRescued": null,
+  },
+  "steps": Array [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "tokenModal": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_currentlyRenderingComponent": null,
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <WithdrawLca
+        accounts={
+          Array [
+            Object {
+              "account": 6455,
+              "accountNumber": "107 2 304020-3",
+              "availableBalance": 609.01,
+              "bankISPB": "15114366",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 609.01,
+              "verifyingDigit": "3",
+            },
+            Object {
+              "account": 6456,
+              "accountNumber": "108 2 304021-4",
+              "availableBalance": 456.01,
+              "bankISPB": "15114367",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506111",
+              "name": "cliente2741",
+              "totalBalance": 456.01,
+              "verifyingDigit": "4",
+            },
+            Object {
+              "account": 6457,
+              "accountNumber": "231 2 304020-3",
+              "availableBalance": 123.01,
+              "bankISPB": "33485541",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 123.01,
+              "verifyingDigit": "3",
+            },
+            Object {
+              "account": 6458,
+              "accountNumber": "237 2 304020-3",
+              "availableBalance": 123.01,
+              "bankISPB": "60746948",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 123.01,
+              "verifyingDigit": "3",
+            },
+          ]
+        }
+        authFactors={
+          Array [
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "totp",
+              "defaultAuth": false,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "totp",
+            },
+          ]
+        }
+        availableDateRanges={
+          Array [
+            Object {
+              "date": "2019-05-27",
+              "periods": Array [
+                Object {
+                  "endTime": 20190203081517,
+                  "startTime": 20190203081617,
+                },
+              ],
+              "service": "FixedIncome",
+            },
+          ]
+        }
+        banksList={Array []}
+        cancelToastrTimeout={[MockFunction]}
+        changeCurrentPage={[MockFunction]}
+        closeModal={[MockFunction]}
+        closeToastr={[MockFunction]}
+        createUuid={[Function]}
+        getAccounts={[Function]}
+        getAllLcaDetails={[MockFunction]}
+        getAuthFactors={[Function]}
+        getAvailableDateRanges={[Function]}
+        getBanks={[Function]}
+        getMaxAndMinValues={[Function]}
+        getPriorityTypes={[Function]}
+        getSuggestionValues={[Function]}
+        getTotalLca={[Function]}
+        loading={false}
+        methodChanging={false}
+        mfaTokenParams={
+          Object {
+            "key": "mock",
+            "payload": "00000",
+          }
+        }
+        openModal={[Function]}
+        openToastr={[MockFunction]}
+        postLcaDetails={[MockFunction]}
+        postToAproveWithdrawal={[Function]}
+        postToWithdrawal={[Function]}
+        priorities={
+          Array [
+            Object {
+              "id": 1,
+              "name": "Priority by Earlier Maturity Date",
+            },
+            Object {
+              "id": 2,
+              "name": "Yield",
+            },
+          ]
+        }
+        resetFields={[Function]}
+        responseAccounts={
+          Array [
+            Object {
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6455,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+            Object {
+              "bankCode": "108",
+              "bankISPB": "15114367",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506111",
+                  "id": 20156,
+                  "name": "cliente2741",
+                },
+                Object {
+                  "document": "53328506112",
+                  "id": 20157,
+                  "name": "cliente2742",
+                },
+              ],
+              "id": 6456,
+              "number": 304021,
+              "type": "CC",
+              "verifyingDigit": "4",
+            },
+            Object {
+              "bankCode": "231",
+              "bankISPB": "33485541",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6457,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+            Object {
+              "bankCode": "237",
+              "bankISPB": "60746948",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6458,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+          ]
+        }
+        responseLcaDetails={
+          Array [
+            Object {
+              "grossValue": 600,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 600,
+              "positionId": "541758",
+              "product": "LCA",
+              "quantity": 3,
+              "unitPrice": 200,
+            },
+            Object {
+              "grossValue": 4900,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 4900,
+              "positionId": "541761",
+              "product": "LCA",
+              "quantity": 7,
+              "unitPrice": 700,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541764",
+              "product": "LCA",
+              "quantity": 4,
+              "unitPrice": 800,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541765",
+              "product": "LCA",
+              "quantity": 5,
+              "unitPrice": 800,
+            },
+            Object {
+              "grossValue": 4900,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 4900,
+              "positionId": "541761",
+              "product": "LCA",
+              "quantity": 7,
+              "unitPrice": 700,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541764",
+              "product": "LCA",
+              "quantity": 4,
+              "unitPrice": 800,
+            },
+          ]
+        }
+        responseToWithdrawal={
+          Object {
+            "message": "successful withdrawal",
+            "payload": Object {
+              "account": Object {
+                "bankCode": "107",
+                "branch": "2",
+                "id": 6017,
+                "number": "300202",
+                "verifyingDigit": "6",
+              },
+              "date": "2020-03-27",
+              "investmentDetails": Array [
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1007324.83,
+                  "investmentId": 3170,
+                  "issueDate": "2019-09-06",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1007324.83,
+                  "positionId": "541470",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1007.32483,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 990196.29,
+                  "investmentId": 3171,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 990196.29,
+                  "positionId": "541473",
+                  "product": "LCA",
+                  "quantity": 990,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3172,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541474",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1000198.28,
+                  "investmentId": 3173,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1000198.28,
+                  "positionId": "541481",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 980194.31,
+                  "investmentId": 3174,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 980194.31,
+                  "positionId": "541504",
+                  "product": "LCA",
+                  "quantity": 980,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3175,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541505",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3176,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541507",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1000198.28,
+                  "investmentId": 3177,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1000198.28,
+                  "positionId": "541509",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 667132.25,
+                  "investmentId": 3178,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 667132.25,
+                  "positionId": "541705",
+                  "product": "LCA",
+                  "quantity": 667,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+              ],
+              "totalGrossValue": 5646608.13,
+              "totalNetValue": 5646608.13,
+              "type": "Resgate",
+            },
+            "statusCode": 201,
+          }
+        }
+        serverTime={1558966870000}
+        totalLca="35.000,00"
+        totalLcaRaw={35000}
+        totalMax={
+          Object {
+            "maxPositions": Array [
+              Object {
+                "positionId": "541758",
+                "quantity": 3,
+              },
+              Object {
+                "positionId": "541761",
+                "quantity": 7,
+              },
+              Object {
+                "positionId": "541764",
+                "quantity": 19,
+              },
+            ],
+            "totalMaxValue": 30700,
+          }
+        }
+        totalMin={
+          Object {
+            "minPositions": Array [
+              Object {
+                "positionId": "541758",
+                "quantity": 3,
+              },
+              Object {
+                "positionId": "541761",
+                "quantity": 7,
+              },
+              Object {
+                "positionId": "541764",
+                "quantity": 18,
+              },
+            ],
+            "totalMinValue": 29900,
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_previousComponentIdentity": null,
+      "_renderPhaseUpdates": null,
+      "_rendered": <React.Fragment>
+        <React.Fragment>
+          <styled.section>
+            <styled.div>
+              <styled.span>
+                POSITION_FUNDS_AVAILABLE_FOR_REDEMPTION
+              </styled.span>
+              <styled.div>
+                <styled.div>
+                  R$
+                </styled.div>
+                <styled.div>
+                  <ShimmerLoading
+                    darker={true}
+                    height={14}
+                    index={0}
+                    inverse={false}
+                    width={30}
+                  />
+                </styled.div>
+              </styled.div>
+            </styled.div>
+            <styled.span>
+              FIXED_INCOME_WITHDRAWAL_VALUE
+            </styled.span>
+            <AmmountInput
+              blockAddValues={true}
+              config={
+                Object {
+                  "ammountValue": "0,00",
+                  "operation": "redeem",
+                }
+              }
+              increments={
+                Object {
+                  "ranges": Array [
+                    5000,
+                    10000,
+                    20000,
+                    30000,
+                    50000,
+                  ],
+                  "totalLabel": "AVAILABLE_AMOUNT",
+                }
+              }
+              loading={true}
+              showTotalButton={true}
+            />
+          </styled.section>
+          <styled.div>
+            <styled.span />
+            <styled.div>
+              <Button
+                dataTest="loadingButton1"
+                disabled={true}
+                onClick={null}
+                spacing={
+                  Object {
+                    "bottom": "s",
+                    "left": "s",
+                    "right": "xxs",
+                    "top": "s",
+                  }
+                }
+                type="outline"
+              >
+                FIXED_INCOME_WITHDRAWAL_BACK
+              </Button>
+              <Button
+                dataTest="loadingButton2"
+                disabled={true}
+                onClick={null}
+                spacing={
+                  Object {
+                    "bottom": "s",
+                    "left": "xxs",
+                    "right": "s",
+                    "top": "s",
+                  }
+                }
+              >
+                FIXED_INCOME_WITHDRAWAL_CONTINUE
+              </Button>
+            </styled.div>
+          </styled.div>
+        </React.Fragment>
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`Test especific functons Should mountMessageWithAvailabilityTime 1`] = `
+<React.Fragment>
+  FIXED_INCOME_CANT_INVEST_MSG1
+  <styled.span>
+    01h01
+    FIXED_INCOME_CANT_INVEST_MSG2
+    22h01
+  </styled.span>
+  FIXED_INCOME_CANT_INVEST_MSG3
+</React.Fragment>
+`;
+
+exports[`Test especific functons should changeAccount 1`] = `
+WithdrawLca {
+  "changeAccount": [Function],
+  "changeAmmount": [Function],
+  "changeState": [Function],
+  "checkAvailabilityHour": [Function],
+  "context": Object {},
+  "finalClickWithdrawal": [Function],
+  "getMaxAndMinValues": [Function],
+  "getWithdrawalDetails": [Function],
+  "inputRef": Object {
+    "current": null,
+  },
+  "mountMessageWithAvailabilityTime": [Function],
+  "props": Object {
+    "accounts": Array [
+      Object {
+        "account": 6455,
+        "accountNumber": "107 2 304020-3",
+        "availableBalance": 609.01,
+        "bankISPB": "15114366",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 609.01,
+        "verifyingDigit": "3",
+      },
+      Object {
+        "account": 6456,
+        "accountNumber": "108 2 304021-4",
+        "availableBalance": 456.01,
+        "bankISPB": "15114367",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506111",
+        "name": "cliente2741",
+        "totalBalance": 456.01,
+        "verifyingDigit": "4",
+      },
+      Object {
+        "account": 6457,
+        "accountNumber": "231 2 304020-3",
+        "availableBalance": 123.01,
+        "bankISPB": "33485541",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 123.01,
+        "verifyingDigit": "3",
+      },
+      Object {
+        "account": 6458,
+        "accountNumber": "237 2 304020-3",
+        "availableBalance": 123.01,
+        "bankISPB": "60746948",
+        "blockedBalance": 0,
+        "date": "2018-05-04",
+        "document": "53328506110",
+        "name": "cliente2740",
+        "totalBalance": 123.01,
+        "verifyingDigit": "3",
+      },
+    ],
+    "authFactors": Array [
+      Object {
+        "actions": Array [
+          "wiretransfer",
+          "passwordreset",
+          "approvesuitability",
+          "personRegistration.confirmInformation",
+        ],
+        "activated": true,
+        "approved": true,
+        "authUri": "totp",
+        "defaultAuth": false,
+        "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+        "plataformIdentifier": null,
+        "type": "totp",
+      },
+    ],
+    "availableDateRanges": Array [
+      Object {
+        "date": "2019-05-27",
+        "periods": Array [
+          Object {
+            "endTime": 20190203081517,
+            "startTime": 20190203081617,
+          },
+        ],
+        "service": "FixedIncome",
+      },
+    ],
+    "banksList": Array [],
+    "cancelToastrTimeout": [MockFunction],
+    "changeCurrentPage": [MockFunction],
+    "closeModal": [MockFunction],
+    "closeToastr": [MockFunction],
+    "createUuid": [Function],
+    "getAccounts": [Function],
+    "getAllLcaDetails": [MockFunction],
+    "getAuthFactors": [Function],
+    "getAvailableDateRanges": [Function],
+    "getBanks": [Function],
+    "getMaxAndMinValues": [Function],
+    "getPriorityTypes": [Function],
+    "getSuggestionValues": [Function],
+    "getTotalLca": [Function],
+    "loading": false,
+    "methodChanging": false,
+    "mfaTokenParams": Object {
+      "key": "mock",
+      "payload": "00000",
+    },
+    "openModal": [Function],
+    "openToastr": [MockFunction],
+    "postLcaDetails": [MockFunction],
+    "postToAproveWithdrawal": [Function],
+    "postToWithdrawal": [Function],
+    "priorities": Array [
+      Object {
+        "id": 1,
+        "name": "Priority by Earlier Maturity Date",
+      },
+      Object {
+        "id": 2,
+        "name": "Yield",
+      },
+    ],
+    "resetFields": [Function],
+    "responseAccounts": Array [
+      Object {
+        "bankCode": "107",
+        "bankISPB": "15114366",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6455,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+      Object {
+        "bankCode": "108",
+        "bankISPB": "15114367",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506111",
+            "id": 20156,
+            "name": "cliente2741",
+          },
+          Object {
+            "document": "53328506112",
+            "id": 20157,
+            "name": "cliente2742",
+          },
+        ],
+        "id": 6456,
+        "number": 304021,
+        "type": "CC",
+        "verifyingDigit": "4",
+      },
+      Object {
+        "bankCode": "231",
+        "bankISPB": "33485541",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6457,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+      Object {
+        "bankCode": "237",
+        "bankISPB": "60746948",
+        "branch": 2,
+        "holders": Array [
+          Object {
+            "document": "53328506110",
+            "id": 20155,
+            "name": "cliente2740",
+          },
+        ],
+        "id": 6458,
+        "number": 304020,
+        "type": "CC",
+        "verifyingDigit": "3",
+      },
+    ],
+    "responseLcaDetails": Array [
+      Object {
+        "grossValue": 600,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 600,
+        "positionId": "541758",
+        "product": "LCA",
+        "quantity": 3,
+        "unitPrice": 200,
+      },
+      Object {
+        "grossValue": 4900,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 4900,
+        "positionId": "541761",
+        "product": "LCA",
+        "quantity": 7,
+        "unitPrice": 700,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541764",
+        "product": "LCA",
+        "quantity": 4,
+        "unitPrice": 800,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541765",
+        "product": "LCA",
+        "quantity": 5,
+        "unitPrice": 800,
+      },
+      Object {
+        "grossValue": 4900,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 4900,
+        "positionId": "541761",
+        "product": "LCA",
+        "quantity": 7,
+        "unitPrice": 700,
+      },
+      Object {
+        "grossValue": 3200,
+        "issueDate": "2019-10-28",
+        "issuer": "CARLINDA Gantois",
+        "maturityDate": "2020-10-29",
+        "netValue": 3200,
+        "positionId": "541764",
+        "product": "LCA",
+        "quantity": 4,
+        "unitPrice": 800,
+      },
+    ],
+    "responseToWithdrawal": Object {
+      "message": "successful withdrawal",
+      "payload": Object {
+        "account": Object {
+          "bankCode": "107",
+          "branch": "2",
+          "id": 6017,
+          "number": "300202",
+          "verifyingDigit": "6",
+        },
+        "date": "2020-03-27",
+        "investmentDetails": Array [
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1007324.83,
+            "investmentId": 3170,
+            "issueDate": "2019-09-06",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1007324.83,
+            "positionId": "541470",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1007.32483,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 990196.29,
+            "investmentId": 3171,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 990196.29,
+            "positionId": "541473",
+            "product": "LCA",
+            "quantity": 990,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3172,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541474",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1000198.28,
+            "investmentId": 3173,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1000198.28,
+            "positionId": "541481",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 980194.31,
+            "investmentId": 3174,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 980194.31,
+            "positionId": "541504",
+            "product": "LCA",
+            "quantity": 980,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3175,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541505",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 454.63,
+            "investmentId": 3176,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 454.63,
+            "positionId": "541507",
+            "product": "LCA",
+            "quantity": 10,
+            "unitPrice": 45.46356872,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 1000198.28,
+            "investmentId": 3177,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 1000198.28,
+            "positionId": "541509",
+            "product": "LCA",
+            "quantity": 1000,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+          Object {
+            "formattedYield": "95.00% DI",
+            "grossValue": 667132.25,
+            "investmentId": 3178,
+            "issueDate": "2019-10-25",
+            "issuer": "CARLINDA Gantois",
+            "maturityDate": "2020-09-04",
+            "netValue": 667132.25,
+            "positionId": "541705",
+            "product": "LCA",
+            "quantity": 667,
+            "unitPrice": 1000.19828,
+            "yieldIndex": "DI",
+            "yieldPercentual": 95,
+            "yieldType": "PÓS",
+          },
+        ],
+        "totalGrossValue": 5646608.13,
+        "totalNetValue": 5646608.13,
+        "type": "Resgate",
+      },
+      "statusCode": 201,
+    },
+    "serverTime": 1558966870000,
+    "totalLca": "35.000,00",
+    "totalLcaRaw": 35000,
+    "totalMax": Object {
+      "maxPositions": Array [
+        Object {
+          "positionId": "541758",
+          "quantity": 3,
+        },
+        Object {
+          "positionId": "541761",
+          "quantity": 7,
+        },
+        Object {
+          "positionId": "541764",
+          "quantity": 19,
+        },
+      ],
+      "totalMaxValue": 30700,
+    },
+    "totalMin": Object {
+      "minPositions": Array [
+        Object {
+          "positionId": "541758",
+          "quantity": 3,
+        },
+        Object {
+          "positionId": "541761",
+          "quantity": 7,
+        },
+        Object {
+          "positionId": "541764",
+          "quantity": 18,
+        },
+      ],
+      "totalMinValue": 29900,
+    },
+  },
+  "refs": Object {},
+  "resetStates": [Function],
+  "selectExactValue": [Function],
+  "setState": [MockFunction] {
+    "calls": Array [
+      Array [
+        Object {
+          "currentAccount": Object {
+            "account": 6455,
+            "accountNumber": "107 2 304020-3",
+            "availableBalance": 609.01,
+            "bankISPB": "15114366",
+            "blockedBalance": 0,
+            "date": "2018-05-04",
+            "document": "53328506110",
+            "name": "cliente2740",
+            "totalBalance": 609.01,
+            "verifyingDigit": "3",
+          },
+        },
+      ],
+    ],
+    "results": Array [
+      Object {
+        "type": "return",
+        "value": undefined,
+      },
+    ],
+  },
+  "state": Object {
+    "accountsToBeListed": Array [],
+    "currentAccount": null,
+    "currentPriority": null,
+    "disabledButton": true,
+    "filledValue": "0,00",
+    "isAuthenticating": false,
+    "isExiting": false,
+    "limitReached": false,
+    "loading": true,
+    "loadingCreateWithdrawal": false,
+    "loadingLcaDetails": false,
+    "loadingPriorities": false,
+    "openAccountSelectionBottomSheet": false,
+    "openPriorityBottomSheet": false,
+    "personalDataToken": null,
+    "query": Object {},
+    "responseLcaDetails": Array [],
+    "valueToBeRescued": null,
+  },
+  "steps": Array [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "tokenModal": [Function],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_currentlyRenderingComponent": null,
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <WithdrawLca
+        accounts={
+          Array [
+            Object {
+              "account": 6455,
+              "accountNumber": "107 2 304020-3",
+              "availableBalance": 609.01,
+              "bankISPB": "15114366",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 609.01,
+              "verifyingDigit": "3",
+            },
+            Object {
+              "account": 6456,
+              "accountNumber": "108 2 304021-4",
+              "availableBalance": 456.01,
+              "bankISPB": "15114367",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506111",
+              "name": "cliente2741",
+              "totalBalance": 456.01,
+              "verifyingDigit": "4",
+            },
+            Object {
+              "account": 6457,
+              "accountNumber": "231 2 304020-3",
+              "availableBalance": 123.01,
+              "bankISPB": "33485541",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 123.01,
+              "verifyingDigit": "3",
+            },
+            Object {
+              "account": 6458,
+              "accountNumber": "237 2 304020-3",
+              "availableBalance": 123.01,
+              "bankISPB": "60746948",
+              "blockedBalance": 0,
+              "date": "2018-05-04",
+              "document": "53328506110",
+              "name": "cliente2740",
+              "totalBalance": 123.01,
+              "verifyingDigit": "3",
+            },
+          ]
+        }
+        authFactors={
+          Array [
+            Object {
+              "actions": Array [
+                "wiretransfer",
+                "passwordreset",
+                "approvesuitability",
+                "personRegistration.confirmInformation",
+              ],
+              "activated": true,
+              "approved": true,
+              "authUri": "totp",
+              "defaultAuth": false,
+              "id": "847de684-3941-41ec-9eba-a961bc31d10e",
+              "plataformIdentifier": null,
+              "type": "totp",
+            },
+          ]
+        }
+        availableDateRanges={
+          Array [
+            Object {
+              "date": "2019-05-27",
+              "periods": Array [
+                Object {
+                  "endTime": 20190203081517,
+                  "startTime": 20190203081617,
+                },
+              ],
+              "service": "FixedIncome",
+            },
+          ]
+        }
+        banksList={Array []}
+        cancelToastrTimeout={[MockFunction]}
+        changeCurrentPage={[MockFunction]}
+        closeModal={[MockFunction]}
+        closeToastr={[MockFunction]}
+        createUuid={[Function]}
+        getAccounts={[Function]}
+        getAllLcaDetails={[MockFunction]}
+        getAuthFactors={[Function]}
+        getAvailableDateRanges={[Function]}
+        getBanks={[Function]}
+        getMaxAndMinValues={[Function]}
+        getPriorityTypes={[Function]}
+        getSuggestionValues={[Function]}
+        getTotalLca={[Function]}
+        loading={false}
+        methodChanging={false}
+        mfaTokenParams={
+          Object {
+            "key": "mock",
+            "payload": "00000",
+          }
+        }
+        openModal={[Function]}
+        openToastr={[MockFunction]}
+        postLcaDetails={[MockFunction]}
+        postToAproveWithdrawal={[Function]}
+        postToWithdrawal={[Function]}
+        priorities={
+          Array [
+            Object {
+              "id": 1,
+              "name": "Priority by Earlier Maturity Date",
+            },
+            Object {
+              "id": 2,
+              "name": "Yield",
+            },
+          ]
+        }
+        resetFields={[Function]}
+        responseAccounts={
+          Array [
+            Object {
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6455,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+            Object {
+              "bankCode": "108",
+              "bankISPB": "15114367",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506111",
+                  "id": 20156,
+                  "name": "cliente2741",
+                },
+                Object {
+                  "document": "53328506112",
+                  "id": 20157,
+                  "name": "cliente2742",
+                },
+              ],
+              "id": 6456,
+              "number": 304021,
+              "type": "CC",
+              "verifyingDigit": "4",
+            },
+            Object {
+              "bankCode": "231",
+              "bankISPB": "33485541",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6457,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+            Object {
+              "bankCode": "237",
+              "bankISPB": "60746948",
+              "branch": 2,
+              "holders": Array [
+                Object {
+                  "document": "53328506110",
+                  "id": 20155,
+                  "name": "cliente2740",
+                },
+              ],
+              "id": 6458,
+              "number": 304020,
+              "type": "CC",
+              "verifyingDigit": "3",
+            },
+          ]
+        }
+        responseLcaDetails={
+          Array [
+            Object {
+              "grossValue": 600,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 600,
+              "positionId": "541758",
+              "product": "LCA",
+              "quantity": 3,
+              "unitPrice": 200,
+            },
+            Object {
+              "grossValue": 4900,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 4900,
+              "positionId": "541761",
+              "product": "LCA",
+              "quantity": 7,
+              "unitPrice": 700,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541764",
+              "product": "LCA",
+              "quantity": 4,
+              "unitPrice": 800,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541765",
+              "product": "LCA",
+              "quantity": 5,
+              "unitPrice": 800,
+            },
+            Object {
+              "grossValue": 4900,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 4900,
+              "positionId": "541761",
+              "product": "LCA",
+              "quantity": 7,
+              "unitPrice": 700,
+            },
+            Object {
+              "grossValue": 3200,
+              "issueDate": "2019-10-28",
+              "issuer": "CARLINDA Gantois",
+              "maturityDate": "2020-10-29",
+              "netValue": 3200,
+              "positionId": "541764",
+              "product": "LCA",
+              "quantity": 4,
+              "unitPrice": 800,
+            },
+          ]
+        }
+        responseToWithdrawal={
+          Object {
+            "message": "successful withdrawal",
+            "payload": Object {
+              "account": Object {
+                "bankCode": "107",
+                "branch": "2",
+                "id": 6017,
+                "number": "300202",
+                "verifyingDigit": "6",
+              },
+              "date": "2020-03-27",
+              "investmentDetails": Array [
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1007324.83,
+                  "investmentId": 3170,
+                  "issueDate": "2019-09-06",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1007324.83,
+                  "positionId": "541470",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1007.32483,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 990196.29,
+                  "investmentId": 3171,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 990196.29,
+                  "positionId": "541473",
+                  "product": "LCA",
+                  "quantity": 990,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3172,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541474",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1000198.28,
+                  "investmentId": 3173,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1000198.28,
+                  "positionId": "541481",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 980194.31,
+                  "investmentId": 3174,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 980194.31,
+                  "positionId": "541504",
+                  "product": "LCA",
+                  "quantity": 980,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3175,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541505",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 454.63,
+                  "investmentId": 3176,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 454.63,
+                  "positionId": "541507",
+                  "product": "LCA",
+                  "quantity": 10,
+                  "unitPrice": 45.46356872,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 1000198.28,
+                  "investmentId": 3177,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 1000198.28,
+                  "positionId": "541509",
+                  "product": "LCA",
+                  "quantity": 1000,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+                Object {
+                  "formattedYield": "95.00% DI",
+                  "grossValue": 667132.25,
+                  "investmentId": 3178,
+                  "issueDate": "2019-10-25",
+                  "issuer": "CARLINDA Gantois",
+                  "maturityDate": "2020-09-04",
+                  "netValue": 667132.25,
+                  "positionId": "541705",
+                  "product": "LCA",
+                  "quantity": 667,
+                  "unitPrice": 1000.19828,
+                  "yieldIndex": "DI",
+                  "yieldPercentual": 95,
+                  "yieldType": "PÓS",
+                },
+              ],
+              "totalGrossValue": 5646608.13,
+              "totalNetValue": 5646608.13,
+              "type": "Resgate",
+            },
+            "statusCode": 201,
+          }
+        }
+        serverTime={1558966870000}
+        totalLca="35.000,00"
+        totalLcaRaw={35000}
+        totalMax={
+          Object {
+            "maxPositions": Array [
+              Object {
+                "positionId": "541758",
+                "quantity": 3,
+              },
+              Object {
+                "positionId": "541761",
+                "quantity": 7,
+              },
+              Object {
+                "positionId": "541764",
+                "quantity": 19,
+              },
+            ],
+            "totalMaxValue": 30700,
+          }
+        }
+        totalMin={
+          Object {
+            "minPositions": Array [
+              Object {
+                "positionId": "541758",
+                "quantity": 3,
+              },
+              Object {
+                "positionId": "541761",
+                "quantity": 7,
+              },
+              Object {
+                "positionId": "541764",
+                "quantity": 18,
+              },
+            ],
+            "totalMinValue": 29900,
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_previousComponentIdentity": null,
+      "_renderPhaseUpdates": null,
+      "_rendered": <React.Fragment>
+        <React.Fragment>
+          <styled.section>
+            <styled.div>
+              <styled.span>
+                POSITION_FUNDS_AVAILABLE_FOR_REDEMPTION
+              </styled.span>
+              <styled.div>
+                <styled.div>
+                  R$
+                </styled.div>
+                <styled.div>
+                  <ShimmerLoading
+                    darker={true}
+                    height={14}
+                    index={0}
+                    inverse={false}
+                    width={30}
+                  />
+                </styled.div>
+              </styled.div>
+            </styled.div>
+            <styled.span>
+              FIXED_INCOME_WITHDRAWAL_VALUE
+            </styled.span>
+            <AmmountInput
+              blockAddValues={true}
+              config={
+                Object {
+                  "ammountValue": "0,00",
+                  "operation": "redeem",
+                }
+              }
+              increments={
+                Object {
+                  "ranges": Array [
+                    5000,
+                    10000,
+                    20000,
+                    30000,
+                    50000,
+                  ],
+                  "totalLabel": "AVAILABLE_AMOUNT",
+                }
+              }
+              loading={true}
+              showTotalButton={true}
+            />
+          </styled.section>
+          <styled.div>
+            <styled.span />
+            <styled.div>
+              <Button
+                dataTest="loadingButton1"
+                disabled={true}
+                onClick={null}
+                spacing={
+                  Object {
+                    "bottom": "s",
+                    "left": "s",
+                    "right": "xxs",
+                    "top": "s",
+                  }
+                }
+                type="outline"
+              >
+                FIXED_INCOME_WITHDRAWAL_BACK
+              </Button>
+              <Button
+                dataTest="loadingButton2"
+                disabled={true}
+                onClick={null}
+                spacing={
+                  Object {
+                    "bottom": "s",
+                    "left": "xxs",
+                    "right": "s",
+                    "top": "s",
+                  }
+                }
+              >
+                FIXED_INCOME_WITHDRAWAL_CONTINUE
+              </Button>
+            </styled.div>
+          </styled.div>
+        </React.Fragment>
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+}
+`;
+
+exports[`WithdrawLca Test should match snapshot 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div>
+      <styled.span>
+        POSITION_FUNDS_AVAILABLE_FOR_REDEMPTION
+      </styled.span>
+      <styled.div>
+        <styled.div>
+          R$
+        </styled.div>
+        <styled.div>
+          <ShimmerLoading
+            darker={true}
+            height={14}
+            index={0}
+            inverse={false}
+            width={30}
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.span>
+      FIXED_INCOME_WITHDRAWAL_VALUE
+    </styled.span>
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": "0,00",
+          "operation": "redeem",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+            30000,
+            50000,
+          ],
+          "totalLabel": "AVAILABLE_AMOUNT",
+        }
+      }
+      loading={true}
+      showTotalButton={true}
+    />
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="loadingButton1"
+        disabled={true}
+        onClick={null}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      >
+        FIXED_INCOME_WITHDRAWAL_BACK
+      </Button>
+      <Button
+        dataTest="loadingButton2"
+        disabled={true}
+        onClick={null}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      >
+        FIXED_INCOME_WITHDRAWAL_CONTINUE
+      </Button>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should match snapshot 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={false}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  Text
+</styled.button>
+`;
+
+exports[`Button component should render an "button" tag 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={false}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  Text
+</styled.button>
+`;
+
+exports[`Button component should render different types 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={false}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="submit"
+  width={null}
+>
+  Text
+</styled.button>
+`;
+
+exports[`Button component should render different widths 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={false}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="button"
+  width="100"
+>
+  Text
+</styled.button>
+`;
+
+exports[`Button component should render disabled class when disabled is truthy 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={true}
+  isCallToAction={null}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  Text
+</styled.button>
+`;
+
+exports[`Button component should render highlighted class when isCallToAction is truthy 1`] = `
+<styled.button
+  className={null}
+  data-test="Button"
+  disabled={false}
+  isCallToAction={true}
+  isWarning={null}
+  onClick={null}
+  small={false}
+  type="button"
+  width={null}
+>
+  Text
+</styled.button>
+`;

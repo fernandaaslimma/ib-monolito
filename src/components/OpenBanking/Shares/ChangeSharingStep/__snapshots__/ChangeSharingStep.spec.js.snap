@@ -1,0 +1,571 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeSharingStep should match snapshot 1`] = `
+<styled.div>
+  <InfoCard
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <Styled(styled.div) />
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.div>
+        <PersonImage
+          profileImageUrl="mock url"
+        />
+        <styled.span>
+          mock name
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-testid="account-balance"
+      onClick={[Function]}
+    >
+      <styled.span>
+        Viabilizar a oferta personalizada ao cliente de produtos e serviços financeiros.
+      </styled.span>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    paddingCard="16px 15px 2px 15px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div>
+      <styled.div />
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    />
+  </InfoCard>
+  <InfoCard
+    paddingCard="16px 15px 2px 15px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div>
+      <styled.div />
+      <InfoCard
+        colorTitle="#587485"
+        key="0"
+        paddingCard="16px 15px 2px 15px"
+        title={
+          Object {
+            "tl": "teste",
+          }
+        }
+      >
+        <styled.div
+          jContent="flex-end"
+        >
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <Checkbox
+            beforeLeft="29%"
+            beforeTop="40%"
+            checked={true}
+            dataTest="finalOptionalData-switchSaveAccount"
+            margin="0"
+            name="switchBox"
+            onChange={[Function]}
+            type="common"
+          />
+        </styled.div>
+        <ActionCard
+          actionOnChange={[Function]}
+          checkBox={true}
+          checked={true}
+          dataTest="dataPermissions-actionCard"
+          ellipsis={true}
+          key="0"
+          text="detail code"
+          title="mock name"
+        >
+          <styled.div
+            dataTest="permissions-code-linkdetails"
+            flexStart={true}
+            onClick={[Function]}
+          >
+            <styled.span />
+          </styled.div>
+        </ActionCard>
+      </InfoCard>
+      <InfoCard
+        colorTitle="#587485"
+        key="1"
+        paddingCard="16px 15px 2px 15px"
+        title={
+          Object {
+            "tl": "teste",
+          }
+        }
+      >
+        <styled.div
+          jContent="flex-end"
+        >
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <Checkbox
+            beforeLeft="29%"
+            beforeTop="40%"
+            checked={false}
+            dataTest="finalOptionalData-switchSaveAccount"
+            margin="0"
+            name="switchBox"
+            onChange={[Function]}
+            type="common"
+          />
+        </styled.div>
+        <ActionCard
+          actionOnChange={[Function]}
+          checkBox={true}
+          checked={true}
+          dataTest="dataPermissions-actionCard"
+          ellipsis={true}
+          key="0"
+          text="detail code"
+          title="mock name"
+        >
+          <styled.div
+            dataTest="permissions-code-linkdetails"
+            flexStart={true}
+            onClick={[Function]}
+          >
+            <styled.span />
+          </styled.div>
+        </ActionCard>
+      </InfoCard>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <styled.div
+      dataTest="accountBalance"
+      onClick={[Function]}
+    >
+      <styled.span>
+        6 undefined
+      </styled.span>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      undefined 0 meses | 06/01/2010
+    </styled.div>
+    <AnimatedBottonSheet
+      fullHeight={false}
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    />
+  </InfoCard>
+  <styled.div>
+    <styled.div>
+      <Button
+        dataTest="backNewConsentButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueNewConsentButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`ChangeSharingStep should match snapshot with status active 1`] = `
+<styled.div>
+  <InfoCard
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <Styled(styled.div) />
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.div>
+        <PersonImage
+          profileImageUrl="mock url"
+        />
+        <styled.span>
+          mock name
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      data-testid="account-balance"
+      onClick={[Function]}
+    >
+      <styled.span>
+        Viabilizar a oferta personalizada ao cliente de produtos e serviços financeiros.
+      </styled.span>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    paddingCard="16px 15px 2px 15px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div>
+      <styled.div />
+    </styled.div>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    />
+  </InfoCard>
+  <InfoCard
+    paddingCard="16px 15px 2px 15px"
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div>
+      <styled.div />
+      <InfoCard
+        colorTitle="#587485"
+        key="0"
+        paddingCard="16px 15px 2px 15px"
+        title={
+          Object {
+            "tl": "teste",
+          }
+        }
+      >
+        <styled.div
+          jContent="flex-end"
+        >
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <Checkbox
+            beforeLeft="29%"
+            beforeTop="40%"
+            checked={true}
+            dataTest="finalOptionalData-switchSaveAccount"
+            margin="0"
+            name="switchBox"
+            onChange={[Function]}
+            type="common"
+          />
+        </styled.div>
+        <ActionCard
+          actionOnChange={[Function]}
+          checkBox={true}
+          checked={true}
+          dataTest="dataPermissions-actionCard"
+          ellipsis={true}
+          key="0"
+          text="detail code"
+          title="mock name"
+        >
+          <styled.div
+            dataTest="permissions-code-linkdetails"
+            flexStart={true}
+            onClick={[Function]}
+          >
+            <styled.span />
+          </styled.div>
+        </ActionCard>
+      </InfoCard>
+      <InfoCard
+        colorTitle="#587485"
+        key="1"
+        paddingCard="16px 15px 2px 15px"
+        title={
+          Object {
+            "tl": "teste",
+          }
+        }
+      >
+        <styled.div
+          jContent="flex-end"
+        >
+          <styled.div>
+            <styled.span />
+          </styled.div>
+          <Checkbox
+            beforeLeft="29%"
+            beforeTop="40%"
+            checked={false}
+            dataTest="finalOptionalData-switchSaveAccount"
+            margin="0"
+            name="switchBox"
+            onChange={[Function]}
+            type="common"
+          />
+        </styled.div>
+        <ActionCard
+          actionOnChange={[Function]}
+          checkBox={true}
+          checked={true}
+          dataTest="dataPermissions-actionCard"
+          ellipsis={true}
+          key="0"
+          text="detail code"
+          title="mock name"
+        >
+          <styled.div
+            dataTest="permissions-code-linkdetails"
+            flexStart={true}
+            onClick={[Function]}
+          >
+            <styled.span />
+          </styled.div>
+        </ActionCard>
+      </InfoCard>
+    </styled.div>
+  </InfoCard>
+  <InfoCard
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": undefined,
+      }
+    }
+  >
+    <styled.div />
+    <styled.div
+      dataTest="accountBalance"
+      onClick={[Function]}
+    >
+      <styled.span>
+        6 undefined
+      </styled.span>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <styled.div>
+      undefined 0 meses | 06/01/2010
+    </styled.div>
+    <AnimatedBottonSheet
+      fullHeight={false}
+      head={
+        Object {
+          "close": false,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    />
+  </InfoCard>
+  <styled.div>
+    <styled.div>
+      <Button
+        dataTest="backNewConsentButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueNewConsentButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

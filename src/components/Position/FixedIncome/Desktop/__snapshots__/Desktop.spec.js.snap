@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <DefaultContent
+      Icon={[Function]}
+      data-test="Empty_Position"
+      secondaryTexts={
+        Array [
+          undefined,
+        ]
+      }
+    />
+  </styled.div>
+  <styled.div
+    data-test="alertMessageLCA"
+  >
+    <AlertMessage
+      dataTest="alertMessage"
+      icon="Attention"
+      spacing={
+        Object {
+          "bottom": "s",
+          "left": "none",
+          "right": "none",
+          "top": "s",
+        }
+      }
+      type="neutral"
+    />
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="ButtonWithdrawLCA"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

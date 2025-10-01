@@ -1,0 +1,568 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statements printview should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <Icon
+        color={null}
+        height={null}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="BrandLogo"
+        width={null}
+      />
+      <styled.div>
+        STATEMENTS_PRINT_VIEW_GENERATED_IN 06/01/102010
+      </styled.div>
+    </styled.div>
+    <styled.div />
+  </styled.div>
+  <styled.table>
+    <styled.thead>
+      <styled.tr>
+        <styled.td />
+      </styled.tr>
+    </styled.thead>
+    <styled.tbody>
+      <tr>
+        <td>
+          <styled.section>
+            <styled.section>
+              <styled.section>
+                CLIENT
+              </styled.section>
+              <styled.section>
+                name
+              </styled.section>
+            </styled.section>
+            <styled.section>
+              <styled.section>
+                STATEMENTS_PRINT_VIEW_ACCOUNT_INFO
+              </styled.section>
+              <styled.section>
+                107 2 304020-1
+              </styled.section>
+            </styled.section>
+          </styled.section>
+          <styled.div />
+          <styled.section>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_TITLE
+            </styled.div>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_FROM_DAY 06/01/102010 STATEMENTS_PRINT_VIEW_TO_DAY 06/01/102010
+            </styled.div>
+          </styled.section>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_PREVIOUS_BALANCE
+            </div>
+            <PrintValues />
+          </styled.section>
+          <styled.div
+            className="print"
+          >
+            <CardPrint
+              icon="Calendar"
+              iconColor={null}
+              title="Invalid date"
+              titleColor="#27445f"
+            >
+              <styled.div
+                data-test="cardStatement"
+              >
+                <styled.ul>
+                  <styled.li>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_DESCRIPTION
+                    </styled.div>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_CONTRAPART
+                    </styled.div>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_AMOUNT
+                    </styled.div>
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="0"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      description
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="1"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      REPASSE COBRANÇA
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="2"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="3"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      REPASSE COBRANÇA
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="4"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      OP: EMISSÃO DE TIT. CETIP
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                </styled.ul>
+                <styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_FINAL_BLOCKED_AMOUNT
+                      </span>
+                      <PrintValues>
+                        2
+                      </PrintValues>
+                    </styled.div>
+                    <styled.div />
+                  </styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_AVAILABLE_FINAL_BALANCE
+                      </span>
+                      <PrintValues>
+                        41111
+                      </PrintValues>
+                    </styled.div>
+                    <styled.div />
+                  </styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_FINAL_TOTAL_BALANCE
+                      </span>
+                      <PrintValues />
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+            </CardPrint>
+          </styled.div>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_FINAL_BALANCE
+            </div>
+            <PrintValues />
+          </styled.section>
+        </td>
+      </tr>
+    </styled.tbody>
+    <styled.tfoot>
+      <styled.tr>
+        <styled.tr />
+      </styled.tr>
+    </styled.tfoot>
+  </styled.table>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_1
+        </span>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_2
+        </span>
+      </styled.div>
+      <div />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements printview should match snapshot 2`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <Icon
+        color={null}
+        height={null}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="BrandLogo"
+        width={null}
+      />
+      <styled.div>
+        STATEMENTS_PRINT_VIEW_GENERATED_IN 06/01/102010
+      </styled.div>
+    </styled.div>
+    <styled.div />
+  </styled.div>
+  <styled.table>
+    <styled.thead>
+      <styled.tr>
+        <styled.td />
+      </styled.tr>
+    </styled.thead>
+    <styled.tbody>
+      <tr>
+        <td>
+          <styled.section>
+            <styled.section>
+              <styled.section>
+                CLIENT
+              </styled.section>
+              <styled.section>
+                name
+              </styled.section>
+            </styled.section>
+            <styled.section>
+              <styled.section>
+                STATEMENTS_PRINT_VIEW_ACCOUNT_INFO
+              </styled.section>
+              <styled.section>
+                107 2 304020-1
+              </styled.section>
+            </styled.section>
+          </styled.section>
+          <styled.div />
+          <styled.section>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_TITLE
+            </styled.div>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_FROM_DAY 06/01/102010 STATEMENTS_PRINT_VIEW_TO_DAY 06/01/102010
+            </styled.div>
+          </styled.section>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_PREVIOUS_BALANCE
+            </div>
+            <PrintValues />
+          </styled.section>
+          <styled.div
+            className="print"
+          >
+            <CardPrint
+              icon="Calendar"
+              iconColor={null}
+              title="Invalid date"
+              titleColor="#27445f"
+            >
+              <styled.div
+                data-test="cardStatement"
+              >
+                <styled.ul>
+                  <styled.li>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_DESCRIPTION
+                    </styled.div>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_CONTRAPART
+                    </styled.div>
+                    <styled.div>
+                      STATEMENTS_PRINT_VIEW_AMOUNT
+                    </styled.div>
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="0"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      description
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="1"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      REPASSE COBRANÇA
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="2"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="3"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      REPASSE COBRANÇA
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                  <styled.li
+                    className="transferLine"
+                    key="4"
+                  >
+                    <styled.div
+                      data-test="cardTransactionType"
+                    >
+                      OP: EMISSÃO DE TIT. CETIP
+                    </styled.div>
+                    <styled.span>
+                      ---
+                    </styled.span>
+                    <PrintValues />
+                  </styled.li>
+                </styled.ul>
+                <styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_FINAL_BLOCKED_AMOUNT
+                      </span>
+                      <PrintValues>
+                        2
+                      </PrintValues>
+                    </styled.div>
+                    <styled.div />
+                  </styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_AVAILABLE_FINAL_BALANCE
+                      </span>
+                      <PrintValues>
+                        41111
+                      </PrintValues>
+                    </styled.div>
+                    <styled.div />
+                  </styled.div>
+                  <styled.div>
+                    <styled.div>
+                      <span>
+                        STATEMENTS_PRINT_VIEW_FINAL_TOTAL_BALANCE
+                      </span>
+                      <PrintValues />
+                    </styled.div>
+                  </styled.div>
+                </styled.div>
+              </styled.div>
+            </CardPrint>
+          </styled.div>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_FINAL_BALANCE
+            </div>
+            <PrintValues />
+          </styled.section>
+        </td>
+      </tr>
+    </styled.tbody>
+    <styled.tfoot>
+      <styled.tr>
+        <styled.tr />
+      </styled.tr>
+    </styled.tfoot>
+  </styled.table>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_1
+        </span>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_2
+        </span>
+      </styled.div>
+      <div />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Statements printview should match snapshot without statements 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      <Icon
+        color={null}
+        height={null}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="BrandLogo"
+        width={null}
+      />
+      <styled.div>
+        STATEMENTS_PRINT_VIEW_GENERATED_IN 06/01/102010
+      </styled.div>
+    </styled.div>
+    <styled.div />
+  </styled.div>
+  <styled.table>
+    <styled.thead>
+      <styled.tr>
+        <styled.td />
+      </styled.tr>
+    </styled.thead>
+    <styled.tbody>
+      <tr>
+        <td>
+          <styled.section>
+            <styled.section>
+              <styled.section>
+                CLIENT
+              </styled.section>
+              <styled.section>
+                name
+              </styled.section>
+            </styled.section>
+            <styled.section>
+              <styled.section>
+                STATEMENTS_PRINT_VIEW_ACCOUNT_INFO
+              </styled.section>
+              <styled.section>
+                107 2 304020-1
+              </styled.section>
+            </styled.section>
+          </styled.section>
+          <styled.div />
+          <styled.section>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_TITLE
+            </styled.div>
+            <styled.div>
+              STATEMENTS_PRINT_VIEW_FROM_DAY 06/01/102010 STATEMENTS_PRINT_VIEW_TO_DAY 06/01/102010
+            </styled.div>
+          </styled.section>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_PREVIOUS_BALANCE
+            </div>
+            <PrintValues>
+              0
+            </PrintValues>
+          </styled.section>
+          <styled.div>
+            <DefaultContent
+              Icon={[Function]}
+              data-test="Empty_Statements"
+              primaryText="NO_RESULTS"
+              secondaryTexts={
+                Array [
+                  "NO_RESULTS_PERIOD",
+                ]
+              }
+            />
+          </styled.div>
+          <styled.section>
+            <div>
+              STATEMENTS_PRINT_VIEW_FINAL_BALANCE
+            </div>
+            <PrintValues>
+              0
+            </PrintValues>
+          </styled.section>
+        </td>
+      </tr>
+    </styled.tbody>
+    <styled.tfoot>
+      <styled.tr>
+        <styled.tr />
+      </styled.tr>
+    </styled.tfoot>
+  </styled.table>
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_1
+        </span>
+        <span>
+          STATEMENTS_PRINT_VIEW_FOOTER_TEXT_2
+        </span>
+      </styled.div>
+      <div />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

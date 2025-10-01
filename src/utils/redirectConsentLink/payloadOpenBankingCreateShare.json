@@ -1,0 +1,21 @@
+{
+  "additionalInfos": [{
+    "key": "INTERNAL_ID",
+    "value": "1"
+  }],
+  "authorisationServer": {
+    "authorisationServerId": "2c7f2ab1-9a3e-4021-9afe-7c4c796dfa9a",
+    "organisationId": "4a7250ec-eac5-5d8f-b7eb-dc0e8e880203"
+  },
+
+  "finality": {
+    "finalityId": "1",
+    "displayName": "Abertura de conta"
+  },
+  "loggedUser": {
+    "document": {
+      "identification": "53328506110",
+      "rel": "CPF"
+    }
+  }
+}

@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStep component Should match snapshpt 1`] = `
+<styled.div>
+  <styled.span
+    id="FormStep"
+  />
+  <styled.div>
+    <styled.div
+      data-test="accountNumber"
+    >
+      undefined undefined
+      <styled.span
+        onClick={[Function]}
+      >
+        <Icon
+          color={null}
+          dataTest="selectAccountButton"
+          height="20"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="20"
+        />
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <HideableValue
+        currency="R$"
+        digits={2}
+        hide={true}
+        pattern="******"
+        styles="flex-grow: 1; font-size: 1.625rem; font-family: \\"Lato Bold\\""
+      />
+      <styled.span
+        onClick={[Function]}
+      >
+        <Icon
+          color="#3976cf"
+          cursorPointer={true}
+          data-test="hideableValueIcon"
+          height="26"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="View"
+          width="26"
+        />
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.p>
+      LCA
+    </styled.p>
+    <styled.h2>
+      Banco BOCOM BBM
+    </styled.h2>
+    <styled.p />
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": undefined,
+          "available": undefined,
+          "invalidMessages": Object {
+            "aboveAvailable": undefined,
+            "aboveMaximum": "undefined: R$ 500.000,00",
+            "belowMinimum": "undefinedR$ 1.000,00",
+          },
+          "maximum": 500000,
+          "minimum": 1000,
+          "operation": "invest",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+            30000,
+            50000,
+          ],
+          "totalLabel": undefined,
+        }
+      }
+      showTotalButton={true}
+    />
+    <styled.span />
+    <styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="0"
+      >
+        <styled.div />
+        <styled.div>
+          Banco BOCOM BBM
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="1"
+      >
+        <styled.div />
+        <styled.div>
+          102% DI
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="2"
+      >
+        <styled.div />
+        <styled.div>
+          R$ 1.000
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="3"
+      >
+        <styled.div />
+        <styled.div>
+          R$ 500.000
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="4"
+      >
+        <styled.div />
+        <styled.div>
+          Diária após 90 dias
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="5"
+      >
+        <styled.div />
+        <styled.div>
+          3 meses
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueInvestButton"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <AccountSelector
+        isOpen={false}
+        onChange={[Function]}
+        withButton={true}
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;
+
+exports[`ListStep component Should trigger Button and return null 1`] = `
+<styled.div>
+  <styled.span
+    id="FormStep"
+  />
+  <styled.div>
+    <styled.div
+      data-test="accountNumber"
+    >
+      undefined undefined
+      <styled.span
+        onClick={[Function]}
+      >
+        <Icon
+          color={null}
+          dataTest="selectAccountButton"
+          height="20"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="20"
+        />
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <HideableValue
+        currency="R$"
+        digits={2}
+        hide={true}
+        pattern="******"
+        styles="flex-grow: 1; font-size: 1.625rem; font-family: \\"Lato Bold\\""
+      />
+      <styled.span
+        onClick={[Function]}
+      >
+        <Icon
+          color="#3976cf"
+          cursorPointer={true}
+          data-test="hideableValueIcon"
+          height="26"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="View"
+          width="26"
+        />
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.p>
+      LCA
+    </styled.p>
+    <styled.h2>
+      Banco BOCOM BBM
+    </styled.h2>
+    <styled.p />
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": undefined,
+          "available": undefined,
+          "invalidMessages": Object {
+            "aboveAvailable": undefined,
+            "aboveMaximum": "undefined: R$ 500.000,00",
+            "belowMinimum": "undefinedR$ 1.000,00",
+          },
+          "maximum": 500000,
+          "minimum": 1000,
+          "operation": "invest",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+            30000,
+            50000,
+          ],
+          "totalLabel": undefined,
+        }
+      }
+      showTotalButton={true}
+    />
+    <styled.span />
+    <styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="0"
+      >
+        <styled.div />
+        <styled.div>
+          Banco BOCOM BBM
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="1"
+      >
+        <styled.div />
+        <styled.div>
+          102% DI
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="2"
+      >
+        <styled.div />
+        <styled.div>
+          R$ 1.000
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="3"
+      >
+        <styled.div />
+        <styled.div>
+          R$ 500.000
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="4"
+      >
+        <styled.div />
+        <styled.div>
+          Diária após 90 dias
+        </styled.div>
+      </styled.div>
+      <styled.div
+        className="InfoWrapper"
+        key="5"
+      >
+        <styled.div />
+        <styled.div>
+          3 meses
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueInvestButton"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <AccountSelector
+        isOpen={false}
+        onChange={[Function]}
+        withButton={true}
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;

@@ -1,0 +1,20 @@
+{
+  "additionalInfos": [{
+    "key": "INTERNAL_ID",
+    "value": "1"
+  }],
+  "authorisationServer": {
+    "authorisationServerId": "2c7f2ab1-9a3e-4021-9afe-7c4c796dfa9a",
+    "organisationId": "4a7250ec-eac5-5d8f-b7eb-dc0e8e880203"
+  },
+  "finality": {
+    "finalityId": 0,
+    "displayName": "Viabilizar a oferta personalizada ao cliente de produtos e serviços financeiros."
+  },
+  "loggedUser": {
+    "document": {
+      "identification": "33803233062",
+      "rel": "CPF"
+    }
+  }
+}

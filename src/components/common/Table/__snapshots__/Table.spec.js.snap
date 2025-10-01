@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table component should match snapshot with background 1`] = `
+<Container>
+  <styled.div
+    withBackground={true}
+  >
+    <styled.table
+      withBackground={true}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with blank data 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with blank data and title 1`] = `
+<Container>
+  <styled.h1>
+    Main title
+  </styled.h1>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with blank data and total 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with collapse 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with headers empty 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with headers with values 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with pendingtransaction 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot with zebra 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={true}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;
+
+exports[`Table component should match snapshot without pendindtransactions 1`] = `
+<Container>
+  <styled.div
+    withBackground={false}
+  >
+    <styled.table
+      withBackground={false}
+      zebra={false}
+    >
+      <styled.thead>
+        <styled.tr />
+      </styled.thead>
+      <styled.tbody />
+    </styled.table>
+  </styled.div>
+</Container>
+`;

@@ -1,0 +1,630 @@
+{
+  "id": "Internet-Banking",
+  "viewports": [
+    {
+      "label": "desktop",
+      "width": 1280,
+      "height": 1024
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "[Cadastro de Senha] - Tela cadastrar senha en-EN",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "readySelector": "[data-test=Input]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Cadastro de Senha] - Tela cadastrar senha pt-BR",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTM2MTYyNzQ0LA0KICAiaWF0IjogMTUzNjA3NjM0NCwNCiAgIm90cCI6IDgxMTk5MDM3DQp9.dVTPkHrWqcqxJfhs6jAtfEzTZKvLZ8d78k9K1e4qTLcN9jfibfQWbBsZI5Q7ZfsqkJA2qTTqmuys9UYw8LjGX-mWflfw8oKfhXMctrPmUcjuuSo4Wmtj_cdIou-d9rM7oeZ4xVO_ji_NNkvSHIrLZiPk57zg2Wmch0IO-56nU6NHfR8qpSrOulsatmTPXQp8xELzzWB9T2c_-EedH23dyKz4KlJSQLwZ8-uy4SE4DRLsNnzcb-uR48ciZYECSGG-jox1BCgbEm2m1jAez6NUlNu_duIU92d07JuBsfCEXIECcYTEGtreI8ymkTIzDZ_v16TXcKvCzEmMeaHKQEiJ0w&name=Vader&email=darthvader@bancobbm.com.br&Culture=pt-BR",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTM2MTYyNzQ0LA0KICAiaWF0IjogMTUzNjA3NjM0NCwNCiAgIm90cCI6IDgxMTk5MDM3DQp9.dVTPkHrWqcqxJfhs6jAtfEzTZKvLZ8d78k9K1e4qTLcN9jfibfQWbBsZI5Q7ZfsqkJA2qTTqmuys9UYw8LjGX-mWflfw8oKfhXMctrPmUcjuuSo4Wmtj_cdIou-d9rM7oeZ4xVO_ji_NNkvSHIrLZiPk57zg2Wmch0IO-56nU6NHfR8qpSrOulsatmTPXQp8xELzzWB9T2c_-EedH23dyKz4KlJSQLwZ8-uy4SE4DRLsNnzcb-uR48ciZYECSGG-jox1BCgbEm2m1jAez6NUlNu_duIU92d07JuBsfCEXIECcYTEGtreI8ymkTIzDZ_v16TXcKvCzEmMeaHKQEiJ0w&name=Vader&email=darthvader@bancobbm.com.br&Culture=pt-BR",
+      "readySelector": "[data-test=Input]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Cadastro de Senha] - Feedback ao cadastrar senha",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "onReadyScript": "puppet/custom/create_password/password-url-used.js",
+      "readySelector": "[data-test=Input]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Cadastro de Senha] - Verificar tooltip no campo de senha",
+      "url": "http://40.121.58.75/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "referenceUrl": "http://104.45.130.177/create-password?otp=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.ew0KICAic3ViIjogInBqX2FuZHJlbWVuZGVzQGJhbmNvYmJtLmNvbS5iciIsDQogICJpc3MiOiAiYWNjb3VudCIsDQogICJleHAiOiAxNTI0NzY4MjgwLA0KICAiaWF0IjogMTUyNDY4MTg4MCwNCiAgIm90cCI6IDI0MTc4MjMwDQp9.rULsl1cedDIs1U3sr7bWND8TqvJpR8bDtlqHsFsRoSck7mqC5Y14rlUP0DMLyNQgLwBS5ygrkMsxO9BG4Otl_RPmK05Zu5wxn7U2XsRw46U0cvuqSswTvBj7XFhQ2zNFBlKfVdSqsf6Qb2MbGetKgZIu228wXN0zxjB_lhEQ2uGo9JrbFMREsBhfUVGRg1OjHru1BNnEdZpk1MwpiAf9eSXBul2jOFWKMiLLvFp8egxbFIOVFSgxGWd_ZgmzT0k8hxU7U9BkJ3AAFZm-0hfxAvrlHhPufTmMOFM67cxbkCz5H1aVVHdQcGp6w_TU7743FGYRMtrshfrjLH1Zq45Qpw&name=Vader&email=darthvader@bancobbm.com.br",
+      "readySelector": "[data-test=Tooltip]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "onReadyScript": "puppet/custom/create_password/create-password-tooltip.js",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Tela de login com botão desabilitado sem preencher dados de login",
+      "url": "http://40.121.58.75/",
+      "referenceUrl": "http://104.45.130.177/",
+      "readySelector": "[data-test=Input]",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Tela de login com botão habilitado preenchendo dados de login",
+      "url": "http://40.121.58.75/",
+      "referenceUrl": "http://104.45.130.177/",
+      "readySelector": "[data-test=Input]",
+      "onReadyScript": "puppet/custom/login/fill-data.js",
+      "hideSelectors": [
+        "[data-test=virtualKeyboardKey0],[data-test=virtualKeyboardKey1],[data-test=virtualKeyboardKey2], [data-test=virtualKeyboardKey3], [data-test=virtualKeyboardKey4], [data-test=virtualKeyboardKey5],[data-test=virtualKeyboardKey6], [data-test=virtualKeyboardKey7], [data-test=virtualKeyboardKey8], [data-test=virtualKeyboardKey9]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Validando Header",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "readySelector": "[data-test=Assets_Type]",
+      "selectors": [
+        "[data-test=Header]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Gráfico de ativos",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=Assets_Type]",
+        "[data-test=Assets_Class]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Posição consolidada",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 3000,
+      "selectors": "[data-test=Consolidated_Position]",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Dados da conta corrente em posição consolidada",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "onReadyScript": "puppet/custom/login/consolidated-position.js",
+      "selectors": "[data-test=Consolidated_Position]",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Dados de renda fixa em posição consolidada",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "onReadyScript": "puppet/custom/login/consolidated-position.js",
+      "selectors": "[data-test=Consolidated_Position]",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Dados de fundos em posição consolidada",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "onReadyScript": "puppet/custom/login/consolidated-position.js",
+      "selectors": "[data-test=Consolidated_Position]",
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Tabelas de movimentações",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=Index_Table]",
+        "[data-test=Latest_Transactions]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Summary - Tela de resumo",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "delay": 3000,
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Login] - Validando rodapé",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "readySelector":  "[data-test=footer-wrapper]",
+      "selectors": [
+        "[data-test=footer-wrapper]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Crédito] - Validando tela de crédito",
+      "url": "http://40.121.58.75/credit",
+      "referenceUrl": "http://104.45.130.177/credit",
+      "delay": 1000,
+      "readySelector":  "[data-test=DataTable]",
+      "misMatchThreshold": 0.4,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Crédito] - Validando tela de crédito PT-BR",
+      "url": "http://40.121.58.75/credit",
+      "referenceUrl": "http://104.45.130.177/credit",
+      "delay": 1000,
+      "readySelector":  "[data-test=DataTable]",
+      "onBeforeScript": "puppet/utils/session-storage-ptBR.js",
+      "misMatchThreshold": 0.4,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Crédito] - Validando detalhe de crédito",
+      "url": "http://40.121.58.75/credit",
+      "referenceUrl": "http://104.45.130.177/credit",
+      "readySelector":  "[data-test=DataTable]",
+      "onReadyScript": "puppet/custom/credit/seeCreditDetails.js",
+      "misMatchThreshold": 0.4,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "[Crédito] - Validando detalhe de crédito PT-BR",
+      "url": "http://40.121.58.75/credit",
+      "referenceUrl": "http://104.45.130.177/credit",
+      "readySelector":  "[data-test=DataTable]",
+      "onBeforeScript": "puppet/utils/session-storage-ptBR.js",
+      "onReadyScript": "puppet/custom/credit/seeCreditDetails.js",
+      "misMatchThreshold": 0.4,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Error 500",
+      "url": "http://40.121.58.75/error",
+      "referenceUrl": "http://104.45.130.177/error",
+      "delay": 1000,
+      "selectors": [
+        "[data-test=PageError500]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Sign Confirmation",
+      "url": "http://40.121.58.75/exchanges/sign-confirmation",
+      "referenceUrl": "http://104.45.130.177/exchanges/sign-confirmation",
+      "delay": 2000,
+      "selectors": [
+        "[data-test=SignConfirmation]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Corporate Foreign Exchange",
+      "url": "http://40.121.58.75/exchanges/unsigned",
+      "referenceUrl": "http://104.45.130.177/exchanges/unsigned",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=ContractSummary-017]",
+        "[data-test=ContractSummary-014]",
+        "[data-test=ContractSummary-013]",
+        "[data-test=ContractSummary-012]",
+        "[data-test=ContractSummary-011]",
+        "[data-test=ContractSummary-010]",
+        "[data-test=ContractSummary-008]",
+        "[data-test=ContractSummary-009]",
+        "[data-test=ContractSummary-007]",
+        "[data-test=ContractSummary-006]",
+        "[data-test=ContractSummary-003]",
+        "[data-test=ContractSummary-002]",
+        "[data-test=ContractSummary-001]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Corporate Foreign Exchange - History",
+      "url": "http://40.121.58.75/exchanges/signed",
+      "referenceUrl": "http://104.45.130.177/exchanges/signed",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=SignedExchange]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Page Not Found",
+      "url": "http://40.121.58.75/notfound",
+      "referenceUrl": "http://104.45.130.177/notfound",
+      "delay": 3500,
+      "selectors": [
+        "[data-test=NotFound]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Language Modal",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://104.45.130.177/summary",
+      "onReadyScript": "puppet/custom/choose-language.js",
+      "delay": 2500,
+      "selectors": [
+        "[data-test=LanguagePopup]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Fixed Income",
+      "url": "http://40.121.58.75/position/fixed-income",
+      "referenceUrl": "http://104.45.130.177/position/fixed-income",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Position_Fixed_Income]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Equities",
+      "url": "http://40.121.58.75/position/equities",
+      "referenceUrl": "http://104.45.130.177/position/equities",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Position_Equities]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Funds",
+      "url": "http://40.121.58.75/position/funds",
+      "referenceUrl": "http://104.45.130.177/position/funds",
+      "delay": 6000,
+      "selectors": [
+        "[data-test=Position_Funds]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Position - Cash Accounts",
+      "url": "http://40.121.58.75/position/account",
+      "referenceUrl": "http://104.45.130.177/position/account",
+      "delay": 6000,
+      "selectors": [
+        "[data-test=Position_Accounts]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Fixed Income",
+      "url": "http://40.121.58.75/transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/transactions/fixed-income",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Transactions_Fixed_Income]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Filtering per period",
+      "url": "http://40.121.58.75/Transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/Transactions/fixed-income",
+      "onReadyScript": "puppet/custom/date-picker.js",
+      "delay": 4000,
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Filtering since",
+      "url": "http://40.121.58.75/Transactions/fixed-income",
+      "referenceUrl": "http://104.45.130.177/Transactions/fixed-income",
+      "onReadyScript": "puppet/custom/date-picker.js",
+      "delay": 4000,
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Equities",
+      "url": "http://40.121.58.75/transactions/equities",
+      "referenceUrl": "http://104.45.130.177/transactions/equities",
+      "delay": 4000,
+      "selectors": [
+        "[data-test=Transactions_Equities]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Funds",
+      "url": "http://40.121.58.75/transactions/funds",
+      "referenceUrl": "http://104.45.130.177/transactions/funds",
+      "delay": 5000,
+      "selectors": [
+        "[data-test=Transactions_Funds]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transactions - Cash Accounts",
+      "url": "http://40.121.58.75/transactions/account",
+      "referenceUrl": "http://104.45.130.177/transactions/account",
+      "delay": 8000,
+      "selectors": [
+        "[data-test=Transactions_Account]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Documents - Expanded",
+      "url": "http://40.121.58.75/documents",
+      "onReadyScript": "puppet/custom/documents.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=DocumentsPage]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Documents - Collapsed",
+      "url": "http://40.121.58.75/documents",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=DocumentsPage]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Pending Transfers",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/pendencies",
+      "delay": 10000,
+      "selectors": [
+        "[id=MyPendenciesTable]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - New Transfer Form",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/dashboard",
+      "delay": 25000,
+      "hideSelectors": [
+        "[data-test=transferDate]"
+      ],
+      "onReadyScript": "puppet/custom/create-transfer.js",
+      "selectors": [
+        "[data-test=newTransferBox]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Confirmation Modal",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/dashboard",
+      "delay": 35000,
+      "onReadyScript": "puppet/custom/create-transfer.js",
+      "selectors": [
+        "[data-test=CustomModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Insuficients Funds",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/dashboard",
+      "delay": 35000,
+      "onReadyScript": "puppet/custom/create-transfer.js",
+      "selectors": [
+        "[data-test=transferInsufficientFundsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Token Modal",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/pendencies",
+      "delay": 35000,
+      "onReadyScript": "puppet/custom/create-transfer.js",
+      "selectors": [
+        "[data-test=CustomModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Filter by My Pendencies",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/dashboard",
+      "selectors": [
+        "[data-test=DashboardFilters]"
+      ],
+      "delay": 12000,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Transfers - Filter by History",
+      "url": "http://40.121.58.75/cashaccounts/dashboard",
+      "referenceUrl": "http://104.45.130.177/cashaccounts/dashboard",
+      "selectors": [
+        "[data-test=DashboardFilters]"
+      ],
+      "onReadyScript": "puppet/custom/dashboard-filter.js",
+      "delay": 12000,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Tela Suitability",
+      "url": "http://40.121.58.75/home",
+      "referenceUrl": "http://40.121.58.75/home",
+      "delay": 10000,
+      "onReadyScript": "puppet/custom/suitability.js",
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Session Expiration",
+      "url": "http://40.121.58.75",
+      "referenceUrl": "http://40.121.58.75",
+      "delay": 1000,
+      "onReadyScript": "puppet/custom/session-expiration.js",
+      "hideSelectors": [
+        "[data-test=TimeExpirationCounter]"
+      ],
+      "selectors": [
+        "[data-test=TimeExpirationAlertPopup]"
+      ],
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Atualizacao Cadastral - Formulario",
+      "url": "http://40.121.58.75/registrationData",
+      "onReadyScript": "puppet/custom/atualizacao_cadastral.js",
+      "delay": 1000,
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Registrato",
+      "url": "http://40.121.58.75/registrato",
+      "referenceUrl": "http://40.121.58.75/registrato",
+      "delay": 1000,
+      "onReadyScript": "puppet/custom/registrato.js",
+      "selectors": [
+        "[data-test=RegistratoPage]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Atualizacao Cadastral - I Agree",
+      "url": "http://40.121.58.75/registrationData",
+      "onReadyScript": "puppet/custom/atualizacao_cadastral.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Registrato - Footer",
+      "url": "http://40.121.58.75/summary",
+      "referenceUrl": "http://40.121.58.75/",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=footer-wrapper]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Atualizacao Cadastral - I don't Agree",
+      "url": "http://40.121.58.75/registrationData",
+      "onReadyScript": "puppet/custom/atualizacao_cadastral.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Atualizacao Cadastral - Exit",
+      "url": "http://40.121.58.75/registrationData",
+      "onReadyScript": "puppet/custom/atualizacao_cadastral.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=PageAsModal]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    },
+    {
+      "label": "Atualizacao Cadastral - All Fields Expanded",
+      "url": "http://40.121.58.75/registrationData",
+      "onReadyScript": "puppet/custom/atualizacao_cadastral.js",
+      "delay": 3000,
+      "selectors": [
+        "[data-test=PersonalDetails]",
+        "[data-test=CorrespondenceAndContacts]",
+        "[data-test=OtherNationality]",
+        "[data-test=PurposeWithInstitution]",
+        "[data-test=SectionedFormContent]",
+        "[data-test=RelatedPerson]",
+        "[data-test=PolliticallyExposedPerson]",
+        "[data-test=FinancialInformation]"
+      ],
+      "misMatchThreshold": 1,
+      "requireSameDimensions": true
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/desktop/bitmaps_reference",
+    "bitmaps_test": "backstop_data/desktop/bitmaps_test",
+    "engine_scripts": "backstop_data/engine_scripts",
+    "html_report": "backstop_data/desktop/html_report",
+    "ci_report": "backstop_data/desktop/ci_report"
+  },
+  "report": [
+    "browser",
+    "CI"
+  ],
+  "engine": "puppeteer",
+  "engineOptions": {
+    "args": [
+      "--no-sandbox"
+    ]
+  },
+  "asyncCaptureLimit": 5,
+  "asyncCompareLimit": 5,
+  "debug": false,
+  "debugWindow": false
+}

@@ -1,0 +1,1030 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Should change isExiting to false 1`] = `
+<ErrorBoundary
+  approveNewTerms={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "accepted": true,
+            "termId": 12314,
+          },
+        ],
+        Array [
+          Object {
+            "accepted": false,
+            "termId": 12314,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  closeToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  enableToastrTimeout={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_ACCEPTED_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_REJECT_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should change isExiting to true 1`] = `
+<ErrorBoundary
+  approveNewTerms={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "accepted": true,
+            "termId": 12314,
+          },
+        ],
+        Array [
+          Object {
+            "accepted": false,
+            "termId": 12314,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  closeToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  enableToastrTimeout={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_ACCEPTED_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_REJECT_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should match snapshot 1`] = `
+<ErrorBoundary
+  approveNewTerms={[MockFunction]}
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={[MockFunction]}
+  closeToastr={[MockFunction]}
+  enableToastrTimeout={[MockFunction]}
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={[MockFunction]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should match snapshot without parameters 1`] = `
+<ErrorBoundary
+  approveNewTerms={[MockFunction]}
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={[MockFunction]}
+  closeToastr={[MockFunction]}
+  enableToastrTimeout={[MockFunction]}
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={[MockFunction]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should select the Checkbox as checked 1`] = `
+<ErrorBoundary
+  approveNewTerms={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "accepted": true,
+            "termId": 12314,
+          },
+        ],
+        Array [
+          Object {
+            "accepted": false,
+            "termId": 12314,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  closeToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  enableToastrTimeout={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_ACCEPTED_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_REJECT_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should select the Checkbox as checked 2`] = `
+<ErrorBoundary
+  approveNewTerms={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "accepted": true,
+            "termId": 12314,
+          },
+        ],
+        Array [
+          Object {
+            "accepted": false,
+            "termId": 12314,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  cancelToastrTimeout={[MockFunction]}
+  checked={true}
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  closeToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  enableToastrTimeout={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_ACCEPTED_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_REJECT_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should test exit 1`] = `
+<ErrorBoundary
+  approveNewTerms={[MockFunction]}
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={[MockFunction]}
+  closeToastr={[MockFunction]}
+  enableToastrTimeout={[MockFunction]}
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={[MockFunction]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should trigger viewTerms 1`] = `
+<ErrorBoundary
+  approveNewTerms={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "accepted": true,
+            "termId": 12314,
+          },
+        ],
+        Array [
+          Object {
+            "accepted": false,
+            "termId": 12314,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  closeToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  enableToastrTimeout={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificatedId={12314}
+  notification={
+    Array [
+      Object {
+        "description": "Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.",
+        "displayMethod": "PopUp",
+        "parameters": Array [
+          Object {
+            "type": "url",
+            "url": "https://bocombbm.blob.core.windows.net/termos-de-produto/Termo de Adesão - Internet Banking.pdf",
+          },
+          Object {
+            "id": 12314,
+            "type": "termId",
+          },
+        ],
+        "title": "Alteração dos termos e condições de uso",
+        "type": "ApproveTerms",
+      },
+      Object {
+        "parameters": Object {
+          "formId": 1,
+        },
+        "type": "SuitabilityForms",
+      },
+      Object {
+        "type": "PersonRegistrationForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  openToastr={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_ACCEPTED_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+        Array [
+          Object {
+            "isBelow": false,
+            "isTop": true,
+            "text": "TOASTR_REJECT_NEW_TERMS",
+            "timeout": 3000,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+        Array [
+          "ApproveTerms12314",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should use notification from state 1`] = `
+<ErrorBoundary
+  approveNewTerms={[MockFunction]}
+  cancelToastrTimeout={[MockFunction]}
+  closeModal={[MockFunction]}
+  closeToastr={[MockFunction]}
+  enableToastrTimeout={[MockFunction]}
+  notificatedId={12314}
+  notification={Array []}
+  openModal={[Function]}
+  openToastr={[MockFunction]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Container />
+</ErrorBoundary>
+`;

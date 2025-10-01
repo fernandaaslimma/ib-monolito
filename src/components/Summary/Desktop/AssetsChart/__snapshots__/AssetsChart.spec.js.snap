@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssetsChart desktop component should match snapshot 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <Card
+      icon="Wallet"
+      iconColor="#27445f"
+      title="Title"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.div
+          key="hash"
+        >
+          <styled.p>
+            <styled.span
+              color="#5b4a8a"
+            />
+            Fixed Income
+          </styled.p>
+          <styled.p>
+            123.213,20
+          </styled.p>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <RadialChart
+          className=""
+          colorRange={
+            Array [
+              "#12939A",
+              "#79C7E3",
+              "#1A3177",
+              "#FF9833",
+              "#EF5D28",
+            ]
+          }
+          colorType="literal"
+          data={
+            Array [
+              Object {
+                "angle": 123213.2,
+                "color": "#5b4a8a",
+                "label": "23 %",
+              },
+            ]
+          }
+          getAngle={[Function]}
+          getAngle0={[Function]}
+          getLabel={[Function]}
+          getRadius={[Function]}
+          getRadius0={[Function]}
+          getSubLabel={[Function]}
+          height={160}
+          innerRadius={70}
+          onSeriesMouseOut={[Function]}
+          onValueMouseOver={[Function]}
+          radius={60}
+          stroke="#ffffff"
+          width={160}
+        />
+      </styled.div>
+    </Card>
+  </styled.div>
+</div>
+`;
+
+exports[`AssetsChart desktop component should match snapshot with assets 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <Card
+      icon="Wallet"
+      iconColor="#27445f"
+      title="Title"
+      titleColor="#27445f"
+    >
+      <styled.div>
+        <styled.div
+          key="hash"
+        >
+          <styled.p>
+            <styled.span
+              color="#5b4a8a"
+            />
+          </styled.p>
+          <styled.p>
+            123,00
+          </styled.p>
+        </styled.div>
+        <styled.div
+          key="hash"
+        >
+          <styled.p>
+            <styled.span
+              color="#af5761"
+            />
+          </styled.p>
+          <styled.p>
+            2,00
+          </styled.p>
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <RadialChart
+          className=""
+          colorRange={
+            Array [
+              "#12939A",
+              "#79C7E3",
+              "#1A3177",
+              "#FF9833",
+              "#EF5D28",
+            ]
+          }
+          colorType="literal"
+          data={
+            Array [
+              Object {
+                "angle": 123,
+                "color": "#5b4a8a",
+                "label": "15 %",
+              },
+              Object {
+                "angle": 2,
+                "color": "#af5761",
+                "label": "50 %",
+              },
+            ]
+          }
+          getAngle={[Function]}
+          getAngle0={[Function]}
+          getLabel={[Function]}
+          getRadius={[Function]}
+          getRadius0={[Function]}
+          getSubLabel={[Function]}
+          height={160}
+          innerRadius={70}
+          onSeriesMouseOut={[Function]}
+          onValueMouseOver={[Function]}
+          radius={60}
+          stroke="#ffffff"
+          width={160}
+        />
+      </styled.div>
+    </Card>
+  </styled.div>
+</div>
+`;
+
+exports[`AssetsChart desktop component should match snapshot without assets 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <DefaultShimmerLoading
+      innerRepeat={1}
+      repeat={2}
+    />
+  </styled.div>
+</div>
+`;

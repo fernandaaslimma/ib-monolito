@@ -1,0 +1,662 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignAccount component one group should match snapshot for status complete 1`] = `
+<styled.div
+  data-test="signatures"
+>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group0"
+    getLengthSpecialBoxes={0}
+    groupsSize={1}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={false}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Complete"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Complete"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Complete",
+                "type": "type",
+              },
+            ],
+            "signOrder": 1,
+            "status": "Complete",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Complete",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`SignAccount component one group should match snapshot for status pending 1`] = `
+<styled.div
+  data-test="signatures"
+>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group0"
+    getLengthSpecialBoxes={0}
+    groupsSize={1}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={true}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Pending"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Pending"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Pending",
+                "type": "type",
+              },
+            ],
+            "signOrder": 1,
+            "status": "Pending",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Pending",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`SignAccount component two groups should match snapshot both status complete 1`] = `
+<styled.div
+  data-test="signatures"
+>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group0"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={false}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Complete"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Complete"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Complete",
+                "type": "type",
+              },
+            ],
+            "signOrder": 1,
+            "status": "Complete",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Complete",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Complete",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group1"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={false}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Complete"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Complete"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Complete",
+                "type": "type",
+              },
+            ],
+            "signOrder": 2,
+            "status": "Complete",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Complete",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Complete",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`SignAccount component two groups should match snapshot both status pending 1`] = `
+<styled.div
+  data-test="signatures"
+>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group0"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={true}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Pending"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Pending"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Pending",
+                "type": "type",
+              },
+            ],
+            "signOrder": 1,
+            "status": "Pending",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Pending",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Pending",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group1"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={true}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Pending"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Pending"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Pending",
+                "type": "type",
+              },
+            ],
+            "signOrder": 2,
+            "status": "Pending",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Pending",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Pending",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`SignAccount component two groups should match snapshot one status pending and one status complete 1`] = `
+<styled.div
+  data-test="signatures"
+>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group0"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={true}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Pending"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Pending"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Pending",
+                "type": "type",
+              },
+            ],
+            "signOrder": 1,
+            "status": "Pending",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Pending",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Complete",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+  <styled.div
+    blockedBox={false}
+    by3Multiple={false}
+    data-test="group1"
+    getLengthSpecialBoxes={0}
+    groupsSize={2}
+    inProgressBox={false}
+    isPendingOrWaiting={false}
+    isThereAnyWaitingGroup={true}
+    key="hash"
+    pendingBox={false}
+    recipientsSize={1}
+    status="Complete"
+    waitingBox={false}
+  >
+    <GroupCard
+      blockedBox={false}
+      icon="SignatureGroup"
+      iconColor="#5b6b75"
+      pendingBox={false}
+      recipientsSize={1}
+      status="Complete"
+      title="PENDING_SIGNATURE"
+      titleColor={null}
+      titleSignatures={true}
+      waitingBox={false}
+    >
+      <NameItem
+        data={
+          Object {
+            "id": "id",
+            "name": "name",
+            "recipients": Array [
+              Object {
+                "email": "email",
+                "embedded": false,
+                "name": "name",
+                "status": "Complete",
+                "type": "type",
+              },
+            ],
+            "signOrder": 2,
+            "status": "Complete",
+          }
+        }
+        groups={
+          Array [
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Pending",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 1,
+              "status": "Pending",
+            },
+            Object {
+              "id": "id",
+              "name": "name",
+              "recipients": Array [
+                Object {
+                  "email": "email",
+                  "embedded": false,
+                  "name": "name",
+                  "status": "Complete",
+                  "type": "type",
+                },
+              ],
+              "signOrder": 2,
+              "status": "Complete",
+            },
+          ]
+        }
+      />
+    </GroupCard>
+  </styled.div>
+</styled.div>
+`;

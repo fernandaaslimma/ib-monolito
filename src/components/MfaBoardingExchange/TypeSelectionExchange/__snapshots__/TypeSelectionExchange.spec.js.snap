@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TypeSelection component should match snapshot with props 1`] = `
+<styled.div>
+  <styled.div
+    data-test="MfaExchangeSelectionTypeTitle"
+  >
+    <styled.p
+      fontSize={22}
+      marginBottom={12}
+    />
+    <styled.p
+      fontSize={18}
+    />
+  </styled.div>
+  <styled.div>
+    <ConnectWrapper
+      key="0"
+    >
+      <styled.div
+        data-test="MfaExchangeSelectionTypeBtn_1"
+        hasMarginBottom={true}
+        onClick={[Function]}
+      >
+        <styled.div>
+          <styled.p
+            fontSize={16}
+            marginBottom={8}
+          />
+          <styled.p
+            fontSize={14}
+          />
+        </styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="MfaChevronRight"
+          width={null}
+        />
+      </styled.div>
+    </ConnectWrapper>
+  </styled.div>
+</styled.div>
+`;

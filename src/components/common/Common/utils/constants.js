@@ -1,0 +1,15 @@
+export const PT_BR = "pt-BR";
+export const EN_US = "en-US";
+export const ZH_CN = "zh-CN";
+export const SCREEN_LG = 1199;
+export const SCREEN_MD = 992;
+export const SCREEN_SM = 767;
+export const SCREEN_XS = 449;
+export const SCREEN_XXS = 319;
+export const UP = "up";
+export const DOWN = "down";
+export const RIGHT = "right";
+export const PAGINATION_TOTAL = "X-Total-Count";
+export const DEFAULT_MOBILE_HEADER_HEIGHT = 60;
+export const ASCENDING = "ASC";
+export const DESCENDING = "DESC";

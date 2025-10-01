@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Position funds listStep component Should match snapshpt 1`] = `
+<ListStep
+  currentStep={5}
+  stepForward={[MockFunction]}
+/>
+`;

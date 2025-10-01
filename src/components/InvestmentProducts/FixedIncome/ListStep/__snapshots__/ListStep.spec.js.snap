@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStep component Should match snapshot with empty products 1`] = `
+<ListStep
+  currentStep={1}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep component Should match snapshpt 1`] = `
+<ListStep
+  currentStep={1}
+  stepForward={[MockFunction]}
+/>
+`;

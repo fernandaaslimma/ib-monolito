@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TypeSelection component should match snapshot with props 1`] = `
+<styled.div>
+  <styled.div
+    data-test="MfaSelectionTypeTitle"
+  >
+    <styled.p
+      fontSize={24}
+      marginBottom={12}
+    />
+    <styled.p
+      fontSize={18}
+    />
+  </styled.div>
+  <styled.div>
+    <ConnectWrapper
+      key="0"
+    >
+      <styled.div
+        data-test="MfaSelectionTypeBtn_1"
+        hasMarginBottom={true}
+        onClick={[Function]}
+      >
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="MfaSmartphone"
+          width={null}
+        />
+        <styled.div>
+          <styled.p
+            fontSize={16}
+            marginBottom={8}
+          />
+          <styled.p
+            fontSize={13}
+          />
+        </styled.div>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="MfaChevronRight"
+          width={null}
+        />
+      </styled.div>
+    </ConnectWrapper>
+  </styled.div>
+  <ConnectWrapper>
+    <Button
+      dataTest="RegisterLater"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "top": "none",
+        }
+      }
+      type="text"
+    />
+  </ConnectWrapper>
+</styled.div>
+`;

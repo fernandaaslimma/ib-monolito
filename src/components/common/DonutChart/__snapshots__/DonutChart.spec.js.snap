@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssetsChart mobile component should match snapshot loaded 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <styled.span
+      data-test="typeGraphic"
+    >
+      Title
+    </styled.span>
+    <Card
+      icon={null}
+      iconColor={null}
+      title={null}
+      titleColor={null}
+    >
+      <styled.div
+        onMouseLeave={[Function]}
+      >
+        <FlexibleRadialChart
+          colorType="literal"
+          data={
+            Array [
+              Object {
+                "angle": 50,
+                "color": "#5b4a8a",
+                "label": "80 %",
+                "portfolioShare": 80,
+              },
+              Object {
+                "angle": 50,
+                "color": "#af5761",
+                "label": "20 %",
+                "portfolioShare": 20,
+              },
+              Object {
+                "angle": 50,
+                "color": "#96b974",
+                "label": "0 %",
+                "portfolioShare": undefined,
+              },
+            ]
+          }
+          height={230}
+          innerRadius={100}
+          onValueMouseOut={[Function]}
+          onValueMouseOver={[Function]}
+          radius={112}
+          stroke="#ffffff"
+        />
+      </styled.div>
+    </Card>
+  </styled.div>
+</div>
+`;
+
+exports[`AssetsChart mobile component should match snapshot loading 1`] = `
+<div
+  data-test="Test"
+>
+  <styled.div>
+    <styled.span
+      data-test="typeGraphic"
+    >
+      <ShimmerLoading
+        darker={false}
+        height={12}
+        index={0}
+        inverse={false}
+        width={40}
+      />
+    </styled.span>
+    <Card
+      icon={null}
+      iconColor={null}
+      title={null}
+      titleColor={null}
+    >
+      <ShimmerLoading
+        circle={true}
+        darker={false}
+        height={230}
+        index={0}
+        inverse={false}
+        width={230}
+      />
+    </Card>
+  </styled.div>
+</div>
+`;

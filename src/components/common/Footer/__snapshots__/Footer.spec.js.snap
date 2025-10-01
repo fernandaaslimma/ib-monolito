@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should match snapshot with props 1`] = `
+<styled.footer
+  data-test="footer-wrapper"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={null}
+      type="FooterLogo"
+      width={null}
+    />
+  </styled.div>
+  <styled.p
+    data-test="disclaimer"
+  >
+    <styled.span
+      expanded={false}
+    >
+       undefined
+    </styled.span>
+  </styled.p>
+  <Hide
+    above="md"
+    below={null}
+  >
+    <styled.div>
+      <styled.span
+        data-test="toggle-seemore"
+        onClick={[Function]}
+      >
+        undefined...
+      </styled.span>
+    </styled.div>
+  </Hide>
+  <styled.div>
+    <styled.div>
+      undefined 2025 undefined
+    </styled.div>
+    <ConnectWrapper
+      roles={
+        Array [
+          "CreateRegistrato",
+        ]
+      }
+    >
+      <styled.span
+        onClick={[Function]}
+      />
+    </ConnectWrapper>
+    <ConnectWrapper
+      roles={
+        Array [
+          "GetAccountManager",
+        ]
+      }
+    >
+      <styled.span
+        onClick={[Function]}
+      />
+    </ConnectWrapper>
+    <styled.span
+      onClick={[Function]}
+    />
+    <ConnectWrapper
+      roles={
+        Array [
+          "GetCreditPortfolio",
+        ]
+      }
+    >
+      <styled.span
+        data-test="creditFooter"
+        onClick={[Function]}
+      />
+    </ConnectWrapper>
+    <ConnectWrapper
+      roles={
+        Array [
+          "GetPortabilities",
+        ]
+      }
+    >
+      <styled.span
+        data-test="investmentsPortabilityFooter"
+        onClick={[Function]}
+      />
+    </ConnectWrapper>
+    <styled.span
+      onClick={[Function]}
+    />
+  </styled.div>
+</styled.footer>
+`;

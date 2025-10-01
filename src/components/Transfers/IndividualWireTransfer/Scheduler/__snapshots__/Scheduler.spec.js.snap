@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scheduler component Should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <Buttons
+        buttons={
+          Array [
+            Object {
+              "background": "#3175bd",
+              "border": "solid 0.0625rem #3175bd",
+              "borderRadius": Object {
+                "rightBottom": "0",
+                "rightTop": "0",
+              },
+              "children": undefined,
+              "color": "#ffffff",
+              "dataTest": "ButtonTransferToday",
+              "disabled": false,
+              "fontSize": "14",
+              "noHoverBackground": true,
+              "onClick": [Function],
+              "padding": Object {
+                "l": "20",
+                "r": "20",
+              },
+            },
+            Object {
+              "background": "#ffffff",
+              "border": "solid 0.0625rem #a4b2bb",
+              "borderRadius": Object {
+                "leftBottom": "0",
+                "leftTop": "0",
+              },
+              "children": undefined,
+              "color": "#a4b2bb",
+              "dataTest": "ButtonScheduledTransfer",
+              "fontSize": "14",
+              "noHoverBackground": true,
+              "onClick": [Function],
+              "padding": Object {
+                "l": "20",
+                "r": "20",
+              },
+            },
+          ]
+        }
+        paddingWrapper={
+          Object {
+            "b": 6,
+          }
+        }
+      />
+    </styled.div>
+    <styled.div>
+      <AlertMessage
+        dataTest="TransactionPeriod"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xs",
+          }
+        }
+        type="neutral"
+      >
+        undefined hash undefined hash
+      </AlertMessage>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Scheduler component Should match snapshot not in pt-BR 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <Buttons
+        buttons={
+          Array [
+            Object {
+              "background": "#3175bd",
+              "border": "solid 0.0625rem #3175bd",
+              "borderRadius": Object {
+                "rightBottom": "0",
+                "rightTop": "0",
+              },
+              "children": undefined,
+              "color": "#ffffff",
+              "dataTest": "ButtonTransferToday",
+              "disabled": false,
+              "fontSize": "14",
+              "noHoverBackground": true,
+              "onClick": [Function],
+              "padding": Object {
+                "l": "20",
+                "r": "20",
+              },
+            },
+            Object {
+              "background": "#ffffff",
+              "border": "solid 0.0625rem #a4b2bb",
+              "borderRadius": Object {
+                "leftBottom": "0",
+                "leftTop": "0",
+              },
+              "children": undefined,
+              "color": "#a4b2bb",
+              "dataTest": "ButtonScheduledTransfer",
+              "fontSize": "14",
+              "noHoverBackground": true,
+              "onClick": [Function],
+              "padding": Object {
+                "l": "20",
+                "r": "20",
+              },
+            },
+          ]
+        }
+        paddingWrapper={
+          Object {
+            "b": 6,
+          }
+        }
+      />
+    </styled.div>
+    <styled.div>
+      <AlertMessage
+        dataTest="TransactionPeriod"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xs",
+          }
+        }
+        type="neutral"
+      >
+        undefined hash undefined hash
+      </AlertMessage>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Scheduler component Should match snapshot with scheduler and interact by focus 1`] = `
+<div
+  className="sc-iqzUVk lhDyeD"
+>
+  <div
+    className="sc-cfWELz khfrIN"
+  >
+    <div
+      className="sc-eTpRJs jcNzOq"
+    >
+      <button
+        className="sc-jTzLTM MPaOI"
+        color="#a4b2bb"
+        data-test="ButtonTransferToday"
+        disabled={false}
+        fontSize="14"
+        height={null}
+        onClick={[Function]}
+        type="button"
+        width={null}
+      >
+        <div
+          className="sc-fjdhpX hAMeWv"
+        >
+          <div
+            className="sc-jzJRlG fLqBJd"
+          />
+        </div>
+      </button>
+      <button
+        className="sc-jTzLTM kpafqw"
+        color="#ffffff"
+        data-test="ButtonScheduledTransfer"
+        disabled={false}
+        fontSize="14"
+        height={null}
+        onClick={[Function]}
+        type="button"
+        width={null}
+      >
+        <div
+          className="sc-fjdhpX hAMeWv"
+        >
+          <div
+            className="sc-jzJRlG fLqBJd"
+          />
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="sc-gAmQfK bfJHUP"
+  >
+    <div
+      className="sc-TOsTZ ftdOHJ"
+    >
+      <input
+        className="sc-cHGsZl jqBJNN"
+        data-test="transferDate"
+        disabled={false}
+        icon={null}
+        label={null}
+        name="date"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        placeholder=""
+        required={true}
+        type="text"
+        value="11/20/2020"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-hAXbOi hgOTeD"
+  >
+    <div
+      className="sc-fzsDOv igIEju"
+      data-test="TransactionPeriod"
+      spacing={
+        Object {
+          "bottom": "l",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xs",
+        }
+      }
+      type="neutral"
+    >
+      <span
+        className="sc-iRbamj fimazz"
+        color={null}
+        height={24}
+        spacing={
+          Object {
+            "left": "xxs",
+            "right": "s",
+          }
+        }
+        width={24}
+      >
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M0 0H24V24H0z"
+            />
+            <path
+              d="M12 2.5c2.623 0 4.998 1.063 6.718 2.782C20.437 7.002 21.5 9.377 21.5 12s-1.063 4.998-2.782 6.718C16.998 20.437 14.623 21.5 12 21.5s-4.998-1.063-6.718-2.782C3.563 16.998 2.5 14.623 2.5 12s1.063-4.998 2.782-6.718C7.002 3.563 9.377 2.5 12 2.5zM12 4c-2.21 0-4.21.895-5.657 2.343C4.895 7.791 4 9.791 4 12c0 2.21.895 4.21 2.343 5.657C7.791 19.105 9.791 20 12 20c2.21 0 4.21-.895 5.657-2.343C19.105 16.209 20 14.209 20 12c0-2.21-.895-4.21-2.343-5.657C16.209 4.895 14.209 4 12 4zm0 10.5c.69 0 1.25.56 1.25 1.25S12.69 17 12 17s-1.25-.56-1.25-1.25.56-1.25 1.25-1.25zm.305-7.375c.552.01.992.466.982 1.018l-.074 4.25c-.01.551-.465.991-1.018.981-.552-.01-.992-.465-.982-1.017l.074-4.25c.01-.551.465-.991 1.018-.982z"
+              fill="currentColor"
+            />
+          </g>
+        </svg>
+      </span>
+      <p
+        className="sc-gPWkxV kwAnYD"
+      >
+        undefined hash undefined hash
+      </p>
+    </div>
+  </div>
+</div>
+`;

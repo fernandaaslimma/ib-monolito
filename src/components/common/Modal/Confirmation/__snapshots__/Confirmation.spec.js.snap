@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirmation component should match snapshot with a closed modal 1`] = `""`;
+
+exports[`Confirmation component should render modal if there is modalSettings 1`] = `
+<styled.div
+  data-test="ConfirmationModal"
+>
+  <Styled(Button)
+    dataTest="CancelLogout"
+    isWarning={true}
+    onClick={[Function]}
+  />
+  <Styled(Button)
+    dataTest="ConfirmLogout"
+    isCallToAction={true}
+    onClick={[Function]}
+  />
+</styled.div>
+`;
+
+exports[`Confirmation component should render modal if there is modalSettings with message 1`] = `
+<styled.div
+  data-test="ConfirmationModal"
+>
+  <styled.h1>
+    message
+  </styled.h1>
+  <Styled(Button)
+    dataTest="CancelLogout"
+    isWarning={true}
+    onClick={[Function]}
+  />
+  <Styled(Button)
+    dataTest="ConfirmLogout"
+    isCallToAction={true}
+    onClick={[Function]}
+  />
+</styled.div>
+`;

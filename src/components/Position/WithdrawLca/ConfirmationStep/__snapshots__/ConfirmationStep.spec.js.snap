@@ -1,0 +1,1007 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationStep Should match snapshpt 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.div>
+        undefined 12345678
+      </styled.div>
+      <Icon
+        color="#3976cf"
+        height="15"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width="15"
+      />
+    </styled.div>
+    <styled.span />
+    <styled.span>
+      <styled.span>
+        R$
+      </styled.span>
+      <styled.span>
+        NaN
+      </styled.span>
+    </styled.span>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.2}
+    >
+      <AccountSelector
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "12345678",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "303894",
+              "verifyingDigit": "2",
+            },
+            Object {
+              "accountNumber": "12345679",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "305236",
+              "verifyingDigit": "8",
+            },
+            Object {
+              "accountNumber": "12345674",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "305445",
+              "verifyingDigit": "0",
+            },
+          ]
+        }
+        isOpen={false}
+        onChange={[Function]}
+        selectedAccountNumber="12345678"
+        withButton={true}
+      />
+    </AnimatedBottonSheet>
+    <styled.span
+      data-test="withdrawalDetails"
+    />
+    <styled.div
+      key="0"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="0"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 600,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 600,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              3
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 200,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="1"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 4.900,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 4.900,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              7
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 700,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="2"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              4
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 800,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+    <styled.div
+      key="3"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="3"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              5
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 800,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+    <styled.div
+      key="4"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="4"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 4.900,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 4.900,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              7
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 700,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+    <styled.div
+      key="5"
+    >
+      <Card
+        icon="AssetPosition"
+        iconColor="#587485"
+        iconHeight={20}
+        iconWidth={20}
+        key="5"
+        styles="margin-bottom: 1rem"
+        title="LCA"
+        titleColor="#587485"
+      >
+        <styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              CARLINDA Gantois
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              06/01/2010
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 3.200,00
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              4
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section>
+              R$ 800,00000000
+            </styled.section>
+          </styled.section>
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section />
+            <styled.section />
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToPreviousStep"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="finishWithdraw"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section>
+      <styled.span
+        className="RedemptionErrorMessage"
+        key="0"
+      >
+        erro
+      </styled.span>
+      <styled.span
+        className="RedemptionErrorMessage"
+        key="1"
+      >
+        aqui
+      </styled.span>
+    </styled.section>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`ConfirmationStep Should match snapshpt with loading 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.div>
+        undefined 12345678
+      </styled.div>
+      <Icon
+        color="#3976cf"
+        height="15"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width="15"
+      />
+    </styled.div>
+    <styled.span />
+    <styled.span>
+      <styled.span>
+        R$
+      </styled.span>
+      <styled.span>
+        NaN
+      </styled.span>
+    </styled.span>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": undefined,
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.2}
+    >
+      <AccountSelector
+        accounts={
+          Array [
+            Object {
+              "accountNumber": "12345678",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "303894",
+              "verifyingDigit": "2",
+            },
+            Object {
+              "accountNumber": "12345679",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "305236",
+              "verifyingDigit": "8",
+            },
+            Object {
+              "accountNumber": "12345674",
+              "bankCode": "107",
+              "bankISPB": "15114366",
+              "number": "305445",
+              "verifyingDigit": "0",
+            },
+          ]
+        }
+        isOpen={false}
+        onChange={[Function]}
+        selectedAccountNumber="12345678"
+        withButton={true}
+      />
+    </AnimatedBottonSheet>
+    <styled.span
+      data-test="withdrawalDetails"
+    />
+    <styled.div>
+      <Card
+        icon="AssetPosition"
+        iconColor={null}
+        loading={true}
+        title="loading"
+        titleColor={null}
+      >
+        <styled.section
+          key="0"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="1"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="2"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="3"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="4"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="5"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="6"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+        <styled.section
+          key="7"
+        >
+          <styled.section
+            className="LcaInformationLine"
+          >
+            <styled.section>
+              <ShimmerLoading
+                darker={false}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+            <styled.section>
+              <ShimmerLoading
+                darker={true}
+                height={16}
+                index={0}
+                inverse={false}
+                width={70}
+              />
+            </styled.section>
+          </styled.section>
+        </styled.section>
+      </Card>
+    </styled.div>
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToPreviousStep"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="finishWithdraw"
+        disabled={true}
+        loading={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section>
+      <styled.span
+        className="RedemptionErrorMessage"
+        key="0"
+      >
+        erro
+      </styled.span>
+      <styled.span
+        className="RedemptionErrorMessage"
+        key="1"
+      >
+        aqui
+      </styled.span>
+    </styled.section>
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

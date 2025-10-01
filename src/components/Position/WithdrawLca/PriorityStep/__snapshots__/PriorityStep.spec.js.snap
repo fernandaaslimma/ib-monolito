@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PriorityStep Should match snapshpt 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.span>
+        <styled.span />
+        <styled.span>
+          Priority by Earlier Maturity Date
+        </styled.span>
+      </styled.span>
+      <Icon
+        color="#3976cf"
+        height="15"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width="15"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        undefined
+        <Styled(styled.span)>
+           undefined30,000.00.
+        </Styled(styled.span)>
+      </styled.span>
+    </styled.div>
+    <Styled(styled.span)>
+      undefined:
+    </Styled(styled.span)>
+    <styled.div>
+      <RadioButton
+        checked={false}
+        dataTest="0_OptionButton"
+        label="undefined 30.700,00"
+        onChange={[Function]}
+      />
+      <RadioButton
+        checked={false}
+        dataTest="1_OptionButton"
+        label="undefined 29.900,00"
+        onChange={[Function]}
+      />
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "m",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "m",
+          }
+        }
+        type="neutral"
+      />
+    </styled.div>
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToFormStep"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueToConfirmationStep"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`PriorityStep Should match snapshpt with loading lca details 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.span>
+        <styled.span />
+        <styled.span>
+          Priority by Earlier Maturity Date
+        </styled.span>
+      </styled.span>
+      <Icon
+        color="#3976cf"
+        height="15"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width="15"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        undefined
+        <Styled(styled.span)>
+           undefined30,000.00.
+        </Styled(styled.span)>
+      </styled.span>
+    </styled.div>
+    <Styled(styled.span)>
+      undefined:
+    </Styled(styled.span)>
+    <styled.div>
+      <RadioButton
+        checked={false}
+        dataTest="0_OptionButton"
+        label="undefined 30.700,00"
+        onChange={[Function]}
+      />
+      <RadioButton
+        checked={false}
+        dataTest="1_OptionButton"
+        label="undefined 29.900,00"
+        onChange={[Function]}
+      />
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "m",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "m",
+          }
+        }
+        type="neutral"
+      />
+    </styled.div>
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToFormStep"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueToConfirmationStep"
+        disabled={false}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`PriorityStep Should match snapshpt with loading priorities 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div
+      onClick={[Function]}
+    >
+      <styled.span>
+        <styled.span />
+        <styled.span>
+          Priority by Earlier Maturity Date
+        </styled.span>
+      </styled.span>
+      <Icon
+        color="#3976cf"
+        height="15"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "s",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width="15"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span>
+        <ShimmerLoading
+          darker={true}
+          height={20}
+          index={0}
+          inverse={false}
+          width={250}
+        />
+        <Styled(styled.span)>
+          <ShimmerLoading
+            darker={true}
+            height={20}
+            index={0}
+            inverse={false}
+            width={30}
+          />
+        </Styled(styled.span)>
+      </styled.span>
+    </styled.div>
+    <Styled(styled.span)>
+      <ShimmerLoading
+        darker={true}
+        height={20}
+        index={0}
+        inverse={false}
+        width={180}
+      />
+    </Styled(styled.span)>
+    <Styled(styled.span)>
+      undefined:
+    </Styled(styled.span)>
+    <styled.div>
+      <ShimmerLoading
+        darker={false}
+        index={0}
+        inverse={false}
+      />
+    </styled.div>
+    <styled.div>
+      <ShimmerLoading
+        darker={false}
+        index={0}
+        inverse={false}
+      />
+    </styled.div>
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToFormStep"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueToConfirmationStep"
+        disabled={false}
+        loading={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

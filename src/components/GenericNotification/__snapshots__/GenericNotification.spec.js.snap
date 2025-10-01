@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Should change isExiting to false 1`] = `
+<ErrorBoundary
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificated={Object {}}
+  notification={
+    Array [
+      Object {
+        "description": "Você tem um consentimento de compartilhamento de dados pendente de aprovação",
+        "displayMethod": "PopUp",
+        "id": "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        "parameters": Array [
+          Object {
+            "type": "buttonLabel",
+            "value": "Seguir para autorização",
+          },
+          Object {
+            "type": "url",
+            "value": "/open-banking/consent?intent_id=urn:bocombbm:bb7b05b5-95ab-4ea7-aaff-52d6c2f549a4",
+          },
+        ],
+        "title": "Open Banking - Consentimento Pendente",
+        "type": "navigateTo",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "undefined",
+        ],
+        Array [
+          "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        ],
+        Array [
+          "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should change isExiting to true 1`] = `
+<ErrorBoundary
+  closeModal={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  notificated={Object {}}
+  notification={
+    Array [
+      Object {
+        "description": "Você tem um consentimento de compartilhamento de dados pendente de aprovação",
+        "displayMethod": "PopUp",
+        "id": "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        "parameters": Array [
+          Object {
+            "type": "buttonLabel",
+            "value": "Seguir para autorização",
+          },
+          Object {
+            "type": "url",
+            "value": "/open-banking/consent?intent_id=urn:bocombbm:bb7b05b5-95ab-4ea7-aaff-52d6c2f549a4",
+          },
+        ],
+        "title": "Open Banking - Consentimento Pendente",
+        "type": "navigateTo",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "undefined",
+        ],
+        Array [
+          "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        ],
+        Array [
+          "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should match snapshot 1`] = `
+<ErrorBoundary
+  closeModal={[MockFunction]}
+  notificated={Object {}}
+  notification={
+    Array [
+      Object {
+        "description": "Você tem um consentimento de compartilhamento de dados pendente de aprovação",
+        "displayMethod": "PopUp",
+        "id": "11043ff8-2530-4e7b-9191-d31d2cbc8370",
+        "parameters": Array [
+          Object {
+            "type": "buttonLabel",
+            "value": "Seguir para autorização",
+          },
+          Object {
+            "type": "url",
+            "value": "/open-banking/consent?intent_id=urn:bocombbm:bb7b05b5-95ab-4ea7-aaff-52d6c2f549a4",
+          },
+        ],
+        "title": "Open Banking - Consentimento Pendente",
+        "type": "navigateTo",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Container />
+</ErrorBoundary>
+`;
+
+exports[`test Should use notification from state 1`] = `
+<ErrorBoundary
+  closeModal={[MockFunction]}
+  notificated={Object {}}
+  notification={Array []}
+  openModal={[Function]}
+  setNotificationStatus={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "undefined",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Container />
+</ErrorBoundary>
+`;

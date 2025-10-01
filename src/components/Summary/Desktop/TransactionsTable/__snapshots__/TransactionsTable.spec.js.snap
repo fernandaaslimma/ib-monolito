@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsTable component should match snapshot 1`] = `
+<div
+  data-test="Latest_Transactions"
+>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "assetName": <span>
+            LCI
+          </span>,
+          "date": <span>
+            06/01/2010
+          </span>,
+          "grossValue": <styled.div
+            red={false}
+          >
+            123,12
+          </styled.div>,
+          "type": <span>
+            Ativo
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "date",
+          "title": undefined,
+        },
+        Object {
+          "field": "assetName",
+          "title": undefined,
+          "width": "25%",
+        },
+        Object {
+          "field": "type",
+          "title": undefined,
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "grossValue",
+          "title": undefined,
+        },
+      ]
+    }
+    render={
+      <styled.div>
+        <Link
+          actionSecondary={false}
+          anchor={true}
+          disabled={false}
+          href={null}
+          isCallToAction={null}
+          loading={false}
+          onClick={null}
+          small={null}
+          target={null}
+          to="/investments/transactions/fixed-income"
+          width={null}
+        />
+      </styled.div>
+    }
+    shimmerLoading={null}
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={true}
+    zebra={true}
+  />
+</div>
+`;

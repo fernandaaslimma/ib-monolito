@@ -1,0 +1,923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationStep should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <InfoCard
+      bigTitleMargin="0 0 0 0"
+      title={
+        Object {
+          "bigTitle": true,
+          "tl": undefined,
+        }
+      }
+    />
+    <styled.div>
+      <styled.section>
+        <Icon
+          color="#0a8765"
+          dataTest="successIcon"
+          height="63.33"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="RoundedCheck"
+          width="63.33"
+        />
+      </styled.section>
+      <styled.span
+        data-test="consentMessageStatus"
+      />
+    </styled.div>
+    <ResumeCard
+      alertMsg={null}
+      cardMessage={null}
+      cardTitle={null}
+      dataTest="NewConsentResumeCard"
+      destiny="mock name"
+      destinyLogoUri={null}
+      destinyName={null}
+      document="12345667859"
+      expiration="2022-06-21T15:11:12.47971Z"
+      name={null}
+      purpose="mock name"
+    />
+    <InfoCard
+      key="0"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": false,
+          "tl": "Contas",
+        }
+      }
+    >
+      <CardWithDetails
+        title="Contas"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              contas e etc
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Contas",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="1"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={true}
+        onClick={[Function]}
+      >
+        <styled.div>
+          <RadioButtonRounded
+            buttonValue="3 origens de dados selecionadas"
+            radioName="periodRadio"
+            style={
+              Object {
+                "background": "none",
+                "border": "2px solid #3976CF",
+              }
+            }
+          />
+        </styled.div>
+        <styled.div>
+          <Icon
+            color="#3976cf"
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height="18"
+            spacing={
+              Object {
+                "bottom": "none",
+                "left": "s",
+                "right": "none",
+                "top": "none",
+              }
+            }
+            type="Arrow"
+            width="18"
+          />
+        </styled.div>
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="1"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="2"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="2"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={false}
+        onClick={[Function]}
+      >
+        <styled.span>
+          Microcrédito produtivo orientado
+        </styled.span>
+        <styled.div />
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "n",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+          type="primary"
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ConfirmationStep should match snapshot with ccancel flow 1`] = `
+<Fragment>
+  <styled.div>
+    <InfoCard
+      bigTitleMargin="0 0 0 0"
+      title={
+        Object {
+          "bigTitle": true,
+          "tl": undefined,
+        }
+      }
+    />
+    <styled.div>
+      <styled.section>
+        <Icon
+          color="#3976cf"
+          dataTest="successIcon"
+          height="63.33"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="RoundedCheck"
+          width="63.33"
+        />
+      </styled.section>
+      <styled.span
+        data-test="consentMessageStatus"
+      />
+      <styled.span />
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+          type="primary"
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ConfirmationStep should match snapshot with loading true 1`] = `
+<Fragment>
+  <styled.div>
+    <InfoCard
+      bigTitleMargin="0 0 0 0"
+      title={
+        Object {
+          "bigTitle": true,
+          "tl": undefined,
+        }
+      }
+    />
+    <styled.div>
+      <styled.section>
+        <Icon
+          color="#0a8765"
+          dataTest="successIcon"
+          height="63.33"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="RoundedCheck"
+          width="63.33"
+        />
+      </styled.section>
+      <styled.span
+        data-test="consentMessageStatus"
+      />
+    </styled.div>
+    <ResumeCard
+      alertMsg={null}
+      cardMessage={null}
+      cardTitle={null}
+      dataTest="NewConsentResumeCard"
+      destiny="mock name"
+      destinyLogoUri={null}
+      destinyName={null}
+      document="12345667859"
+      expiration="2022-06-21T15:11:12.47971Z"
+      name={null}
+      purpose="mock name"
+    />
+    <InfoCard
+      key="0"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": false,
+          "tl": "Contas",
+        }
+      }
+    >
+      <CardWithDetails
+        title="Contas"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              contas e etc
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Contas",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="1"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={true}
+        onClick={[Function]}
+      >
+        <styled.div>
+          <RadioButtonRounded
+            buttonValue="3 origens de dados selecionadas"
+            radioName="periodRadio"
+            style={
+              Object {
+                "background": "none",
+                "border": "2px solid #3976CF",
+              }
+            }
+          />
+        </styled.div>
+        <styled.div>
+          <Icon
+            color="#3976cf"
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height="18"
+            spacing={
+              Object {
+                "bottom": "none",
+                "left": "s",
+                "right": "none",
+                "top": "none",
+              }
+            }
+            type="Arrow"
+            width="18"
+          />
+        </styled.div>
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="1"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="2"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="2"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={false}
+        onClick={[Function]}
+      >
+        <styled.span>
+          Microcrédito produtivo orientado
+        </styled.span>
+        <styled.div />
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados selecionadas pelo requerente
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "n",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+          type="primary"
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ConfirmationStep should match snapshot with user pj 1`] = `
+<Fragment>
+  <styled.div>
+    <InfoCard
+      bigTitleMargin="0 0 0 0"
+      title={
+        Object {
+          "bigTitle": true,
+          "tl": undefined,
+        }
+      }
+    />
+    <styled.div>
+      <styled.section>
+        <Icon
+          color="#0a8765"
+          dataTest="successIcon"
+          height="63.33"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="RoundedCheck"
+          width="63.33"
+        />
+      </styled.section>
+      <styled.span
+        data-test="consentMessageStatus"
+      />
+    </styled.div>
+    <ResumeCard
+      alertMsg={null}
+      cardMessage={null}
+      cardTitle={null}
+      dataTest="NewConsentResumeCard"
+      destiny="mock name"
+      destinyLogoUri={null}
+      destinyName={null}
+      document="12345667859"
+      expiration="2022-06-21T15:11:12.47971Z"
+      name={null}
+      purpose="mock name"
+    />
+    <InfoCard
+      key="0"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": false,
+          "tl": "Contas",
+        }
+      }
+    >
+      <CardWithDetails
+        title="Contas"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              contas e etc
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Contas",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados do consentimento
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="1"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={true}
+        onClick={[Function]}
+      >
+        <styled.span>
+          Microcrédito produtivo orientado
+        </styled.span>
+        <styled.div>
+          <Icon
+            color="#3976cf"
+            cursor={false}
+            fixCrossAxisAlign={null}
+            height="18"
+            spacing={
+              Object {
+                "bottom": "none",
+                "left": "s",
+                "right": "none",
+                "top": "none",
+              }
+            }
+            type="Arrow"
+            width="18"
+          />
+        </styled.div>
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados do consentimento
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="1"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="2"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <InfoCard
+      key="2"
+      title={
+        Object {
+          "sl": undefined,
+          "subTitle": true,
+          "tl": "Operações de Crédito - Financiamentos",
+        }
+      }
+    >
+      <styled.div
+        cursor={false}
+        onClick={[Function]}
+      >
+        <styled.span>
+          Microcrédito produtivo orientado
+        </styled.span>
+        <styled.div />
+      </styled.div>
+      <CardWithDetails
+        title="Financiamentos"
+      >
+        <styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.span>
+              Financiamentos
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </CardWithDetails>
+      <AnimatedBottonSheet
+        head={
+          Object {
+            "close": true,
+            "title": "Operações de Crédito - Financiamentos",
+          }
+        }
+        isOpen={false}
+        onClickInBack={[Function]}
+        velocity={0.3}
+      >
+        <styled.div>
+          <styled.div>
+            Origens de dados do consentimento
+          </styled.div>
+          <styled.div
+            checked={true}
+            key="0"
+          >
+            <styled.div>
+              <styled.span>
+                Microcrédito produtivo orientado
+              </styled.span>
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </AnimatedBottonSheet>
+    </InfoCard>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "n",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="transferBackButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+          type="primary"
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

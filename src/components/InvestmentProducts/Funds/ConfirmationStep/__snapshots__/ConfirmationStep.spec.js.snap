@@ -1,0 +1,583 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationStep component Should Change Value Visibility to false 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.span
+      id="ConfirmationStep"
+    />
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <HideableValue
+          currency="R$"
+          currencyColor="#99B5C6"
+          hide={false}
+          pattern="******"
+          styles="font-size: 0.875rem; color: \\"#2d4758\\"; font-family: Lato Bold; margin-right: 0.75rem"
+          value={20000}
+        />
+        <styled.span
+          onClick={[Function]}
+        >
+          <Icon
+            color="#3976CF"
+            cursorPointer={true}
+            height={20}
+            spacing={
+              Object {
+                "bottom": "none",
+                "left": "none",
+                "right": "none",
+                "top": "none",
+              }
+            }
+            type="HideView"
+            width={20}
+          />
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div
+      key="0"
+    >
+      <styled.div>
+        <styled.div>
+          R$
+        </styled.div>
+        <styled.div />
+      </styled.div>
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+      </styled.h3>
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        20undefined
+      </styled.h3>
+    </styled.div>
+    <styled.div
+      key="3"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3 />
+    </styled.div>
+    <styled.div
+      key="4"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3 />
+    </styled.div>
+    <styled.div
+      key="5"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        06/01/2010
+      </styled.h3>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueInvestButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="alertModal"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span>
+          undefined BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+        </styled.span>
+        <styled.span
+          onClick={[Function]}
+        />
+        <styled.span>
+          Non Compliance Term - Fixed Income
+        </styled.span>
+        <styled.span
+          onClick={[Function]}
+        />
+      </styled.div>
+      <styled.span>
+        <Checkbox
+          checked={false}
+          dataTest="checkboxAcceptAdhesionTermFunds"
+          label={
+            <styled.div>
+              <styled.span>
+                <Styled(styled.span)>
+                  undefined BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO, Non Compliance Term - Fixed Income
+                </Styled(styled.span)>
+              </styled.span>
+            </styled.div>
+          }
+          onChange={[Function]}
+        />
+      </styled.span>
+      <Button
+        dataTest="buttonAcceptAdhesionTermFunds"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    ellipsis={true}
+    head={
+      Object {
+        "title": "BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+    widthTagEllipsis={true}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="hasMovementInProgress"
+        >
+          <Styled(styled.span) />
+        </styled.span>
+        <Styled(styled.div)>
+          <styled.div>
+            <Button
+              dataTest="noButton"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+          <styled.div
+            data-test="BtnWrapper"
+          >
+            <Button
+              dataTest="yesButton"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+            />
+          </styled.div>
+        </Styled(styled.div)>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "icon": "Close",
+        "title": null,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;
+
+exports[`ConfirmationStep component Should Change Value Visibility to true 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.span
+      id="ConfirmationStep"
+    />
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <HideableValue
+          currency="R$"
+          currencyColor="#99B5C6"
+          hide={false}
+          pattern="******"
+          styles="font-size: 0.875rem; color: \\"#2d4758\\"; font-family: Lato Bold; margin-right: 0.75rem"
+          value={20000}
+        />
+        <styled.span
+          onClick={[Function]}
+        >
+          <Icon
+            color="#3976CF"
+            cursorPointer={true}
+            height={20}
+            spacing={
+              Object {
+                "bottom": "none",
+                "left": "none",
+                "right": "none",
+                "top": "none",
+              }
+            }
+            type="HideView"
+            width={20}
+          />
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.div
+      key="0"
+    >
+      <styled.div>
+        <styled.div>
+          R$
+        </styled.div>
+        <styled.div />
+      </styled.div>
+    </styled.div>
+    <styled.div
+      key="1"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+      </styled.h3>
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        20undefined
+      </styled.h3>
+    </styled.div>
+    <styled.div
+      key="3"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3 />
+    </styled.div>
+    <styled.div
+      key="4"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3 />
+    </styled.div>
+    <styled.div
+      key="5"
+    >
+      <styled.div>
+        <styled.h2 />
+      </styled.div>
+      <styled.h3>
+        06/01/2010
+      </styled.h3>
+    </styled.div>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueInvestButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    dataTest="alertModal"
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span>
+          undefined BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO
+        </styled.span>
+        <styled.span
+          onClick={[Function]}
+        />
+        <styled.span>
+          Non Compliance Term - Fixed Income
+        </styled.span>
+        <styled.span
+          onClick={[Function]}
+        />
+      </styled.div>
+      <styled.span>
+        <Checkbox
+          checked={false}
+          dataTest="checkboxAcceptAdhesionTermFunds"
+          label={
+            <styled.div>
+              <styled.span>
+                <Styled(styled.span)>
+                  undefined BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO, Non Compliance Term - Fixed Income
+                </Styled(styled.span)>
+              </styled.span>
+            </styled.div>
+          }
+          onChange={[Function]}
+        />
+      </styled.span>
+      <Button
+        dataTest="buttonAcceptAdhesionTermFunds"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    ellipsis={true}
+    head={
+      Object {
+        "title": "BAHIA AM MARAÚ FEEDER BOCOM BBM FIC MULTIMERCADO",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+    widthTagEllipsis={true}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="hasMovementInProgress"
+        >
+          <Styled(styled.span) />
+        </styled.span>
+        <Styled(styled.div)>
+          <styled.div>
+            <Button
+              dataTest="noButton"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+              type="outline"
+            />
+          </styled.div>
+          <styled.div
+            data-test="BtnWrapper"
+          >
+            <Button
+              dataTest="yesButton"
+              disabled={false}
+              onClick={[Function]}
+              spacing={
+                Object {
+                  "bottom": "xxs",
+                  "left": "xxs",
+                  "right": "xxs",
+                  "top": "xxs",
+                }
+              }
+            />
+          </styled.div>
+        </Styled(styled.div)>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "icon": "Close",
+        "title": null,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</styled.div>
+`;
+
+exports[`ConfirmationStep component Should match snapshot 1`] = `
+<ConfirmationStep
+  currentStep={4}
+  stepBack={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ConfirmationStep component Should match snapshot with screen 3 1`] = `
+<ConfirmationStep
+  currentStep={3}
+  stepBack={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ConfirmationStep component Should render component with one term to approve (adhesion) 1`] = `
+<ConfirmationStep
+  currentStep={4}
+  stepBack={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ConfirmationStep component Should render component with one term to approve (non compliance) 1`] = `
+<ConfirmationStep
+  currentStep={4}
+  stepBack={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;

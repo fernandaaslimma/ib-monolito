@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Resumestep should match snapshot 1`] = `
+<styled.div>
+  <styled.span
+    id="ListStep"
+  />
+  <InfoCard
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  />
+  <InfoCard
+    key="0"
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      onClick={[Function]}
+    >
+      <styled.div>
+        <RadioButtonRounded
+          buttonValue="3 undefined"
+          radioName="periodRadio"
+          style={
+            Object {
+              "background": "none",
+              "border": "2px solid #3976CF",
+            }
+          }
+        />
+      </styled.div>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+        <styled.div
+          checked={true}
+          key="0"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+        <styled.div
+          checked={true}
+          key="1"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+        <styled.div
+          checked={true}
+          key="2"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <styled.div
+      cursor={false}
+      onClick={[Function]}
+    >
+      <styled.span>
+        Microcrédito produtivo orientado
+      </styled.span>
+      <styled.div />
+    </styled.div>
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+        <styled.div
+          checked={true}
+          key="0"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    key="2"
+    title={
+      Object {
+        "sl": null,
+        "subTitle": false,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Resumestep should match snapshot with pending approver pj 1`] = `
+<styled.div>
+  <styled.span
+    id="ListStep"
+  />
+  <InfoCard
+    title={
+      Object {
+        "bigTitle": true,
+        "tl": undefined,
+      }
+    }
+  />
+  <InfoCard
+    key="0"
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <styled.div
+      cursor={true}
+      onClick={[Function]}
+    >
+      <styled.span>
+        Microcrédito produtivo orientado
+      </styled.span>
+      <styled.div>
+        <Icon
+          color="#3976cf"
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height="18"
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "s",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Arrow"
+          width="18"
+        />
+      </styled.div>
+    </styled.div>
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+        <styled.div
+          checked={true}
+          key="0"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+        <styled.div
+          checked={true}
+          key="1"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+        <styled.div
+          checked={true}
+          key="2"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    key="1"
+    title={
+      Object {
+        "sl": undefined,
+        "subTitle": true,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <styled.div
+      cursor={false}
+      onClick={[Function]}
+    >
+      <styled.span>
+        Microcrédito produtivo orientado
+      </styled.span>
+      <styled.div />
+    </styled.div>
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+        <styled.div
+          checked={true}
+          key="0"
+        >
+          <styled.div>
+            <styled.span>
+              Microcrédito produtivo orientado
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <InfoCard
+    key="2"
+    title={
+      Object {
+        "sl": null,
+        "subTitle": false,
+        "tl": "Operações de Crédito - Financiamentos",
+      }
+    }
+  >
+    <CardWithDetails
+      title="Financiamentos"
+    >
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <styled.span>
+            Financiamentos
+          </styled.span>
+        </styled.div>
+      </styled.div>
+    </CardWithDetails>
+    <AnimatedBottonSheet
+      head={
+        Object {
+          "close": true,
+          "title": "Operações de Crédito - Financiamentos",
+        }
+      }
+      isOpen={false}
+      onClickInBack={[Function]}
+      velocity={0.3}
+    >
+      <styled.div>
+        <styled.div />
+      </styled.div>
+    </AnimatedBottonSheet>
+  </InfoCard>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

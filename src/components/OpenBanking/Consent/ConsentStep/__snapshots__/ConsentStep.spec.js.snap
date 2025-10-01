@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsentStep should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: hidden;"
+  >
+    <div>
+      <div
+        class="sc-eilVRo cLscyD"
+        data-test="container"
+      >
+        <div
+          class="sc-bnXvFD ieorAz sc-bdVaJa iHZvIS"
+        >
+          <li
+            class="sc-emmjRN enJdLn"
+          >
+            <ul
+              class="sc-cpmLhU cONRwJ"
+            >
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+            </ul>
+          </li>
+          <li
+            class="sc-emmjRN enJdLn"
+          >
+            <ul
+              class="sc-cpmLhU cONRwJ"
+            >
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+            </ul>
+          </li>
+          <li
+            class="sc-emmjRN enJdLn"
+          >
+            <ul
+              class="sc-cpmLhU cONRwJ"
+            >
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+            </ul>
+          </li>
+          <li
+            class="sc-emmjRN enJdLn"
+          >
+            <ul
+              class="sc-cpmLhU cONRwJ"
+            >
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+              <li
+                class="sc-dymIpo gwDHOD"
+              >
+                <div
+                  class="sc-gFaPwZ cKEWOa"
+                />
+              </li>
+            </ul>
+          </li>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-BngTV iGajUj"
+    >
+      <div
+        class="sc-iomxrj jJQEMO"
+        data-test="ab-openbanking-bottomSheetBack"
+      />
+      <div
+        class="sc-bFADNz hArylP"
+      >
+        <section
+          class="sc-dvCyap kqZFBV"
+        >
+          <h3
+            class="sc-gVLVqr gCUxTC"
+            data-test="ab-openbanking"
+            data-visible="true"
+          />
+        </section>
+        <div
+          class="sc-exkUMo fkqhfm"
+        >
+          <div
+            class="sc-cBdUnI exjjFs"
+          >
+            <div
+              class="sc-jxGEyO kXLfxf"
+            >
+              <div
+                class="sc-gacfCG gBUqpO"
+              >
+                <span
+                  class="sc-cbkKFq jDvfKz"
+                  color="#2D4758"
+                  height="80"
+                  width="80"
+                >
+                  <svg
+                    height="140"
+                    viewBox="0 0 140 140"
+                    width="140"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      fill="currentColor"
+                      fill-rule="nonzero"
+                    >
+                      <g
+                        transform="translate(66.655 42.516)"
+                      >
+                        <path
+                          d="M5.3 28.606a3.812 3.812 0 0 1-3.814-3.814V3.814A3.812 3.812 0 0 1 5.3 0a3.812 3.812 0 0 1 3.814 3.814v20.978A3.812 3.812 0 0 1 5.3 28.606z"
+                        />
+                        <circle
+                          cx="5.302"
+                          cy="41.273"
+                          r="4.495"
+                        />
+                      </g>
+                      <path
+                        d="M72.692 113.078c-25.238 0-45.769-20.53-45.769-45.77 0-25.238 20.53-45.768 45.77-45.768 25.238 0 45.769 20.53 45.769 45.769 0 25.238-20.531 45.77-45.77 45.77zm0-83.91c-21.03 0-38.14 17.111-38.14 38.14 0 21.03 17.11 38.142 38.14 38.142s38.141-17.111 38.141-38.141c0-21.03-17.111-38.141-38.14-38.141z"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <div
+                  class="sc-dEfkYy iDreao"
+                />
+                <div
+                  class="sc-RbTVP fuAzvM"
+                  data-test="consentMessageStatus"
+                />
+                <div
+                  class="sc-RbTVP dwIZJE"
+                >
+                  <div
+                    class="sc-hMrMfs kpxJgB sc-RbTVP dwIZJE"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section
+          class="sc-iFMziU fLYKuG"
+        >
+          <section
+            class="sc-keVrkP gAKzLG"
+          >
+            <div
+              class="sc-cqPOvA gaZsaO"
+            >
+              <div
+                class="sc-htpNat koesdQ"
+                data-test="endConsentFlowOpenBankingButton"
+                spacing="[object Object]"
+              >
+                <span
+                  class="sc-ifAKCX iELkkF"
+                >
+                  Entendi
+                </span>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-eilVRo cLscyD"
+      data-test="container"
+    >
+      <div
+        class="sc-bnXvFD ieorAz sc-bdVaJa iHZvIS"
+      >
+        <li
+          class="sc-emmjRN enJdLn"
+        >
+          <ul
+            class="sc-cpmLhU cONRwJ"
+          >
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+          </ul>
+        </li>
+        <li
+          class="sc-emmjRN enJdLn"
+        >
+          <ul
+            class="sc-cpmLhU cONRwJ"
+          >
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+          </ul>
+        </li>
+        <li
+          class="sc-emmjRN enJdLn"
+        >
+          <ul
+            class="sc-cpmLhU cONRwJ"
+          >
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+          </ul>
+        </li>
+        <li
+          class="sc-emmjRN enJdLn"
+        >
+          <ul
+            class="sc-cpmLhU cONRwJ"
+          >
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+            <li
+              class="sc-dymIpo gwDHOD"
+            >
+              <div
+                class="sc-gFaPwZ cKEWOa"
+              />
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

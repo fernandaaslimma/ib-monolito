@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VirtualKeyboardInput component Should match snapshot 1`] = `
+<input
+  innerRef={[Function]}
+  onBlur={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  readOnly="readonly"
+/>
+`;

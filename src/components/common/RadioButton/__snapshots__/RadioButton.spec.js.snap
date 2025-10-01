@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton component should match snapshot 1`] = `
+<styled.label
+  data-test="5000_RadioButton"
+  htmlFor={5000}
+>
+  <input
+    id={5000}
+    onChange={[Function]}
+    type="radio"
+  />
+  <p>
+    <span
+      key="label 1_0"
+    >
+      label 1
+    </span>
+    <span
+      key="label 2_1"
+    >
+      label 2
+    </span>
+  </p>
+</styled.label>
+`;

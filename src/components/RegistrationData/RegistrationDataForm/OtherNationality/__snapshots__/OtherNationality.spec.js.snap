@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OtherNationality component should display AlertMessage 1`] = `
+<OtherNationality
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Array [
+            Object {
+              "country": "Estados Unidos",
+              "taxIdentificationNumber": "123456",
+            },
+            Object {
+              "country": "Portugal",
+              "taxIdentificationNumber": "45678",
+            },
+            Object {
+              "country": null,
+              "taxIdentificationNumber": null,
+            },
+          ],
+          "taxResidences",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  originalData={
+    Array [
+      Object {
+        "country": "Portugal",
+        "taxIdentificationNumber": "45678",
+      },
+    ]
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`OtherNationality component should match snapshot with model equality 1`] = `
+<OtherNationality
+  onChange={[MockFunction]}
+  originalData={
+    Array [
+      Object {
+        "country": "Estados Unidos",
+        "taxIdentificationNumber": "123456",
+      },
+      Object {
+        "country": "Portugal",
+        "taxIdentificationNumber": "45678",
+      },
+    ]
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`OtherNationality component should match snapshot with props 1`] = `
+<OtherNationality
+  onChange={[MockFunction]}
+  originalData={
+    Array [
+      Object {
+        "country": "Portugal",
+        "taxIdentificationNumber": "45678",
+      },
+    ]
+  }
+  validateSection={[MockFunction]}
+/>
+`;

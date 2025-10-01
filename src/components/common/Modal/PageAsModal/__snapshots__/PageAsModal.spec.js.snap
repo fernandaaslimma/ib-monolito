@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageAsModal component should match snapshot with a closed modal 1`] = `""`;
+
+exports[`PageAsModal component should render modal if there is modalSettings 1`] = `
+<styled.div
+  data-test="PageAsModal"
+/>
+`;

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InvestmentProducts component should match snapshot with loading 1`] = `
+<styled.div>
+  <styled.ul>
+    <ConnectWrapper
+      roles={
+        Array [
+          "GetFixedIncomeProducts",
+        ]
+      }
+    >
+      <styled.li
+        data-test="investmentFixedIncomeButton"
+        onClick={[Function]}
+      >
+        <Icon
+          color="#3976CF"
+          height={24}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="Briefcase"
+          width={24}
+        />
+        <styled.span />
+      </styled.li>
+    </ConnectWrapper>
+    <ConnectWrapper
+      roles={
+        Array [
+          "GetInvestmentFunds",
+        ]
+      }
+    >
+      <styled.li
+        data-test="investmentFundsButton"
+        onClick={[Function]}
+      >
+        <Icon
+          color="#3976CF"
+          height={24}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="ChartArrow"
+          width={24}
+        />
+        <styled.span />
+      </styled.li>
+    </ConnectWrapper>
+  </styled.ul>
+</styled.div>
+`;

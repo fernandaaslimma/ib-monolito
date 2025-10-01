@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeStep should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.h2 />
+      <styled.div>
+        <PersonImage
+          profileImageUrl="mock url"
+        />
+        <styled.span>
+          mock name
+        </styled.span>
+      </styled.div>
+    </styled.div>
+    <ResumeCard
+      alertMsg={null}
+      cardMessage={null}
+      cardTitle={null}
+      creationDate="06/01/2010 - 01:01 AM"
+      dataTest="NewConsentResumeCard"
+      destiny="mock name"
+      destinyLogoUri={null}
+      destinyName={null}
+      document="11021550205"
+      expiration="2022-06-12T20:17:08.756222Z"
+      name={null}
+      purpose={null}
+    />
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="backButton"
+          disabled={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+          type="outline"
+        />
+        <Button
+          dataTest="consentConfirmButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "xxs",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

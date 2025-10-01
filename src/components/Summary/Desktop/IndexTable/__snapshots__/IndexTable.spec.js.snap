@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IndexTable component should match snapshot 1`] = `
+<div
+  data-test="Index_Table"
+>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "index": <span>
+            CDI
+          </span>,
+          "monthAcrrued": <span>
+            0,3
+          </span>,
+          "yearAccrued": <span>
+            12,7
+          </span>,
+        },
+        Object {
+          "index": <span>
+            Dolar
+          </span>,
+          "monthAcrrued": <span>
+            0,7
+          </span>,
+          "yearAccrued": <span>
+            10,7
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "index",
+          "title": undefined,
+        },
+        Object {
+          "align": "right",
+          "field": "monthAcrrued",
+          "percent": true,
+          "title": "jun./2010",
+        },
+        Object {
+          "align": "right",
+          "field": "yearAccrued",
+          "percent": true,
+          "title": "undefined/2010",
+        },
+      ]
+    }
+    render={<styled.div />}
+    shimmerLoading={null}
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={true}
+    zebra={true}
+  />
+</div>
+`;

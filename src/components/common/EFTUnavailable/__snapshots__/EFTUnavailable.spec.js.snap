@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EFTUnavailable component should match snapshot with American language 1`] = `
+<styled.div
+  data-test="eftModalWrapper"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      height="40"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="RedClock"
+      width="40"
+    />
+  </styled.div>
+  <styled.h1>
+    TRANSFER_UNAVAILABLE_TIME_TITLE
+  </styled.h1>
+  <styled.p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "TRANSFER_UNAVAILABLE_TIME_EXPIRATION_1<b style=\\"font-family: Lato Bold\\">10:01 PM AND 01:01 AM.</b>TRANSFER_UNAVAILABLE_TIME_EXPIRATION_2",
+      }
+    }
+  />
+  <Button
+    dataTest="ScheduleSuggestAnotherDate"
+    disabled={false}
+    onClick={[Function]}
+    spacing={
+      Object {
+        "bottom": "xxs",
+        "left": "xxs",
+        "right": "xxs",
+        "top": "xxs",
+      }
+    }
+    type="outline"
+  >
+    SCHEDULE_SUGGEST_ANOTHER_DATE
+  </Button>
+  <Button
+    dataTest="ScheduleSuggest"
+    disabled={false}
+    onClick={[Function]}
+    spacing={
+      Object {
+        "bottom": "xxs",
+        "left": "xxs",
+        "right": "xxs",
+        "top": "xxs",
+      }
+    }
+  >
+    SCHEDULE_SUGGEST_DATE 2010-06-01T01:01:01-03:00
+  </Button>
+</styled.div>
+`;
+
+exports[`EFTUnavailable component should match snapshot with Brazilian language 1`] = `
+<styled.div
+  data-test="eftModalWrapper"
+>
+  <styled.div>
+    <Icon
+      color={null}
+      height="40"
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="RedClock"
+      width="40"
+    />
+  </styled.div>
+  <styled.h1>
+    TRANSFER_UNAVAILABLE_TIME_TITLE
+  </styled.h1>
+  <styled.p
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "TRANSFER_UNAVAILABLE_TIME_EXPIRATION_1<b style=\\"font-family: Lato Bold\\">18h AND 21h.</b>TRANSFER_UNAVAILABLE_TIME_EXPIRATION_2",
+      }
+    }
+  />
+  <Button
+    dataTest="ScheduleSuggestAnotherDate"
+    disabled={false}
+    onClick={[Function]}
+    spacing={
+      Object {
+        "bottom": "xxs",
+        "left": "xxs",
+        "right": "xxs",
+        "top": "xxs",
+      }
+    }
+    type="outline"
+  >
+    SCHEDULE_SUGGEST_ANOTHER_DATE
+  </Button>
+  <Button
+    dataTest="ScheduleSuggest"
+    disabled={false}
+    onClick={[Function]}
+    spacing={
+      Object {
+        "bottom": "xxs",
+        "left": "xxs",
+        "right": "xxs",
+        "top": "xxs",
+      }
+    }
+  >
+    SCHEDULE_SUGGEST_DATE 2010-05-30T21:00:00-03:00
+  </Button>
+</styled.div>
+`;

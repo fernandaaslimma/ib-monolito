@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppAuth component should match snapshot with props 1`] = `
+<styled.div>
+  <styled.div />
+  <styled.p
+    fontSize={18}
+  />
+  <styled.div>
+    <ConnectWrapper>
+      <Button
+        block={true}
+        dataTest="RegiterNowBtn"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "top": "xl",
+          }
+        }
+      />
+    </ConnectWrapper>
+    <ConnectWrapper>
+      <Button
+        dataTest="RegisterLater"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+        type="text"
+      />
+    </ConnectWrapper>
+  </styled.div>
+</styled.div>
+`;

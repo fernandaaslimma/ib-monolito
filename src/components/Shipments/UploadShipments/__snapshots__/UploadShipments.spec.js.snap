@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadShipments Component should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <styled.div>
+      <AlertMessage
+        dataTest="alertMessage"
+        icon="Attention"
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "l",
+          }
+        }
+        type="warning"
+      >
+        <div
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "fontWeight": "bold",
+                "marginRight": 4,
+              }
+            }
+          />
+        </div>
+      </AlertMessage>
+      <UploadFile
+        hideDragAndDrop={true}
+        loading={false}
+        onChange={[Function]}
+        subTitle="undefined<b style=\\"font-family: Lato Bold\\">.rem</b>undefined<b style=\\"font-family: Lato Bold\\">undefined MB.</b>"
+      />
+      <Filters
+        disabled={false}
+        dropdowOptions={
+          Array [
+            Object {
+              "id": "10",
+              "name": "10",
+            },
+            Object {
+              "id": "20",
+              "name": "20",
+            },
+            Object {
+              "id": "30",
+              "name": "30",
+            },
+          ]
+        }
+        filterOperations={[Function]}
+        handleChangePageItems={[Function]}
+        handleClearPageItems={[Function]}
+        onChangeDateRange={[Function]}
+        onClearDateRange={[Function]}
+        pageSize=""
+        range={
+          Object {
+            "from": "",
+            "to": "",
+          }
+        }
+      />
+      <styled.div
+        data-test="pageTitle"
+      >
+        <styled.h1 />
+      </styled.div>
+      <Table>
+        <styled.thead>
+          <styled.tr>
+            <styled.th />
+            <styled.th />
+            <styled.th />
+            <styled.th />
+            <styled.th />
+          </styled.tr>
+        </styled.thead>
+      </Table>
+      <styled.div
+        height="546px"
+        marginTop="8px"
+      >
+        <DefaultContent
+          Icon={[Function]}
+          data-test="emptyShipments"
+          secondaryTexts={
+            Array [
+              undefined,
+            ]
+          }
+        />
+      </styled.div>
+      <styled.div />
+    </styled.div>
+  </styled.div>
+</ErrorBoundary>
+`;

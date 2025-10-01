@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should match snapshot with children 1`] = `
+<Fragment>
+  <styled.section
+    hasChildren={true}
+  >
+    <styled.header>
+      <styled.span>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="Cash"
+          width={null}
+        />
+      </styled.span>
+      <styled.h1
+        data-test="date"
+        titleColor={null}
+      >
+        ok
+      </styled.h1>
+    </styled.header>
+    bla
+  </styled.section>
+</Fragment>
+`;
+
+exports[`Card component should match snapshot with empty content 1`] = `
+<Fragment>
+  <styled.section
+    hasChildren={false}
+  />
+</Fragment>
+`;
+
+exports[`Card component should match snapshot with icon 1`] = `
+<Fragment>
+  <styled.section
+    hasChildren={false}
+  >
+    <styled.header>
+      <styled.span>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="Cash"
+          width={null}
+        />
+      </styled.span>
+    </styled.header>
+  </styled.section>
+</Fragment>
+`;
+
+exports[`Card component should match snapshot with title 1`] = `
+<Fragment>
+  <styled.section
+    hasChildren={false}
+  >
+    <styled.header>
+      <styled.span>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="Cash"
+          width={null}
+        />
+      </styled.span>
+      <styled.h1
+        data-test="date"
+        titleColor={null}
+      >
+        ok
+      </styled.h1>
+    </styled.header>
+  </styled.section>
+</Fragment>
+`;
+
+exports[`Card component should match snapshot with title and icon 1`] = `
+<Fragment>
+  <styled.section
+    hasChildren={false}
+  >
+    <styled.header>
+      <styled.span>
+        <Icon
+          color={null}
+          cursor={false}
+          fixCrossAxisAlign={null}
+          height={null}
+          type="Cash"
+          width={null}
+        />
+      </styled.span>
+      <styled.h1
+        data-test="date"
+        titleColor={null}
+      >
+        ok
+      </styled.h1>
+    </styled.header>
+  </styled.section>
+</Fragment>
+`;

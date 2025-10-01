@@ -1,0 +1,166 @@
+import React from "react";
+import { shallow } from "enzyme";
+import FormStep from "./FormStep";
+import { Button } from "react-bocombbm-components";
+import { ClickableItem } from "../styles";
+import AnimatedBottonSheet from "../../../common/AnimatedBottomSheet";
+import AccountSelector from "../../../common/AccountSelector";
+import { act } from "react-test-renderer";
+
+const thisProps = {
+  currentStep: 3,
+  stepForward: jest.fn(),
+  stepBack: jest.fn()
+};
+
+let context = {
+  changeState: jest.fn(),
+  verifyPendencies: jest.fn(),
+  resetSubscriptionPendencie: jest.fn(),
+  selectAccount: jest.fn(),
+  props: {
+    availableDateRanges: [
+      { maxEndTime: 1610060400000, minStartTime: 1610024400000 }
+    ],
+    getAuthFactors: jest.fn(),
+    authFactors: [
+      {
+        id: "e80857d6-8f81-408d-84b8-90f49b302da7",
+        defaultAuth: true,
+        authUri: "pj_franciscogoncalez@bocombbm.com.br",
+        type: "mail",
+        actions: [],
+        activated: true,
+        plataformIdentifier: null,
+        approved: true,
+        isSelf: true
+      },
+      {
+        id: "8c82c0e1-12c4-4ba2-b9b0-b3c012651234",
+        defaultAuth: false,
+        authUri: "mobile",
+        type: "mobile",
+        actions: ["wiretransfer", "passwordreset", "approvesuitability"],
+        activated: true,
+        plataformIdentifier: null,
+        approved: true,
+        isSelf: false
+      }
+    ],
+    serverTime: 1625220000000
+  },
+  state: {
+    selectedAccount: [
+      {
+        account: 1,
+        accountNumber: "107 2 4-3",
+        blockedBalance: 7,
+        availableBalance: 6,
+        totalBalance: 5,
+        date: "12/12",
+        document: "",
+        name: "",
+        bankISPB: "2312321",
+        verifyingDigit: 3,
+        number: 4,
+        branch: 2,
+        bankCode: 107
+      }
+    ],
+    selectedProduct: {
+      id: 1,
+      issuer: "Banco BOCOM BBM",
+      issuerCnpj: "15.114.366/0002-40",
+      riskProfile: "Conservative",
+      riskProfileLabel: "Conservador",
+      minimumSubscription: 1000,
+      maximumSubscription: 500000,
+      product: "LCA",
+      productLabel: "LCA",
+      yieldLabel: "102% DI",
+      yieldIndex: "DI",
+      yieldPercentual: 102,
+      fixedRate: 0,
+      liquidityDate: "2021-12-20",
+      maturityDate: "2023-12-01",
+      monthsToMaturity: 12,
+      liquidityLabel: "Diária após 90 dias",
+      incomeTaxLabel: "Isento de IR",
+      monthsToMaturityLabel: "3 meses"
+    },
+    typeOfFundPendencie: "",
+    route: "",
+    isBottomSheetUpdate: false
+  },
+  colors: {
+    moderado: "#E3F1D4",
+    adressivo: "#E2DCF5",
+    conservador: "#DAE6F2"
+  }
+};
+
+describe("ListStep component", () => {
+  let useEffect;
+  const mockUseEffect = () => {
+    useEffect.mockImplementation(f => f());
+  };
+  beforeEach(() => {
+    React.useContext = jest.fn(() => context);
+    useEffect = jest.spyOn(React, "useEffect");
+    mockUseEffect();
+  });
+  it("Should match snapshpt", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    expect(component).toMatchSnapshot();
+  });
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    component
+      .find(ClickableItem)
+      .at(0)
+      .simulate("click");
+  });
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    component
+      .find(ClickableItem)
+      .at(1)
+      .simulate("click");
+  });
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    component
+      .find(Button)
+      .at(0)
+      .simulate("click");
+    expect(thisProps.stepBack).toHaveBeenCalled();
+  });
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    component
+      .find(Button)
+      .at(1)
+      .simulate("click");
+    expect(thisProps.stepForward).toHaveBeenCalled();
+  });
+
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    act(() => {
+      component
+        .find(AnimatedBottonSheet)
+        .at(0)
+        .prop("onClickInBack")();
+    });
+    expect(component).toMatchSnapshot();
+  });
+
+  it("Should trigger Button and return null", () => {
+    const component = shallow(<FormStep {...thisProps} />);
+    component
+      .find(AccountSelector)
+      .at(0)
+      .prop("onChange")({ target: 1000 });
+    expect(context.selectAccount).toHaveBeenCalledWith({ target: 1000 });
+  });
+});

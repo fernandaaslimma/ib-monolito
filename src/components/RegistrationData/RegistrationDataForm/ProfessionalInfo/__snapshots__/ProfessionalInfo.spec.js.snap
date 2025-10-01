@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity Private Sector Employee Activity From Home call onChange by Dropdown event 1`] = `
+<ProfessionalInfo
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "activity": "retired",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "retired",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "privateSectorEmployee",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "owner",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "developer",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "selfEmployed",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "others",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "professional",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "others",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Activity Private Sector Employee Validation tests should validate section when toggle section container show/hide 1`] = `
+<ProfessionalInfo
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "activity": "retired",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "retired",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "privateSectorEmployee",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Banco BOCOM BBM",
+            },
+            "occupation": "privateSectorEmployee",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "owner",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "developer",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "selfEmployed",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "others",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "professional",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+        Array [
+          Object {
+            "activity": "others",
+            "admissionDate": "",
+            "company": Object {
+              "cnpj": "",
+              "name": "",
+            },
+            "occupation": "",
+            "otherActivitySpecified": "developer",
+          },
+          "professionalInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  validateSection={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "activity": "",
+            "admissionDate": "2015-07-19",
+            "company": Object {
+              "cnpj": "15114366000169",
+              "name": "Receita Federal",
+            },
+            "occupation": "developer",
+            "otherActivitySpecified": "",
+          },
+          "professionalInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`ProfessionalInfo should match snapshot with props 1`] = `
+<ProfessionalInfo
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;

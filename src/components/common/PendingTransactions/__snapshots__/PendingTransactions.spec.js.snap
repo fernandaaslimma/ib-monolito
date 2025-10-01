@@ -1,0 +1,681 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pending transactions  should match snapshot desktop 1`] = `
+<Fragment>
+  <styled.div
+    data-test="movementsInProgress"
+    mode="desktop"
+    onClick={[Function]}
+  >
+    <Icon
+      color="#3976cf"
+      height={20}
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="ClockFilled"
+      width={20}
+    />
+    <styled.div
+      data-test="countMovementsInProgress"
+      mode="desktop"
+    >
+      6 undefined
+    </styled.div>
+    <styled.div
+      angle={270}
+    >
+      <Icon
+        color="#3976cf"
+        height={20}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width={20}
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+     
+    <styled.div>
+      <styled.ul
+        data-test="listFunds"
+      >
+        <styled.div
+          data-test="card_0"
+          key="0"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2692"
+                >
+                  R$ 20.000,00
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2692"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+          <styled.li
+            data-test="fund_1"
+            key="1"
+          >
+            <styled.div
+              data-test="nameFund_1"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2693"
+                >
+                  R$ 20.000,01
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2693"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+          <styled.li
+            data-test="fund_2"
+            key="2"
+          >
+            <styled.div
+              data-test="nameFund_2"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2694"
+                >
+                  R$ 20.000,02
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2694"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_1"
+          key="1"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_124"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_124"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_2"
+          key="2"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_123"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_123"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_3"
+          key="3"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_125"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_125"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+      </styled.ul>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Pending transactions  should match snapshot mobile 1`] = `
+<Fragment>
+  <styled.div
+    data-test="movementsInProgress"
+    onClick={[Function]}
+  >
+    <Icon
+      color="#3976cf"
+      height={20}
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "none",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="ClockFilled"
+      width={20}
+    />
+    <styled.div
+      data-test="countMovementsInProgress"
+    >
+      6 undefined
+    </styled.div>
+    <styled.div
+      angle={270}
+    >
+      <Icon
+        color="#3976cf"
+        height={20}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="Arrow"
+        width={20}
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    fullHeight={true}
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.2}
+  >
+     
+    <styled.div>
+      <styled.ul
+        data-test="listFunds"
+      >
+        <styled.div
+          data-test="card_0"
+          key="0"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2694"
+                >
+                  R$ 20.000,02
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2694"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+          <styled.li
+            data-test="fund_1"
+            key="1"
+          >
+            <styled.div
+              data-test="nameFund_1"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2693"
+                >
+                  R$ 20.000,01
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2693"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+          <styled.li
+            data-test="fund_2"
+            key="2"
+          >
+            <styled.div
+              data-test="nameFund_2"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Renda Fixa
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BAHIA AM FI RENDA FIXA REFERENCIADO DI
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_2692"
+                >
+                  R$ 20.000,00
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_2692"
+                >
+                  Aplicação
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_1"
+          key="1"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_124"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_124"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_2"
+          key="2"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_123"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_123"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+        <styled.div
+          data-test="card_3"
+          key="3"
+        >
+          <styled.p
+            data-test="dateMovements"
+          />
+          <styled.li
+            data-test="fund_0"
+            key="0"
+          >
+            <styled.div
+              data-test="nameFund_0"
+            >
+              <styled.span>
+                <styled.div>
+                  <styled.p>
+                    Multimercado
+                  </styled.p>
+                </styled.div>
+                <styled.span
+                  fundName={true}
+                >
+                  BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO
+                </styled.span>
+              </styled.span>
+            </styled.div>
+            <br />
+            <styled.div>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityInitial_125"
+                >
+                  R$ 123.456,99
+                </styled.span>
+              </styled.span>
+              <styled.span>
+                <styled.span />
+                <styled.span
+                  data-test="rentabilityRedemption_125"
+                >
+                  subscription
+                </styled.span>
+              </styled.span>
+            </styled.div>
+          </styled.li>
+        </styled.div>
+      </styled.ul>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

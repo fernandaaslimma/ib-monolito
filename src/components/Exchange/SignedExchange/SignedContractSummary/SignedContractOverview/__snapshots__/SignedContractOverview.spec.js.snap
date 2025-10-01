@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignedContractOverview component should match snapshot with default props 1`] = `
+<IndividualContracts
+  contract={
+    Object {
+      "contract": Object {
+        "contractId": "21332112XX",
+        "foreignAmount": 3212312,
+        "foreignCurrency": "USD",
+        "localAmount": 32132232,
+        "localCurrency": "BRL",
+        "rate": 2.333,
+        "tradeDate": "20/12/2017",
+        "type": "buy",
+      },
+    }
+  }
+  formatted={
+    Object {
+      "formattedExchangeRate": "NaN",
+      "formattedForeignCurrency": "NaN",
+      "formattedLocalCurrency": "NaN",
+      "parsedSettlementDate": "",
+    }
+  }
+/>
+`;
+
+exports[`SignedContractOverview component should match snapshot with fxNature and signature props 1`] = `
+<IndividualContracts
+  contract={
+    Object {
+      "contract": Object {
+        "contractId": "21332112XX",
+        "foreignAmount": 3212312,
+        "foreignCurrency": "USD",
+        "fxNature": "nature",
+        "localAmount": 32132232,
+        "localCurrency": "BRL",
+        "rate": 2.333,
+        "signatures": Array [
+          Object {
+            "date": "10/10/2010",
+            "name": "Name",
+          },
+        ],
+        "tradeDate": "20/12/2017",
+        "type": "buy",
+      },
+    }
+  }
+  formatted={
+    Object {
+      "formattedExchangeRate": "NaN",
+      "formattedForeignCurrency": "NaN",
+      "formattedLocalCurrency": "NaN",
+      "parsedSettlementDate": "",
+    }
+  }
+/>
+`;
+
+exports[`renderDownloadContract should match snapshot with isCorporation false 1`] = `
+<div
+  className="sc-kgoBCf dIYMrq"
+  id="SignedContractOverviewDownloadLink"
+>
+  <a
+    data-test="SignedContractOverview_Download"
+    href="javascript:void(0)"
+    onClick={[MockFunction]}
+  >
+    <styled.div>
+      <Icon
+        color="#ffffff"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height="20"
+        type="Download"
+        width="22"
+      />
+    </styled.div>
+  </a>
+</div>
+`;
+
+exports[`renderDownloadContract should match snapshot with isCorporation true 1`] = `
+<div
+  className="sc-kgoBCf lkcEjf"
+  id="SignedContractOverviewDownloadLink"
+>
+  <a
+    data-test="SignedContractOverview_Download"
+    href="javascript:void(0)"
+    onClick={[MockFunction]}
+  >
+    <styled.div>
+      <Icon
+        color="#ffffff"
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height="20"
+        type="Download"
+        width="22"
+      />
+    </styled.div>
+  </a>
+</div>
+`;

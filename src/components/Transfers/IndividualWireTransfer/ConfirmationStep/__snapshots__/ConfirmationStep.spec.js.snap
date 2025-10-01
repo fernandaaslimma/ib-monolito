@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationStep component Should match snapshot without info 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.span
+      id="ConfirmationStep"
+    />
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <HideableValue
+          currency="R$"
+          currencyColor="#99B5C6"
+          hide={false}
+          pattern="******"
+          styles="font-size: 0.875rem; color: \\"#2d4758\\"; font-family: Lato Bold; margin-right: 0.75rem"
+          value={1000}
+        />
+        <Icon
+          color="#3976CF"
+          cursorPointer={true}
+          height={20}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="HideView"
+          width={20}
+        />
+      </styled.div>
+    </styled.div>
+    <styled.p />
+    <styled.span>
+      R$
+    </styled.span>
+    <styled.span
+      highlighted={true}
+    />
+    <TransferDetails
+      dataTest="ConfirmationStepTransferFrom"
+      list={
+        Array [
+          undefined,
+        ]
+      }
+      spaced={true}
+    />
+    <TransferDetails
+      dataTest="ConfirmationStepTransferTo"
+      list={Array []}
+      spaced={true}
+    />
+    <TransferDetails
+      dataTest="ConfirmationStepTransferDate"
+      list={
+        Array [
+          "Invalid date",
+        ]
+      }
+      spaced={true}
+    />
+    <Scheduler
+      hideSelection={true}
+    />
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[MockFunction]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+    <styled.div>
+      <Button
+        dataTest="transferConfirmButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`ConfirmationStep component Should match snapshpt 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.span
+      id="ConfirmationStep"
+    />
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <HideableValue
+          currency="R$"
+          currencyColor="#99B5C6"
+          hide={false}
+          pattern="******"
+          styles="font-size: 0.875rem; color: \\"#2d4758\\"; font-family: Lato Bold; margin-right: 0.75rem"
+          value={1000}
+        />
+        <Icon
+          color="#3976CF"
+          cursorPointer={true}
+          height={20}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "none",
+              "left": "none",
+              "right": "none",
+              "top": "none",
+            }
+          }
+          type="HideView"
+          width={20}
+        />
+      </styled.div>
+    </styled.div>
+    <styled.p />
+    <styled.span>
+      R$
+    </styled.span>
+    <styled.span
+      highlighted={true}
+    >
+      5000,00
+    </styled.span>
+    <TransferDetails
+      dataTest="ConfirmationStepTransferFrom"
+      list={
+        Array [
+          undefined,
+        ]
+      }
+      spaced={true}
+    />
+    <TransferDetails
+      dataTest="ConfirmationStepTransferTo"
+      list={
+        Array [
+          undefined,
+          undefined,
+          "bla",
+          "undefined 001",
+          "undefined 1111-0",
+        ]
+      }
+      spaced={true}
+    />
+    <TransferDetails
+      dataTest="ConfirmationStepTransferDate"
+      list={
+        Array [
+          "Invalid date",
+        ]
+      }
+      spaced={true}
+    />
+    <Scheduler
+      hideSelection={true}
+    />
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="transferBackButton"
+        disabled={false}
+        onClick={[MockFunction]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+    </styled.div>
+    <styled.div>
+      <Button
+        dataTest="transferConfirmButton"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

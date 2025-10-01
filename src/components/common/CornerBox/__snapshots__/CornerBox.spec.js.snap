@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QrCode component should match snapshot with props 1`] = `
+<Fragment>
+  <styled.div
+    cornerColor="black"
+    cornerOpacity={1}
+    cornerSize={5}
+    cornerThickness={2}
+    height={50}
+    width={50}
+  >
+    <styled.div
+      cornerColor="black"
+      cornerOpacity={1}
+      cornerSize={5}
+      cornerThickness={2}
+    />
+  </styled.div>
+</Fragment>
+`;

@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`(Component) DragAndDropFileInput Should add a file without size limitation 1`] = `
+<div
+  className="sc-fjmCvl iLSFRO"
+  data-test="DragAndDropFileInput"
+  spacing={
+    Object {
+      "bottom": "xxs",
+      "left": "xxs",
+      "right": "xxs",
+      "top": "xxs",
+    }
+  }
+>
+  <h2
+    className="sc-gPWkxV hvyyLJ"
+  />
+  <p
+    className="sc-jVODtj eAdlXC"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+  <div
+    className="dropzone sc-TFwJa eEqEiV"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <input
+      accept=""
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="sc-bHwgHz iRUvSX"
+    >
+      <p
+        className="sc-dTdPqK ljbExZ"
+      >
+        Arraste e solte documentos aqui ou
+            
+            
+      </p>
+      <div
+        className="sc-krDsej huoPVU"
+      >
+        <button
+          className="sc-bdVaJa bohzyI"
+          data-test="ButtonSearchFile"
+          disabled={false}
+          height="48"
+          onClick={[Function]}
+          type="button"
+          width="173"
+        >
+          <div
+            className="sc-bwzfXH krccds"
+          >
+            <div
+              className="sc-htpNat gQDgGv"
+            >
+              Busque um Arquivo
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <ul
+    className="sc-itybZL hvvbBM"
+  />
+  <ul
+    className="sc-itybZL dWtkhm"
+  />
+</div>
+`;
+
+exports[`(Component) DragAndDropFileInput Should test add file button 1`] = `
+<div
+  className="sc-fjmCvl iLSFRO"
+  data-test="DragAndDropFileInput"
+  spacing={
+    Object {
+      "bottom": "xxs",
+      "left": "xxs",
+      "right": "xxs",
+      "top": "xxs",
+    }
+  }
+>
+  <h2
+    className="sc-gPWkxV hvyyLJ"
+  />
+  <p
+    className="sc-jVODtj eAdlXC"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+  <div
+    className="dropzone sc-TFwJa eEqEiV"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <input
+      accept=""
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="sc-bHwgHz iRUvSX"
+    >
+      <p
+        className="sc-dTdPqK ljbExZ"
+      >
+        Arraste e solte documentos aqui ou
+            
+            
+      </p>
+      <div
+        className="sc-krDsej huoPVU"
+      >
+        <button
+          className="sc-bdVaJa bohzyI"
+          data-test="ButtonSearchFile"
+          disabled={false}
+          height="48"
+          onClick={[Function]}
+          type="button"
+          width="173"
+        >
+          <div
+            className="sc-bwzfXH krccds"
+          >
+            <div
+              className="sc-htpNat gQDgGv"
+            >
+              Busque um Arquivo
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <ul
+    className="sc-itybZL hvvbBM"
+  />
+  <ul
+    className="sc-itybZL dWtkhm"
+  />
+</div>
+`;
+
+exports[`(Component) DragAndDropFileInput Should test click button 1`] = `
+<div
+  className="sc-fjmCvl iLSFRO"
+  data-test="DragAndDropFileInput"
+  spacing={
+    Object {
+      "bottom": "xxs",
+      "left": "xxs",
+      "right": "xxs",
+      "top": "xxs",
+    }
+  }
+>
+  <h2
+    className="sc-gPWkxV hvyyLJ"
+  />
+  <p
+    className="sc-jVODtj eAdlXC"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+  <div
+    className="dropzone sc-TFwJa eEqEiV"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <input
+      accept=""
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="sc-bHwgHz iRUvSX"
+    >
+      <p
+        className="sc-dTdPqK ljbExZ"
+      >
+        Arraste e solte documentos aqui ou
+            
+            
+      </p>
+      <div
+        className="sc-krDsej huoPVU"
+      >
+        <button
+          className="sc-bdVaJa bohzyI"
+          data-test="ButtonSearchFile"
+          disabled={false}
+          height="48"
+          onClick={[Function]}
+          type="button"
+          width="173"
+        >
+          <div
+            className="sc-bwzfXH krccds"
+          >
+            <div
+              className="sc-htpNat gQDgGv"
+            >
+              Busque um Arquivo
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <ul
+    className="sc-itybZL hvvbBM"
+  />
+  <ul
+    className="sc-itybZL dWtkhm"
+  />
+</div>
+`;
+
+exports[`(Component) DragAndDropFileInput should match snapshot 1`] = `
+<div
+  className="sc-fjmCvl iLSFRO"
+  data-test="DragAndDropFileInput"
+  spacing={
+    Object {
+      "bottom": "xxs",
+      "left": "xxs",
+      "right": "xxs",
+      "top": "xxs",
+    }
+  }
+>
+  <h2
+    className="sc-gPWkxV hvyyLJ"
+  />
+  <p
+    className="sc-jVODtj eAdlXC"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": undefined,
+      }
+    }
+  />
+  <div
+    className="dropzone sc-TFwJa eEqEiV"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragEnter={[Function]}
+    onDragLeave={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <input
+      accept=""
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      tabIndex={-1}
+      type="file"
+    />
+    <div
+      className="sc-bHwgHz iRUvSX"
+    >
+      <p
+        className="sc-dTdPqK ljbExZ"
+      >
+        Arraste e solte documentos aqui ou
+            
+            
+      </p>
+      <div
+        className="sc-krDsej huoPVU"
+      >
+        <button
+          className="sc-bdVaJa bohzyI"
+          data-test="ButtonSearchFile"
+          disabled={false}
+          height="48"
+          onClick={[Function]}
+          type="button"
+          width="173"
+        >
+          <div
+            className="sc-bwzfXH krccds"
+          >
+            <div
+              className="sc-htpNat gQDgGv"
+            >
+              Busque um Arquivo
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <ul
+    className="sc-itybZL hvvbBM"
+  />
+  <ul
+    className="sc-itybZL dWtkhm"
+  />
+</div>
+`;

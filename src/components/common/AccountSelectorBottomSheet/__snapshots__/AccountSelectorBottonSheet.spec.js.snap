@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Animated Botton Sheet should match snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    undefined 9584001
+    <Icon
+      color="#3976cf"
+      data-test="selectAccountMenu"
+      height="20"
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "none",
+          "left": "s",
+          "right": "none",
+          "top": "none",
+        }
+      }
+      type="Arrow"
+      width="20"
+    />
+  </styled.div>
+  <styled.div>
+    <styled.div
+      data-test="accountBalance"
+    >
+      R$
+       
+      100.000.000,00
+    </styled.div>
+    <styled.div>
+      <Icon
+        color="#3976cf"
+        cursorPointer={true}
+        height="26"
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "none",
+            "left": "none",
+            "right": "none",
+            "top": "none",
+          }
+        }
+        type="HideView"
+        width="26"
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <Radio
+        checked={false}
+        dataTest="RadioInput"
+        dataTestLabel="Account_0"
+        disabled={false}
+        label={
+          <styled.p>
+            9720001
+          </styled.p>
+        }
+        name="number"
+        onChange={[Function]}
+        subLabel="undefined: R$ 100.000.000,00"
+        value="9720001"
+      />
+      <styled.span>
+        <styled.span />
+      </styled.span>
+      <Radio
+        checked={true}
+        dataTest="RadioInput"
+        dataTestLabel="Account_1"
+        disabled={false}
+        label={
+          <styled.p>
+            9584001
+          </styled.p>
+        }
+        name="number"
+        onChange={[Function]}
+        subLabel="undefined: R$ 100.000.000,00"
+        value="9584001"
+      />
+      <styled.span />
+    </styled.div>
+    <Button
+      dataTest="SaveAccountButton"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "l",
+          "left": "s",
+          "right": "s",
+          "top": "xs",
+        }
+      }
+      type="primary"
+    />
+  </AnimatedBottonSheet>
+</styled.div>
+`;

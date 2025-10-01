@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameItem component one recipient should match snapshot with status completed 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <GetUserSigned
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Completed",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component one recipient should match snapshot with status pending 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <SetListNameGroups
+    group={
+      Object {
+        "id": "id",
+        "name": "name",
+        "recipients": Array [
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+        ],
+        "signOrder": 1,
+        "status": "Pending",
+      }
+    }
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component one recipient should match snapshot with status signed 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <GetUserSigned
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Signed",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component three recipients should match snapshot with status completed 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <GetUserSigned
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Completed",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name2",
+          "status": "Pending",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name3",
+          "status": "Pending",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component three recipients should match snapshot with status pending 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <SetListNameGroups
+    group={
+      Object {
+        "id": "id",
+        "name": "name",
+        "recipients": Array [
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+        ],
+        "signOrder": 1,
+        "status": "Pending",
+      }
+    }
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component two recipients should match snapshot with status completed 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <GetUserSigned
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Completed",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`NameItem component two recipients should match snapshot with status pending 1`] = `
+<styled.div
+  isEmpty={true}
+>
+  <SetListNameGroups
+    group={
+      Object {
+        "id": "id",
+        "name": "name",
+        "recipients": Array [
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+          Object {
+            "email": "email",
+            "embedded": false,
+            "name": "name",
+            "status": "Pending",
+            "type": "type",
+          },
+        ],
+        "signOrder": 1,
+        "status": "Pending",
+      }
+    }
+    recipients={
+      Array [
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+        Object {
+          "email": "email",
+          "embedded": false,
+          "name": "name",
+          "status": "Pending",
+          "type": "type",
+        },
+      ]
+    }
+  />
+</styled.div>
+`;

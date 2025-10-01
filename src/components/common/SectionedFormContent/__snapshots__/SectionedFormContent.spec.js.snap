@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionedFormContent component should call match snapshot 1`] = `
+<styled.div>
+  <styled.div
+    data-test="SectionedFormContent"
+    isShown={false}
+    onClick={[Function]}
+    valid={true}
+  >
+    <styled.div>
+      mock
+    </styled.div>
+    <Styled(Icon)
+      height="14"
+      type="Arrow"
+      width="14"
+    />
+  </styled.div>
+  <styled.div
+    heightToCalc={0}
+    isShown={false}
+  >
+    <div />
+  </styled.div>
+</styled.div>
+`;

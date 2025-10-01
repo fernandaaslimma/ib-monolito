@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<styled.div>
+  <Container>
+    <CustomTable
+      data={
+        Array [
+          Object {
+            "date": <span>
+              06/01/2010
+            </span>,
+            "grossBalance": <span>
+              123,00
+            </span>,
+            "grossResultBalance": <span>
+              123,00
+            </span>,
+            "incomeTaxBalance": <span>
+              1,00
+            </span>,
+            "investmentDate": <span>
+              06/01/2010
+            </span>,
+            "iofBalance": <span>
+              0,00
+            </span>,
+            "name": <span>
+              name
+            </span>,
+            "netBalance": <span>
+              NaN
+            </span>,
+            "quantity": <span>
+              ---
+            </span>,
+          },
+        ]
+      }
+      headers={
+        Array [
+          Object {
+            "field": "name",
+            "title": undefined,
+            "width": "20%",
+          },
+          Object {
+            "align": "right",
+            "field": "investmentDate",
+            "title": undefined,
+            "widht": "12%",
+          },
+          Object {
+            "align": "right",
+            "field": "date",
+            "title": undefined,
+            "widht": "7%",
+          },
+          Object {
+            "align": "right",
+            "field": "quantity",
+            "title": undefined,
+            "width": "10%",
+          },
+          Object {
+            "align": "right",
+            "currency": true,
+            "field": "grossBalance",
+            "title": undefined,
+            "total": true,
+            "widht": "12%",
+          },
+          Object {
+            "align": "right",
+            "currency": true,
+            "field": "netBalance",
+            "title": undefined,
+            "total": true,
+            "widht": "12%",
+          },
+          Object {
+            "align": "right",
+            "currency": true,
+            "field": "incomeTaxBalance",
+            "title": undefined,
+            "total": true,
+          },
+          Object {
+            "align": "right",
+            "currency": true,
+            "field": "iofBalance",
+            "title": undefined,
+            "width": "5%",
+          },
+          Object {
+            "align": "right",
+            "currency": true,
+            "field": "grossResultBalance",
+            "title": undefined,
+            "total": true,
+            "width": "14%",
+          },
+        ]
+      }
+      render={null}
+      shimmerLoading={
+        Object {
+          "loading": false,
+          "rows": 10,
+        }
+      }
+      style={null}
+      title=""
+      total={
+        Array [
+          Object {
+            "assetType": "Funds",
+            "assetTypeLabel": "Funds",
+            "date": "2018-05-04",
+            "grossBalance": 2135703.08,
+            "grossResultBalance": 457501.11,
+            "incomeTaxBalance": 32033.33,
+            "iofBalance": 0,
+            "netBalance": 2103669.75,
+            "portfolioShare": 66.52,
+          },
+        ]
+      }
+      totalPosition="up"
+      withBackground={false}
+      zebra={false}
+    />
+    <LinkCard
+      dataTest="LinkToSimplified"
+      fontSize={14}
+      iconType="FiLoader"
+      noSpan={true}
+      to="/investments/positions/funds"
+      withUnderline={true}
+    />
+  </Container>
+</styled.div>
+`;

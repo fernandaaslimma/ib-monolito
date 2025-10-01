@@ -1,0 +1,62 @@
+{
+	"Attributes": {
+		"DestinationAccount": {
+			"Bank": {
+				"Id": "1",
+				"Name": "Nubank"
+			},
+			"Branch": "854602",
+			"Account": "708753-07",
+			"TaxId": "123.456.789-01"
+		},
+		"ContractId": "contractId",
+		"Type": "Buy",
+		"TradeDate": "2018-04-18T12:18:44.3628354-03:00",
+		"LocalSettleDate": "2018-04-18T12:18:44.3644377-03:00",
+		"ForeignSettleDate": "2018-04-18T10:18:44.3645054-03:00",
+		"Event": "new",
+		"LocalCurrency": "BRL",
+		"ForeignCurrency": "THB",
+		"Rate": 30.227,
+		"TotalEffectiveRate": 30.227,
+		"LocalAmount": 58215808.24,
+		"ForeignAmount": 1759689235.67048,
+		"FxNature": "7343-435959",
+		"RelationShipType": "25"
+	},
+	"Type": "FX",
+	"DocumentBase64": "base64",
+	"Recipients": [{
+		"Type": "Group",
+		"Name": "name",
+		"SignOrder": 1
+	}, {
+		"Type": "Group",
+		"Name": "name",
+		"SignOrder": 1
+	}],
+	"Groups": [{
+		"Code": "code",
+		"Members": [{
+			"Type": "Individual",
+			"Name": "Usuário PJ4",
+			"Email": "pj4@bocombbm.com.br",
+			"Tenant": "hdfhh-d156h4d-sdh15dh-d51hd"
+		},{
+			"Type": "Individual",
+			"Name": "Usuário PJ5",
+			"Email": "pj5@bocombbm.com.br",
+			"Tenant": "hdfhh-d156h4d-sdh15dh-d51hd"
+		}]
+	}, {
+		"Code": "code",
+		"Members": [{
+			"Type": "Individual",
+			"Name": "Usuário PJ6",
+			"Email": "pj6@bocombbm.com.br",
+			"Tenant": "hdfhh-d156h4d-sdh15dh-d51hd"
+		}]
+  }],
+  "portfolio": "portfolio",
+  "tenant": "tenant"
+}

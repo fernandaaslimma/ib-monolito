@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Exchange component should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Container
+      data-test="ContractsList"
+    />
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`Exchange component should render contract list if contracts Object is fullfiled 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Container
+      data-test="ContractsList"
+    >
+      <ConnectWrapper
+        contractId="otherthing"
+        key="hash"
+        loading={true}
+      />
+    </Container>
+  </styled.div>
+</ErrorBoundary>
+`;

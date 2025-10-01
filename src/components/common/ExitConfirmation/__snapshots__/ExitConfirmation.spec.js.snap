@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExitConfirmation component test  component should render correctly with props 1`] = `
+<div
+  className="sc-cbkKFq nTapy"
+>
+  <h1
+    className="sc-krvtoX gNhJiv"
+  >
+    titulo teste
+  </h1>
+  <div
+    className="sc-fYiAbW eUXcgR"
+  >
+    mensagem de exemplo
+  </div>
+  <div
+    className="sc-fOKMvo ccgYlz"
+  >
+    <div
+      className="sc-htpNat ePRLKJ"
+      data-test="exit-confirmation-cancel"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="outline"
+    />
+    <div
+      className="sc-htpNat dRwaKl"
+      data-test="exit-confirmation-exit"
+      disabled={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "xxs",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "xxs",
+        }
+      }
+      type="negative"
+    />
+  </div>
+</div>
+`;

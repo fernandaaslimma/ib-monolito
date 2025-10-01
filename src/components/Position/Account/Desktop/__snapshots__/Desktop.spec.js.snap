@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Desktop component should call default icon component 1`] = `
+<styled.span
+  color="#374654"
+  cursorPointer={0}
+  fixCrossAxisAlign={null}
+  height={null}
+  width={null}
+>
+  <EmptyWallet />
+</styled.span>
+`;
+
+exports[`Desktop component should match snapshot 1`] = `
+<styled.div
+  data-test="Position_Accounts"
+>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "accountNumber": <div>
+            123 123-1
+          </div>,
+          "availableBalance": <div>
+            123.123,00
+          </div>,
+          "blockedBalance": <div>
+            123.123,00
+          </div>,
+          "date": <div>
+            01/06/2010
+          </div>,
+          "totalBalance": <div>
+            123.123,00
+          </div>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "accountNumber",
+          "title": "ACCOUNT_NUMBER",
+          "width": "25%",
+        },
+        Object {
+          "field": "date",
+          "title": "REFERENCE_DATE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "availableBalance",
+          "title": "AVAILABLE_BALANCE",
+          "width": "12%",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "blockedBalance",
+          "title": "BLOCKED_BALANCE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "totalBalance",
+          "title": "TOTAL_BALANCE",
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "7%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={
+      Object {
+        "loading": undefined,
+        "rows": 10,
+      }
+    }
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={false}
+    zebra={false}
+  />
+</styled.div>
+`;
+
+exports[`Desktop component should match snapshot with loading 1`] = `
+<styled.div
+  data-test="Position_Accounts"
+>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "accountNumber": <div>
+            123 123-1
+          </div>,
+          "availableBalance": <div>
+            123.123,00
+          </div>,
+          "blockedBalance": <div>
+            123.123,00
+          </div>,
+          "date": <div>
+            01/06/2010
+          </div>,
+          "totalBalance": <div>
+            123.123,00
+          </div>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "accountNumber",
+          "title": "ACCOUNT_NUMBER",
+          "width": "25%",
+        },
+        Object {
+          "field": "date",
+          "title": "REFERENCE_DATE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "availableBalance",
+          "title": "AVAILABLE_BALANCE",
+          "width": "12%",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "blockedBalance",
+          "title": "BLOCKED_BALANCE",
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "totalBalance",
+          "title": "TOTAL_BALANCE",
+        },
+        Object {
+          "field": "",
+          "title": "",
+          "width": "7%",
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={
+      Object {
+        "loading": true,
+        "rows": 10,
+      }
+    }
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={false}
+    zebra={false}
+  />
+</styled.div>
+`;

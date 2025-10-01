@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionsCard component should match snapshot 1`] = `
+<Fragment>
+  <styled.section
+    key="mobileTransaction_0"
+  >
+    <styled.div>
+      <Card
+        data-test="CardTransaction-0"
+        icon={null}
+        iconColor={null}
+        key="CardTransaction-0"
+        title={null}
+        titleColor={null}
+      >
+        <styled.div>
+          06/01/2010
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            <styled.div />
+            <styled.div>
+              LCI
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div />
+            <styled.div>
+              Ativo
+            </styled.div>
+          </styled.div>
+          <styled.div
+            alignEnd={true}
+          >
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,12
+            </styled.div>
+          </styled.div>
+        </styled.div>
+      </Card>
+    </styled.div>
+  </styled.section>
+</Fragment>
+`;

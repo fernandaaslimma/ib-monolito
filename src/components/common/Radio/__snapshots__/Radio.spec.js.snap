@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio component should match snapshot 1`] = `
+<styled.label
+  data-test="Radio"
+  htmlFor="12345-abcvbcvb-23ddfsfd-4444"
+>
+  <input
+    data-test="RadioInput"
+    id="12345-abcvbcvb-23ddfsfd-4444"
+    onChange={[Function]}
+    type="radio"
+  />
+  <styled.div />
+  <styled.span>
+    label 1
+  </styled.span>
+</styled.label>
+`;

@@ -1,0 +1,190 @@
+{
+  "leonardo": {
+    "email": "pj_leonardolima@bocombbm.com.br",
+    "password": "00112233"
+  },
+  "rodrigo": {
+    "email": "pj_rodrigocarvalho@bancobbm.com.br",
+    "password": "55667788"
+  },
+  "yuri": {
+    "email": "pj_yuriramos@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "darthvader": {
+    "email": "darthvader@bancobbm.com.br",
+    "password": 37518487
+  },
+  "semdocumentos": {
+    "email": "semdocumentos@bocombbm.com.br",
+    "password": "00112233"
+  },
+  "semcambio": {
+    "email": "semcambio@bocombbm.com.br",
+    "password": "00112233"
+  },
+  "soposition": {
+    "email": "soposition@bocombbm.com.br",
+    "password": "00112233"
+  },
+  "sotransactions": {
+    "email": "sotransactions@bocombbm.com.br",
+    "password": "00112233"
+  },
+  "andremendes": {
+    "email": "pj_andremendes@bancobbm.com.br",
+    "password": "55667788"
+  },
+  "pj1": {
+    "email": "pj1@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj2": {
+    "email": "pj2@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj3": {
+    "email": "pj3@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj4": {
+    "email": "pj4@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj5": {
+    "email": "pj5@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj6": {
+    "email": "pj6@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj7": {
+    "email": "pj7@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj8": {
+    "email": "pj8@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "pj9": {
+    "email": "pj9@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "usuario": {
+    "email": "usuario@gmail.com",
+    "password": "55667788"
+  },
+  "sem registrato": {
+    "email": "sem_registrato@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "com registrato": {
+    "email": "com_registrato@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "atualizacaocadastral": {
+    "email": "teste_personregistration_update@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "atualizacaocadastralconfirm": {
+    "email": "teste_personregistration_confirm@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "atualizacaocadastralimpersonate": {
+    "email": "teste_personregistration_impersonate@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "testetransactions": {
+    "email": "testes_transactions@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "mfaembarcadopj": {
+    "email": "testes_mfa_embarcado_pj@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "mfadesembarcadopf": {
+    "email": "testes_mfa_desembarcado_pf@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "mfadesembarcadopj": {
+    "email": "testes_mfa_desembarcado_pj@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "portabilidadecreditopj": {
+    "email": "teste_creditportfolio_pj@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "portabilidadecreditopf": {
+    "email": "teste_creditportfolio_pf@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "mfatrocapf": {
+    "email": "teste_troca_mfa_pf@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "tedpf": {
+    "email": "teste_ted_pf@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimento": {
+    "email": "teste_fundo_investimento@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimentosuitability": {
+    "email": "teste_fundo_investimento_suitability@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimentoatcadastral": {
+    "email": "teste_fundo_investimento_atcadastral@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimentodesenquadrado": {
+    "email": "teste_fundo_investimento_desenquadramento@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimentomfa": {
+    "email": "teste_fundo_investimento_mfa@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "fundoinvestimentoqualificado": {
+    "email": "teste_fundo_investimento_qualificado@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "rendafixasuitability": {
+    "email": "teste_renda_fixa_suitability@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "rendafixacadastral": {
+    "email": "teste_renda_fixa_atcadastral@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "rendafixaconservador": {
+    "email": "teste_renda_fixa_conservador@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "testerendafixaresgate": {
+    "email": "teste_renda_fixa_resgate@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "testerendafixasemresgate": {
+    "email": "teste_sem_renda_fixa@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "openbankingpf": {
+    "email": "teste_ted_pf@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "openbankingpj": {
+    "email": "pj3@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "prospect": {
+    "email": "teste_prospect_openbanking@bocombbm.com.br",
+    "password": "55667788"
+  },
+  "procuracaovencida": {
+    "email": "teste_sem_procuracao@bocombbm.com.br",
+    "password": "55667788"
+  }
+}

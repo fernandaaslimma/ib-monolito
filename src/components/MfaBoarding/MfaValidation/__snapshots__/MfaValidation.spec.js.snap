@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MfaValidation component should call changeCurrentPage onMFAConfirmation 1`] = `
+<Fragment>
+  <ConnectWrapper
+    createAuthCodeParams={
+      Object {
+        "actionType": "approvetotpfactor",
+        "payload": Object {
+          "id": "29c6368f-cc9b-4458-8db9-b56e62b2f4d4",
+        },
+      }
+    }
+    onMFAConfirmation={[Function]}
+    onMFAError={[Function]}
+    resendFunc={[Function]}
+  />
+  <ClickWrapper>
+    <Button
+      dataTest="RegisterLater"
+      disabled={false}
+      onClick={[Function]}
+      small={true}
+      spacing={
+        Object {
+          "bottom": "m",
+          "top": "xs",
+        }
+      }
+      type="text"
+    />
+  </ClickWrapper>
+</Fragment>
+`;
+
+exports[`MfaValidation component should match snapshot with props 1`] = `
+<Fragment>
+  <ConnectWrapper
+    createAuthCodeParams={
+      Object {
+        "actionType": "approvetotpfactor",
+        "payload": Object {
+          "id": "29c6368f-cc9b-4458-8db9-b56e62b2f4d4",
+        },
+      }
+    }
+    onMFAConfirmation={[Function]}
+    onMFAError={[Function]}
+    resendFunc={[Function]}
+  />
+  <ClickWrapper>
+    <Button
+      dataTest="RegisterLater"
+      disabled={false}
+      onClick={[Function]}
+      small={true}
+      spacing={
+        Object {
+          "bottom": "m",
+          "top": "xs",
+        }
+      }
+      type="text"
+    />
+  </ClickWrapper>
+</Fragment>
+`;

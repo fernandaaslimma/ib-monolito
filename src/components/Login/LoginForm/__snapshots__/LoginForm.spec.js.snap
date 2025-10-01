@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm component should match snapshot with error message when login fails 1`] = `
+<form
+  noValidate={true}
+>
+  <Input
+    EnableFixedInput={null}
+    autoComplete="new-password"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Email"
+    label="EMAIL"
+    msgError={null}
+    msgFocusInput={null}
+    name="email"
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={null}
+    placeholder=""
+    tinyLabels={null}
+    type="text"
+    valid={[Function]}
+    value=""
+  />
+  <Input
+    EnableFixedInput={null}
+    autoComplete="off"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Lock"
+    innerRef={[Function]}
+    label="PASSWORD"
+    msgError={null}
+    msgFocusInput={null}
+    name="password"
+    onBlur={[Function]}
+    onFocus={null}
+    placeholder=""
+    readOnly={true}
+    tinyLabels={null}
+    type="password"
+    valid={[Function]}
+    value=""
+  />
+  <styled.p />
+  <VirtualKeyboard
+    alwaysActive={true}
+    hideBelow={null}
+    onErase={[Function]}
+    onKeyDown={[Function]}
+  />
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={null}
+      dataTest="LoginBtn"
+      disabled={true}
+      href="javascript:void(0)"
+      isCallToAction={true}
+      loading={false}
+      onClick={[Function]}
+      small={null}
+      target={null}
+      to={null}
+      width={null}
+    >
+      ACCESS_MY_ACCOUNT
+    </Link>
+  </styled.div>
+   
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={true}
+      dataTest="ForgotPasswordLink"
+      disabled={false}
+      href={null}
+      isCallToAction={null}
+      loading={false}
+      noSpan={true}
+      onClick={null}
+      opacity={1}
+      small={null}
+      target={null}
+      to="/recover-password"
+      width={null}
+    >
+      FORGOT_MY_PASSWORD
+    </Link>
+  </styled.div>
+</form>
+`;
+
+exports[`LoginForm component should match snapshot with valid props 1`] = `
+<form
+  noValidate={true}
+>
+  <Input
+    EnableFixedInput={null}
+    autoComplete="new-password"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Email"
+    label="EMAIL"
+    msgError={null}
+    msgFocusInput={null}
+    name="email"
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={null}
+    placeholder=""
+    tinyLabels={null}
+    type="text"
+    valid={[Function]}
+    value="email@email.com"
+  />
+  <Input
+    EnableFixedInput={null}
+    autoComplete="off"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Lock"
+    innerRef={[Function]}
+    label="PASSWORD"
+    msgError={null}
+    msgFocusInput={null}
+    name="password"
+    onBlur={[Function]}
+    onFocus={null}
+    placeholder=""
+    readOnly={true}
+    tinyLabels={null}
+    type="password"
+    valid={[Function]}
+    value="123456"
+  />
+  <styled.p />
+  <VirtualKeyboard
+    alwaysActive={true}
+    hideBelow={null}
+    onErase={[Function]}
+    onKeyDown={[Function]}
+  />
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={null}
+      dataTest="LoginBtn"
+      disabled={true}
+      href="javascript:void(0)"
+      isCallToAction={true}
+      loading={false}
+      onClick={[Function]}
+      small={null}
+      target={null}
+      to={null}
+      width={null}
+    >
+      ACCESS_MY_ACCOUNT
+    </Link>
+  </styled.div>
+   
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={true}
+      dataTest="ForgotPasswordLink"
+      disabled={false}
+      href={null}
+      isCallToAction={null}
+      loading={false}
+      noSpan={true}
+      onClick={null}
+      opacity={1}
+      small={null}
+      target={null}
+      to="/recover-password"
+      width={null}
+    >
+      FORGOT_MY_PASSWORD
+    </Link>
+  </styled.div>
+</form>
+`;
+
+exports[`LoginForm component should updated the component without changes 1`] = `
+<form
+  noValidate={true}
+>
+  <Input
+    EnableFixedInput={null}
+    autoComplete="new-password"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Email"
+    label="EMAIL"
+    msgError={null}
+    msgFocusInput={null}
+    name="email"
+    onBlur={[Function]}
+    onChange={[MockFunction]}
+    onFocus={null}
+    placeholder=""
+    tinyLabels={null}
+    type="text"
+    valid={[Function]}
+    value="email@email.com"
+  />
+  <Input
+    EnableFixedInput={null}
+    autoComplete="off"
+    disableKeys={Array []}
+    disabled={false}
+    fixedValue={null}
+    icon="Lock"
+    innerRef={[Function]}
+    label="PASSWORD"
+    msgError={null}
+    msgFocusInput={null}
+    name="password"
+    onBlur={[Function]}
+    onFocus={null}
+    placeholder=""
+    readOnly={true}
+    tinyLabels={null}
+    type="password"
+    valid={[Function]}
+    value="123456"
+  />
+  <styled.p />
+  <VirtualKeyboard
+    alwaysActive={true}
+    hideBelow={null}
+    onErase={[Function]}
+    onKeyDown={[Function]}
+  />
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={null}
+      dataTest="LoginBtn"
+      disabled={true}
+      href="javascript:void(0)"
+      isCallToAction={true}
+      loading={false}
+      onClick={[Function]}
+      small={null}
+      target={null}
+      to={null}
+      width={null}
+    >
+      ACCESS_MY_ACCOUNT
+    </Link>
+  </styled.div>
+   
+  <styled.div>
+    <Link
+      actionSecondary={false}
+      anchor={true}
+      dataTest="ForgotPasswordLink"
+      disabled={false}
+      href={null}
+      isCallToAction={null}
+      loading={false}
+      noSpan={true}
+      onClick={null}
+      opacity={1}
+      small={null}
+      target={null}
+      to="/recover-password"
+      width={null}
+    >
+      FORGOT_MY_PASSWORD
+    </Link>
+  </styled.div>
+</form>
+`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subnav component should match snapshot with context title 1`] = `
+<Hide
+  above="md"
+  below={null}
+>
+  <styled.nav
+    data-test="Subnav"
+  >
+    <styled.h1>
+      context title
+    </styled.h1>
+    <styled.div />
+    <styled.ul />
+  </styled.nav>
+</Hide>
+`;
+
+exports[`Subnav component should match snapshot with no tabs 1`] = `
+<Hide
+  above="md"
+  below={null}
+>
+  <styled.nav
+    data-test="Subnav"
+  >
+    <styled.div />
+    <styled.ul />
+  </styled.nav>
+</Hide>
+`;
+
+exports[`Subnav component should match snapshot with tabs 1`] = `
+<Hide
+  above="md"
+  below={null}
+>
+  <styled.nav
+    data-test="Subnav"
+  >
+    <styled.div />
+    <styled.ul>
+      <styled.li
+        active={true}
+        data-test="SubnavTab-0"
+        key="/tab1"
+        onClick={[Function]}
+      >
+        <styled.span>
+          tab1
+        </styled.span>
+      </styled.li>
+      <styled.li
+        active={false}
+        data-test="SubnavTab-1"
+        key="/tab2"
+        onClick={[Function]}
+      >
+        <styled.span>
+          tab2
+        </styled.span>
+      </styled.li>
+    </styled.ul>
+  </styled.nav>
+</Hide>
+`;

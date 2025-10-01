@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileValidation should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <styled.div>
+      <styled.div
+        data-test="pageTitle"
+      >
+        <styled.h1 />
+      </styled.div>
+      <Styled(styled.div)
+        IEFractionParts={1}
+        layered={2}
+      >
+        <LoadingBar
+          borderRadius="none"
+          height="45px"
+          paddingLeft="0"
+          width="100%"
+        />
+        <br />
+        <br />
+      </Styled(styled.div)>
+      <LoadingBar
+        borderRadius="none"
+        height="73px"
+        paddingLeft="0"
+        width="100%"
+      />
+      <UploadFile
+        loading={true}
+        onChange={[Function]}
+      />
+    </styled.div>
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`FileValidation should match snapshot with validation 1`] = `
+FileValidation {
+  "changeStatus": [Function],
+  "closeMessageReturn": [Function],
+  "context": Object {},
+  "copyErrorMessages": [Function],
+  "downloadErrorMessages": [Function],
+  "parseListErros": [Function],
+  "props": Object {
+    "RemmitanceValidationResponse": Object {
+      "cnabInfo": Object {
+        "cnpj": "cnpj test",
+        "companyCode": "code test",
+        "companyName": "company test",
+        "generatedAt": "25072021",
+        "issueTicket": true,
+        "sequentialRemittanceNumber": "sequential number test",
+      },
+      "validFile": false,
+    },
+  },
+  "refs": Object {},
+  "renderValidation": [Function],
+  "setShowReturnValidation": [Function],
+  "setState": [Function],
+  "state": Object {
+    "FileCopied": false,
+    "fileTypeSelected": "",
+    "fileTypes": Array [],
+    "loading": true,
+    "showReturnValidation": false,
+    "statusMessageReturn": true,
+  },
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_currentlyRenderingComponent": null,
+      "_didScheduleRenderPhaseUpdate": false,
+      "_dispatcher": Object {
+        "readContext": [Function],
+        "useCallback": [Function],
+        "useContext": [Function],
+        "useDebugValue": [Function],
+        "useEffect": [Function],
+        "useImperativeHandle": [Function],
+        "useLayoutEffect": [Function],
+        "useMemo": [Function],
+        "useReducer": [Function],
+        "useRef": [Function],
+        "useState": [Function],
+      },
+      "_element": <FileValidation
+        RemmitanceValidationResponse={
+          Object {
+            "cnabInfo": Object {
+              "cnpj": "cnpj test",
+              "companyCode": "code test",
+              "companyName": "company test",
+              "generatedAt": "25072021",
+              "issueTicket": true,
+              "sequentialRemittanceNumber": "sequential number test",
+            },
+            "validFile": false,
+          }
+        }
+      />,
+      "_firstWorkInProgressHook": null,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_isReRender": false,
+      "_newState": null,
+      "_numberOfReRenders": 0,
+      "_previousComponentIdentity": null,
+      "_renderPhaseUpdates": null,
+      "_rendered": <ErrorBoundary>
+        <styled.div>
+          <styled.div>
+            <React.Fragment>
+              <styled.div
+                data-test="pageTitle"
+              >
+                <styled.h1 />
+              </styled.div>
+              <Styled(styled.div)
+                IEFractionParts={1}
+                layered={2}
+              >
+                <React.Fragment>
+                  <LoadingBar
+                    borderRadius="none"
+                    height="45px"
+                    paddingLeft="0"
+                    width="100%"
+                  />
+                  <br />
+                  <br />
+                </React.Fragment>
+              </Styled(styled.div)>
+            </React.Fragment>
+            <LoadingBar
+              borderRadius="none"
+              height="73px"
+              paddingLeft="0"
+              width="100%"
+            />
+            <UploadFile
+              loading={true}
+              onChange={[Function]}
+            />
+            <React.Fragment>
+              <React.Fragment>
+                <styled.div
+                  data-test="pageTitle"
+                >
+                  <styled.h1 />
+                  <styled.div
+                    onClick={[Function]}
+                  >
+                    <Icon
+                      color="#27445F"
+                      height={20}
+                      spacing={
+                        Object {
+                          "bottom": "none",
+                          "left": "none",
+                          "right": "none",
+                          "top": "none",
+                        }
+                      }
+                      type="Close"
+                      width={20}
+                    />
+                  </styled.div>
+                </styled.div>
+                <styled.div
+                  id="error_messages_contaniner"
+                >
+                  <styled.div>
+                    <styled.ul>
+                      <React.Fragment>
+                        <styled.li>
+                           
+                          company test
+                        </styled.li>
+                        <styled.li>
+                           
+                          code test
+                        </styled.li>
+                        <styled.li>
+                           
+                          cnpj test
+                        </styled.li>
+                        <styled.li>
+                           
+                          sequential number test
+                        </styled.li>
+                        <styled.li>
+                           
+                          06/01/2010
+                        </styled.li>
+                        <styled.li>
+                           
+                        </styled.li>
+                      </React.Fragment>
+                    </styled.ul>
+                    <React.Fragment>
+                      <styled.ul />
+                    </React.Fragment>
+                    <React.Fragment>
+                      <styled.ul />
+                    </React.Fragment>
+                  </styled.div>
+                </styled.div>
+                <styled.div>
+                  <Button
+                    actionSecondary={null}
+                    background="none"
+                    backgroundLoading="none"
+                    className={null}
+                    disabled={false}
+                    height="48"
+                    isCallToAction={null}
+                    isWarning={null}
+                    loading={true}
+                    noHoverBackground={true}
+                    onClick={[Function]}
+                    paddingSize={null}
+                    small={false}
+                    type="button"
+                    width="160"
+                    withIcon={
+                      Object {
+                        "height": 28,
+                        "name": "CopyAndPaste",
+                        "width": 25,
+                      }
+                    }
+                  />
+                  <Button
+                    actionSecondary={true}
+                    backgroundLoading="#3976CF"
+                    className={null}
+                    dataTest="downloadButton"
+                    disabled={false}
+                    height="48"
+                    isCallToAction={null}
+                    isWarning={null}
+                    loading={true}
+                    margin={
+                      Object {
+                        "l": "29",
+                      }
+                    }
+                    onClick={[Function]}
+                    paddingSize={null}
+                    small={false}
+                    type="button"
+                    width="160"
+                    withIcon={
+                      Object {
+                        "height": 28,
+                        "name": "Download",
+                        "width": 26,
+                      }
+                    }
+                  />
+                </styled.div>
+              </React.Fragment>
+            </React.Fragment>
+          </styled.div>
+        </styled.div>
+      </ErrorBoundary>,
+      "_rendering": false,
+      "_updater": [Circular],
+      "_workInProgressHook": null,
+    },
+  },
+  "uploadFile": [Function],
+}
+`;

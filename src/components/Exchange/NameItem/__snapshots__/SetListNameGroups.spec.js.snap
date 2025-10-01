@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SetListNameGroups component defaultProps 1`] = `
+<Fragment>
+  <Hide
+    above="lg"
+    below={null}
+  >
+    <styled.span
+      data-test="signer0"
+      isSelf={false}
+      key="hash"
+    >
+      name
+    </styled.span>
+    <styled.div
+      nameSigned={true}
+      positionY={true}
+    />
+  </Hide>
+  <Hide
+    above={null}
+    below="lg"
+  >
+    <styled.div>
+      <styled.span
+        data-test="signer0"
+        isSelf={false}
+        key="hash"
+      >
+        name
+      </styled.span>
+      <styled.div
+        nameSigned={true}
+      />
+    </styled.div>
+  </Hide>
+</Fragment>
+`;

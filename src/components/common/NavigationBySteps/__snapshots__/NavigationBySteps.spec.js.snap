@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBySteps component should match snapshot with props 1`] = `
+<Fragment>
+  <Hide
+    above={null}
+    below="md"
+  >
+    <styled.div
+      active={1}
+      length={10}
+    >
+      <styled.div />
+      <styled.span
+        active={true}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        1
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        2
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        3
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        4
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        5
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        6
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        7
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        8
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        9
+      </styled.span>
+      <styled.div />
+      <styled.span
+        active={false}
+        isPrevious={false}
+        navigable={true}
+        onClick={[Function]}
+      >
+        10
+      </styled.span>
+    </styled.div>
+  </Hide>
+  <Hide
+    above="md"
+    below={null}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.div
+          active={1}
+          length={10}
+        >
+          <styled.div>
+            undefined 1/10
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </Hide>
+</Fragment>
+`;

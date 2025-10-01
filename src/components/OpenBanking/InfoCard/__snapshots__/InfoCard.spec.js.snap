@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoCard should match snapshot 1`] = `
+<styled.div
+  data-test="infoCard"
+>
+  <styled.div>
+    Mock title
+  </styled.div>
+  Mock children
+</styled.div>
+`;
+
+exports[`InfoCard should match snapshot 2`] = `
+<styled.div
+  data-test="infoCard"
+>
+  <styled.h2
+    subTitle={true}
+  >
+    Mock title
+  </styled.h2>
+  <styled.div>
+    Mock sub title
+  </styled.div>
+  Mock children
+</styled.div>
+`;

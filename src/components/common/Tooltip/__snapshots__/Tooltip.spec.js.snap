@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component should match snapshot with children 1`] = `
+<styled.div
+  disabled={false}
+>
+  <styled.span
+    height={300}
+    id="hash"
+    position="up"
+  />
+  <h1>
+    test
+  </h1>
+</styled.div>
+`;
+
+exports[`Tooltip component should match snapshot with position 1`] = `
+<styled.div
+  disabled={false}
+>
+  <styled.span
+    height={300}
+    id="hash"
+    position="UP"
+  />
+</styled.div>
+`;
+
+exports[`Tooltip component should match snapshot with texts 1`] = `
+<styled.div
+  disabled={false}
+>
+  <styled.span
+    height={300}
+    id="hash"
+    position="up"
+  >
+    <div
+      key="hash"
+    >
+      text 1
+    </div>
+    <div
+      key="hash"
+    >
+      text 2
+    </div>
+  </styled.span>
+</styled.div>
+`;

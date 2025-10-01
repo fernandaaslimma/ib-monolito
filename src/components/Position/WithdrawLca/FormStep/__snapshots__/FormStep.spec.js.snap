@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormStep Should match snapshpt 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <styled.div>
+          R$
+        </styled.div>
+        <styled.div>
+          35,000.00
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.span />
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": "15,000.00",
+          "available": 35000,
+          "invalidMessages": Object {
+            "aboveAvailable": "undefined",
+          },
+          "operation": "redeem",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+            30000,
+            50000,
+          ],
+          "totalLabel": undefined,
+        }
+      }
+      loading={false}
+      onChange={[MockFunction]}
+      showTotalButton={true}
+    />
+    <AlertMessage
+      dataTest="alertMessage"
+      icon="Attention"
+      spacing={
+        Object {
+          "bottom": "m",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "m",
+        }
+      }
+      type="neutral"
+    />
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToPositionsFixedIncome"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueToNextStep"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.p
+        data-test="lcaLimitReached"
+      />
+      <styled.p />
+    </styled.div>
+    <styled.div />
+    <styled.div>
+      <Button
+        dataTest="ButtonCloseLimitReachedModal"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "xs",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`FormStep Should match snapshpt with loading 1`] = `
+<Fragment>
+  <styled.section>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <styled.div>
+          R$
+        </styled.div>
+        <styled.div>
+          <ShimmerLoading
+            darker={true}
+            height={14}
+            index={0}
+            inverse={false}
+            width={50}
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.span />
+    <AmmountInput
+      blockAddValues={true}
+      config={
+        Object {
+          "ammountValue": "15,000.00",
+          "available": 35000,
+          "invalidMessages": Object {
+            "aboveAvailable": "undefined",
+          },
+          "operation": "redeem",
+        }
+      }
+      increments={
+        Object {
+          "ranges": Array [
+            5000,
+            10000,
+            20000,
+            30000,
+            50000,
+          ],
+          "totalLabel": undefined,
+        }
+      }
+      loading={true}
+      onChange={[MockFunction]}
+      showTotalButton={true}
+    />
+    <AlertMessage
+      dataTest="alertMessage"
+      icon="Attention"
+      spacing={
+        Object {
+          "bottom": "m",
+          "left": "xxs",
+          "right": "xxs",
+          "top": "m",
+        }
+      }
+      type="neutral"
+    />
+  </styled.section>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="backToPositionsFixedIncome"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "xxs",
+            "top": "s",
+          }
+        }
+        type="outline"
+      />
+      <Button
+        dataTest="continueToNextStep"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "xxs",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "title": undefined,
+      }
+    }
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.p
+        data-test="lcaLimitReached"
+      />
+      <styled.p />
+    </styled.div>
+    <styled.div />
+    <styled.div>
+      <Button
+        dataTest="ButtonCloseLimitReachedModal"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "l",
+            "left": "s",
+            "right": "s",
+            "top": "xs",
+          }
+        }
+        type="primary"
+      />
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

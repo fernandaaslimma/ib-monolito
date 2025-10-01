@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractSummary component should match snapshot 1`] = `
+<styled.section
+  data-test="ContractSummary-21332112XX"
+>
+  <styled.h1>
+    FX_CONTRACT
+    : 
+    21332112XX
+  </styled.h1>
+  <styled.div
+    operation={true}
+  >
+    <Card
+      icon="Cash"
+      iconColor={null}
+      title="OPERATION_SUMMARY"
+      titleColor={null}
+    >
+      <ContractOverview
+        data-test="typeOfContract-buy"
+        exchangeRate={null}
+        foreignCurrency="USD"
+        loading={false}
+        localCurrency="BRL"
+        natureOfExchange="0921810923"
+        settlementDate="6/1/2010"
+        typeOfExchange="buy"
+        valueOfForeignCurrency={3212312}
+        valueOfNationalCurrency={32132232}
+      />
+    </Card>
+    <Card
+      icon="CashTransfer"
+      iconColor={null}
+      title="DESTINATION_ACCOUNT"
+      titleColor={null}
+    >
+      <ContractSellAccount
+        account="213223"
+        agency={null}
+        bank="BBM"
+        bankId={null}
+        document={null}
+        loading={null}
+        owner="Bruce Lee"
+      />
+    </Card>
+  </styled.div>
+  <Card
+    icon={null}
+    iconColor={null}
+    title={null}
+    titleColor={null}
+  >
+    <ConnectWrapper
+      contractId="21332112XX"
+    />
+  </Card>
+</styled.section>
+`;
+
+exports[`ContractSummary component should match snapshot as a buy summary 1`] = `
+<styled.section
+  data-test="ContractSummary-21332112XX"
+>
+  <styled.h1>
+    FX_CONTRACT
+    : 
+    21332112XX
+  </styled.h1>
+  <styled.div
+    operation={true}
+  >
+    <Card
+      icon="Cash"
+      iconColor={null}
+      title="OPERATION_SUMMARY"
+      titleColor={null}
+    >
+      <ContractOverview
+        data-test="typeOfContract-buy"
+        exchangeRate={null}
+        foreignCurrency="USD"
+        loading={false}
+        localCurrency="BRL"
+        natureOfExchange="0921810923"
+        settlementDate="6/1/2010"
+        typeOfExchange="buy"
+        valueOfForeignCurrency={3212312}
+        valueOfNationalCurrency={32132232}
+      />
+    </Card>
+    <Card
+      icon="CashTransfer"
+      iconColor={null}
+      title="DESTINATION_ACCOUNT"
+      titleColor={null}
+    >
+      <ContractSellAccount
+        account="213223"
+        agency={null}
+        bank="BBM"
+        bankId={null}
+        document={null}
+        loading={null}
+        owner="Bruce Lee"
+      />
+    </Card>
+  </styled.div>
+  <Card
+    icon={null}
+    iconColor={null}
+    title={null}
+    titleColor={null}
+  >
+    <ConnectWrapper
+      contractId="21332112XX"
+    />
+  </Card>
+</styled.section>
+`;
+
+exports[`ContractSummary component should match snapshot as a sell summary 1`] = `
+<styled.section
+  data-test="ContractSummary-21332112XX"
+>
+  <styled.h1>
+    FX_CONTRACT
+    : 
+    21332112XX
+  </styled.h1>
+  <styled.div
+    operation={true}
+  >
+    <Card
+      icon="Cash"
+      iconColor={null}
+      title="OPERATION_SUMMARY"
+      titleColor={null}
+    >
+      <ContractOverview
+        data-test="typeOfContract-sell"
+        exchangeRate={null}
+        foreignCurrency="USD"
+        loading={false}
+        localCurrency="BRL"
+        natureOfExchange="0921810923"
+        settlementDate="6/1/2010"
+        typeOfExchange="sell"
+        valueOfForeignCurrency={3212312}
+        valueOfNationalCurrency={32132232}
+      />
+    </Card>
+  </styled.div>
+  <styled.div>
+    <Card
+      icon="CashTransfer"
+      iconColor={null}
+      title="DESTINATION_ACCOUNT"
+      titleColor={null}
+    >
+      <ContractAccount
+        aba="2312"
+        account="213223"
+        bank="BBM"
+        chips="231"
+        country="China"
+        owner="Bruce Lee"
+        swift="333"
+      />
+    </Card>
+    <Card
+      icon="Bank"
+      iconColor={null}
+      title="INTERMEDIARY_ACCOUNT"
+      titleColor={null}
+    >
+      <ContractAccount
+        aba="567"
+        account="13231"
+        bank="BBM"
+        chips="657"
+        country={null}
+        owner={null}
+        swift="321"
+      />
+    </Card>
+  </styled.div>
+  <Card
+    icon={null}
+    iconColor={null}
+    title={null}
+    titleColor={null}
+  >
+    <ConnectWrapper
+      contractId="21332112XX"
+    />
+  </Card>
+</styled.section>
+`;

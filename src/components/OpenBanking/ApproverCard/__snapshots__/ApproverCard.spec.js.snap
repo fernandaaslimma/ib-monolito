@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ApproverCard should match snapshot 1`] = `
+<styled.div
+  data-test="pendentApprovers"
+>
+  <styled.section>
+    <styled.h2>
+      Autorizador
+    </styled.h2>
+    <Tag
+      color="#CCE9E1"
+      title="Autorizado"
+      titleColor="#004933"
+    />
+  </styled.section>
+  <styled.section>
+    <styled.span />
+    <styled.span>
+      Mock Name
+    </styled.span>
+  </styled.section>
+  <styled.section
+    className="LabelSection"
+  >
+    <styled.span />
+    <styled.span>
+      110.***.***-05
+    </styled.span>
+  </styled.section>
+</styled.div>
+`;
+
+exports[`ApproverCard should match snapshot with status pending 1`] = `
+<styled.div
+  data-test="pendentApprovers"
+>
+  <styled.section>
+    <styled.h2>
+      Autorizador
+    </styled.h2>
+    <Tag
+      color="#FFD46A"
+      title="Pendente"
+      titleColor="#80521B"
+    />
+  </styled.section>
+  <styled.section>
+    <styled.span />
+    <styled.span>
+      Mock Name
+    </styled.span>
+  </styled.section>
+  <styled.section
+    className="LabelSection"
+  >
+    <styled.span />
+    <styled.span>
+      110.***.***-05
+    </styled.span>
+  </styled.section>
+</styled.div>
+`;
+
+exports[`ApproverCard should match snapshot with status rejected 1`] = `
+<styled.div
+  data-test="pendentApprovers"
+>
+  <styled.section>
+    <styled.h2>
+      Autorizador
+    </styled.h2>
+    <Tag
+      color="#D9E0E4"
+      title="Rejeitado"
+      titleColor="#244859"
+    />
+  </styled.section>
+  <styled.section>
+    <styled.span />
+    <styled.span>
+      Mock Name
+    </styled.span>
+  </styled.section>
+  <styled.section
+    className="LabelSection"
+  >
+    <styled.span />
+    <styled.span>
+      110.***.***-05
+    </styled.span>
+  </styled.section>
+</styled.div>
+`;
+
+exports[`ApproverCard should match snapshot without status 1`] = `
+<styled.div
+  data-test="pendentApprovers"
+>
+  <styled.section>
+    <styled.h2>
+      Autorizador
+    </styled.h2>
+  </styled.section>
+  <styled.section>
+    <styled.span />
+    <styled.span>
+      Mock Name
+    </styled.span>
+  </styled.section>
+  <styled.section
+    className="LabelSection"
+  >
+    <styled.span />
+    <styled.span>
+      110.***.***-05
+    </styled.span>
+  </styled.section>
+</styled.div>
+`;

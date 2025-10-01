@@ -1,0 +1,1282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+  <AlertMessage
+    dataTest="alertMessage"
+    icon="Attention"
+    spacing={
+      Object {
+        "bottom": "s",
+        "left": "s",
+        "right": "s",
+        "top": "s",
+      }
+    }
+    type="neutral"
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with isEmpty 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div />
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <PendingTransactions
+      backgroundColor="#EEF1F3"
+      mode="mobile"
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+    />
+    <styled.section
+      key="mobileFixedIncome_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              name
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: 
+              </styled.div>
+              <styled.div>
+                issuer
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                di
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                123
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                1,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                0,00
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                ---
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                12
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <AlertMessage
+    dataTest="alertMessage"
+    icon="Attention"
+    spacing={
+      Object {
+        "bottom": "s",
+        "left": "s",
+        "right": "s",
+        "top": "s",
+      }
+    }
+    type="neutral"
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <PendingTransactions
+      backgroundColor="#EEF1F3"
+      mode="mobile"
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+    />
+    <styled.section>
+      <styled.div>
+        <Card
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined:
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading and isEmpty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with pendingTransactions 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div />
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.section
+      key="mobileFixedIncome_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              name
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: 
+              </styled.div>
+              <styled.div>
+                issuer
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                di
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                123
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                1,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                0,00
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                ---
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                12
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with pendingTransactions as empty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with totalLca bigger than 0 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div />
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <PendingTransactions
+      backgroundColor="#EEF1F3"
+      mode="mobile"
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+    />
+    <styled.section
+      key="mobileFixedIncome_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              name
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: 
+              </styled.div>
+              <styled.div>
+                issuer
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                di
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                123
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                1,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                0,00
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                ---
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                12
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with totalLca equals to 0 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div />
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <PendingTransactions
+      backgroundColor="#EEF1F3"
+      mode="mobile"
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+    />
+    <styled.section
+      key="mobileFixedIncome_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              name
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: 
+              </styled.div>
+              <styled.div>
+                issuer
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.span />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                di
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                123
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                1,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                0,00
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                ---
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (%)
+              </styled.div>
+              <styled.div>
+                12
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+  </styled.div>
+  <AlertMessage
+    dataTest="alertMessage"
+    icon="Attention"
+    spacing={
+      Object {
+        "bottom": "s",
+        "left": "s",
+        "right": "s",
+        "top": "s",
+      }
+    }
+    type="neutral"
+  />
+  <styled.div>
+    <styled.span />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={true}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

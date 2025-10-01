@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppAuth component should match snapshot with props 1`] = `
+<Fragment>
+  <styled.div />
+  <styled.div>
+    <styled.div>
+      <styled.img
+        data-test="MfaImgTutorial_1"
+        src="test-file-stub"
+      />
+      <styled.span>
+        <Styled(styled.span) />
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.img
+        data-test="MfaImgTutorial_2"
+        src="test-file-stub"
+      />
+      <styled.span>
+        <Styled(styled.span) />
+      </styled.span>
+    </styled.div>
+    <styled.div>
+      <styled.img
+        data-test="MfaImgTutorial_3"
+        src="test-file-stub"
+      />
+      <styled.span>
+        <Styled(styled.span) />
+      </styled.span>
+    </styled.div>
+  </styled.div>
+  <ConnectWrapper>
+    <Button
+      dataTest="ShowQrCodeButton"
+      disabled={false}
+      loading={false}
+      onClick={[Function]}
+      spacing={
+        Object {
+          "bottom": "l",
+          "top": "xl",
+        }
+      }
+    />
+  </ConnectWrapper>
+</Fragment>
+`;

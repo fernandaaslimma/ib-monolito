@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatementsFilter should match snapshot 1`] = `
+<styled.div
+  data-test="StatementsFilter"
+>
+  <Filter
+    componentLabels={
+      Object {
+        "filterButton": undefined,
+        "filterLabel": undefined,
+      }
+    }
+    onFilter={[Function]}
+  >
+    <Component />
+  </Filter>
+</styled.div>
+`;
+
+exports[`StatementsFilter should match snapshot without predefined filter 1`] = `
+<styled.div
+  data-test="StatementsFilter"
+>
+  <Filter
+    componentLabels={
+      Object {
+        "filterButton": undefined,
+        "filterLabel": undefined,
+      }
+    }
+    onFilter={[Function]}
+  >
+    <Component />
+  </Filter>
+</styled.div>
+`;

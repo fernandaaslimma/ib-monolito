@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangeLanguage component should match snapshot 1`] = `
+<ClickOut
+  callback={[Function]}
+>
+  <styled.div
+    data-test="ChangeLanguage"
+  >
+    <styled.button
+      data-test="ChangeLanguage_Open"
+      onClick={[Function]}
+    >
+      <styled.span />
+    </styled.button>
+  </styled.div>
+</ClickOut>
+`;
+
+exports[`ChangeLanguage component should match snapshot showing current language 1`] = `
+<ClickOut
+  callback={[Function]}
+>
+  <styled.div
+    data-test="ChangeLanguage"
+  >
+    <styled.button
+      data-test="ChangeLanguage_Open"
+      onClick={[Function]}
+    >
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="FlagBR"
+        width={null}
+      />
+      <styled.span>
+        PT
+      </styled.span>
+      <styled.span />
+    </styled.button>
+  </styled.div>
+</ClickOut>
+`;

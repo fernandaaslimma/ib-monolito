@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GetUserSigned component defaultProps 1`] = `
+<styled.div>
+  <styled.span
+    isSelf={false}
+  >
+    name
+     
+  </styled.span>
+  <styled.span>
+    <Icon
+      color="#50AA8B"
+      cursor={false}
+      data-test="signed"
+      fixCrossAxisAlign={null}
+      height={null}
+      type="Checked"
+      width={null}
+    />
+  </styled.span>
+   
+</styled.div>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds component should match snapshot with data 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+</Fragment>
+`;
+
+exports[`Funds component should match snapshot with loading 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+</Fragment>
+`;

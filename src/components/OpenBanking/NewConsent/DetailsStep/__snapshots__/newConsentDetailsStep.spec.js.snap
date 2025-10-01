@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsStep should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: visible;"
+  >
+    <div>
+      <div
+        class="sc-kUaPvJ gZZsQA"
+      >
+        <div
+          class="sc-dTdPqK lZNnJ"
+          data-test="infoCard"
+        >
+          <h2
+            class="sc-eMigcr cZgrqL"
+          />
+          <div
+            class="sc-ccSCjj hwdRDV"
+          >
+            <span
+              class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+            />
+            <span
+              class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+            />
+             
+            <br />
+            <span
+              class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-dTdPqK lZNnJ"
+          data-test="infoCard"
+        >
+          <div
+            class="sc-itybZL fqApdn"
+          />
+          <div
+            class="sc-jKmXuR gfYYZd"
+          >
+            <div
+              class="sc-elNKlv FOaSH"
+            >
+              <img
+                class="sc-gPWkxV eWPxmF"
+                src="mock"
+              />
+              <span
+                class="sc-bYwvMP bShwZS"
+              >
+                mock
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dTdPqK dQfZjt"
+          data-test="infoCard"
+        >
+          <h2
+            class="sc-eMigcr cZgrqL"
+          />
+          <div
+            class="sc-cZBZkQ keuDXb"
+          >
+            <div
+              class="sc-ecaExY kFXCed"
+            />
+            <div
+              class="sc-dTdPqK dQfZjt"
+              data-test="infoCard"
+            >
+              <div
+                class="sc-itybZL kvkMBh"
+              >
+                mock
+              </div>
+              <div
+                class="sc-kcbnda cSZruH"
+              >
+                <div
+                  class="sc-dHmInP ZkyOJ"
+                >
+                  <span
+                    class="sc-hUMlYv eDMOiL"
+                  />
+                </div>
+                <label
+                  class="sc-hzNEM dqhuGF"
+                  data-test="switchSaveAccount"
+                  for="5000"
+                  type="common"
+                >
+                  <input
+                    id="5000"
+                    name="switchBox"
+                    type="checkbox"
+                  />
+                  <div
+                    class="sc-iBEsjs iEFOGf"
+                  />
+                  <span
+                    class="sc-chbbiW chdzEe"
+                  />
+                </label>
+              </div>
+              <div
+                class="sc-gkFcWv XBRRj"
+                data-test="dataPermission-0"
+              >
+                <section
+                  class="sc-bfYoXt kxHyFF"
+                >
+                  <div
+                    class="sc-hUfwpO jeMkAu"
+                    data-test="dataPermission-0"
+                  >
+                    <div
+                      class="sc-imABML lmmYHs"
+                    >
+                      <div
+                        class="sc-cjHlYL bvwGWl"
+                        data-test="card_title"
+                      >
+                        mock
+                      </div>
+                    </div>
+                    <div
+                      class="sc-dRaagA jOnQOJ"
+                    >
+                      <div
+                        class="sc-dREXXX ldzZer"
+                      >
+                        <label
+                          class="sc-hzNEM dqhuGF"
+                          data-test="switchSaveAccount"
+                          for="5000"
+                          type="common"
+                        >
+                          <input
+                            id="5000"
+                            name="switchBox"
+                            type="checkbox"
+                          />
+                          <div
+                            class="sc-iBEsjs iEFOGf"
+                          />
+                          <span
+                            class="sc-chbbiW chdzEe"
+                          />
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="sc-fEUNkw iYGKkN"
+                    data-test="card_text"
+                  >
+                    mock
+                  </div>
+                  <div>
+                    <div
+                      class="sc-iIHSe iGtcwa"
+                    >
+                      <span
+                        class="sc-gldTML jfnLib"
+                      />
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-dTdPqK lZNnJ"
+          data-test="infoCard"
+        >
+          <div
+            class="sc-itybZL fqApdn"
+          />
+          <div
+            class="sc-fzsDOv eKCDdS"
+          />
+          <div
+            class="sc-gbzWSY iNpyrR"
+          />
+          <div
+            class="sc-ESoVU bfwslv"
+          >
+            <span
+              class="sc-kkbgRg dAvpni"
+            >
+              undefined undefined
+            </span>
+          </div>
+          <div
+            class="sc-gbzWSY iNpyrR"
+          >
+            undefined 06/01/2010
+          </div>
+        </div>
+        <div
+          class="sc-cqCuEk dPcKMx"
+        >
+          <div
+            class="sc-hmXxxW cYmZkt"
+          >
+            <div
+              class="sc-htpNat iJtGWJ"
+              data-test="backNewConsentButton"
+              spacing="[object Object]"
+              type="outline"
+            />
+            <div
+              class="sc-htpNat cGmQpv"
+              data-test="continueNewConsentButton"
+              spacing="[object Object]"
+              type="primary"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-kaNhvL fVBHfK"
+    >
+      <div
+        class="sc-iqzUVk cviatu"
+        data-test="undefined-bottomSheetBack"
+      />
+      <div
+        class="sc-LKuAh dDSBFE"
+      >
+        <section
+          class="sc-ipZHIp cAWXXp"
+        >
+          <h3
+            class="sc-dEoRIm jhuxKa"
+            data-test="title"
+            data-visible="mock"
+          />
+        </section>
+        <div
+          class="sc-jqIZGH kDivuw"
+        />
+        <div
+          class="sc-cqCuEk dPcKMx"
+        >
+          <div
+            class="sc-hmXxxW cYmZkt"
+          >
+            <div
+              class="sc-htpNat cxpQMp"
+              data-test="continueNewConsentButton"
+              spacing="[object Object]"
+              type="primary"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-kUaPvJ gZZsQA"
+    >
+      <div
+        class="sc-dTdPqK lZNnJ"
+        data-test="infoCard"
+      >
+        <h2
+          class="sc-eMigcr cZgrqL"
+        />
+        <div
+          class="sc-ccSCjj hwdRDV"
+        >
+          <span
+            class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+          />
+          <span
+            class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+          />
+           
+          <br />
+          <span
+            class="sc-jGxEUC VtfdM sc-jMMfwr fvNMYo"
+          />
+        </div>
+      </div>
+      <div
+        class="sc-dTdPqK lZNnJ"
+        data-test="infoCard"
+      >
+        <div
+          class="sc-itybZL fqApdn"
+        />
+        <div
+          class="sc-jKmXuR gfYYZd"
+        >
+          <div
+            class="sc-elNKlv FOaSH"
+          >
+            <img
+              class="sc-gPWkxV eWPxmF"
+              src="mock"
+            />
+            <span
+              class="sc-bYwvMP bShwZS"
+            >
+              mock
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dTdPqK dQfZjt"
+        data-test="infoCard"
+      >
+        <h2
+          class="sc-eMigcr cZgrqL"
+        />
+        <div
+          class="sc-cZBZkQ keuDXb"
+        >
+          <div
+            class="sc-ecaExY kFXCed"
+          />
+          <div
+            class="sc-dTdPqK dQfZjt"
+            data-test="infoCard"
+          >
+            <div
+              class="sc-itybZL kvkMBh"
+            >
+              mock
+            </div>
+            <div
+              class="sc-kcbnda cSZruH"
+            >
+              <div
+                class="sc-dHmInP ZkyOJ"
+              >
+                <span
+                  class="sc-hUMlYv eDMOiL"
+                />
+              </div>
+              <label
+                class="sc-hzNEM dqhuGF"
+                data-test="switchSaveAccount"
+                for="5000"
+                type="common"
+              >
+                <input
+                  id="5000"
+                  name="switchBox"
+                  type="checkbox"
+                />
+                <div
+                  class="sc-iBEsjs iEFOGf"
+                />
+                <span
+                  class="sc-chbbiW chdzEe"
+                />
+              </label>
+            </div>
+            <div
+              class="sc-gkFcWv XBRRj"
+              data-test="dataPermission-0"
+            >
+              <section
+                class="sc-bfYoXt kxHyFF"
+              >
+                <div
+                  class="sc-hUfwpO jeMkAu"
+                  data-test="dataPermission-0"
+                >
+                  <div
+                    class="sc-imABML lmmYHs"
+                  >
+                    <div
+                      class="sc-cjHlYL bvwGWl"
+                      data-test="card_title"
+                    >
+                      mock
+                    </div>
+                  </div>
+                  <div
+                    class="sc-dRaagA jOnQOJ"
+                  >
+                    <div
+                      class="sc-dREXXX ldzZer"
+                    >
+                      <label
+                        class="sc-hzNEM dqhuGF"
+                        data-test="switchSaveAccount"
+                        for="5000"
+                        type="common"
+                      >
+                        <input
+                          id="5000"
+                          name="switchBox"
+                          type="checkbox"
+                        />
+                        <div
+                          class="sc-iBEsjs iEFOGf"
+                        />
+                        <span
+                          class="sc-chbbiW chdzEe"
+                        />
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sc-fEUNkw iYGKkN"
+                  data-test="card_text"
+                >
+                  mock
+                </div>
+                <div>
+                  <div
+                    class="sc-iIHSe iGtcwa"
+                  >
+                    <span
+                      class="sc-gldTML jfnLib"
+                    />
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-dTdPqK lZNnJ"
+        data-test="infoCard"
+      >
+        <div
+          class="sc-itybZL fqApdn"
+        />
+        <div
+          class="sc-fzsDOv eKCDdS"
+        />
+        <div
+          class="sc-gbzWSY iNpyrR"
+        />
+        <div
+          class="sc-ESoVU bfwslv"
+        >
+          <span
+            class="sc-kkbgRg dAvpni"
+          >
+            undefined undefined
+          </span>
+        </div>
+        <div
+          class="sc-gbzWSY iNpyrR"
+        >
+          undefined 06/01/2010
+        </div>
+      </div>
+      <div
+        class="sc-cqCuEk dPcKMx"
+      >
+        <div
+          class="sc-hmXxxW cYmZkt"
+        >
+          <div
+            class="sc-htpNat iJtGWJ"
+            data-test="backNewConsentButton"
+            spacing="[object Object]"
+            type="outline"
+          />
+          <div
+            class="sc-htpNat cGmQpv"
+            data-test="continueNewConsentButton"
+            spacing="[object Object]"
+            type="primary"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`DetailsStep should render with consentCreated 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="overflow: visible;"
+  >
+    <div>
+      <div
+        class="sc-kUaPvJ gZZsQA"
+      >
+        <default-shimmer-loading
+          data-test="default-shimmer-loading"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-kUaPvJ gZZsQA"
+    >
+      <default-shimmer-loading
+        data-test="default-shimmer-loading"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

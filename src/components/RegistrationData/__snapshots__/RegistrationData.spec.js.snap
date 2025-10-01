@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegistrationData component should render RegistrationData Form modal with props 1`] = `
+<div
+  className="sc-bdVaJa iiKqyU sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`RegistrationData component should render RegistrationData Form modal without acionts 1`] = `
+<div
+  className="sc-bdVaJa iiKqyU sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`RegistrationData component should render RegistrationData Welcome modal with props 1`] = `
+<div
+  className="sc-bdVaJa iiKqyU sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;
+
+exports[`RegistrationData component should render RegistrationData with props 1`] = `
+<div
+  className="sc-bdVaJa iiKqyU sc-bdVaJa iHZvIS"
+  is={null}
+/>
+`;

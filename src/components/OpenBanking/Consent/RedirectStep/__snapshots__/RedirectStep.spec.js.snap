@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RedirectStep should match snapshot and redirect after approve consent 1`] = `
+<RedirectStep
+  currentStep={3}
+  goToStep={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`RedirectStep should match snapshot and redirect after cancel consent 1`] = `
+<RedirectStep
+  currentStep={3}
+  goToStep={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`RedirectStep should match snapshot with generic informations 1`] = `
+<RedirectStep
+  currentStep={3}
+  goToStep={[MockFunction]}
+  stepForward={[MockFunction]}
+/>
+`;

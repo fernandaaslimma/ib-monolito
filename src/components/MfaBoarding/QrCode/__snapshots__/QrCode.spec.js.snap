@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QrCode component should match snapshot with props 1`] = `
+<styled.div>
+  <styled.h2 />
+  <styled.div>
+    <CornerBox
+      cornerColor="#003b77"
+      cornerOpacity={0.12}
+      cornerSize={24}
+      cornerThickness={5}
+      height={142}
+      width={158}
+    >
+      <QRCode
+        bgColor="#FFFFFF"
+        data-test="qrCodeImg"
+        fgColor="#000000"
+        includeMargin={false}
+        level="L"
+        renderAs="svg"
+        size={142}
+      />
+    </CornerBox>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <Input
+        EnableFixedInput={null}
+        dataTest="QrCodeInput"
+        disableKeys={Array []}
+        disabled={false}
+        fixedValue={null}
+        icon="Lock"
+        label={null}
+        msgError={null}
+        msgFocusInput={null}
+        name="TokenInput"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={null}
+        placeholder=""
+        tinyLabels={null}
+        type="text"
+        valid={[Function]}
+        value=""
+      />
+    </styled.div>
+    <ConnectWrapper>
+      <Button
+        dataTest="QrCodeButton"
+        disabled={true}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xs",
+            "left": "none",
+            "right": "none",
+            "top": "xs",
+          }
+        }
+      />
+    </ConnectWrapper>
+  </styled.div>
+</styled.div>
+`;
+
+exports[`QrCode component should submitToken 1`] = `
+<styled.div>
+  <styled.h2 />
+  <styled.div>
+    <CornerBox
+      cornerColor="#003b77"
+      cornerOpacity={0.12}
+      cornerSize={24}
+      cornerThickness={5}
+      height={142}
+      width={158}
+    >
+      <QRCode
+        bgColor="#FFFFFF"
+        data-test="qrCodeImg"
+        fgColor="#000000"
+        includeMargin={false}
+        level="L"
+        renderAs="svg"
+        size={142}
+      />
+    </CornerBox>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <Input
+        EnableFixedInput={null}
+        dataTest="QrCodeInput"
+        disableKeys={Array []}
+        disabled={false}
+        fixedValue={null}
+        icon="Lock"
+        label={null}
+        msgError={null}
+        msgFocusInput={null}
+        name="TokenInput"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={null}
+        placeholder=""
+        tinyLabels={null}
+        type="text"
+        valid={[Function]}
+        value=""
+      />
+    </styled.div>
+    <ConnectWrapper>
+      <Button
+        dataTest="QrCodeButton"
+        disabled={true}
+        loading={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xs",
+            "left": "none",
+            "right": "none",
+            "top": "xs",
+          }
+        }
+      />
+    </ConnectWrapper>
+  </styled.div>
+</styled.div>
+`;

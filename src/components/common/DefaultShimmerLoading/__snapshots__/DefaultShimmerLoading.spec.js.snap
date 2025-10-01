@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BankLogo component should match snapshot 1`] = `
+<styled.div
+  data-test="container"
+>
+  <Container>
+    <styled.li
+      key="0"
+    >
+      <styled.ul>
+        <styled.li
+          key="0"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+      </styled.ul>
+    </styled.li>
+  </Container>
+</styled.div>
+`;
+
+exports[`BankLogo component should match snapshot with innerRepeat 1`] = `
+<styled.div
+  data-test="container"
+>
+  <Container>
+    <styled.li
+      key="0"
+    >
+      <styled.ul>
+        <styled.li
+          key="0"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+        <styled.li
+          key="1"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+        <styled.li
+          key="2"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+      </styled.ul>
+    </styled.li>
+  </Container>
+</styled.div>
+`;
+
+exports[`BankLogo component should match snapshot with repeat 1`] = `
+<styled.div
+  data-test="container"
+>
+  <Container>
+    <styled.li
+      key="0"
+    >
+      <styled.ul>
+        <styled.li
+          key="0"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+      </styled.ul>
+    </styled.li>
+    <styled.li
+      key="1"
+    >
+      <styled.ul>
+        <styled.li
+          key="0"
+        >
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.li>
+      </styled.ul>
+    </styled.li>
+  </Container>
+</styled.div>
+`;

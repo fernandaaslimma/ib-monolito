@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListStep component Different period activity Should match snapshpt 1`] = `
+<DetailsCard
+  clickInfo={[MockFunction]}
+  initialInvestment={20000}
+  list={
+    Object {
+      "fortyEightMonths": null,
+      "thirtySixMonths": null,
+      "twelveMonths": null,
+      "yearFunds": null,
+    }
+  }
+  periodActive={5}
+  profitabilitySoFar={null}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep component Different period activity Should match snapshpt 2`] = `
+<DetailsCard
+  clickInfo={[MockFunction]}
+  initialInvestment={20000}
+  list={
+    Object {
+      "fortyEightMonths": null,
+      "thirtySixMonths": null,
+      "twelveMonths": null,
+      "yearFunds": null,
+    }
+  }
+  periodActive={7}
+  profitabilitySoFar={null}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep component Different period activity Should match snapshpt 3`] = `
+<DetailsCard
+  clickInfo={[MockFunction]}
+  initialInvestment={20000}
+  list={
+    Object {
+      "fortyEightMonths": null,
+      "thirtySixMonths": null,
+      "twelveMonths": null,
+      "yearFunds": null,
+    }
+  }
+  periodActive={12}
+  profitabilitySoFar={null}
+  stepForward={[MockFunction]}
+/>
+`;
+
+exports[`ListStep component Should match snapshot 1`] = `
+<DetailsCard
+  list={
+    Object {
+      "minimumBalance": 20000,
+      "minimumTransaction": 10000,
+      "redempConversionDays": 1,
+      "redempSettlementDays": 0,
+      "subsConversionDays": 20,
+    }
+  }
+  stepForward={[MockFunction]}
+  title="bla"
+/>
+`;
+
+exports[`ListStep component Should match snapshot 2`] = `
+<DetailsCard
+  list={
+    Object {
+      "administrationFeeFunds": 0.2,
+      "administratorFunds": null,
+      "benchmarkFunds": "CDI",
+      "custodianFunds": undefined,
+      "inceptionDateFunds": null,
+      "managerFunds": "Bahia Asset Management",
+      "performanceFeeFunds": 0.2,
+    }
+  }
+  stepForward={[MockFunction]}
+  title="bla"
+/>
+`;

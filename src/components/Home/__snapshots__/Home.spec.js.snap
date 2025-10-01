@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component should match snapshot 1`] = `
+<div
+  className="sc-bdVaJa bgLSRO"
+  data-test="container"
+>
+  <div
+    className="sc-EHOje jdcoeB sc-bdVaJa iHZvIS"
+    is={null}
+  >
+    <li
+      className="sc-htpNat PFJJx"
+    >
+      <ul
+        className="sc-bxivhb fqMNca"
+      >
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+      </ul>
+    </li>
+    <li
+      className="sc-htpNat PFJJx"
+    >
+      <ul
+        className="sc-bxivhb fqMNca"
+      >
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+        <li
+          className="sc-ifAKCX bxenym"
+        >
+          <div
+            className="sc-bZQynM dmUJyh"
+          />
+        </li>
+      </ul>
+    </li>
+  </div>
+</div>
+`;
+
+exports[`Home component should not notificate user 1`] = `
+<DefaultShimmerLoading
+  innerRepeat={3}
+  repeat={2}
+/>
+`;

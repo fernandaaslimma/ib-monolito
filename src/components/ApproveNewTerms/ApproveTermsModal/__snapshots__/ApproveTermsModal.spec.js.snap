@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test Should match snapshot 1`] = `
+<Fragment>
+  <Header
+    data-test="TermsSelectionTypeExit"
+    onClickClose={[MockFunction]}
+    removeCloseIcon={false}
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div
+        data-test="titleLabel"
+      >
+        Alteração dos termos e condições de uso
+      </styled.div>
+      <styled.span
+        data-test="descriptionLabel"
+      >
+        Realizamos algumas mudanças nos itens de  Confidencialidade das informações dos usuários e Garantias, responsabilidades e danos dos termos e condições de Uso.
+      </styled.span>
+      <styled.div>
+        <Checkbox
+          checked={false}
+          dataTest="CheckboxNewTerms"
+          label="NEW_TERMS_CHECKBOX_LABEL"
+          onChange={[MockFunction]}
+        />
+      </styled.div>
+      <styled.div>
+        <Button
+          actionSecondary={null}
+          className={null}
+          disabled={false}
+          height={null}
+          isCallToAction={null}
+          isModalType={true}
+          isWarning={null}
+          onClick={[Function]}
+          padding={0}
+          paddingSize={null}
+          small={false}
+          type="button"
+          width={162}
+        >
+          VIEW_TERMS
+        </Button>
+        <Button
+          actionSecondary={null}
+          background="#2EBD8C"
+          border="none"
+          className={null}
+          color="#ffffff"
+          disabled={true}
+          height={null}
+          isCallToAction={null}
+          isModalType={true}
+          isWarning={null}
+          noHoverBackground={true}
+          onClick={[Function]}
+          paddingSize={null}
+          small={false}
+          type="button"
+          width={162}
+        >
+          ACCEPT_TERMS
+        </Button>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

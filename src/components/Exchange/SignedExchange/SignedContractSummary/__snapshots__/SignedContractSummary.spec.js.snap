@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignedContractSummary component should match snapshot with props 1`] = `
+<styled.section
+  data-test="SignedContract"
+>
+  <styled.div
+    operation={true}
+  >
+    <Card
+      data-test="Card-undefined"
+      icon="Papers"
+      iconColor={null}
+      title="CONTRACT undefined"
+      titleColor={null}
+    >
+      <ConnectWrapper
+        contract={
+          Object {
+            "contract": Object {
+              "contractId": "21332112XX",
+              "foreignAmount": 3212312,
+              "foreignCurrency": "USD",
+              "localAmount": 32132232,
+              "localCurrency": "BRL",
+              "rate": 2.333,
+              "tradeDate": "20/12/2017",
+              "type": "buy",
+            },
+          }
+        }
+        loading={true}
+      />
+    </Card>
+  </styled.div>
+</styled.section>
+`;

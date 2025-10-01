@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataItem component should match snapshot 1`] = `
+<styled.div
+  isEmpty={false}
+>
+  <styled.h2>
+    Settlement date
+  </styled.h2>
+  <styled.div>
+    10/12/2017
+  </styled.div>
+</styled.div>
+`;

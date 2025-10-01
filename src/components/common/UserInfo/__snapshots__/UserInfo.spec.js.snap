@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfo component should match snapshot 1`] = `
+<UserInfo
+  getUserInfo={[MockFunction]}
+>
+  <div>
+    content
+  </div>
+</UserInfo>
+`;

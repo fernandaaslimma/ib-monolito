@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CanAccess component should match snapshot 1`] = `<[object Object] />`;
+
+exports[`CanAccess component should match snapshot with roles 1`] = `""`;
+
+exports[`CanAccess component should match snapshot with roles and userInfo 1`] = `<[object Object] />`;
+
+exports[`CanAccess component should match snapshot with userInfo 1`] = `<[object Object] />`;

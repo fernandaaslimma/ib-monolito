@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeExpirationAlert component should match snapshot 1`] = `
+<div
+  class="sc-bdVaJa buZlBC"
+  data-test="TimeExpirationAlertPopup"
+>
+  <div
+    class="sc-htpNat fSqAVK"
+  >
+    <span
+      class="sc-bxivhb dLUHUm"
+      data-test="TimeExpirationCounter"
+    >
+      60
+    </span>
+  </div>
+  <div
+    class="sc-ifAKCX bWRMNU"
+  >
+    <span
+      class="sc-bwzfXH dhRmVt"
+    >
+      mock
+    </span>
+    <button
+      class="sc-EHOje jtfcPp"
+      data-test="Button"
+      height="45"
+      type="button"
+    >
+      <div
+        class="sc-bZQynM cHRtIx"
+      >
+        <div
+          class="sc-gzVnrw iPvssE"
+        >
+          mock
+        </div>
+      </div>
+    </button>
+  </div>
+</div>
+`;

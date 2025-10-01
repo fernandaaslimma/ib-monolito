@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompositeInput component should match snapshot 1`] = `
+<styled.ul>
+  <styled.li
+    key="composite_item_0"
+  >
+    <styled.div
+      pristine="true"
+    >
+      <input
+        id={1}
+        max={100}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="0"
+        type="number"
+        value=""
+      />
+    </styled.div>
+    <styled.label>
+      Fundos de Investimento de Renda Fixa e Referenciado DI, Poupança, Títulos Públicos e Conta Corrente
+    </styled.label>
+  </styled.li>
+  <styled.li
+    key="composite_item_1"
+  >
+    <styled.div
+      pristine="true"
+    >
+      <input
+        id={2}
+        max={100}
+        min={0}
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="0"
+        type="number"
+        value=""
+      />
+    </styled.div>
+    <styled.label>
+      Fundos de Investimento de Renda Fixa Crédito Privado (incluindo FIDICs e Fundos de Crédito)
+    </styled.label>
+  </styled.li>
+  <styled.li
+    valid={false}
+  >
+    : 
+    0
+    %
+  </styled.li>
+</styled.ul>
+`;

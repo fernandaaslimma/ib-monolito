@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResumeStep component Should match snapshot with currentScreen not 5 1`] = `
+<ResumeStep
+  currentStep={5}
+/>
+`;
+
+exports[`ResumeStep component Should match snapshot with isPtBr as false 1`] = `
+<ResumeStep
+  currentStep={5}
+/>
+`;
+
+exports[`ResumeStep component Should match snapshpt 1`] = `
+<ResumeStep
+  currentStep={5}
+/>
+`;

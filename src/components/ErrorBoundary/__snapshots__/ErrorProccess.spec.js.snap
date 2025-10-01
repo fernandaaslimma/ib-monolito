@@ -1,0 +1,299 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorProccess component ErrorProccess default error 1`] = `
+<div
+  className="sc-kpOJdX jaznfJ"
+>
+  <div
+    className="sc-bwzfXH fSBywS"
+    data-test="error-boundary"
+  >
+    <div
+      className="sc-htpNat iVFZhG"
+    >
+      <span
+        className="sc-bdVaJa fqBkaO"
+        color={null}
+        height={null}
+        width={null}
+      >
+        <svg
+          height="140"
+          viewBox="0 0 140 140"
+          width="140"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M0 0h140v140H0z"
+            />
+            <g
+              stroke="#27445F"
+            >
+              <path
+                d="M15.31 21.29v98.323h108.43V21.29z"
+                strokeLinejoin="round"
+                strokeWidth="8.2"
+              />
+              <path
+                d="M15.31 40.353h108.43"
+                strokeWidth="8.27"
+              />
+            </g>
+            <g
+              transform="translate(67.033 67.31)"
+            >
+              <circle
+                cx="35.08"
+                cy="35.08"
+                fill="#F6F9FB"
+                r="35"
+              />
+              <ellipse
+                cx="35.53"
+                cy="35.633"
+                rx="25.563"
+                ry="25.547"
+                stroke="#27445F"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="8.2"
+              />
+            </g>
+            <g
+              stroke="#27445F"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="8.27"
+            >
+              <path
+                d="M102.5 90.5v14.214M102.5 117.5v-.439"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <h3
+      className="sc-bxivhb feVdGI"
+      data-test="error-boundaryTitle"
+    >
+      WE_ARE_SORRY_BUT_WE_WERE_UNABLE_TO_SERVICE_YOUR_REQUEST
+    </h3>
+    <p
+      className="sc-dxgOiQ lokNQP"
+    >
+      THE_SERVICE_IS_TEMPORARILY_UNAVAILABLE_AND_OUR_ENGINEERS_ARE_WORKING_QUICKLY_TO_RESOLVE_THE_ISSUE
+      <a
+        className="sc-ckVGcZ jZaKMr"
+        href="CONTACT_LINK_URL"
+      >
+        CONTACT_LINK_URL
+      </a>
+    </p>
+    <div
+      className="sc-kGXeez juXhZD"
+    >
+      <button
+        className="sc-bZQynM leRwIV"
+        data-test="button-not-found"
+        disabled={false}
+        height={null}
+        onClick={[Function]}
+        type="button"
+        width={200}
+      >
+        <div
+          className="sc-gzVnrw dXHRgh"
+        >
+          <div
+            className="sc-htoDjs dAyEzA"
+          >
+            BACK_TO_HOME_SCREEN
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ErrorProccess component ErrorProccess when has children with Offline error 1`] = `
+<div
+  className="sc-kpOJdX jaznfJ"
+>
+  <div
+    className="sc-bwzfXH fSBywS"
+    data-test="error-boundary"
+  >
+    <div
+      className="sc-htpNat iVFZhG"
+    >
+      <span
+        className="sc-bdVaJa fqBkaO"
+        color={null}
+        height={null}
+        width={null}
+      >
+        <svg
+          height="141"
+          viewBox="0 0 140 141"
+          width="140"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fillRule="evenodd"
+          >
+            <path
+              d="M0 1h140v140H0z"
+            />
+            <g
+              fill="#E1EDF6"
+              transform="translate(16 29)"
+            >
+              <path
+                d="M104.058 25.822l.883.812 1.146 1.07a4.5 4.5 0 0 1-5.968 6.732l-.174-.154-1.145-1.069a66.248 66.248 0 0 0-10.918-8.265l6.53-6.531a75.32 75.32 0 0 1 9.646 7.405zM75.025 9.52l-7.4 7.4c-20.936-4.483-43.597 1.31-59.983 17.294a4.5 4.5 0 1 1-6.284-6.442C21.424 8.198 49.774 2.072 75.025 9.52zM88.008 46.39l.552.648a4.5 4.5 0 0 1-6.737 5.964l-.153-.174-.059-.07a36.842 36.842 0 0 0-12.09-9.45l6.657-6.656a45.846 45.846 0 0 1 11.83 9.739zm-34.04-15.813L43.715 40.83a36.831 36.831 0 0 0-14.194 7.41 36.972 36.972 0 0 0-4.57 4.58 4.5 4.5 0 0 1-6.902-5.775 45.972 45.972 0 0 1 5.682-5.694 45.793 45.793 0 0 1 30.237-10.774zM72.22 65.298l.247.307.282.356a4 4 0 0 1-6.134 5.131l-.141-.168-.282-.356c-5.067-6.408-14.207-7.699-20.827-3.104l10.66-10.66c6.116.5 12.02 3.39 16.195 8.494z"
+                fillRule="nonzero"
+              />
+              <circle
+                cx="53.5"
+                cy="80"
+                r="4"
+              />
+              <path
+                d="M91.632 1.212a4 4 0 0 1 5.885 5.415l-.149.161-70 72a4 4 0 0 1-5.885-5.415l.149-.161 70-72z"
+                fillRule="nonzero"
+              />
+            </g>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <h3
+      className="sc-bxivhb feVdGI"
+      data-test="error-boundaryTitle"
+    >
+      LOOKS_LIKE_YOU_ARE_OUT_OF_CONNECTION
+    </h3>
+    <p
+      className="sc-EHOje JoEeO"
+      data-test="error-boundarySubTitle"
+    >
+      CHECK_YOUR_INTERNET_AND_TRY_TO_RECONNECT
+    </p>
+    <p
+      className="sc-dxgOiQ lokNQP"
+    >
+      THE_SERVICE_IS_TEMPORARILY_UNAVAILABLE_AND_OUR_ENGINEERS_ARE_WORKING_QUICKLY_TO_RESOLVE_THE_ISSUE
+      <a
+        className="sc-ckVGcZ jZaKMr"
+        href="CONTACT_LINK_URL"
+      >
+        CONTACT_LINK_URL
+      </a>
+    </p>
+    <div
+      className="sc-kGXeez juXhZD"
+    />
+  </div>
+</div>
+`;
+
+exports[`ErrorProccess component Qualified error when API returns Approvement Flow Not Found error 1`] = `
+<div
+  className="sc-kpOJdX jaznfJ"
+>
+  <div
+    className="sc-bwzfXH fSBywS"
+    data-test="error-boundary"
+  >
+    <div
+      className="sc-htpNat iVFZhG"
+    >
+      <span
+        className="sc-bdVaJa fqBkaO"
+        color={null}
+        height={null}
+        width={null}
+      >
+        <svg
+          fill="none"
+          height="65"
+          viewBox="0 0 54 65"
+          width="54"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M41.7026 0.500275C45.0462 0.500275 48.0732 1.85552 50.2643 4.04666C52.4555 6.23779 53.8107 9.26482 53.8107 12.6084C53.8107 15.9519 52.4555 18.979 50.2643 21.1701C48.0732 23.3612 45.0462 24.7165 41.7026 24.7165C38.359 24.7165 35.332 23.3612 33.1409 21.1701C30.9497 18.979 29.5945 15.9519 29.5945 12.6084C29.5945 9.26482 30.9497 6.23779 33.1409 4.04666C35.332 1.85552 38.359 0.500275 41.7026 0.500275ZM41.7026 2.41208C38.887 2.41208 36.3379 3.55334 34.4927 5.39851C32.6476 7.24368 31.5063 9.79275 31.5063 12.6084C31.5063 15.424 32.6476 17.9731 34.4927 19.8183C36.3379 21.6634 38.887 22.8047 41.7026 22.8047C44.5182 22.8047 47.0673 21.6634 48.9125 19.8183C50.7576 17.9731 51.8989 15.424 51.8989 12.6084C51.8989 9.79275 50.7576 7.24368 48.9125 5.39851C47.0673 3.55334 44.5182 2.41208 41.7026 2.41208ZM42.0907 6.39557C42.7945 6.40786 43.3551 6.98836 43.3428 7.69216L43.2483 13.1081C43.236 13.8119 42.6555 14.3725 41.9517 14.3602C41.2479 14.3479 40.6873 13.7674 40.6996 13.0636L40.7942 7.64767C40.8064 6.94387 41.3869 6.38329 42.0907 6.39557ZM42.0212 18.9811C42.9011 18.9811 43.6144 18.2678 43.6144 17.3879C43.6144 16.508 42.9011 15.7947 42.0212 15.7947C41.1413 15.7947 40.4281 16.508 40.4281 17.3879C40.4281 18.2678 41.1413 18.9811 42.0212 18.9811Z"
+            fill="#D2444A"
+            fillRule="evenodd"
+          />
+          <path
+            clipRule="evenodd"
+            d="M48.6216 27.0248V61.0408C48.6216 62.9514 47.0728 64.5003 45.1622 64.5003H10.5676C8.65698 64.5003 7.10813 62.9514 7.10813 61.0408V59.203H3.64867C1.73806 59.203 0.189209 57.6541 0.189209 55.7435V7.41918C0.189209 5.50857 1.73806 3.95972 3.64867 3.95972H28.092C27.507 5.04532 27.0406 6.20425 26.7101 7.41918H3.64867V55.8516H7.10813V10.8786H26.1575C26.1427 11.165 26.1352 11.4534 26.1352 11.7435C26.1352 12.6264 26.2048 13.493 26.3388 14.3381H10.5676V61.0408H45.1622L44.9576 28.0034C46.2323 27.8176 47.4595 27.4856 48.6216 27.0248ZM30.5823 22.9854L16.5382 22.9867C16.0836 22.9867 15.6719 22.7932 15.374 22.4801C15.0762 22.1673 14.8919 21.7351 14.8919 21.257C14.8919 20.8003 15.0601 20.3855 15.3347 20.0766C15.6178 19.758 16.0144 19.5523 16.4564 19.5294L28.0925 19.5283C28.7717 20.7885 29.6107 21.9499 30.5823 22.9854ZM39.4909 28.6825C39.193 28.3695 38.7813 28.1759 38.3267 28.1759L16.4564 28.178C16.0144 28.201 15.6178 28.4066 15.3347 28.7253C15.0601 29.0342 14.8919 29.449 14.8919 29.9057C14.8919 30.3837 15.0762 30.816 15.374 31.1288C15.6719 31.4419 16.0836 31.6354 16.5382 31.6354L38.4085 31.6333C38.8505 31.6103 39.2471 31.4047 39.5303 31.086C39.8048 30.7771 39.973 30.3623 39.973 29.9057C39.973 29.4276 39.7887 28.9954 39.4909 28.6825ZM39.4909 37.3312C39.193 37.0181 38.7813 36.8246 38.3267 36.8246L16.4564 36.8267C16.0144 36.8496 15.6178 37.0553 15.3347 37.3739C15.0601 37.6828 14.8919 38.0976 14.8919 38.5543C14.8919 39.0324 15.0762 39.4646 15.374 39.7774C15.6719 40.0905 16.0836 40.284 16.5382 40.284L38.4085 40.2819C38.8505 40.259 39.2471 40.0534 39.5303 39.7347C39.8048 39.4258 39.973 39.011 39.973 38.5543C39.973 38.0762 39.7887 37.644 39.4909 37.3312ZM38.3267 45.4732C38.7813 45.4732 39.193 45.6667 39.4909 45.9798C39.7887 46.2927 39.973 46.7249 39.973 47.203C39.973 47.6596 39.8048 48.0744 39.5303 48.3833C39.2471 48.702 38.8505 48.9076 38.4085 48.9306L16.5382 48.9327C16.0836 48.9327 15.6719 48.7392 15.374 48.4261C15.0762 48.1133 14.8919 47.681 14.8919 47.203C14.8919 46.7463 15.0601 46.3315 15.3347 46.0226C15.6178 45.7039 16.0144 45.4983 16.4564 45.4753L38.3267 45.4732ZM39.4909 54.6285C39.193 54.3154 38.7813 54.1219 38.3267 54.1219L16.4564 54.124C16.0144 54.1469 15.6178 54.3526 15.3347 54.6712C15.0601 54.9801 14.8919 55.3949 14.8919 55.8516C14.8919 56.3297 15.0762 56.7619 15.374 57.0747C15.6719 57.3878 16.0836 57.5813 16.5382 57.5813L38.4085 57.5792C38.8505 57.5563 39.2471 57.3507 39.5303 57.032C39.8048 56.7231 39.973 56.3083 39.973 55.8516C39.973 55.3735 39.7887 54.9413 39.4909 54.6285Z"
+            fill="#003B77"
+            fillRule="evenodd"
+          />
+        </svg>
+      </span>
+    </div>
+    <h3
+      className="sc-bxivhb feVdGI"
+      data-test="error-boundaryTitle"
+    >
+      ERROR_PROCESS_PROCURATION_ERROR_TITLE
+    </h3>
+    <p
+      className="sc-EHOje JoEeO"
+      data-test="error-boundarySubTitle"
+    >
+      ERROR_PROCESS_PROCURATION_ERROR_MSG_1
+    </p>
+    <p
+      className="sc-EHOje JoEeO"
+      data-test="error-boundarySubTitle"
+    >
+      ERROR_PROCESS_PROCURATION_ERROR_MSG_2
+    </p>
+    <p
+      className="sc-dxgOiQ lokNQP"
+    >
+      THE_SERVICE_IS_TEMPORARILY_UNAVAILABLE_AND_OUR_ENGINEERS_ARE_WORKING_QUICKLY_TO_RESOLVE_THE_ISSUE
+      <a
+        className="sc-ckVGcZ jZaKMr"
+        href="CONTACT_LINK_URL"
+      >
+        CONTACT_LINK_URL
+      </a>
+    </p>
+    <div
+      className="sc-kGXeez juXhZD"
+    >
+      <button
+        className="sc-bZQynM leRwIV"
+        data-test="button-not-found"
+        disabled={false}
+        height={null}
+        onClick={[Function]}
+        type="button"
+        width={200}
+      >
+        <div
+          className="sc-gzVnrw dXHRgh"
+        >
+          <div
+            className="sc-htoDjs dAyEzA"
+          >
+            ERROR_PROCESS_BUTTON_MESSAGE
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

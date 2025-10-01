@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EFTSchedule component should match snapshot 1`] = `
+<styled.div
+  data-test="transferInsufficientFundsModal"
+>
+  <styled.div>
+    <styled.div>
+      <Icon
+        color={null}
+        cursor={false}
+        fixCrossAxisAlign={null}
+        height={null}
+        type="Schedule"
+        width={null}
+      />
+    </styled.div>
+    <styled.h1 />
+    <styled.h1 />
+  </styled.div>
+  <styled.div>
+    <Styled(Button)
+      dataTest="Cancel"
+      disabled={false}
+      id="Cancel"
+      isWarning={true}
+      onClick={[Function]}
+    />
+    <Link
+      actionSecondary={false}
+      anchor={null}
+      dataTest="Confirm"
+      disabled={false}
+      href="javascript:void(0)"
+      id="Confirm"
+      isCallToAction={true}
+      loading={false}
+      onClick={[Function]}
+      small={null}
+      target={null}
+      to={null}
+      width={null}
+    />
+  </styled.div>
+</styled.div>
+`;

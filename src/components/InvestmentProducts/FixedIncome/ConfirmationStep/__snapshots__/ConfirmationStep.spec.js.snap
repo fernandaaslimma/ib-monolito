@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmationStep component Should match snapshot 1`] = `
+<Fragment>
+  <styled.span
+    id="ConfirmationStep"
+  />
+  <styled.div>
+    <styled.div>
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <HideableValue
+            currency="R$"
+            currencyColor="#99B5C6"
+            hide={true}
+            pattern="******"
+            styles="font-size: 0.875rem; color: \\"#2d4758\\"; font-family: Lato Bold; margin-right: 0.75rem"
+          />
+          <styled.span
+            onClick={[Function]}
+          >
+            <Icon
+              color="#3976CF"
+              cursorPointer={true}
+              height={20}
+              spacing={
+                Object {
+                  "bottom": "none",
+                  "left": "none",
+                  "right": "none",
+                  "top": "none",
+                }
+              }
+              type="View"
+              width={20}
+            />
+          </styled.span>
+        </styled.div>
+      </styled.div>
+      <styled.span />
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="0"
+      >
+        <styled.span />
+        <styled.div>
+          <styled.div>
+            R$
+          </styled.div>
+          <styled.div />
+        </styled.div>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="1"
+      >
+        <styled.span />
+        <styled.span>
+          LCA
+        </styled.span>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="2"
+      >
+        <styled.span />
+        <styled.span>
+          Banco BOCOM BBM
+        </styled.span>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="3"
+      >
+        <styled.span />
+        <styled.span>
+          102% DI
+        </styled.span>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="4"
+      >
+        <styled.span />
+        <styled.span>
+          05/31/2010
+        </styled.span>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="5"
+      >
+        <styled.span />
+        <styled.span>
+          Diária após 90 dias
+        </styled.span>
+      </styled.section>
+      <styled.section
+        className="ConfirmationInfoWrapper"
+        key="6"
+      >
+        <styled.span />
+        <styled.span>
+          05/31/2010
+        </styled.span>
+      </styled.section>
+    </styled.div>
+    <styled.div>
+      <styled.span />
+      <styled.div>
+        <Button
+          dataTest="Button"
+          disabled={false}
+          onClick={[MockFunction]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "xxs",
+              "top": "s",
+            }
+          }
+          type="outline"
+        />
+        <Button
+          dataTest="continueInvestButton"
+          disabled={false}
+          loading={false}
+          onClick={[Function]}
+          spacing={
+            Object {
+              "bottom": "s",
+              "left": "s",
+              "right": "s",
+              "top": "s",
+            }
+          }
+        />
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <AnimatedBottonSheet
+    head={
+      Object {
+        "close": true,
+        "title": undefined,
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.div>
+      <styled.div>
+        <styled.span
+          data-test="transactionInMovement"
+        >
+          <Styled(styled.span) />
+        </styled.span>
+      </styled.div>
+      <styled.div>
+        <styled.span />
+        <styled.div>
+          <Button
+            dataTest="noButton"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "s",
+                "right": "xxs",
+                "top": "s",
+              }
+            }
+            type="outline"
+          />
+        </styled.div>
+        <styled.div>
+          <Button
+            dataTest="yesNewTransactionButton"
+            disabled={false}
+            onClick={[Function]}
+            spacing={
+              Object {
+                "bottom": "s",
+                "left": "s",
+                "right": "s",
+                "top": "s",
+              }
+            }
+          />
+        </styled.div>
+      </styled.div>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

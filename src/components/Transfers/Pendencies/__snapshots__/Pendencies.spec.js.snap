@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pendencies should match snapshot - empty state 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Row>
+      <Column>
+        <Desktop
+          approveEFT={[MockFunction]}
+          approveModal={[Function]}
+          authFactors={
+            Array [
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                ],
+                "activated": true,
+                "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+                "defaultAuth": false,
+                "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+                "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+                "type": "mobile",
+              },
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                ],
+                "activated": true,
+                "authUri": "21956309602",
+                "defaultAuth": false,
+                "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+                "plataformIdentifier": null,
+                "type": "sms",
+              },
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                  "PersonRegistrationForms",
+                  "SuitabilityForms",
+                  "wiretransfer",
+                ],
+                "activated": true,
+                "authUri": "pj_yuriramos@bancobbm.com.br",
+                "defaultAuth": true,
+                "id": "s56456-bdsvdas-455wq",
+                "plataformIdentifier": null,
+                "type": "mail",
+              },
+            ]
+          }
+          changeFactorTogle={[MockFunction]}
+          checkMFA={[MockFunction]}
+          closeModal={[MockFunction]}
+          createAuthCode={[MockFunction]}
+          denyEFT={[MockFunction]}
+          getAuthFactors={[MockFunction]}
+          getTransferById={[MockFunction]}
+          hasAccess={true}
+          isAfterCreation={false}
+          isEmpty={true}
+          loadTransfers={[MockFunction]}
+          loading={false}
+          openModal={[MockFunction]}
+          openToastr={[MockFunction]}
+          pendencies={
+            Object {
+              "content": Array [
+                Object {
+                  "ammount": 123,
+                  "approvers": Array [
+                    Object {
+                      "approverId": "string",
+                      "hasApproved": false,
+                      "name": "string",
+                    },
+                  ],
+                  "bankAccount": "string",
+                  "bankBranch": "string",
+                  "dueDate": 123,
+                  "originAccount": "string",
+                  "recipient": Object {
+                    "bankAccount": "string",
+                    "bankId": "string",
+                    "bankName": "string",
+                    "name": "string",
+                    "taxId": "string",
+                  },
+                  "transferOrderId": "string",
+                },
+              ],
+            }
+          }
+          setNotificationStatus={[MockFunction]}
+          tokenModal={[Function]}
+          transferOrderId={null}
+          userInfo={
+            Object {
+              "email": "string",
+              "roles": Array [
+                "ApproveEFT",
+              ],
+            }
+          }
+        />
+      </Column>
+    </Row>
+  </styled.div>
+</ErrorBoundary>
+`;
+
+exports[`Pendencies should match snapshot 1`] = `
+<ErrorBoundary>
+  <styled.div>
+    <Row>
+      <Column>
+        <Desktop
+          approveEFT={[MockFunction]}
+          approveModal={[Function]}
+          authFactors={
+            Array [
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                ],
+                "activated": true,
+                "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+                "defaultAuth": false,
+                "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+                "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+                "type": "mobile",
+              },
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                ],
+                "activated": true,
+                "authUri": "21956309602",
+                "defaultAuth": false,
+                "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+                "plataformIdentifier": null,
+                "type": "sms",
+              },
+              Object {
+                "actions": Array [
+                  "authregistration",
+                  "passwordreset",
+                  "PersonRegistrationForms",
+                  "SuitabilityForms",
+                  "wiretransfer",
+                ],
+                "activated": true,
+                "authUri": "pj_yuriramos@bancobbm.com.br",
+                "defaultAuth": true,
+                "id": "s56456-bdsvdas-455wq",
+                "plataformIdentifier": null,
+                "type": "mail",
+              },
+            ]
+          }
+          changeFactorTogle={[MockFunction]}
+          checkMFA={[MockFunction]}
+          closeModal={[MockFunction]}
+          createAuthCode={[MockFunction]}
+          denyEFT={[MockFunction]}
+          getAuthFactors={[MockFunction]}
+          getTransferById={[MockFunction]}
+          hasAccess={true}
+          isAfterCreation={false}
+          isEmpty={false}
+          loadTransfers={[MockFunction]}
+          loading={false}
+          openModal={[MockFunction]}
+          openToastr={[MockFunction]}
+          pendencies={
+            Object {
+              "content": Array [
+                Object {
+                  "ammount": 123,
+                  "approvers": Array [
+                    Object {
+                      "approverId": "string",
+                      "hasApproved": false,
+                      "name": "string",
+                    },
+                  ],
+                  "bankAccount": "string",
+                  "bankBranch": "string",
+                  "dueDate": 123,
+                  "originAccount": "string",
+                  "recipient": Object {
+                    "bankAccount": "string",
+                    "bankId": "string",
+                    "bankName": "string",
+                    "name": "string",
+                    "taxId": "string",
+                  },
+                  "transferOrderId": "string",
+                },
+              ],
+            }
+          }
+          setNotificationStatus={[MockFunction]}
+          tokenModal={[Function]}
+          transferOrderId={null}
+          userInfo={
+            Object {
+              "email": "string",
+              "roles": Array [
+                "ApproveEFT",
+              ],
+            }
+          }
+        />
+      </Column>
+    </Row>
+  </styled.div>
+</ErrorBoundary>
+`;

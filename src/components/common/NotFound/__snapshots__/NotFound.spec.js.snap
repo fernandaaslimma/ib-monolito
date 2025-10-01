@@ -1,0 +1,336 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-gzVnrw dFUuqt"
+      >
+        <div
+          class="sc-bwzfXH dpzoex"
+          data-test="NotFound"
+        >
+          <div
+            class="sc-htpNat iVFZhG"
+          >
+            <span
+              class="sc-bdVaJa iUOSvt"
+              color="#374654"
+              data-test="icon-notFound"
+            >
+              <svg
+                height="140"
+                viewBox="0 0 140 140"
+                width="140"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <path
+                    d="M0 0h140v140H0z"
+                  />
+                  <g
+                    stroke="#27445F"
+                    stroke-width="8.27"
+                  >
+                    <path
+                      d="M15.622 21.29v98.323h108.43V21.29z"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M15.622 40.353h108.43"
+                    />
+                  </g>
+                  <path
+                    d="M91.155 90.091l31.979 29.522"
+                    stroke="#F6F9FB"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="18.378"
+                  />
+                  <g
+                    transform="translate(27.568 24.966)"
+                  >
+                    <circle
+                      cx="41.351"
+                      cy="41.351"
+                      fill="#F6F9FB"
+                      r="41.351"
+                    />
+                    <path
+                      d="M32.854 33.67l20.258 19.614M52.992 33.186L32.734 52.799"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="7.351"
+                    />
+                    <ellipse
+                      cx="42.062"
+                      cy="42.042"
+                      rx="31.954"
+                      ry="31.934"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="8.27"
+                    />
+                  </g>
+                  <g
+                    transform="translate(27.568 24.966)"
+                  >
+                    <circle
+                      cx="41.351"
+                      cy="41.351"
+                      fill="#F6F9FB"
+                      r="41.351"
+                    />
+                    <path
+                      d="M32.854 33.67l20.258 19.614M52.992 33.186L32.734 52.799"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="7.351"
+                    />
+                    <ellipse
+                      cx="42.062"
+                      cy="42.042"
+                      rx="31.954"
+                      ry="31.934"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="8.27"
+                    />
+                  </g>
+                  <g
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="8.27"
+                  >
+                    <path
+                      d="M92.58 90.578l31.013 29.494"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </div>
+          <h3
+            class="sc-bxivhb CsUg"
+            data-test="NotFoundTitle"
+          >
+            PAGE_NOT_FOUND
+          </h3>
+          <p
+            class="sc-EHOje jifphG"
+            data-test="NotFoundSubTitle"
+          >
+            SORRY_PAGE_NOT_FOUND
+          </p>
+          <div
+            class="sc-bZQynM brfISi"
+          >
+            <div>
+              test
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-gzVnrw dFUuqt"
+    >
+      <div
+        class="sc-bwzfXH dpzoex"
+        data-test="NotFound"
+      >
+        <div
+          class="sc-htpNat iVFZhG"
+        >
+          <span
+            class="sc-bdVaJa iUOSvt"
+            color="#374654"
+            data-test="icon-notFound"
+          >
+            <svg
+              height="140"
+              viewBox="0 0 140 140"
+              width="140"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M0 0h140v140H0z"
+                />
+                <g
+                  stroke="#27445F"
+                  stroke-width="8.27"
+                >
+                  <path
+                    d="M15.622 21.29v98.323h108.43V21.29z"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15.622 40.353h108.43"
+                  />
+                </g>
+                <path
+                  d="M91.155 90.091l31.979 29.522"
+                  stroke="#F6F9FB"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="18.378"
+                />
+                <g
+                  transform="translate(27.568 24.966)"
+                >
+                  <circle
+                    cx="41.351"
+                    cy="41.351"
+                    fill="#F6F9FB"
+                    r="41.351"
+                  />
+                  <path
+                    d="M32.854 33.67l20.258 19.614M52.992 33.186L32.734 52.799"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="7.351"
+                  />
+                  <ellipse
+                    cx="42.062"
+                    cy="42.042"
+                    rx="31.954"
+                    ry="31.934"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="8.27"
+                  />
+                </g>
+                <g
+                  transform="translate(27.568 24.966)"
+                >
+                  <circle
+                    cx="41.351"
+                    cy="41.351"
+                    fill="#F6F9FB"
+                    r="41.351"
+                  />
+                  <path
+                    d="M32.854 33.67l20.258 19.614M52.992 33.186L32.734 52.799"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="7.351"
+                  />
+                  <ellipse
+                    cx="42.062"
+                    cy="42.042"
+                    rx="31.954"
+                    ry="31.934"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="8.27"
+                  />
+                </g>
+                <g
+                  stroke="#27445F"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="8.27"
+                >
+                  <path
+                    d="M92.58 90.578l31.013 29.494"
+                  />
+                </g>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <h3
+          class="sc-bxivhb CsUg"
+          data-test="NotFoundTitle"
+        >
+          PAGE_NOT_FOUND
+        </h3>
+        <p
+          class="sc-EHOje jifphG"
+          data-test="NotFoundSubTitle"
+        >
+          SORRY_PAGE_NOT_FOUND
+        </p>
+        <div
+          class="sc-bZQynM brfISi"
+        >
+          <div>
+            test
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

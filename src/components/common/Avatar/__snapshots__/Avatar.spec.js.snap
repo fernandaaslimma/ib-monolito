@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component should match snapshot with icon 1`] = `
+<Fragment>
+  <styled.div
+    background="#eef1f3"
+    borderColor={null}
+    size={40}
+  >
+    <Icon
+      color="#2d4758"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={20}
+      type="Cash"
+      width={20}
+    />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Avatar component should match snapshot with icon and styles avatar 1`] = `
+<Fragment>
+  <styled.div
+    background="#fff"
+    borderColor={null}
+    size={40}
+  >
+    <Icon
+      color="#000"
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height={20}
+      type="Cash"
+      width={20}
+    />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Avatar component should match snapshot with name 1`] = `
+<Fragment>
+  <styled.div
+    background="#eef1f3"
+    borderColor={null}
+    size={40}
+  >
+    <styled.div
+      color="#2d4758"
+      fontSize={14}
+    >
+      JM
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Avatar component should match snapshot with name and styles avatar 1`] = `
+<Fragment>
+  <styled.div
+    background="#fff"
+    borderColor={null}
+    size={40}
+  >
+    <styled.div
+      color="#000"
+      fontSize={14}
+    >
+      JM
+    </styled.div>
+  </styled.div>
+</Fragment>
+`;

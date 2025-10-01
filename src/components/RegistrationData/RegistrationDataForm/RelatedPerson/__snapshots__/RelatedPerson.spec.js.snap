@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RelatedPerson component should display AlertMessage 1`] = `
+<RelatedPerson
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  validateSection={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "institution": null,
+            "isRelated": false,
+            "jobTitle": null,
+            "name": null,
+            "relationship": null,
+          },
+          "relatedPersonInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`RelatedPerson component should match snapshot with props 1`] = `
+<RelatedPerson
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`RelatedPerson component should match snapshot without related person text 1`] = `
+<RelatedPerson
+  onChange={[MockFunction]}
+  validateSection={[MockFunction]}
+/>
+`;

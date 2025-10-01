@@ -1,0 +1,25 @@
+[
+  {
+    "dev": {
+      "bbmBackEnd": "https://api.dev.bocombbm.com.br/",
+      "bbmUrl": "https://ib.dev.bocombbm.com.br",
+      "externalGateway": "https://mag.dev.bocombbm.com.br:8443/",
+      "internalGateway": "https://apigw.dev.bocombbm.com.br:8443/"
+    },
+    "homol": {
+      "bbmBackEnd": "https://api.hom.bocombbm.com.br/",
+      "bbmUrl": "https://ib.hom.bocombbm.com.br",
+      "externalGateway": "https://mag.hom.bocombbm.com.br:8443/",
+      "internalGateway": "https://apigw.hom.bocombbm.com.br:8443/"
+    },
+    "localhost": {
+      "bbmBackEnd": "https://api.dev.bocombbm.com.br/",
+      "bbmUrl": "http://localhost:8080",
+      "externalGateway": "https://mag.dev.bocombbm.com.br:8443/",
+      "internalGateway": "https://apigw.dev.bocombbm.com.br:8443/"
+    },
+    "mock": {
+      "bbmUrl": "http://40.121.58.75"
+    }
+  }
+]

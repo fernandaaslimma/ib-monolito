@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignConfirmation component should match snapshot 1`] = `
+<DefaultContent
+  Icon={[Function]}
+  data-test="SignConfirmation"
+  primaryText="THE_CONTRACT_WAS_SIGNED"
+/>
+`;
+
+exports[`SignConfirmation component should match snapshot with props 1`] = `
+<DefaultContent
+  Icon={[Function]}
+  data-test="SignConfirmation"
+  primaryText="THE_CONTRACT_WAS_SIGNED"
+/>
+`;

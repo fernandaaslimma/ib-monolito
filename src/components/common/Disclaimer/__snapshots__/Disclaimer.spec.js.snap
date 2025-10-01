@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Disclaimer component should match snapshot 1`] = `
+<styled.p>
+  <Icon
+    color={null}
+    cursor={false}
+    fixCrossAxisAlign={null}
+    height={null}
+    type="Info"
+    width={null}
+  />
+  <span />
+</styled.p>
+`;
+
+exports[`Disclaimer component should match snapshot with text 1`] = `
+<styled.p>
+  <Icon
+    color={null}
+    cursor={false}
+    fixCrossAxisAlign={null}
+    height={null}
+    type="Info"
+    width={null}
+  />
+  <span>
+    disclaimer text
+  </span>
+</styled.p>
+`;

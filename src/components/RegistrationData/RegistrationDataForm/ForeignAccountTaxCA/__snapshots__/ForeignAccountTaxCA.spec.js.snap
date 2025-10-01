@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Foreign Account Tax CA component Should not render questionnaire 1`] = `
+<ForeignAccountTaxCA
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Foreign Account Tax CA component Should render AlertMessage component 1`] = `
+<ForeignAccountTaxCA
+  invalidFields={
+    Object {
+      "documents": Object {
+        "fatcaInformation": false,
+      },
+      "fatcaInformation": Array [
+        "ALL_CANT_BE_ZERO",
+      ],
+    }
+  }
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Foreign Account Tax CA component Should render inputs and message of error 1`] = `
+<ForeignAccountTaxCA
+  invalidFields={
+    Object {
+      "documents": Object {
+        "fatcaInformation": false,
+      },
+      "fatcaInformation": Array [
+        "ALL_CANT_BE_ZERO",
+      ],
+    }
+  }
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isUsPerson": true,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "fatcaInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Foreign Account Tax CA component Should render inputs and message of error 2`] = `
+<ForeignAccountTaxCA
+  invalidFields={
+    Object {
+      "documents": Object {
+        "fatcaInformation": false,
+      },
+      "fatcaInformation": Array [
+        "ALL_CANT_BE_ZERO",
+      ],
+    }
+  }
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isUsPerson": true,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "fatcaInformation",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Foreign Account Tax CA component should display AlertMessage 1`] = `
+<ForeignAccountTaxCA
+  invalidFields={
+    Object {
+      "documents": Object {
+        "fatcaInformation": false,
+      },
+      "fatcaInformation": Array [
+        "ALL_CANT_BE_ZERO",
+      ],
+    }
+  }
+  onChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isUsPerson": true,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 0,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 20,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+                "value": true,
+              },
+            ],
+          },
+          "fatcaInformation",
+        ],
+        Array [
+          Object {
+            "isUsPerson": false,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 0,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 20,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+                "value": false,
+              },
+            ],
+          },
+          "fatcaInformation",
+        ],
+        Array [
+          Object {
+            "fatcaInformation": Array [],
+          },
+          "documents",
+        ],
+        Array [
+          Object {
+            "fatcaInformation": Array [],
+          },
+          "documents",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "isUsPerson": true,
+            "questionnaire": Array [
+              Object {
+                "optionNumber": 1,
+                "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 2,
+                "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 3,
+                "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+                "value": false,
+              },
+              Object {
+                "additionalValues": Array [
+                  Object {
+                    "order": 1,
+                    "value": 10,
+                  },
+                  Object {
+                    "order": 2,
+                    "value": 0,
+                  },
+                  Object {
+                    "order": 3,
+                    "value": 20,
+                  },
+                ],
+                "optionNumber": 4,
+                "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+                "value": false,
+              },
+              Object {
+                "optionNumber": 5,
+                "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 6,
+                "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 7,
+                "text": " I do not have a green card visa and have not applied for a visa to the US.",
+                "value": true,
+              },
+              Object {
+                "optionNumber": 8,
+                "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+                "value": true,
+              },
+            ],
+          },
+          "fatcaInformation",
+        ],
+        Array [
+          Object {},
+          "documents",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`Foreign Account Tax CA component should match snapshot with model equality 1`] = `
+<ForeignAccountTaxCA
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;
+
+exports[`Foreign Account Tax CA component should match snapshot with props 1`] = `
+<ForeignAccountTaxCA
+  onChange={[MockFunction]}
+  originalData={
+    Object {
+      "isUsPerson": false,
+      "questionnaire": Array [
+        Object {
+          "optionNumber": 1,
+          "text": "I am a student, teacher, or trainee at a US educational institution or a participant in a cultural or educational exchange program, and I have a US visa specifically related to these types of stay ('F', 'J', 'M', or 'Q').",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 2,
+          "text": " I work in the US as a foreign diplomat or hold positions at a consulate, embassy or international organization.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 3,
+          "text": "I am a spouse or single child under 21 (twenty one) years old who meets conditions 1 or 2.",
+          "value": false,
+        },
+        Object {
+          "additionalValues": Array [
+            Object {
+              "order": 1,
+              "value": 10,
+            },
+            Object {
+              "order": 2,
+              "value": 0,
+            },
+            Object {
+              "order": 3,
+              "value": 20,
+            },
+          ],
+          "optionNumber": 4,
+          "text": "I have not had a substantial presence in the United States, i.e., in the last three years (including the present year) I have not been in the US for more than 183 days considering all the days of this year, one third of last year and one sixth of the previous year. I was present in the U.S. for ___ days in the current year, ___ days in the previous year, and ___ days in the year before that",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 5,
+          "text": " I have given up US nationality or citizenship pursuant to the Certificate of Loss of Nationality, issued by the US Bureau of Consular Affairs, attached to this statement.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 6,
+          "text": "Although I was born in the US, as per attached statement, I have renounced US citizenship (although I do not yet have the corresponding Certificate) or did not acquire such citizenship at birth.",
+          "value": false,
+        },
+        Object {
+          "optionNumber": 7,
+          "text": " I do not have a green card visa and have not applied for a visa to the US.",
+          "value": true,
+        },
+        Object {
+          "optionNumber": 8,
+          "text": "I have given up my green card visa, as per the Green Card Abandonment Certificate issued by a US consular authority inBrazil, attached to this declaration.",
+          "value": true,
+        },
+      ],
+    }
+  }
+  validateSection={[MockFunction]}
+/>
+`;

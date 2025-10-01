@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListFiles Component should match snapshot 1`] = `
+<styled.ul>
+  <styled.li
+    data-test="ListFileItem_0"
+    key="0"
+  >
+    <styled.p
+      onClick={[Function]}
+    >
+      <Styled(Icon)
+        height="10"
+        type="Arrow"
+        width="10"
+      />
+      <styled.span>
+        Earnings Report
+      </styled.span>
+    </styled.p>
+    <styled.ul
+      size={1}
+    >
+      <styled.li
+        key="0"
+      >
+        <Styled(Icon)
+          data-test="ListFileItemButton_0"
+          height="20"
+          onClick={[Function]}
+          type="Download"
+          width="20"
+        />
+        <styled.span>
+          2015-Banco
+        </styled.span>
+      </styled.li>
+    </styled.ul>
+  </styled.li>
+</styled.ul>
+`;
+
+exports[`ListFiles Component should match snapshot with shimmerload 1`] = `
+<styled.ul>
+  <styled.li
+    data-test="ListFileItem_0"
+    key="0"
+  >
+    <styled.p
+      onClick={[Function]}
+    >
+      <Styled(Icon)
+        height="10"
+        type="Arrow"
+        width="10"
+      />
+      <styled.span>
+        Earnings Report
+      </styled.span>
+    </styled.p>
+    <styled.ul
+      size={1}
+    >
+      <styled.li
+        key="0"
+      >
+        <Styled(Icon)
+          data-test="ListFileItemButton_0"
+          height="20"
+          onClick={[Function]}
+          type="Download"
+          width="20"
+        />
+        <styled.span>
+          2015-Banco
+        </styled.span>
+      </styled.li>
+    </styled.ul>
+  </styled.li>
+</styled.ul>
+`;

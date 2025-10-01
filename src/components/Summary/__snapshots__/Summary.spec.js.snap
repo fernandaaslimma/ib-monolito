@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary component should match snapshot 1`] = `
+<ErrorBoundary>
+  <Hide
+    above="md"
+    below={null}
+  >
+    <Mobile
+      consolidatedAssets={
+        Array [
+          Object {
+            "assetClass": "Fixed Income",
+            "grossBalance": 12.3,
+            "netBalance": 123213.2,
+            "portfolioShare": 23,
+          },
+        ]
+      }
+      consolidatedPosition={
+        Array [
+          Object {
+            "grossBalance": 12.3,
+            "name": "Fixed Income",
+            "netBalance": 123213.2,
+            "portfolioShare": 23,
+          },
+        ]
+      }
+      indexes={
+        Array [
+          Object {
+            "index": "CDI",
+            "monthAcrrued": 0.3,
+            "yearAccrued": 12.7,
+          },
+          Object {
+            "index": "Dolar",
+            "monthAcrrued": 0.7,
+            "yearAccrued": 10.7,
+          },
+        ]
+      }
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+      transactions={
+        Array [
+          Object {
+            "assetName": "LCI",
+            "date": "2017-01-01",
+            "grossValue": 123.123,
+            "type": "Ativo",
+          },
+        ]
+      }
+    />
+  </Hide>
+  <Hide
+    above={null}
+    below="md"
+  >
+    <Desktop
+      consolidatedAssets={
+        Array [
+          Object {
+            "assetClass": "Fixed Income",
+            "grossBalance": 12.3,
+            "netBalance": 123213.2,
+            "portfolioShare": 23,
+          },
+        ]
+      }
+      consolidatedPosition={
+        Array [
+          Object {
+            "grossBalance": 12.3,
+            "name": "Fixed Income",
+            "netBalance": 123213.2,
+            "portfolioShare": 23,
+          },
+        ]
+      }
+      indexes={
+        Array [
+          Object {
+            "index": "CDI",
+            "monthAcrrued": 0.3,
+            "yearAccrued": 12.7,
+          },
+          Object {
+            "index": "Dolar",
+            "monthAcrrued": 0.7,
+            "yearAccrued": 10.7,
+          },
+        ]
+      }
+      pendingTransactions={
+        Array [
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Moderate",
+              "riskProfileLabel": "Moderado",
+            },
+            "transactionDate": "2021-02-22",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+          Object {
+            "id": 123,
+            "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+            "product": Object {
+              "classType": "HedgeFund",
+              "classTypeLabel": "Multimercado",
+              "id": 456,
+              "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+              "riskProfile": "Aggressive",
+              "riskProfileLabel": "Agressivo",
+            },
+            "transactionDate": "2021-02-17",
+            "transactionValue": 123456.99,
+            "type": "subscription",
+            "typeLabel": "subscription",
+          },
+        ]
+      }
+      transactions={
+        Array [
+          Object {
+            "assetName": "LCI",
+            "date": "2017-01-01",
+            "grossValue": 123.123,
+            "type": "Ativo",
+          },
+        ]
+      }
+    />
+  </Hide>
+</ErrorBoundary>
+`;

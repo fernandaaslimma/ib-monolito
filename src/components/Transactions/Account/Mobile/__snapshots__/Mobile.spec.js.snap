@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<styled.div>
+  <styled.section
+    key="0"
+  >
+    <styled.div>
+      <styled.h1>
+        CHECKING_ACCOUNT 308642-4
+      </styled.h1>
+      <Card
+        icon={null}
+        iconColor={null}
+        title={null}
+        titleColor={null}
+      >
+        <styled.div>
+          <styled.div>
+            OPEN_BALANCE_ON 06/01/2010
+          </styled.div>
+          <styled.div>
+            <styled.span
+              red={false}
+            >
+              6.903,20
+            </styled.span>
+          </styled.div>
+        </styled.div>
+        <Styled(styled.div)
+          noMargin={true}
+        />
+        <styled.div
+          data-test="MobileGrid-0"
+          key="MobileGrid_0"
+        >
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              06/01/2010
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+              TYPE
+            </styled.div>
+            <styled.div>
+              CRÉDITO
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              78.351,22
+               
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <styled.div
+          data-test="MobileGrid-1"
+          key="MobileGrid_1"
+        >
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              06/01/2010
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+              TYPE
+            </styled.div>
+            <styled.div>
+              CRÉDITO
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              4.923,16
+               
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <styled.div
+          data-test="MobileGrid-2"
+          key="MobileGrid_2"
+        >
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              06/01/2010
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+              TYPE
+            </styled.div>
+            <styled.div>
+              DÉBITO
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              -87.879,50
+               
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <styled.div
+          data-test="MobileGrid-3"
+          key="MobileGrid_3"
+        >
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              06/01/2010
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+              TYPE
+            </styled.div>
+            <styled.div>
+              CRÉDITO
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              88.038,51
+               
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <styled.div
+          data-test="MobileGrid-4"
+          key="MobileGrid_4"
+        >
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              06/01/2010
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+              TYPE
+            </styled.div>
+            <styled.div>
+              DÉBITO
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              -91.651,78
+               
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <Styled(styled.div)
+          noMargin={true}
+        />
+        <br />
+        <styled.div>
+          <styled.div>
+            CLOSE_BALANCE_ON 06/01/2010
+          </styled.div>
+          <styled.div>
+            <styled.span
+              red={false}
+            >
+              52,60
+            </styled.span>
+          </styled.div>
+        </styled.div>
+      </Card>
+    </styled.div>
+  </styled.section>
+  ;
+</styled.div>
+`;
+
+exports[`Mobile component should match snapshot with loading 1`] = `
+<styled.div>
+  <styled.section>
+    <styled.div>
+      <Card
+        icon={null}
+        iconColor={null}
+        title={null}
+        titleColor={null}
+      >
+        <styled.div>
+          <styled.div>
+            OPEN_BALANCE_ON:
+          </styled.div>
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.div>
+        <Styled(styled.div)
+          noMargin={true}
+        />
+        <styled.div>
+          <styled.div>
+            <styled.div>
+              DATE
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div)>
+            <styled.div>
+               
+              TYPE
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </Styled(styled.div)>
+          <Styled(styled.div)>
+            <styled.div>
+               
+              VALUE (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </Styled(styled.div)>
+        </styled.div>
+        <Styled(styled.div)
+          noMargin={true}
+        />
+        <styled.div>
+          <styled.div>
+            CLOSE_BALANCE_ON:
+          </styled.div>
+          <ShimmerLoading
+            darker={false}
+            index={0}
+            inverse={false}
+          />
+        </styled.div>
+      </Card>
+    </styled.div>
+  </styled.section>
+  ;
+</styled.div>
+`;

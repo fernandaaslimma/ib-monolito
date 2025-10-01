@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Selector should match snapshot closed 1`] = `
+<Styled(styled.div)>
+  <ConnectWrapper
+    acceptedOneFileType=".rem"
+    handleInputFiles={[Function]}
+    hideDragAndDrop={false}
+    labels={
+      Object {
+        "button": undefined,
+        "dragActive": undefined,
+        "dragLimitFiles": undefined,
+        "dragginValue": undefined,
+        "excededSize": undefined,
+        "mainMessage": undefined,
+        "placeholder": undefined,
+        "placeholderTwo": undefined,
+        "title": undefined,
+      }
+    }
+    progressBar={true}
+    spacing={
+      Object {
+        "bottom": "none",
+        "left": "none",
+        "right": "none",
+        "top": "l",
+      }
+    }
+    uploadMultipleFiles={false}
+  />
+</Styled(styled.div)>
+`;

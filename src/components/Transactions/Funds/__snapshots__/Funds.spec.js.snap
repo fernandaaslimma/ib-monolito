@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds Transactions component should match snapshot 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        fundsIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-05",
+              "grossValue": 13526.47,
+              "incomeTax": 0,
+              "iof": 0,
+              "netValue": 13526.47,
+              "type": "APLICAÇÃO",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -15.34,
+              "incomeTax": 15.34,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -286.47,
+              "incomeTax": 286.47,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+          ]
+        }
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        fundsIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-05",
+              "grossValue": 13526.47,
+              "incomeTax": 0,
+              "iof": 0,
+              "netValue": 13526.47,
+              "type": "APLICAÇÃO",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -15.34,
+              "incomeTax": 15.34,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -286.47,
+              "incomeTax": 286.47,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+          ]
+        }
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Funds Transactions component should match snapshot with loading 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        fundsIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-05",
+              "grossValue": 13526.47,
+              "incomeTax": 0,
+              "iof": 0,
+              "netValue": 13526.47,
+              "type": "APLICAÇÃO",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -15.34,
+              "incomeTax": 15.34,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -286.47,
+              "incomeTax": 286.47,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={true}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        fundsIncomeTransactions={
+          Array [
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-05",
+              "grossValue": 13526.47,
+              "incomeTax": 0,
+              "iof": 0,
+              "netValue": 13526.47,
+              "type": "APLICAÇÃO",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -15.34,
+              "incomeTax": 15.34,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+            Object {
+              "assetName": "BAHIA AM FI REFERENCIADO DI",
+              "date": "2016-05-31",
+              "grossValue": -286.47,
+              "incomeTax": 286.47,
+              "iof": 0,
+              "netValue": 0,
+              "type": "RESGATE PARA PAG. DE IR",
+            },
+          ]
+        }
+        isEmpty={false}
+        loading={true}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;
+
+exports[`Funds Transactions component should match snapshot without funds Transactions 1`] = `
+<ErrorBoundary>
+  <div
+    data-test="Transactions_Funds"
+  >
+    <Hide
+      above="md"
+      below={null}
+    >
+      <Mobile
+        activePage={1}
+        fundsIncomeTransactions={Array []}
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+    <Hide
+      above={null}
+      below="md"
+    >
+      <Desktop
+        activePage={1}
+        fundsIncomeTransactions={Array []}
+        isEmpty={false}
+        onChangePage={[Function]}
+        onFilter={[Function]}
+        totalCount={0}
+      />
+    </Hide>
+  </div>
+</ErrorBoundary>
+`;

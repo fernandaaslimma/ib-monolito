@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssetTable component should match snapshot with equities 1`] = `
+<CustomTable
+  data={
+    Array [
+      Object {
+        "assetName": <styled.span>
+          PORD11 CI
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={false}
+        >
+          141.504,00
+        </styled.div>,
+        "netValue": <styled.div
+          red={false}
+        >
+          141.504,00
+        </styled.div>,
+        "type": <span>
+          COMPRA
+        </span>,
+      },
+    ]
+  }
+  headers={
+    Array [
+      Object {
+        "field": "assetName",
+        "style": Object {
+          "fontSize": "0.625rem",
+          "lineHeight": 1.4,
+        },
+        "title": "NAME",
+        "width": "15%",
+      },
+      Object {
+        "field": "",
+        "title": "",
+        "width": "2%",
+      },
+      Object {
+        "field": "type",
+        "title": "TYPE",
+        "width": "15%",
+      },
+      Object {
+        "field": "date",
+        "title": "DATE",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "grossValue",
+        "title": "GROSS_VALUE",
+        "total": true,
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "netValue",
+        "title": "NET_VALUE",
+        "total": true,
+      },
+    ]
+  }
+  render={null}
+  shimmerLoading={null}
+  style={null}
+  title="EQUITY"
+  total={
+    Object {
+      "grossValue": 141504,
+      "incomeTax": NaN,
+      "iof": NaN,
+      "netValue": 141504,
+    }
+  }
+  totalPosition="down"
+  withBackground={false}
+  zebra={false}
+/>
+`;
+
+exports[`AssetTable component should match snapshot with fixed income 1`] = `
+<CustomTable
+  data={
+    Array [
+      Object {
+        "assetName": <styled.span>
+          COMPROMISSADA
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={false}
+        >
+          87.570,15
+        </styled.div>,
+        "incomeTax": <span>
+          0,00
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={false}
+        >
+          87.570,15
+        </styled.div>,
+        "type": <span>
+          COMPRA
+        </span>,
+      },
+      Object {
+        "assetName": <styled.span>
+          COMPROMISSADA
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={true}
+        >
+          -87.876,11
+        </styled.div>,
+        "incomeTax": <span>
+          68,84
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={true}
+        >
+          -87.807,27
+        </styled.div>,
+        "type": <span>
+          RESGATE ANTECIPADO
+        </span>,
+      },
+      Object {
+        "assetName": <styled.span>
+          LCA - Pós
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={true}
+        >
+          -19.984,22
+        </styled.div>,
+        "incomeTax": <span>
+          0,00
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={true}
+        >
+          -19.984,22
+        </styled.div>,
+        "type": <span>
+          VENCIMENTO
+        </span>,
+      },
+    ]
+  }
+  headers={
+    Array [
+      Object {
+        "field": "assetName",
+        "style": null,
+        "title": "NAME",
+        "width": "15%",
+      },
+      Object {
+        "field": "",
+        "title": "",
+        "width": "2%",
+      },
+      Object {
+        "field": "type",
+        "title": "TYPE",
+        "width": "15%",
+      },
+      Object {
+        "field": "date",
+        "title": "DATE",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "incomeTax",
+        "title": "INCOME_TAX",
+        "total": true,
+        "width": "9%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "iof",
+        "title": "IOF",
+        "total": true,
+        "width": "7%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "grossValue",
+        "title": "GROSS_VALUE",
+        "total": true,
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "netValue",
+        "title": "NET_VALUE",
+        "total": true,
+      },
+    ]
+  }
+  render={null}
+  shimmerLoading={null}
+  style={null}
+  title="FIXED_INCOME"
+  total={
+    Object {
+      "grossValue": -20290.180000000008,
+      "incomeTax": 68.84,
+      "iof": 0,
+      "netValue": -20221.34000000001,
+    }
+  }
+  totalPosition="down"
+  withBackground={false}
+  zebra={false}
+/>
+`;
+
+exports[`AssetTable component should match snapshot with funds 1`] = `
+<CustomTable
+  data={
+    Array [
+      Object {
+        "assetName": <styled.span>
+          BAHIA AM FI REFERENCIADO DI
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={false}
+        >
+          13.526,47
+        </styled.div>,
+        "incomeTax": <span>
+          0,00
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={false}
+        >
+          13.526,47
+        </styled.div>,
+        "type": <span>
+          APLICAÇÃO
+        </span>,
+      },
+      Object {
+        "assetName": <styled.span>
+          BAHIA AM FI REFERENCIADO DI
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={true}
+        >
+          -15,34
+        </styled.div>,
+        "incomeTax": <span>
+          15,34
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={false}
+        >
+          0,00
+        </styled.div>,
+        "type": <span>
+          RESGATE PARA PAG. DE IR
+        </span>,
+      },
+      Object {
+        "assetName": <styled.span>
+          BAHIA AM FI REFERENCIADO DI
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={true}
+        >
+          -286,47
+        </styled.div>,
+        "incomeTax": <span>
+          286,47
+        </span>,
+        "iof": <span>
+          0,00
+        </span>,
+        "netValue": <styled.div
+          red={false}
+        >
+          0,00
+        </styled.div>,
+        "type": <span>
+          RESGATE PARA PAG. DE IR
+        </span>,
+      },
+    ]
+  }
+  headers={
+    Array [
+      Object {
+        "field": "assetName",
+        "style": Object {
+          "fontSize": "0.625rem",
+          "lineHeight": 1.4,
+        },
+        "title": "NAME",
+        "width": "15%",
+      },
+      Object {
+        "field": "",
+        "title": "",
+        "width": "2%",
+      },
+      Object {
+        "field": "type",
+        "title": "TYPE",
+        "width": "15%",
+      },
+      Object {
+        "field": "date",
+        "title": "DATE",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "incomeTax",
+        "title": "INCOME_TAX",
+        "total": true,
+        "width": "9%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "iof",
+        "title": "IOF",
+        "total": true,
+        "width": "7%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "grossValue",
+        "title": "GROSS_VALUE",
+        "total": true,
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "netValue",
+        "title": "NET_VALUE",
+        "total": true,
+      },
+    ]
+  }
+  render={null}
+  shimmerLoading={null}
+  style={null}
+  title="FUNDS"
+  total={
+    Object {
+      "grossValue": 13224.66,
+      "incomeTax": 301.81,
+      "iof": 0,
+      "netValue": 13526.47,
+    }
+  }
+  totalPosition="down"
+  withBackground={false}
+  zebra={false}
+/>
+`;
+
+exports[`AssetTable component should match snapshot with shimmerLoading 1`] = `
+<CustomTable
+  data={
+    Array [
+      Object {
+        "assetName": <styled.span>
+          PORD11 CI
+        </styled.span>,
+        "date": <span>
+          06/01/2010
+        </span>,
+        "grossValue": <styled.div
+          red={false}
+        >
+          141.504,00
+        </styled.div>,
+        "incomeTax": <span>
+          NaN
+        </span>,
+        "iof": <span>
+          NaN
+        </span>,
+        "netValue": <styled.div
+          red={false}
+        >
+          141.504,00
+        </styled.div>,
+        "type": <span>
+          COMPRA
+        </span>,
+      },
+    ]
+  }
+  headers={
+    Array [
+      Object {
+        "field": "assetName",
+        "style": Object {
+          "fontSize": "0.625rem",
+          "lineHeight": 1.4,
+        },
+        "title": "NAME",
+        "width": "15%",
+      },
+      Object {
+        "field": "",
+        "title": "",
+        "width": "2%",
+      },
+      Object {
+        "field": "type",
+        "title": "TYPE",
+        "width": "15%",
+      },
+      Object {
+        "field": "date",
+        "title": "DATE",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "incomeTax",
+        "title": "INCOME_TAX",
+        "total": true,
+        "width": "9%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "iof",
+        "title": "IOF",
+        "total": true,
+        "width": "7%",
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "grossValue",
+        "title": "GROSS_VALUE",
+        "total": true,
+      },
+      Object {
+        "align": "right",
+        "currency": true,
+        "field": "netValue",
+        "title": "NET_VALUE",
+        "total": true,
+      },
+    ]
+  }
+  render={null}
+  shimmerLoading={
+    Object {
+      "loading": true,
+      "rows": 10,
+    }
+  }
+  style={null}
+  title="EQUITY"
+  total={
+    Object {
+      "grossValue": 141504,
+      "incomeTax": NaN,
+      "iof": NaN,
+      "netValue": 141504,
+    }
+  }
+  totalPosition="down"
+  withBackground={false}
+  zebra={false}
+/>
+`;

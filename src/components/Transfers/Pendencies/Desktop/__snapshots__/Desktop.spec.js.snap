@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot - empty state 1`] = `
+<styled.div>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+</styled.div>
+`;
+
+exports[`should match snapshot 1`] = `
+<styled.div>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "agencyAccount": <span>
+             / 
+            string
+          </span>,
+          "disabled": true,
+          "favored": <span>
+            string
+          </span>,
+          "id": "string",
+          "info": <span />,
+          "originAccount": <span>
+            string
+          </span>,
+          "sameApprover": false,
+          "schedulingDate": <span>
+            
+          </span>,
+          "status": <span />,
+          "value": <span>
+            NaN
+          </span>,
+        },
+        Object {
+          "agencyAccount": <span>
+             / 
+            string
+          </span>,
+          "disabled": true,
+          "favored": <span>
+            string
+          </span>,
+          "id": "string",
+          "info": <span />,
+          "originAccount": <span>
+            string
+          </span>,
+          "sameApprover": false,
+          "schedulingDate": <span>
+            
+          </span>,
+          "status": <span />,
+          "value": <span>
+            NaN
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "originAccount",
+          "title": undefined,
+          "width": "15%",
+        },
+        Object {
+          "field": "schedulingDate",
+          "title": undefined,
+          "width": "10%",
+        },
+        Object {
+          "field": "favored",
+          "title": undefined,
+          "width": "15%",
+        },
+        Object {
+          "field": "agencyAccount",
+          "title": undefined,
+          "width": "12%",
+        },
+        Object {
+          "align": "right",
+          "field": "value",
+          "title": undefined,
+          "width": "11%",
+        },
+        Object {
+          "field": "status",
+          "style": Object {
+            "padding": "0.3125rem 0.4375rem 0.3125rem 3.125rem",
+          },
+          "title": undefined,
+          "width": "21%",
+        },
+        Object {
+          "field": "info",
+          "title": "",
+          "width": "6%",
+        },
+      ]
+    }
+    id="MyPendenciesTable"
+    increaseHeight={true}
+    pendencies={
+      Object {
+        "content": Array [
+          Object {
+            "ammount": 123,
+            "approvers": Array [
+              Object {
+                "approverId": "string",
+                "hasApproved": true,
+                "name": "string",
+              },
+              Object {
+                "approverId": "string1",
+                "hasApproved": false,
+                "name": "string1",
+              },
+            ],
+            "bankAccount": "string",
+            "bankBranch": "string",
+            "dueDate": "number",
+            "originAccount": "string",
+            "recipient": Object {
+              "bankAccount": "string",
+              "bankId": "string",
+              "bankName": "string",
+              "name": "string",
+              "taxId": "string",
+            },
+            "status": "settled",
+            "transferOrderId": "string",
+          },
+          Object {
+            "ammount": 123,
+            "approvers": Array [
+              Object {
+                "approverId": "string2",
+                "hasApproved": false,
+                "name": "string2",
+              },
+            ],
+            "bankAccount": "string",
+            "bankBranch": "string",
+            "dueDate": "number",
+            "originAccount": "string",
+            "recipient": Object {
+              "bankAccount": "string",
+              "bankId": "string",
+              "bankName": "string",
+              "name": "string",
+              "taxId": "string",
+            },
+            "status": "waitingSettlement",
+            "transferOrderId": "string",
+          },
+        ],
+      }
+    }
+    render={null}
+    shimmerLoading={
+      Object {
+        "loading": false,
+        "rows": 10,
+      }
+    }
+    style={null}
+    title=""
+    total={null}
+    totalPosition={null}
+    withBackground={false}
+    zebra={false}
+  />
+</styled.div>
+`;

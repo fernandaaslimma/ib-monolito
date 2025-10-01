@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Custom component should match snapshot with a closed modal 1`] = `""`;
+
+exports[`Custom component should render modal if there is modalSettings 1`] = `
+<styled.div
+  data-test="CustomModal"
+>
+  <Styled(Button)
+    dataTest="Cancel"
+    isWarning={true}
+    onClick={[Function]}
+  />
+  <Styled(Button)
+    dataTest="Confirm"
+    isCallToAction={true}
+    onClick={[Function]}
+  />
+</styled.div>
+`;
+
+exports[`Custom component should render modal if there is modalSettings with message 1`] = `
+<styled.div
+  data-test="CustomModal"
+>
+  <styled.h1>
+    message
+  </styled.h1>
+  <Styled(Button)
+    dataTest="Cancel"
+    isWarning={true}
+    onClick={[Function]}
+  />
+  <Styled(Button)
+    dataTest="Confirm"
+    isCallToAction={true}
+    onClick={[Function]}
+  />
+</styled.div>
+`;

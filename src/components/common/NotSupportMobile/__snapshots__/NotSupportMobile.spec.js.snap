@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound component should match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-bdVaJa iMgPZn"
+      >
+        <div
+          class="sc-htpNat bXxSjG"
+          data-test="NotSupportMobile"
+        >
+          <div
+            class="sc-bxivhb fTFqfq"
+          >
+            <span
+              class="sc-bwzfXH iTuTlf"
+              color="#374654"
+              data-test="icon-mobileWarning"
+            >
+              <svg
+                height="80"
+                viewBox="0 0 80 80"
+                width="80"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <path
+                    d="M1.222 2.222H79V80H1.222z"
+                  />
+                  <path
+                    d="M20.972 20.964l33.611-.276M20.972 57.21l33.75-.116"
+                    stroke="#27445F"
+                    stroke-width="4.595"
+                  />
+                  <path
+                    d="M22.696 66.781V10.89h32.222V66.78H22.696z"
+                    stroke="#27445F"
+                    stroke-linejoin="round"
+                    stroke-width="4.556"
+                  />
+                  <g
+                    transform="translate(33.333 39.383)"
+                  >
+                    <ellipse
+                      cx="19.444"
+                      cy="19.307"
+                      fill="#F6F9FB"
+                      rx="19.444"
+                      ry="19.307"
+                    />
+                    <ellipse
+                      cx="19.694"
+                      cy="19.612"
+                      rx="14.202"
+                      ry="14.092"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="4.556"
+                    />
+                    <path
+                      d="M19.66 12.747v7.84M19.66 27.64V27.4"
+                      stroke="#27445F"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="4.594"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+          </div>
+          <h3
+            class="sc-ifAKCX jouYRE"
+            data-test="NotSupportMobileTitle"
+          >
+            PAGE_NOT_AVAILABLE_MOBILE
+          </h3>
+          <p
+            class="sc-bZQynM jEjHCP"
+            data-test="NotSupportMobileSubTitle"
+          >
+            PAGE_NOT_AVAILABLE_MOBILE_USE_COMPUTER
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-bdVaJa iMgPZn"
+    >
+      <div
+        class="sc-htpNat bXxSjG"
+        data-test="NotSupportMobile"
+      >
+        <div
+          class="sc-bxivhb fTFqfq"
+        >
+          <span
+            class="sc-bwzfXH iTuTlf"
+            color="#374654"
+            data-test="icon-mobileWarning"
+          >
+            <svg
+              height="80"
+              viewBox="0 0 80 80"
+              width="80"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <path
+                  d="M1.222 2.222H79V80H1.222z"
+                />
+                <path
+                  d="M20.972 20.964l33.611-.276M20.972 57.21l33.75-.116"
+                  stroke="#27445F"
+                  stroke-width="4.595"
+                />
+                <path
+                  d="M22.696 66.781V10.89h32.222V66.78H22.696z"
+                  stroke="#27445F"
+                  stroke-linejoin="round"
+                  stroke-width="4.556"
+                />
+                <g
+                  transform="translate(33.333 39.383)"
+                >
+                  <ellipse
+                    cx="19.444"
+                    cy="19.307"
+                    fill="#F6F9FB"
+                    rx="19.444"
+                    ry="19.307"
+                  />
+                  <ellipse
+                    cx="19.694"
+                    cy="19.612"
+                    rx="14.202"
+                    ry="14.092"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="4.556"
+                  />
+                  <path
+                    d="M19.66 12.747v7.84M19.66 27.64V27.4"
+                    stroke="#27445F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="4.594"
+                  />
+                </g>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <h3
+          class="sc-ifAKCX jouYRE"
+          data-test="NotSupportMobileTitle"
+        >
+          PAGE_NOT_AVAILABLE_MOBILE
+        </h3>
+        <p
+          class="sc-bZQynM jEjHCP"
+          data-test="NotSupportMobileSubTitle"
+        >
+          PAGE_NOT_AVAILABLE_MOBILE_USE_COMPUTER
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,220 @@
+import React from "react";
+import { string, number, bool, oneOfType } from "prop-types";
+
+import { Span } from "./styles";
+
+export const icons = {
+  Approve: require("./Approve").default,
+  Change: require("./Change").default,
+  Identifier: require("./Identifier").default,
+  Limits: require("./Limits").default,
+  Money: require("./Money").default,
+  Statement: require("./Statement").default,
+  Information: require("./Information").default,
+  User: require("./User").default,
+  Deny: require("./Deny").default,
+  Arrow: require("./Arrow").default,
+  ArrowRight: require("./ArrowRight").default,
+  ArrowRight2: require("./ArrowRight2").default,
+  ArrowDisabled: require("./ArrowDisabled").default,
+  BoldArrow: require("./BoldArrow").default,
+  BoldDoubleArrow: require("./BoldDoubleArrow").default,
+  AssetPosition: require("./AssetPosition").default,
+  Attention: require("./Attention").default,
+  Bank: require("./Bank").default,
+  FooterLogo: require("./FooterLogo").default,
+  Cash: require("./Cash").default,
+  CashTransfer: require("./CashTransfer").default,
+  Check: require("./Check").default,
+  Checked: require("./Checked").default,
+  Close: require("./Close").default,
+  CloseFilled: require("./CloseFilled").default,
+  ForeignExchange: require("./ForeignExchange").default,
+  EmptyWallet: require("./EmptyWallet").default,
+  EmptyInvest: require("./EmptyInvest").default,
+  Document: require("./Document").default,
+  Documents: require("./Documents").default,
+  Download: require("./Download").default,
+  Email: require("./Email").default,
+  Summary: require("./Summary").default,
+  SmallArrow: require("./SmallArrow").default,
+  Filter: require("./Filter").default,
+  FiLoader: require("./FiLoader").default,
+  Signatures: require("./Signatures").default,
+  SignatureGroup: require("./SignatureGroup").default,
+  Info: require("./Info").default,
+  Lock: require("./Lock").default,
+  LinkArrow: require("./LinkArrow").default,
+  Logo: require("./Logo").default,
+  Logout: require("./Logout").default,
+  Menu: require("./Menu").default,
+  Transactions: require("./Transactions").default,
+  MenuClose: require("./MenuClose").default,
+  BrandLogo: require("./BrandLogo").default,
+  Papers: require("./Papers").default,
+  Portfolio: require("./Portfolio").default,
+  Wallet: require("./Wallet").default,
+  NotFound: require("./NotFound").default,
+  Keyboard: require("./Keyboard").default,
+  FlagBR: require("./FlagBR").default,
+  FlagUSA: require("./FlagUSA").default,
+  FlagCN: require("./FlagCN").default,
+  USD: require("./FlagUSA").default,
+  CNY: require("./FlagCN").default,
+  EUR: require("./FlagEUR").default,
+  Erase: require("./Erase").default,
+  ToastrClose: require("./ToastrClose").default,
+  WaitingWarning: require("./WaitingWarning").default,
+  SentMail: require("./SentMail").default,
+  Files: require("./Files").default,
+  CashAccounts: require("./CashAccounts").default,
+  Transfers: require("./Transfers").default,
+  Token: require("./Token").default,
+  TransferPassword: require("./TransferPassword").default,
+  Schedule: require("./Schedule").default,
+  Check2: require("./Check2").default,
+  Deny2: require("./Deny2").default,
+  Success: require("./Success").default,
+  NewSuccess: require("./NewSuccess").default,
+  Pen: require("./Pen").default,
+  FeedbackNegative: require("./FeedbackNegative").default,
+  DataRegistrationFeedback: require("./DataRegistrationFeedback").default,
+  PersonId: require("./PersonId").default,
+  Sms: require("./Sms").default,
+  Phone: require("./Phone").default,
+  Smartphone: require("./Smartphone").default,
+  SmartphoneError: require("./SmartphoneError").default,
+  TimeAlert: require("./TimeAlert").default,
+  MobileWarning: require("./MobileWarning").default,
+  Warning: require("./Warning").default,
+  IconBack: require("./IconBack").default,
+  Failed: require("./Failed").default,
+  View: require("./View").default,
+  HideView: require("./HideView").default,
+  Calendar: require("./Calendar").default,
+  NoResults: require("./NoResults").default,
+  PrevItem: require("./PrevIcon").default,
+  NextItem: require("./NextIcon").default,
+  ConnectionLost: require("./ConnectionLost").default,
+  MfaSmartphone: require("./MfaSmartphone").default,
+  MfaAuthenticator: require("./MfaAuthenticator").default,
+  MfaChevronRight: require("./MfaChevronRight").default,
+  MfaQrCode: require("./MfaQrCode").default,
+  BankSmooth: require("./BankSmooth").default,
+  BankDefault: require("./banks/BankDefault").default,
+  Bb: require("./banks/Bb").default,
+  Bbm: require("./banks/Bbm").default,
+  Bradesco: require("./banks/Bradesco").default,
+  C6: require("./banks/C6").default,
+  Caixa: require("./banks/Caixa").default,
+  Citibank: require("./banks/Citibank").default,
+  Coperativo: require("./banks/Coperativo").default,
+  Digio: require("./banks/Digio").default,
+  Hsbc: require("./banks/Hsbc").default,
+  Inter: require("./banks/Inter").default,
+  Itau: require("./banks/Itau").default,
+  Nubank: require("./banks/Nubank").default,
+  Original: require("./banks/Original").default,
+  Pan: require("./banks/Pan").default,
+  Safra: require("./banks/Safra").default,
+  Santander: require("./banks/Santander").default,
+  Votorantim: require("./banks/Votorantim").default,
+  Xp: require("./banks/Xp").default,
+  OpenBanking: require("./OpenBankingLogo").default,
+  MenuInvestments: require("./MenuInvestments").default,
+  MenuExchange: require("./MenuExchange").default,
+  MenuOpenFinance: require("./MenuOpenFinance").default,
+  MenuReports: require("./MenuReports").default,
+  Share: require("./Share").default,
+  RegisterData: require("./RegisterData").default,
+  InvestorProfile: require("./InvestorProfile").default,
+  RedirectArrow: require("./RedirectArrow").default,
+  Search: require("./Search").default,
+  WarnDocument: require("./WarnDocument").default,
+  TrashCan: require("./TrashCan").default,
+  NoRecord: require("./NoRecord").default,
+  CopyAndPaste: require("./CopyAndPaste").default,
+  ExchangeTimer: require("./ExchangeTimer").default,
+  ExchangeTimerError: require("./ExchangeTimerError").default,
+  MenuCashAccount: require("./MenuCashAccount").default,
+  MenuShipments: require("./MenuShipments").default,
+  SubMenuPosition: require("./SubMenuPosition").default,
+  SubMenuOverView: require("./SubMenuOverView").default,
+  SubMenuShares: require("./SubMenuShares").default,
+  SubMenuNewConsent: require("./SubMenuNewConsent").default,
+  SubMenuStatements: require("./SubMenuStatements").default,
+  SubMenuTransfers: require("./SubMenuTransfers").default,
+  SubMenuPendingContracts: require("./SubMenuPendingContracts").default,
+  SubMenuInternationalTransfer: require("./SubMenuInternationalTransfer")
+    .default,
+  GlobalFlag: require("./SubMenuInternationalTransfer").default,
+  SubMenuReturns: require("./SubMenuReturns").default,
+  SubMenuRemittance: require("./SubMenuRemittance").default,
+  SubMenuFunds: require("./SubMenuFunds").default,
+  SubMenuEquities: require("./SubMenuEquities").default,
+  SubMenuFixedIncome: require("./SubMenuFixedIncome").default,
+  SubMenuFileValidation: require("./SubMenuFileValidation").default,
+  SendMoney: require("./SendMoney").default,
+  BrasilFlag: require("./BrasilFlag").default,
+  FlagEUR: require("./FlagEUR").default,
+  FlagCNY: require("./FlagCNY").default,
+  FlagUSD: require("./FlagUSD").default,
+  Excel: require("./Excel").default,
+  Pdf: require("./Pdf").default,
+  ArrowRightDefault: require("./ArrowRightDefault").default,
+};
+
+function Icon({
+  type,
+  color,
+  width = "",
+  height = "",
+  dataTest,
+  cursorPointer,
+  fixCrossAxisAlign,
+  className,
+  onClick,
+  top,
+  right,
+  iconColor
+}) {
+  const IconSvg = icons[type];
+  if (IconSvg) {
+    return (
+      <Span
+        color={color}
+        width={width}
+        height={height}
+        cursorPointer={cursorPointer ? 1 : 0}
+        data-test={dataTest}
+        className={className}
+        onClick={onClick}
+        fixCrossAxisAlign={fixCrossAxisAlign}
+        top={top}
+        right={right}
+      >
+        <IconSvg iconColor={iconColor} />
+      </Span>
+    );
+  }
+  return null;
+}
+
+Icon.defaultProps = {
+  color: null,
+  height: null,
+  width: null,
+  cursor: false,
+  fixCrossAxisAlign: null
+};
+
+Icon.propTypes = {
+  color: string,
+  height: string,
+  width: string,
+  cursor: oneOfType([bool, string]),
+  fixCrossAxisAlign: number,
+  type: string.isRequired // eslint-disable-line react/no-typos
+};
+
+export default Icon;

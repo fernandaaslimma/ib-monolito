@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview component should match snapshot 1`] = `
+<ErrorBoundary>
+  <OffshoreSelect />
+  <styled.section>
+    <Tabs
+      backgroundColor="#fff"
+      selectedTab={0}
+      setSelectedTab={[Function]}
+      widthTabs={null}
+    >
+      <section
+        title="OVERVIEW_TAB_POSITION"
+      >
+        <styled.section>
+          <PositionsOverview
+            checkStateAsset={[Function]}
+            consolidatedAssets={
+              Array [
+                Object {
+                  "assetClass": "Fixed Income",
+                  "grossBalance": 12.3,
+                  "netBalance": 123213.2,
+                  "portfolioShare": 23,
+                },
+              ]
+            }
+            consolidatedPosition={Array []}
+            findAssettype={[Function]}
+            findLoading={[Function]}
+            loading={true}
+            onCollapse={[Function]}
+            pendingTransactions={
+              Array [
+                Object {
+                  "id": 123,
+                  "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+                  "product": Object {
+                    "classType": "HedgeFund",
+                    "classTypeLabel": "Multimercado",
+                    "id": 456,
+                    "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+                    "riskProfile": "Moderate",
+                    "riskProfileLabel": "Moderado",
+                  },
+                  "transactionDate": "2021-02-22",
+                  "transactionValue": 123456.99,
+                  "type": "subscription",
+                  "typeLabel": "subscription",
+                },
+                Object {
+                  "id": 123,
+                  "idempotencyKey": "0b5ecefd-c892-4fdf-a3ce-c77b9259d309",
+                  "product": Object {
+                    "classType": "HedgeFund",
+                    "classTypeLabel": "Multimercado",
+                    "id": 456,
+                    "name": "BOCOM BBM CORPORATE CREDIT FIC MULTIMERCADO CRÉDITO PRIVADO",
+                    "riskProfile": "Aggressive",
+                    "riskProfileLabel": "Agressivo",
+                  },
+                  "transactionDate": "2021-02-17",
+                  "transactionValue": 123456.99,
+                  "type": "subscription",
+                  "typeLabel": "subscription",
+                },
+              ]
+            }
+            setStateAsset={[Function]}
+          />
+        </styled.section>
+      </section>
+      <Transactions
+        equityIncomeTransactions={Array []}
+        fixedIncomeTransactions={Array []}
+        fundsIncomeTransactions={Array []}
+        futureDateEquitesIncome={false}
+        futureDateFixedIncome={false}
+        futureDateFunds={false}
+        getMovimentationData={[Function]}
+        hideValues={true}
+        isEmptyEquites={true}
+        isEmptyFixedIncome={true}
+        isEmptyFunds={true}
+        loadedTransactionsData={false}
+        loadingEquitesIncomeMovimentations={false}
+        loadingEquityIncome={true}
+        loadingFixedIncome={true}
+        loadingFixedIncomeMovimentations={false}
+        loadingFunds={true}
+        loadingFundsMovimentations={false}
+        onFilter={[Function]}
+        pickedActive="OVERVIEW_FUNDS_SUBTAB"
+        resetStates={[Function]}
+        seeMoreMovimentations={[Function]}
+        selectedTab={0}
+        setPickedActive={[Function]}
+        title="OVERVIEW_TRANSACTION"
+      />
+    </Tabs>
+  </styled.section>
+</ErrorBoundary>
+`;

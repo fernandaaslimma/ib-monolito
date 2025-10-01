@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<styled.div>
+  <Container>
+    <Row
+      mb={20}
+    >
+      <Column
+        ml={15}
+        mr={2}
+        width={0.5}
+      >
+        <AssetsChart
+          assets={
+            Array [
+              Object {
+                "grossBalance": 1,
+                "name": "",
+                "netBalance": 1,
+                "portfolioShare": 1,
+              },
+            ]
+          }
+          dataTest="Assets_Type"
+          icon="Portfolio"
+          title=""
+        />
+      </Column>
+      <Column
+        ml={2}
+        mr={15}
+        width={0.5}
+      >
+        <AssetsChart
+          assets={
+            Array [
+              Object {
+                "grossBalance": 2,
+                "name": "",
+                "netBalance": 1,
+                "portfolioShare": 3,
+              },
+            ]
+          }
+          dataTest="Assets_Class"
+          icon="Wallet"
+          title=""
+        />
+      </Column>
+    </Row>
+    <Row>
+      <Column>
+        <ConnectWrapper
+          consolidatedPosition={
+            Array [
+              Object {
+                "grossBalance": 1,
+                "name": "",
+                "netBalance": 1,
+                "portfolioShare": 1,
+              },
+            ]
+          }
+        />
+      </Column>
+    </Row>
+    <Row>
+      <Column
+        ml={15}
+        mr={2}
+        width={0.6}
+      >
+        <TransactionsTable
+          transactions={
+            Array [
+              Object {
+                "assetName": "",
+                "date": "",
+                "grossValue": 1,
+                "type": "",
+              },
+            ]
+          }
+        />
+      </Column>
+      <Column
+        ml={15}
+        mr={2}
+        width={0.4}
+      >
+        <IndexTable
+          indexes={Array []}
+        />
+      </Column>
+    </Row>
+  </Container>
+  <ConnectWrapper
+    anyRole={true}
+    roles={
+      Array [
+        "GetInvestmentFunds",
+        "GetFixedIncomeProducts",
+      ]
+    }
+  >
+    <styled.div
+      data-test="investButton"
+    >
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "s",
+            "left": "s",
+            "right": "s",
+            "top": "s",
+          }
+        }
+      />
+    </styled.div>
+  </ConnectWrapper>
+</styled.div>
+`;

@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "test": true,
+    "expect": true,
+    "describe": true,
+    "it": true,
+    "fetch": true,
+    "Headers": true,
+    "browser": true,
+    "beforeEach": true,
+    "$": true,
+    "$$": true
+  },
+  "rules": {
+    "no-console": "warn"
+  }
+}

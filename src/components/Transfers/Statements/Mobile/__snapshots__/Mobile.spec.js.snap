@@ -1,0 +1,728 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statements mobile should match snapshot 1`] = `
+<Mobile
+  accounts={
+    Array [
+      Object {
+        "accountNumber": "107 2 304020-3",
+        "blockedBalance": 0,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-4",
+        "blockedBalance": 2000,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-5",
+        "document": "11111111111111",
+      },
+    ]
+  }
+  balanceAndEventsHistory={
+    Array [
+      Object {
+        "availableAmount": "41111",
+        "availableBalance": "400",
+        "blockedAmount": 2,
+        "blockedBalance": 0,
+        "events": Array [
+          Object {
+            "counterpart": "counterpart",
+            "description": "description",
+            "type": "type",
+            "value": "value",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "540.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	",
+            "type": "CRÉDITO",
+            "value": "-350.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "-570.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "OP: EMISSÃO DE TIT. CETIP",
+            "type": "CRÉDITO",
+            "value": "-450.00",
+          },
+        ],
+        "eventsSumAmount": "600",
+        "totalBalance": "600",
+      },
+    ]
+  }
+  balanceHistoryParams={
+    Object {
+      "activePage": 1,
+      "limit": 60,
+      "offset": 0,
+      "onlyDaysWithTransaction": true,
+      "range": Object {
+        "from": "12/01/2020",
+        "to": "12/02/2020",
+      },
+    }
+  }
+  changeAccount={[MockFunction]}
+  changeValuesVisibility={[MockFunction]}
+  filterButtonFill={
+    Object {
+      "fillType": "period",
+    }
+  }
+  futureEventsHistory={
+    Array [
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-25",
+        "events": Array [
+          Object {
+            "absAmount": 12.42,
+            "amount": -12.42,
+            "date": "2021-03-25",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435901,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3981.89,
+      },
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-24",
+        "events": Array [
+          Object {
+            "absAmount": 1912.13,
+            "amount": -1912.13,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435889,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 12.38,
+            "amount": -12.38,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES",
+            "id": 12435897,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 120.41,
+            "amount": -120.41,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435899,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3957.05,
+      },
+    ]
+  }
+  getBalanceAndEventsHistory={[MockFunction]}
+  getPendingOperationsNumber={[MockFunction]}
+  hideValues={false}
+  isEmptyEvents={false}
+  isGlobalMode={false}
+  loading={false}
+  onFilter={[MockFunction]}
+  originAccount={
+    Object {
+      "accountNumber": "107 2 304020-3",
+      "blockedBalance": 0,
+    }
+  }
+  resetStates={[MockFunction]}
+/>
+`;
+
+exports[`Statements mobile should match snapshot 2`] = `
+<Mobile
+  accounts={
+    Array [
+      Object {
+        "accountNumber": "107 2 304020-3",
+        "blockedBalance": 0,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-4",
+        "blockedBalance": 2000,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-5",
+        "document": "11111111111111",
+      },
+    ]
+  }
+  balanceAndEventsHistory={
+    Array [
+      Object {
+        "availableAmount": "41111",
+        "availableBalance": "400",
+        "blockedAmount": 2,
+        "blockedBalance": 0,
+        "events": Array [
+          Object {
+            "counterpart": "counterpart",
+            "description": "description",
+            "type": "type",
+            "value": "value",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "540.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	",
+            "type": "CRÉDITO",
+            "value": "-350.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "-570.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "OP: EMISSÃO DE TIT. CETIP",
+            "type": "CRÉDITO",
+            "value": "-450.00",
+          },
+        ],
+        "eventsSumAmount": "600",
+        "totalBalance": "600",
+      },
+    ]
+  }
+  balanceHistoryParams={
+    Object {
+      "activePage": 1,
+      "limit": 60,
+      "offset": 0,
+      "onlyDaysWithTransaction": true,
+      "range": Object {
+        "from": "12/01/2020",
+        "to": "12/02/2020",
+      },
+    }
+  }
+  changeAccount={[MockFunction]}
+  changeValuesVisibility={[MockFunction]}
+  filterButtonFill={
+    Object {
+      "fillType": "range",
+      "fillValue": Object {
+        "from": "24/04/2019",
+        "to": "24/04/2019",
+      },
+    }
+  }
+  futureEventsHistory={
+    Array [
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-25",
+        "events": Array [
+          Object {
+            "absAmount": 12.42,
+            "amount": -12.42,
+            "date": "2021-03-25",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435901,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3981.89,
+      },
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-24",
+        "events": Array [
+          Object {
+            "absAmount": 1912.13,
+            "amount": -1912.13,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435889,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 12.38,
+            "amount": -12.38,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES",
+            "id": 12435897,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 120.41,
+            "amount": -120.41,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435899,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3957.05,
+      },
+    ]
+  }
+  getBalanceAndEventsHistory={[MockFunction]}
+  getPendingOperationsNumber={[MockFunction]}
+  hideValues={false}
+  isEmptyEvents={false}
+  isGlobalMode={false}
+  loading={false}
+  onFilter={[MockFunction]}
+  originAccount={
+    Object {
+      "accountNumber": "107 2 304020-3",
+      "blockedBalance": 0,
+    }
+  }
+  resetStates={[MockFunction]}
+/>
+`;
+
+exports[`Statements mobile should match snapshot 3`] = `
+<Mobile
+  accounts={
+    Array [
+      Object {
+        "accountNumber": "107 2 304020-3",
+        "blockedBalance": 0,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-4",
+        "blockedBalance": 2000,
+        "document": "11111111111111",
+      },
+      Object {
+        "accountNumber": "107 2 304020-5",
+        "document": "11111111111111",
+      },
+    ]
+  }
+  balanceAndEventsHistory={
+    Array [
+      Object {
+        "availableAmount": "41111",
+        "availableBalance": "400",
+        "blockedAmount": 2,
+        "blockedBalance": 0,
+        "events": Array [
+          Object {
+            "counterpart": "counterpart",
+            "description": "description",
+            "type": "type",
+            "value": "value",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "540.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	",
+            "type": "CRÉDITO",
+            "value": "-350.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "-570.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "OP: EMISSÃO DE TIT. CETIP",
+            "type": "CRÉDITO",
+            "value": "-450.00",
+          },
+        ],
+        "eventsSumAmount": "600",
+        "totalBalance": "600",
+      },
+    ]
+  }
+  balanceHistoryParams={
+    Object {
+      "activePage": 1,
+      "limit": 60,
+      "offset": 0,
+      "onlyDaysWithTransaction": true,
+      "range": Object {
+        "from": "12/01/2020",
+        "to": "12/02/2020",
+      },
+    }
+  }
+  changeAccount={[MockFunction]}
+  changeValuesVisibility={[MockFunction]}
+  filterButtonFill={
+    Object {
+      "fillType": "range",
+      "fillValue": Object {
+        "from": "mock",
+        "to": "",
+      },
+    }
+  }
+  futureEventsHistory={
+    Array [
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-25",
+        "events": Array [
+          Object {
+            "absAmount": 12.42,
+            "amount": -12.42,
+            "date": "2021-03-25",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435901,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3981.89,
+      },
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-24",
+        "events": Array [
+          Object {
+            "absAmount": 1912.13,
+            "amount": -1912.13,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435889,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 12.38,
+            "amount": -12.38,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES",
+            "id": 12435897,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 120.41,
+            "amount": -120.41,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435899,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3957.05,
+      },
+    ]
+  }
+  getBalanceAndEventsHistory={[MockFunction]}
+  getPendingOperationsNumber={[MockFunction]}
+  hideValues={false}
+  isEmptyEvents={false}
+  isGlobalMode={false}
+  loading={false}
+  onFilter={[MockFunction]}
+  originAccount={
+    Object {
+      "accountNumber": "107 2 304020-3",
+      "blockedBalance": 0,
+    }
+  }
+  resetStates={[MockFunction]}
+/>
+`;
+
+exports[`Statements mobile should match snapshot with only one account 1`] = `
+<Mobile
+  accounts={
+    Array [
+      Object {
+        "accountNumber": "107 2 304020-3",
+        "blockedBalance": 0,
+        "document": "11111111111111",
+      },
+    ]
+  }
+  balanceAndEventsHistory={
+    Array [
+      Object {
+        "availableAmount": "41111",
+        "availableBalance": "400",
+        "blockedAmount": 2,
+        "blockedBalance": 0,
+        "events": Array [
+          Object {
+            "counterpart": "counterpart",
+            "description": "description",
+            "type": "type",
+            "value": "value",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "540.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "TRANSFERÊNCIA ENTRE CONTAS DE MESMA TITULARIDADE	",
+            "type": "CRÉDITO",
+            "value": "-350.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "REPASSE COBRANÇA",
+            "type": "CRÉDITO",
+            "value": "-570.00",
+          },
+          Object {
+            "counterpart": "BOCOM BBM S.A",
+            "description": "OP: EMISSÃO DE TIT. CETIP",
+            "type": "CRÉDITO",
+            "value": "-450.00",
+          },
+        ],
+        "eventsSumAmount": "600",
+        "totalBalance": "600",
+      },
+    ]
+  }
+  balanceHistoryParams={
+    Object {
+      "activePage": 1,
+      "limit": 60,
+      "offset": 0,
+      "onlyDaysWithTransaction": true,
+      "range": Object {
+        "from": "12/01/2020",
+        "to": "12/02/2020",
+      },
+    }
+  }
+  changeAccount={[MockFunction]}
+  changeValuesVisibility={[MockFunction]}
+  filterButtonFill={
+    Object {
+      "fillType": "period",
+    }
+  }
+  futureEventsHistory={
+    Array [
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-25",
+        "events": Array [
+          Object {
+            "absAmount": 12.42,
+            "amount": -12.42,
+            "date": "2021-03-25",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435901,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3981.89,
+      },
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-24",
+        "events": Array [
+          Object {
+            "absAmount": 1912.13,
+            "amount": -1912.13,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435889,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 12.38,
+            "amount": -12.38,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES",
+            "id": 12435897,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 120.41,
+            "amount": -120.41,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435899,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3957.05,
+      },
+    ]
+  }
+  getBalanceAndEventsHistory={[MockFunction]}
+  getPendingOperationsNumber={[MockFunction]}
+  hideValues={false}
+  isEmptyEvents={false}
+  isGlobalMode={false}
+  loading={false}
+  onFilter={[MockFunction]}
+  originAccount={
+    Object {
+      "accountNumber": "107 2 304020-3",
+      "blockedBalance": 0,
+    }
+  }
+  resetStates={[MockFunction]}
+/>
+`;
+
+exports[`Statements mobile should match snapshot without statements 1`] = `
+<Mobile
+  accounts={
+    Array [
+      Object {
+        "accountNumber": "107 2 304020-3",
+        "blockedBalance": 0,
+        "document": "11111111111111",
+      },
+    ]
+  }
+  balanceAndEventsHistory={Array []}
+  balanceHistoryParams={
+    Object {
+      "activePage": 1,
+      "limit": 60,
+      "offset": 0,
+      "onlyDaysWithTransaction": true,
+      "range": Object {
+        "from": "12/01/2020",
+        "to": "12/02/2020",
+      },
+    }
+  }
+  changeAccount={[MockFunction]}
+  changeValuesVisibility={[MockFunction]}
+  filterButtonFill={
+    Object {
+      "fillType": "period",
+    }
+  }
+  futureEventsHistory={
+    Array [
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-25",
+        "events": Array [
+          Object {
+            "absAmount": 12.42,
+            "amount": -12.42,
+            "date": "2021-03-25",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435901,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3981.89,
+      },
+      Object {
+        "availableAmount": 0,
+        "blockedAmount": 0,
+        "date": "2021-03-24",
+        "events": Array [
+          Object {
+            "absAmount": 1912.13,
+            "amount": -1912.13,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435889,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 12.38,
+            "amount": -12.38,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE DIFERENTES TITULARIDADES",
+            "id": 12435897,
+            "settled": false,
+            "type": "Débito",
+          },
+          Object {
+            "absAmount": 120.41,
+            "amount": -120.41,
+            "date": "2021-03-24",
+            "description": "TRANSFERENCIA ENTRE CONTAS DE MESMA TITULARIDADE",
+            "id": 12435899,
+            "settled": false,
+            "type": "Débito",
+          },
+        ],
+        "totalAmount": -3957.05,
+      },
+    ]
+  }
+  getBalanceAndEventsHistory={[MockFunction]}
+  getPendingOperationsNumber={[MockFunction]}
+  hideValues={false}
+  isEmptyEvents={true}
+  isGlobalMode={false}
+  loading={false}
+  onFilter={[MockFunction]}
+  originAccount={
+    Object {
+      "accountNumber": "107 2 304020-3",
+      "blockedBalance": 0,
+    }
+  }
+  resetStates={[MockFunction]}
+/>
+`;

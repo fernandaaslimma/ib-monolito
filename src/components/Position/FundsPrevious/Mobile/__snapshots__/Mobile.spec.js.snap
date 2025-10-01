@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div />
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            NaN
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.section
+      key="mobileFunds_0"
+    >
+      <styled.div>
+        <Card
+          data-test="Card-0"
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: name
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              NaN
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              123,00
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                06/01/2010
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                0,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                1,00
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                ---
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+    <styled.section>
+      <LinkCard
+        dataTest="LinkToSimplified"
+        fontSize={14}
+        iconType="FiLoader"
+        noSpan={true}
+        to="/investments/positions/funds"
+        withUnderline={true}
+      />
+    </styled.section>
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with isEmpty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading 1`] = `
+<Fragment>
+  <styled.div>
+    <styled.div>
+      <styled.div />
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (%)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+        <styled.div>
+          <styled.div>
+            undefined (R$)
+          </styled.div>
+          <styled.div>
+            <ShimmerLoading
+              darker={false}
+              index={0}
+              inverse={false}
+            />
+          </styled.div>
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <styled.section>
+      <styled.div>
+        <Card
+          icon={null}
+          iconColor={null}
+          title={null}
+          titleColor={null}
+        >
+          <styled.div>
+            <styled.div>
+              <styled.div>
+                undefined: 
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <styled.div>
+            <styled.div>
+              undefined (R$)
+            </styled.div>
+            <styled.div>
+              <ShimmerLoading
+                darker={false}
+                index={0}
+                inverse={false}
+              />
+            </styled.div>
+          </styled.div>
+          <Styled(styled.div) />
+          <styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div />
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+            <styled.div>
+              <styled.div>
+                 
+                undefined (R$)
+              </styled.div>
+              <styled.div>
+                <ShimmerLoading
+                  darker={false}
+                  index={0}
+                  inverse={false}
+                />
+              </styled.div>
+            </styled.div>
+          </styled.div>
+        </Card>
+      </styled.div>
+    </styled.section>
+    <styled.section />
+  </styled.div>
+</Fragment>
+`;
+
+exports[`Mobile component should match snapshot with loading and isEmpty 1`] = `
+<Fragment>
+  <DefaultContent
+    Icon={[Function]}
+    data-test="Empty_Position"
+    secondaryTexts={
+      Array [
+        undefined,
+      ]
+    }
+  />
+</Fragment>
+`;

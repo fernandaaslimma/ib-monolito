@@ -1,0 +1,13 @@
+{
+  "recipient": {
+    "bankId": "3003",
+    "bankName": "Nubank",
+    "bankBranch": "1001",
+    "bankAccount": "010857732-6",
+    "name": "冠廷",
+    "taxId": "12345678912"
+  },
+  "ammount": 1000.0,
+  "dueDate": "expirationTime",
+  "originAccount": "107 2 304020-3"
+}

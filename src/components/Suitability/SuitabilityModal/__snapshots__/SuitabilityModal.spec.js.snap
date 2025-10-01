@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Suitability component should open modal popup 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;
+
+exports[`Suitability component should render RegistrationData Form modal without acionts 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;
+
+exports[`Suitability component should render Suitability Form modal with props 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  notification={
+    Array [
+      Object {
+        "type": "SuitabilityForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;
+
+exports[`Suitability component should render Suitability Welcome modal with props 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  notification={
+    Array [
+      Object {
+        "type": "SuitabilityForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;
+
+exports[`Suitability component should render Suitability with props 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  notification={null}
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;
+
+exports[`Suitability component should render Suitability with props and notification 1`] = `
+<Connect
+  actions={[Function]}
+  authFactors={
+    Array [
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "wiretransfer",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "RnhJWW9sYSt3RkVvdlhOUU0yZnpKVkdWV3ZvPQ==",
+        "defaultAuth": false,
+        "id": "67f61d5d-3560-4121-ab16-222f614dfbc3",
+        "plataformIdentifier": "6865252b-6609-4770-8cf2-775328ad39cf",
+        "type": "mobile",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "21956309602",
+        "defaultAuth": false,
+        "id": "kjhdsakjhgaf-dkjhbvdjk564-h",
+        "plataformIdentifier": null,
+        "type": "sms",
+      },
+      Object {
+        "actions": Array [
+          "authregistration",
+          "passwordreset",
+          "SuitabilityForms",
+        ],
+        "activated": true,
+        "authUri": "pj_yuriramos@bancobbm.com.br",
+        "defaultAuth": true,
+        "id": "s56456-bdsvdas-455wq",
+        "plataformIdentifier": null,
+        "type": "mail",
+      },
+    ]
+  }
+  getAuthFactors={[MockFunction]}
+  mapToProps={[Function]}
+  notification={
+    Array [
+      Object {
+        "type": "SuitabilityForms",
+      },
+    ]
+  }
+  openModal={[Function]}
+  setNotificationStatus={[MockFunction]}
+>
+  <Component />
+</Connect>
+`;

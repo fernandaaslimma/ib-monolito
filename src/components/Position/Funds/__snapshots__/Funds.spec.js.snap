@@ -1,0 +1,1280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Funds component should match snapshot with accounts 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds component should match snapshot with loading 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds component should match snapshot without accounts 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call approveTerm with type as TYPE_PRODUCT_FUNDS 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call approveTerm with type as TYPE_PRODUCT_FUNDS_UNSUITABLE 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call checkFundIsInMoviment 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call checkFundIsInMoviment with different fund name 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call checkFundIsInMoviment with different fund name 2`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call createOperationFunction with error not shown to user 1`] = `
+Array [
+  <div
+    className="sc-dTdPqK HcTrx"
+    data-test="container"
+  >
+    <div
+      className="sc-jVODtj dlGQiL sc-bdVaJa iHZvIS"
+      is={null}
+    >
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>,
+  <Portal
+    containerInfo={
+      <body
+        style="overflow: visible;"
+      >
+        <div
+          class="sc-bGbJRg kejyqO"
+        >
+          <div
+            class="sc-kasBVs iItksm"
+            data-test="undefined-bottomSheetBack"
+          />
+          <div
+            class="sc-bEjcJn hyEeWx"
+          >
+            <section
+              class="sc-hgHYgh ljppcX"
+            >
+              <h3
+                class="sc-fOICqy dPzhKv"
+                data-test="title"
+                data-visible="true"
+              >
+                mock
+              </h3>
+            </section>
+            <section
+              class="sc-fQejPQ iFyNoY"
+            >
+              <span
+                class="RedemptionErrorMessage sc-clNaTc gdtGaO"
+              >
+                mock
+              </span>
+            </section>
+            <div
+              class="sc-etwtAo iZYAwn"
+            >
+              <div
+                class="sc-hMqMXs kvOYoa"
+                data-test="Button"
+                spacing="[object Object]"
+              >
+                <span
+                  class="sc-kkGfuU cThhDn"
+                >
+                  POSITION_FUNDS_UNDERSTOOD
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    }
+  />,
+]
+`;
+
+exports[`Funds functions should call createOperationFunction with error to show to user 1`] = `
+Array [
+  <div
+    className="sc-dTdPqK HcTrx"
+    data-test="container"
+  >
+    <div
+      className="sc-jVODtj dlGQiL sc-bdVaJa iHZvIS"
+      is={null}
+    >
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>,
+  <Portal
+    containerInfo={
+      <body
+        style="overflow: hidden;"
+      >
+        <div
+          class="sc-bGbJRg kejyqO"
+        >
+          <div
+            class="sc-kasBVs iItksm"
+            data-test="undefined-bottomSheetBack"
+          />
+          <div
+            class="sc-bEjcJn hyEeWx"
+          >
+            <section
+              class="sc-hgHYgh ljppcX"
+            >
+              <h3
+                class="sc-fOICqy dPzhKv"
+                data-test="title"
+                data-visible="true"
+              >
+                mock
+              </h3>
+            </section>
+            <section
+              class="sc-fQejPQ iFyNoY"
+            >
+              <span
+                class="RedemptionErrorMessage sc-clNaTc gdtGaO"
+              >
+                mock
+              </span>
+            </section>
+            <div
+              class="sc-etwtAo iZYAwn"
+            >
+              <div
+                class="sc-hMqMXs kvOYoa"
+                data-test="Button"
+                spacing="[object Object]"
+              >
+                <span
+                  class="sc-kkGfuU cThhDn"
+                >
+                  POSITION_FUNDS_UNDERSTOOD
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    }
+  />,
+]
+`;
+
+exports[`Funds functions should call createOperationFunction with success 1`] = `
+Array [
+  <div
+    className="sc-dTdPqK HcTrx"
+    data-test="container"
+  >
+    <div
+      className="sc-jVODtj dlGQiL sc-bdVaJa iHZvIS"
+      is={null}
+    >
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>,
+  <Portal
+    containerInfo={
+      <body
+        style="overflow: visible;"
+      />
+    }
+  />,
+]
+`;
+
+exports[`Funds functions should call createOperationFunction with success and not redeem 1`] = `
+Array [
+  <div
+    className="sc-dTdPqK HcTrx"
+    data-test="container"
+  >
+    <div
+      className="sc-jVODtj dlGQiL sc-bdVaJa iHZvIS"
+      is={null}
+    >
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>,
+  <Portal
+    containerInfo={
+      <body
+        style="overflow: visible;"
+      />
+    }
+  />,
+]
+`;
+
+exports[`Funds functions should call downloadFile 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call handleClose 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call selectFund 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call tokenModal 1`] = `
+Array [
+  <div
+    className="sc-dTdPqK HcTrx"
+    data-test="container"
+  >
+    <div
+      className="sc-jVODtj dlGQiL sc-bdVaJa iHZvIS"
+      is={null}
+    >
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+      <li
+        className="sc-eMigcr jJVXcW"
+      >
+        <ul
+          className="sc-fzsDOv abMhI"
+        >
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+          <li
+            className="sc-gPWkxV gRqDkh"
+          >
+            <div
+              className="sc-kUaPvJ lixZrP"
+            />
+          </li>
+        </ul>
+      </li>
+    </div>
+  </div>,
+  <Portal
+    containerInfo={
+      <body
+        style="overflow: visible;"
+      >
+        <div
+          class="sc-bGbJRg kejyqO"
+        >
+          <div
+            class="sc-kasBVs iItksm"
+            data-test="undefined-bottomSheetBack"
+          />
+          <div
+            class="sc-bEjcJn hyEeWx"
+          >
+            <section
+              class="sc-hgHYgh ljppcX"
+            >
+              <h3
+                class="sc-fOICqy dPzhKv"
+                data-test="title"
+                data-visible="true"
+              >
+                mock
+              </h3>
+            </section>
+            <section
+              class="sc-fQejPQ iFyNoY"
+            >
+              <span
+                class="RedemptionErrorMessage sc-clNaTc gdtGaO"
+              >
+                mock
+              </span>
+            </section>
+            <div
+              class="sc-etwtAo iZYAwn"
+            >
+              <div
+                class="sc-hMqMXs kvOYoa"
+                data-test="Button"
+                spacing="[object Object]"
+              >
+                <span
+                  class="sc-kkGfuU cThhDn"
+                >
+                  POSITION_FUNDS_UNDERSTOOD
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    }
+  />,
+]
+`;
+
+exports[`Funds functions should call verifyPendencies with empty fundsPendencies 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call verifyPendencies with empty fundsPendencies 2`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call verifyPendencies with fundsPendencies with code as REGISTRATION_DATA_NOTIFICATION_TYPE 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;
+
+exports[`Funds functions should call verifyPendencies with fundsPendencies with code as SUITABILITY_NOTIFICATION_TYPE 1`] = `
+<Fragment>
+  <DefaultShimmerLoading
+    innerRepeat={2}
+    repeat={4}
+  />
+  <AnimatedBottonSheet
+    data-test="createRedemption"
+    head={
+      Object {
+        "title": "",
+      }
+    }
+    isOpen={false}
+    onClickInBack={[Function]}
+    velocity={0.3}
+  >
+    <styled.section />
+    <styled.div>
+      <Button
+        dataTest="Button"
+        disabled={false}
+        onClick={[Function]}
+        spacing={
+          Object {
+            "bottom": "xxs",
+            "left": "xxs",
+            "right": "xxs",
+            "top": "xxs",
+          }
+        }
+      >
+        POSITION_FUNDS_UNDERSTOOD
+      </Button>
+    </styled.div>
+  </AnimatedBottonSheet>
+</Fragment>
+`;

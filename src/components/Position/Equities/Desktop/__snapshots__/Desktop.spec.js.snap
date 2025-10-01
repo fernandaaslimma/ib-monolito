@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mobile component should match snapshot 1`] = `
+<styled.div>
+  <CustomTable
+    data={
+      Array [
+        Object {
+          "date": <span>
+            06/01/2010
+          </span>,
+          "grossBalance": <span>
+            123,00
+          </span>,
+          "name": <span>
+            name
+          </span>,
+          "portfolioShare": <span>
+            123
+          </span>,
+          "quantity": <span>
+            ---
+          </span>,
+        },
+      ]
+    }
+    headers={
+      Array [
+        Object {
+          "field": "name",
+          "title": undefined,
+          "width": "35%",
+        },
+        Object {
+          "align": "right",
+          "field": "date",
+          "title": undefined,
+          "width": "10%",
+        },
+        Object {
+          "align": "right",
+          "field": "quantity",
+          "title": undefined,
+        },
+        Object {
+          "align": "right",
+          "currency": true,
+          "field": "grossBalance",
+          "title": undefined,
+          "total": true,
+        },
+        Object {
+          "align": "right",
+          "field": "portfolioShare",
+          "percent": true,
+          "title": undefined,
+        },
+      ]
+    }
+    render={null}
+    shimmerLoading={
+      Object {
+        "loading": false,
+        "rows": 10,
+      }
+    }
+    style={null}
+    title=""
+    total={null}
+    totalPosition="up"
+    withBackground={false}
+    zebra={false}
+  />
+</styled.div>
+`;

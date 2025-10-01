@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component should match snapshot with a closed modal 1`] = `null`;
+
+exports[`Modal component should match snapshot with an open modal 1`] = `
+<div
+  class="sc-kAzzGY kGdkwm"
+>
+  <section
+    class="sc-cSHVUG ghjxiE"
+  >
+    <div
+      class="sc-dxgOiQ gUiqDD"
+    >
+      <a
+        class="sc-jzJRlG dUMAdI"
+      >
+        <span
+          class="sc-chPdSV eghoTb"
+          height="14"
+          width="14"
+        >
+          <svg
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.12 15.24A7.12 7.12 0 1 0 8.12 1a7.12 7.12 0 0 0 0 14.24zm0-.95a6.17 6.17 0 1 1 0-12.34 6.17 6.17 0 0 1 0 12.34zm-.084-6.639L6.19 5.804a.475.475 0 0 0-.672.671l1.848 1.848-1.848 1.847a.475.475 0 0 0 .672.671l1.847-1.847 1.848 1.847a.475.475 0 0 0 .67-.671L8.708 8.323l1.848-1.848a.475.475 0 0 0-.671-.671L8.036 7.65z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              stroke="currentColor"
+              stroke-width=".4"
+            />
+          </svg>
+        </span>
+        <span
+          class="sc-fjdhpX jUhigd"
+        >
+          Close
+        </span>
+      </a>
+    </div>
+  </section>
+  <div
+    class="sc-iwsKbI caDKwz"
+    data-test="Overlay"
+  />
+</div>
+`;
+
+exports[`Modal component should match snapshot with an open modal with description string 1`] = `
+<div
+  class="sc-kAzzGY kGdkwm"
+>
+  <section
+    class="sc-cSHVUG ghjxiE"
+  >
+    <div
+      class="sc-dxgOiQ gUiqDD"
+    >
+      <p
+        class="sc-jTzLTM inZPfG"
+      >
+        description
+      </p>
+      <a
+        class="sc-jzJRlG dUMAdI"
+      >
+        <span
+          class="sc-chPdSV eghoTb"
+          height="14"
+          width="14"
+        >
+          <svg
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.12 15.24A7.12 7.12 0 1 0 8.12 1a7.12 7.12 0 0 0 0 14.24zm0-.95a6.17 6.17 0 1 1 0-12.34 6.17 6.17 0 0 1 0 12.34zm-.084-6.639L6.19 5.804a.475.475 0 0 0-.672.671l1.848 1.848-1.848 1.847a.475.475 0 0 0 .672.671l1.847-1.847 1.848 1.847a.475.475 0 0 0 .67-.671L8.708 8.323l1.848-1.848a.475.475 0 0 0-.671-.671L8.036 7.65z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              stroke="currentColor"
+              stroke-width=".4"
+            />
+          </svg>
+        </span>
+        <span
+          class="sc-fjdhpX jUhigd"
+        >
+          Close
+        </span>
+      </a>
+    </div>
+  </section>
+  <div
+    class="sc-iwsKbI caDKwz"
+    data-test="Overlay"
+  />
+</div>
+`;
+
+exports[`Modal component should match snapshot with an open modal with icon 1`] = `
+<div
+  class="sc-kAzzGY kGdkwm"
+>
+  <section
+    class="sc-cSHVUG ghjxiE"
+  >
+    <div
+      class="sc-dxgOiQ gUiqDD"
+    >
+      <div
+        class="sc-VigVT hIHTPq"
+      >
+        <span
+          class="sc-chPdSV kcGrVK"
+          height="50"
+          width="50"
+        >
+          <svg
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.12 15.24A7.12 7.12 0 1 0 8.12 1a7.12 7.12 0 0 0 0 14.24zm0-.95a6.17 6.17 0 1 1 0-12.34 6.17 6.17 0 0 1 0 12.34zm-.084-6.639L6.19 5.804a.475.475 0 0 0-.672.671l1.848 1.848-1.848 1.847a.475.475 0 0 0 .672.671l1.847-1.847 1.848 1.847a.475.475 0 0 0 .67-.671L8.708 8.323l1.848-1.848a.475.475 0 0 0-.671-.671L8.036 7.65z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              stroke="currentColor"
+              stroke-width=".4"
+            />
+          </svg>
+        </span>
+      </div>
+      <a
+        class="sc-jzJRlG dUMAdI"
+      >
+        <span
+          class="sc-chPdSV eghoTb"
+          height="14"
+          width="14"
+        >
+          <svg
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.12 15.24A7.12 7.12 0 1 0 8.12 1a7.12 7.12 0 0 0 0 14.24zm0-.95a6.17 6.17 0 1 1 0-12.34 6.17 6.17 0 0 1 0 12.34zm-.084-6.639L6.19 5.804a.475.475 0 0 0-.672.671l1.848 1.848-1.848 1.847a.475.475 0 0 0 .672.671l1.847-1.847 1.848 1.847a.475.475 0 0 0 .67-.671L8.708 8.323l1.848-1.848a.475.475 0 0 0-.671-.671L8.036 7.65z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              stroke="currentColor"
+              stroke-width=".4"
+            />
+          </svg>
+        </span>
+        <span
+          class="sc-fjdhpX jUhigd"
+        >
+          Close
+        </span>
+      </a>
+    </div>
+  </section>
+  <div
+    class="sc-iwsKbI caDKwz"
+    data-test="Overlay"
+  />
+</div>
+`;
+
+exports[`Modal component should match snapshot with an open modal with title 1`] = `
+<div
+  class="sc-kAzzGY kGdkwm"
+>
+  <section
+    class="sc-cSHVUG ghjxiE"
+  >
+    <div
+      class="sc-dxgOiQ gUiqDD"
+    >
+      <h1
+        class="sc-gqjmRU iXNSrZ"
+      >
+        title
+      </h1>
+      <a
+        class="sc-jzJRlG dUMAdI"
+      >
+        <span
+          class="sc-chPdSV eghoTb"
+          height="14"
+          width="14"
+        >
+          <svg
+            height="16"
+            viewBox="0 0 16 16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.12 15.24A7.12 7.12 0 1 0 8.12 1a7.12 7.12 0 0 0 0 14.24zm0-.95a6.17 6.17 0 1 1 0-12.34 6.17 6.17 0 0 1 0 12.34zm-.084-6.639L6.19 5.804a.475.475 0 0 0-.672.671l1.848 1.848-1.848 1.847a.475.475 0 0 0 .672.671l1.847-1.847 1.848 1.847a.475.475 0 0 0 .67-.671L8.708 8.323l1.848-1.848a.475.475 0 0 0-.671-.671L8.036 7.65z"
+              fill="currentColor"
+              fill-rule="evenodd"
+              stroke="currentColor"
+              stroke-width=".4"
+            />
+          </svg>
+        </span>
+        <span
+          class="sc-fjdhpX jUhigd"
+        >
+          Close
+        </span>
+      </a>
+    </div>
+  </section>
+  <div
+    class="sc-iwsKbI caDKwz"
+    data-test="Overlay"
+  />
+</div>
+`;
+
+exports[`Modal component should render with another props 1`] = `
+<styled.div
+  fixedModal={true}
+  pageAsModal={false}
+>
+  <styled.section>
+    <FixedModal
+      modal={null}
+      modalSettings={
+        Object {
+          "closeTreatment": true,
+          "description": Array [
+            "description1",
+            "description2",
+          ],
+          "isOpen": true,
+          "type": "FixedModal",
+        }
+      }
+    />
+  </styled.section>
+  <styled.div
+    data-test="Overlay"
+  />
+</styled.div>
+`;

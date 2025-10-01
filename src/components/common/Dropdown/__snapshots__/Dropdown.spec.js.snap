@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component should match snapshot with data-test attribute 1`] = `
+<styled.div
+  valid={false}
+>
+  <styled.select
+    data-test="dropdown"
+    hasLabel=""
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="24"
+      type="Attention"
+      width="24"
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with emptyState 1`] = `
+<styled.div
+  valid={false}
+>
+  <styled.select
+    hasLabel="label"
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+  <styled.label>
+    label
+  </styled.label>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="24"
+      type="Attention"
+      width="24"
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with no prop valid 1`] = `
+<styled.div
+  valid={null}
+>
+  <styled.select
+    hasLabel=""
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with no validation and with accountNumber 1`] = `
+<styled.div
+  valid={null}
+>
+  <styled.select
+    hasLabel="label"
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+  <styled.label>
+    label
+  </styled.label>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with no validation and without accountNumber 1`] = `
+<styled.div
+  valid={null}
+>
+  <styled.select
+    hasLabel="label"
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      key="1"
+    >
+      one
+    </option>
+    <option
+      data-test="option_2"
+      key="2"
+    >
+      two
+    </option>
+  </styled.select>
+  <styled.label>
+    label
+  </styled.label>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with prop valid as boolean 1`] = `
+<styled.div
+  valid={false}
+>
+  <styled.select
+    hasLabel=""
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+  <styled.div>
+    <Icon
+      color={null}
+      cursor={false}
+      fixCrossAxisAlign={null}
+      height="24"
+      type="Attention"
+      width="24"
+    />
+  </styled.div>
+</styled.div>
+`;
+
+exports[`Dropdown component should match snapshot with prop valid as func 1`] = `
+<styled.div
+  valid={null}
+>
+  <styled.select
+    hasLabel="label"
+    height="46"
+    isEmpty={true}
+    name="dropdown"
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="Dropdown"
+    required={true}
+    value=""
+  >
+    <option
+      data-test="option_0"
+      defaultValue={true}
+      key="0"
+    />
+    <option
+      data-test="option_1"
+      defaultValue={false}
+      key="1"
+    />
+    <option
+      data-test="option_2"
+      defaultValue={false}
+      key="2"
+    />
+  </styled.select>
+  <styled.label>
+    label
+  </styled.label>
+</styled.div>
+`;

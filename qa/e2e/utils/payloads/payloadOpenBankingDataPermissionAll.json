@@ -1,0 +1,124 @@
+{
+  "dataPermissions": [
+    {
+      "permissionCode": "RESOURCES_READ",
+      "displayName": "Leitura de recursos",
+      "detail": "Lista de recursos compartilhados"
+    },
+    {
+      "permissionCode": "ACCOUNTS_READ",
+      "displayName": "Contas",
+      "detail": "Informações da conta."
+    },
+    {
+      "permissionCode": "ACCOUNTS_BALANCES_READ",
+      "displayName": "Saldos",
+      "detail": "Informações da conta, saldo disponível, saldo bloqueado, outros saldos."
+    },
+    {
+      "permissionCode": "ACCOUNTS_TRANSACTIONS_READ",
+      "displayName": "Transações",
+      "detail": "Informações da conta, detalhes da transação."
+    },
+    {
+      "permissionCode": "ACCOUNTS_OVERDRAFT_LIMITS_READ",
+      "displayName": "Limites",
+      "detail": "Informações da conta, limite utilizado."
+    },
+    {
+      "permissionCode": "FINANCINGS_READ",
+      "displayName": "Contratos",
+      "detail": "Dados dos contratos de financiamento, data da contratação, data do recebimento do crédito, valor do crédito, data de vencimento, período recorrente dos pagamentos, data de vencimento da primeira parcela, prazo total, taxas de juros, Custo Efetivo Total, sistema de amortização, tarifas, sigla identificadora da tarifa, valor da tarifa, moeda, encargos, número do documento da instituição consignante."
+    },
+    {
+      "permissionCode": "FINANCINGS_PAYMENTS_READ",
+      "displayName": "Pagamentos",
+      "detail": "Dados do pagamento do contrato, dados do pagamento das tarifas, dados do pagamento dos encargos."
+    },
+    {
+      "permissionCode": "FINANCINGS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações",
+      "detail": "Datas de vencimento das parcelas, quantidade total de parcelas, quantidade de parcelas pagas, quantidade de parcelas remanescente."
+    },
+    {
+      "permissionCode": "FINANCINGS_WARRANTIES_READ",
+      "displayName": "Garantias",
+      "detail": "Tipo da garantia, valor original da garantia, moeda da garantia."
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_READ",
+      "displayName": "Contratos",
+      "detail": "Dados dos contratos de direitos creditórios descontados, data da contratação, data do recebimento do crédito, valor do crédito, data de vencimento, período recorrente dos pagamentos, data de vencimento da primeira parcela, prazo total, taxas de juros, Custo Efetivo Total, sistema de amortização, tarifas, sigla identificadora da tarifa, valor da tarifa, moeda, encargos, número do documento da instituição consignante."
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_PAYMENTS_READ",
+      "displayName": "Pagamentos",
+      "detail": "Dados do pagamento do contrato, dados do pagamento das tarifas, dados do pagamento dos encargos."
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações",
+      "detail": "Datas de vencimento das parcelas, quantidade total de parcelas, quantidade de parcelas pagas, quantidade de parcelas remanescente."
+    },
+    {
+      "permissionCode": "INVOICE_FINANCINGS_WARRANTIES_READ",
+      "displayName": "Garantias",
+      "detail": "Tipo da garantia, valor original da garantia, moeda da garantia."
+    },
+    {
+      "permissionCode": "LOANS_READ",
+      "displayName": "Contratos",
+      "detail": "Dados dos contratos de empréstimo, data da contratação, data do recebimento do crédito, valor do crédito, data de vencimento, período recorrente dos pagamentos, data de vencimento da primeira parcela, prazo total, taxas de juros, Custo Efetivo Total, sistema de amortização, tarifas, sigla identificadora da tarifa, valor da tarifa, moeda, encargos, número do documento da instituição consignante."
+    },
+    {
+      "permissionCode": "LOANS_PAYMENTS_READ",
+      "displayName": "Pagamentos",
+      "detail": "Dados dos pagamentos do contrato, dados dos pagamentos das tarifas, dados dos pagamentos dos encargos."
+    },
+    {
+      "permissionCode": "LOANS_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações",
+      "detail": "Datas de vencimento das parcelas, quantidade total de parcelas, quantidade de parcelas pagas, quantidade de parcelas remanescente."
+    },
+    {
+      "permissionCode": "LOANS_WARRANTIES_READ",
+      "displayName": "Garantias",
+      "detail": "Tipo da garantia, valor original da garantia, moeda da garantia."
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_WARRANTIES_READ",
+      "displayName": "Garantias",
+      "detail": "UNARRANGED_ACCOUNTS_OVERDRAFT_WARRANTIES_READ"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_SCHEDULED_INSTALMENTS_READ",
+      "displayName": "Parcelas / Prestações",
+      "detail": "UNARRANGED_ACCOUNTS_OVERDRAFT_SCHEDULED_INSTALMENTS_READ"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_READ",
+      "displayName": "Contratos",
+      "detail": "UNARRANGED_ACCOUNTS_OVERDRAFT_READ"
+    },
+    {
+      "permissionCode": "UNARRANGED_ACCOUNTS_OVERDRAFT_PAYMENTS_READ",
+      "displayName": "Pagamentos",
+      "detail": "UNARRANGED_ACCOUNTS_OVERDRAFT_PAYMENTS_READ"
+    },
+    {
+      "permissionCode": "CUSTOMERS_PERSONAL_IDENTIFICATIONS_READ",
+      "displayName": "Identificação da pessoa natural",
+      "detail": "Nome completo e nome social, endereço completo, CPF, passaporte, telefone, e-mail, documento de identificação, filiação, data de nascimento, estado civil, sexo, nacionalidade, residência brasileira, documento estrangeiro."
+    },
+    {
+      "permissionCode": "CUSTOMERS_PERSONAL_ADITTIONALINFO_READ",
+      "displayName": "Qualificação / Relações da pessoa natural",
+      "detail": "Renda, profissão, informações de cônjuge, produtos contratados, representantes."
+    }
+  ],
+  "deadLine": {
+    "total": 12,
+    "type": "MONTHS"
+  },
+  "redirectUri": "https://localhost:8080/home"
+}
